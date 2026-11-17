@@ -22,3 +22,6 @@
 1. Hit-Muster = langes (55–72 s) Rätsel mit ganzem Rätsel im ersten Bild, Spannungs-Hook, Wendung. "90 %" als einer von mehreren Hook-Bausteinen.
 2. Gleiches Rätsel nach 7 Tagen auf gleichem Alter vergleichen, nicht Rohviews.
 3. Jedes 4. Video anderer Typ (A), Markierung H/A + "90 %" ja/nein in HITMUSTER.md.
+
+## Namensregel (17.11.)
+Mind. ein ausländischer/auffälliger Name pro Rätsel (CAST: Ali, Mehmet, Dragan, Igor, Zeynep, Ayse). Rolle (Lügner/Dieb/Held) mischen. Auswerten: Kommentare je Video mit/ohne.
