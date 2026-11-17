@@ -1,0 +1,5 @@
+id,marke,datum,uhrzeit,titel,typ_H_A,laenge_s,hook_art,prozent_hook,auslaend_name,erstes_bild,figuren,raetselart
+KZ035,Knobelzeit,2026-11-18,12:00,Gewitter (Wer luegt),A,42,Hoerst-du-es,nein,ja (Ali),Figur zuerst,Lea/Ali/Mia,Wer luegt
+KZ036,Knobelzeit,2026-11-18,16:00,Neumond (Wer luegt),A,38,Wer luegt,nein,nein,Bild zuerst,Lars/Greta/Hans,Wer luegt
+KZ037,Knobelzeit,2026-11-18,07:00,Quadrate,H,~45,Zahl,nein,nein,Bild zuerst,-,Zaehlen
+KZ038,Knobelzeit,2026-11-18,20:00,Glaeser,H,~45,Frage,nein,nein,Bild zuerst,-,Logik
