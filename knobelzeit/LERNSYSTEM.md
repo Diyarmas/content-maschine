@@ -16,3 +16,4 @@ Ziel: Jede Woche weniger Raten, mehr Wissen, welche Rätsel/Hooks/Längen/Figure
 
 ## Regel für jedes Views-Update (Diyar, 18.11.)
 Immer ALLE Videos, ALLE Plattformen, beide Sprachen: erst Gesamtviews (DE/EN, je TikTok/YouTube/Instagram, all-time), dann Veränderung seit dem letzten Pulse. Quelle: Diyars Pulse zuerst, Metricool/snapshots.csv nur zum Auffüllen. Nie nur ein Wochenfenster abfragen. Fehlt etwas, einmal genau benennen, nicht als Ausrede nutzen.
+Charts bei jedem Update (Diyar, 18.11.): 3 gestapelte Charts nach Upload-Tag, Stapel = TikTok/YouTube/Instagram: (1) Gesamt, (2) Deutsch, (3) Englisch. YouTube IMMER aus Diyars Pulse-Zahlen (Metricool hat bei YT nur Videos bis 14.11. und bei Riddle Time keine Views), Upload-Tage per Titel/Zeit zuordnen.
