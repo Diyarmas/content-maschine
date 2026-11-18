@@ -13,3 +13,6 @@ Ziel: Jede Woche weniger Raten, mehr Wissen, welche Rätsel/Hooks/Längen/Figure
 - Nur lesen und auswerten, nie geplante Posts ändern oder löschen ohne Diyars OK.
 - Keine erfundenen Zahlen, Fallzahl immer nennen, Alter der Videos berücksichtigen.
 - Keine API-Keys speichern.
+
+## Regel für jedes Views-Update (Diyar, 18.11.)
+Immer ALLE Videos, ALLE Plattformen, beide Sprachen: erst Gesamtviews (DE/EN, je TikTok/YouTube/Instagram, all-time), dann Veränderung seit dem letzten Pulse. Quelle: Diyars Pulse zuerst, Metricool/snapshots.csv nur zum Auffüllen. Nie nur ein Wochenfenster abfragen. Fehlt etwas, einmal genau benennen, nicht als Ausrede nutzen.
