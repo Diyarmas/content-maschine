@@ -26,7 +26,7 @@ Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach,
 - [Diyar 19.11.] Bilder teils komisch/wild – allgemein besser machen, immer weiter verbessern.
 - [Diyar 19.11.] Feedback vom Kollegen kommt noch – hier eintragen, sobald da.
 - [Diyar] QR-Links sind da (siehe oben) – noch einbauen.
-- [Diyar] Impressum: PLZ und E-Mail ergänzen; "Illustrationen: Diyar Masyan" bestätigen.
+- [Diyar 19.11. 20:45] Impressum: PLZ 81925, E-Mail diyarmas@web.de (Diyar fragt, ob privat okay – Entscheidung offen: privat oder separate Mail/Postfach). "Illustrationen: Diyar Masyan" noch bestätigen.
 
 ## Offen (von mir bekannt)
 - 10 Seiten ohne Notizfeld (Fall 23, 41, 48, 54, 56, 59, 60, 64, zwei Seiten Fall 68), weil Text die Seite füllt.
