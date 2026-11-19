@@ -41,18 +41,20 @@ function fitPage(page,o){o=o||{};const img=page.querySelector('.img'),col=page.q
   const set=h=>{if(img){img.style.height=h+'mm';col.style.top=(h+5)+'mm'}col.style.bottom=BOT+'mm'};
   const ok=()=>col.scrollHeight<=col.clientHeight+1;
   if(!img){set(0);if(ok())return {h:0,lv:''}}
-  else for(const h of sizes){set(h);if(ok())return {h,lv:''}}
+  else{let fb=null;const mm=96/25.4;const free=()=>{const last=col.lastElementChild;return col.clientHeight/mm-(last.offsetTop+last.offsetHeight)/mm};
+    for(const h of sizes){set(h);if(ok()){if(!o.notes||free()>=30)return {h,lv:''};if(fb===null)fb=h}}
+    if(fb!==null){set(fb);return {h:fb,lv:''}}}
   ISSUES.push('OVERFLOW Seite '+page.dataset.pn+' '+(o.tag||''));return null}
 // Einzelseiten-Fall
 function casePage(c,o){o=o||{};const blocks=o.blocks||c.body.filter(b=>!(b.t==='ill'&&b.kind==='hint'));
   const sc=o.scene||SC[c.n];
   const el=newPage('case',`<div class="img">${sc()}</div><div class="col">${labelRow(c)}<h1>${typo(c.title)}</h1><div class="bet">BETEILIGTE: ${c.n==='68'?'HERR BRANDT UND ALLE':c.bet.map(esc).join(' · ')}</div>${renderBlocks(c,blocks)}${o.noTask?'':`<div class="task"><small>AUFGABE</small><div>${typo(c.task)}</div></div>`}</div>${o.noFoot?'':footHtml(c)}${pnoHtml()}`);
-  setPno(el);const r=fitPage(el,Object.assign({tag:'Fall '+c.n,sizes:[116,96,76,66]},o.fitOpt||{}));el.dataset.fit=r?r.h+r.lv:'FAIL';if(!o.noFill)fillNotes(el);return el}
+  setPno(el);const r=fitPage(el,Object.assign({tag:'Fall '+c.n,sizes:[116,96,76,66],notes:!o.noFill},o.fitOpt||{}));el.dataset.fit=r?r.h+r.lv:'FAIL';if(!o.noFill)fillNotes(el);return el}
 function notePage(txt){const el=newPage('notes',`<div class="col"><div class="h2">Deine Notizen</div><div class="sub">${esc(txt||'Hier ist Platz für Skizzen, Rechnungen und Verdächtige.')}</div><div class="dots" style="height:170mm;margin-top:4mm"></div></div>${pnoHtml()}`);setPno(el);return el}
 
 function fillNotes(el){const col=el.querySelector('.col');const mmpx=96/25.4;
   const last=col.lastElementChild;const used=(last.offsetTop+last.offsetHeight)/mmpx;const avail=col.clientHeight/mmpx-used;
-  if(avail>=25){const n=document.createElement('div');n.className='notes fillnotes';const h=avail-13;n.innerHTML=`<small>DEINE NOTIZEN</small><div class="dots" style="height:${h.toFixed(1)}mm;border:.3mm solid #cfcac0;border-radius:2mm"></div>`;col.appendChild(n);
+  if(avail>=28){const n=document.createElement('div');n.className='notes fillnotes';const h=avail-13;n.innerHTML=`<small>DEINE NOTIZEN</small><div class="dots" style="height:${h.toFixed(1)}mm;border:.3mm solid #cfcac0;border-radius:2mm"></div>`;col.appendChild(n);
     if(col.scrollHeight>col.clientHeight+1)col.removeChild(n)}}
 
 function txtPage(c,blocks){const el=newPage('case txtp',`<div class="col" style="top:15mm;bottom:${BOT}mm"><div class="lblrow"><span class="lbl">FALL ${c.n}</span><span class="meta"><span>Fortsetzung</span></span></div>${renderBlocks(c,blocks)}<div class="task"><small>AUFGABE</small><div>${typo(c.task)}</div></div></div>${footHtml(c)}${pnoHtml()}`);setPno(el);

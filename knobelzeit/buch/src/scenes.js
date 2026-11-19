@@ -129,7 +129,7 @@ SC['07']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,100
   +f('peter',900,{y:600,items:[['broom','R']],armR:'hold',mood:'happy',h:360})
   +Array.from({length:30}).map((_,i)=>`<circle cx="${(i*83)%1000}" cy="${(i*47)%420}" r="3" fill="#fff" stroke="${G3}" stroke-width="1"/>`).join(''));
 (function(){const o=SC['14'];SC['14']=()=>o().replace(/AUSSEN/,'AUSSEN').replace(/y="590"/,'y="606"')})();
-SC['18']=()=>SVGS(bgDoener()+f('can',560,{y:470,h:300,items:[],mood:'happy'})+counter(300,350,500,120)+R(560,306,80,44,G4,5,3)+coins(720,350,4)+f('ben',920,{look:-1,mood:'worried',y:575,h:232})+f('kemal',150,{items:[['ladle','R']],y:565}));
+SC['18']=()=>SVGS(bgDoener()+f('can',560,{y:470,h:246,items:[],mood:'happy'})+counter(300,350,500,120)+R(560,306,80,44,G4,5,3)+coins(720,350,4)+f('ben',920,{look:-1,mood:'worried',y:575,h:232})+f('kemal',150,{items:[['ladle','R']],y:565}));
 SC['25']=()=>SVGS(bgDoener()+f('kemal',470,{y:470,h:262,mood:'think',look:1,armR:'chin',items:[]})+counter(300,350,500,120)+coins(600,350,6)+coins(660,350,4)+tableP(70,400,170,90,{cloth:G1}));
 SC['30']=()=>SVGS(bgCinema()+f('kassierer',560,{y:470,h:248,mood:'think'})+counter(380,350,380,120)+tag(570,320,'AB 16')+f('ayse',200,{look:1,mood:'happy'})+f('defne',330,{look:1}));
 SC['22']=()=>SVGS(bgLiving()+f('hilde',700,{y:480,mood:'happy',look:-1})+f('anna',250,{y:480,look:1,mood:'think'})+f('carla',390,{y:480,look:1})+f('ben',560,{y:480,look:-1})+f('tom',860,{y:480,look:-1})+tableP(180,440,640,110,{cloth:G1})+E(500,436,60,16,G1,3.4)+E(500,430,48,10,G3,2.6));

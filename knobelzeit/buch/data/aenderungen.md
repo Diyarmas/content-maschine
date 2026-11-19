@@ -22,3 +22,8 @@
 - Fall 03 Zettel ins Bild; Fall 07 rotes Auto, dicke/dünne Schneeschicht; Fall 11 Lösung C1; Fall 14 Satz; Fall 17 Cappuccino; Fall 32 Spiegelrahmen; Fall 51 sechs Sessel; Fall 55 Tabelle auf Arbeitsseite; Fall 57 blau; Fall 63 neu (Spiralblöcke); Fall 67 Doppelseite + C3; Fall 68 neu aufgeteilt + C4
 - Lösungen: Wusstest du? fett, Fall 68 eigene Seite volle Breite; Akte-Raster 11 pro Reihe mit Fallnummern; Urkunde Stempel verschoben
 - Wer ist wer: gleich große Namensschilder 9 pt, Bruno größer
+
+## Runde 4
+- Cover: Plakette entfernt, "Ab 10 Jahren" als weisser Kreis links; Wer ist wer als 5 Zeilen mit gleich langen gelben Balken; Impressum Diyar Masyan, Daphnestrasse 32; 3 QR-Codes (TikTok, YouTube, Instagram)
+- Notizfelder: Bildhoehe wird so gewaehlt, dass Notizfeld Platz hat (ausser sehr lange Faelle)
+- Sterne mittig zur Textzeile; Fall 09 Rahmenhandlung; Fall 15 Ticket neu; Leinwand lesbar; Fall 59 Logikgitter als Treppenraster; Arbeitsseiten gleichmaessig verteilt; Fall 55 Bae/Bf + Bogen
