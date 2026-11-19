@@ -25,3 +25,6 @@ Referenzen (von Diyar geschickt): Hotel unendlich (87 s, DE), Goldkugeln/König 
 - Hook nach der Formel: Einsatz → Problem → Verrücktes → Lage.
 - Eine durchgehende Kamerafahrt pro Szene (Remotion), Tiefe + Licht + Vignette.
 - Test: Aufzug #001 neu (Prototyp /tmp/rt, Rohfassung vom 19.11.).
+
+## STANDARDREGEL (Diyar 20.11.2026, "ab jetzt immer")
+Jedes neue Video bekommt eine richtige Geschichte mit Hook nach der Formel (Einsatz → Problem → "das Verrückte" → Lage), Figuren mit Rolle und Auflösung mit Aha-Moment. Längere Videos (bis ca. 4 Min.) sind ausdrücklich erlaubt, wenn die Story trägt (Referenzen mit 100K+ Views hatten 74–243 s). Weniger reine "Einer lügt"-Rätsel, mehr Abwechslung. Erfolg an Haltedauer/Views prüfen und nachsteuern.
