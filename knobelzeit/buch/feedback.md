@@ -4,6 +4,18 @@ Vorgehen (beschlossen 19.11.2026): Feedback sammeln, dann gesammelt auf einmal e
 Review-Schleife: täglich ca. 20 Seiten, Fokus Formatting. Erste Review Fr 20.11. 12:00 (S. 1–30).
 Launch-Ziel: 1.12.2026 DE + EN. Englisch erst übersetzen, wenn Diyar zu 100 % zufrieden ist.
 
+## Feedback Kollege/extern (eingegangen 19.11. 20:38, noch NICHT eingearbeitet)
+Erste Zeile ohne Kontext (vermutlich Seiten mit Auffälligkeiten): 59, 65, 71, 87, 93, 113, 118
+- S. 66–89 Arbeitsblätter: Tabellen, Grafiken und Schreibfelder auf einheitliche Abstände prüfen
+- S. 96–99 Tippseiten: Schriftgröße und Zeilenabstände verbessern, teilweise sehr dicht
+- S. 100–112 Lösungsseiten: Spaltenabstände, Überschriften und Beweismarken vereinheitlichen
+- S. 114–115 Ermittlerakte: Tabellenraster und Abstände optimieren
+- S. 116 Urkunde: Textblöcke und Unterschriftsfelder besser ausbalancieren
+- S. 117 QR-Codes, Beschriftungen und Abstände vereinheitlichen
+Übergreifende Regeln: einheitliche Schriftgrößen (Überschriften/Fließtext); einheitliche Seitenränder innen; einheitliche Abstände Überschrift–Untertitel–Text; Seitenzahlen immer gleiche Position; einheitliche Fußzeilen + Schriftgröße; einheitliche Aufgabenboxen; einheitliche Gelbtöne und Linienstärken; einheitliche Bildgrößen und -positionen.
+Priorität laut Feedback: erst S. 96–112, dann Arbeitsblätter 66–89, dann allgemeine Abstände auf den Rätselseiten.
+Ausdrücklich NICHT ändern: Cover und grundsätzliche Gestaltung.
+
 ## Offen (noch nicht eingearbeitet)
 - [Diyar 19.11.] Bildhöhe oben auf den Fallseiten vereinheitlichen: alle gleich groß, jede Seite gleiches Layout/Formatting.
 - [Diyar 19.11.] Bilder teils komisch/wild – allgemein besser machen, immer weiter verbessern.
