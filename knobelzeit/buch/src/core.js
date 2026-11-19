@@ -38,7 +38,7 @@ function renderBlocks(c,blocks){let h='';blocks.forEach(b=>{
 function footHtml(c){return `<div class="foot">TIPPS · CODE <b>${c.tip1}</b> · CODE <b>${c.tip2}</b> &nbsp;|&nbsp; LÖSUNG S. <b class="ref" data-sol="${c.n}">?</b></div>`}
 function labelRow(c){const isHint=c.hint;return `<div class="lblrow"><span class="lbl">FALL ${c.n}</span>${isHint?'<span class="hint">HINWEISBILD</span>':''}${c.classic?'<span class="hint ol">BRANDTS KLASSIKER</span>':''}<span class="meta"><span>${esc(c.cat)}</span><span class="dot">·</span>${starsHtml(c.stars)}<span class="dot">·</span><span>ca. ${c.min} Min.</span></span></div>`}
 function fitPage(page,o){o=o||{};const img=page.querySelector('.img'),col=page.querySelector('.col');const sizes=o.sizes||[116,94,72];
-  const set=h=>{if(img){img.style.height=h+'mm';col.style.top=(h+5)+'mm'}col.style.bottom=BOT+'mm'};
+  const set=h=>{if(img){img.style.height=h+'mm';col.style.top=(h+5)+'mm';const sv=img.querySelector('svg');if(sv){if(!sv.dataset.vb)sv.dataset.vb=sv.getAttribute('viewBox');if(sv.dataset.vb==='0 0 1000 620'){if(h>=116)sv.setAttribute('viewBox','0 0 1000 620');else{const vh=1000*h/173.2;sv.setAttribute('viewBox','0 '+(596-vh).toFixed(1)+' 1000 '+vh.toFixed(1))}}}}col.style.bottom=BOT+'mm'};
   const ok=()=>col.scrollHeight<=col.clientHeight+1;
   if(!img){set(0);if(ok())return {h:0,lv:''}}
   else{let fb=null;const mm=96/25.4;const free=()=>{const last=col.lastElementChild;return col.clientHeight/mm-(last.offsetTop+last.offsetHeight)/mm};
@@ -49,7 +49,7 @@ function fitPage(page,o){o=o||{};const img=page.querySelector('.img'),col=page.q
 function casePage(c,o){o=o||{};const blocks=o.blocks||c.body.filter(b=>!(b.t==='ill'&&b.kind==='hint'));
   const sc=o.scene||SC[c.n];
   const el=newPage('case',`<div class="img">${sc()}</div><div class="col">${labelRow(c)}<h1>${typo(c.title)}</h1><div class="bet">BETEILIGTE: ${c.n==='68'?'HERR BRANDT UND ALLE':c.bet.map(esc).join(' · ')}</div>${renderBlocks(c,blocks)}${o.noTask?'':`<div class="task"><small>AUFGABE</small><div>${typo(c.task)}</div></div>`}</div>${o.noFoot?'':footHtml(c)}${pnoHtml()}`);
-  setPno(el);const r=fitPage(el,Object.assign({tag:'Fall '+c.n,sizes:[116,96,76,66],notes:!o.noFill},o.fitOpt||{}));el.dataset.fit=r?r.h+r.lv:'FAIL';if(!o.noFill)fillNotes(el);return el}
+  setPno(el);const r=fitPage(el,Object.assign({tag:'Fall '+c.n,sizes:[116,96,76,66,56,46],notes:!o.noFill},o.fitOpt||{}));el.dataset.fit=r?r.h+r.lv:'FAIL';if(!o.noFill)fillNotes(el);return el}
 function notePage(txt){const el=newPage('notes',`<div class="col"><div class="h2">Deine Notizen</div><div class="sub">${esc(txt||'Hier ist Platz für Skizzen, Rechnungen und Verdächtige.')}</div><div class="dots" style="height:170mm;margin-top:4mm"></div></div>${pnoHtml()}`);setPno(el);return el}
 
 function fillNotes(el){const col=el.querySelector('.col');const mmpx=96/25.4;
