@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#FBF6E6;font-family:Poppins}
+.g{display:grid;grid-template-columns:repeat(8,1fr);width:1900px}.c{text-align:center;font-size:14px;font-weight:700}
+svg{width:230px;height:420px}</style></head><body><div class="g" id="g"></div>
+<script src="figs2.js"></script><script>
+let h='';Object.keys(F).forEach(k=>{h+=`<div class="c"><svg viewBox="-150 -400 300 420">${fig(k,0,0,{h:F[k].h})}</svg><br>${k}</div>`});
+document.getElementById('g').innerHTML=h;window.__d=1</script></body></html>

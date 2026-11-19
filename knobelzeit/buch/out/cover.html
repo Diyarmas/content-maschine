@@ -1,0 +1,583 @@
+<!doctype html><html><head><meta charset="utf-8"><style>@font-face{font-family:'Lora';font-weight:400;font-style:normal;src:url('file:///home/claude/bk/fonts/Lora-400.ttf')}@font-face{font-family:'Lora';font-weight:500;font-style:normal;src:url('file:///home/claude/bk/fonts/Lora-500.ttf')}@font-face{font-family:'Lora';font-weight:700;font-style:normal;src:url('file:///home/claude/bk/fonts/Lora-700.ttf')}@font-face{font-family:'Lora';font-weight:400;font-style:italic;src:url('file:///home/claude/bk/fonts/LoraI-400.ttf')}@font-face{font-family:'Lora';font-weight:500;font-style:italic;src:url('file:///home/claude/bk/fonts/LoraI-500.ttf')}@font-face{font-family:'Lora';font-weight:700;font-style:italic;src:url('file:///home/claude/bk/fonts/LoraI-700.ttf')}
+@page{size:353.03999999999996mm 250.4mm;margin:0}*{margin:0;padding:0;box-sizing:border-box}html,body{width:353.03999999999996mm;height:250.4mm}
+#c{position:relative;width:353.03999999999996mm;height:250.4mm;background:#F6C431;overflow:hidden}
+.back{position:absolute;left:0;top:0;width:173.2mm;height:250.4mm;padding:17.2mm 15mm 0 18.2mm}
+.spine{position:absolute;left:173.2mm;top:0;width:6.64mm;height:250.4mm;background:#1E1E1E}
+.front{position:absolute;left:179.83999999999997mm;top:0;width:173.2mm;height:250.4mm}
+.front svg{width:100%;height:100%;display:block}
+.sp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(90deg);white-space:nowrap;font:700 4.12mm Poppins;color:#fff;letter-spacing:.5mm}
+.sp b{color:#F6C431;font-weight:700}
+.back h2{font:700 8.6mm/1.12 Poppins;color:#1E1E1E;margin-bottom:5mm}
+.back p{font:italic 500 4.9mm/1.42 Lora;color:#1E1E1E;margin-bottom:4mm}
+.back ul{list-style:none;margin:6mm 0 0}
+.back li{font:600 3.9mm/1.38 Poppins;color:#1E1E1E;padding-left:5.5mm;position:relative;margin-bottom:2.3mm}
+.back li:before{content:'';position:absolute;left:0;top:1.1mm;width:2.4mm;height:2.4mm;background:#1E1E1E;border-radius:50%}
+.age{position:absolute;left:18.2mm;bottom:15.2mm;font:600 3.2mm Poppins;color:#1E1E1E}
+.bar{position:absolute;left:107.39999999999999mm;bottom:18.2mm;width:50.8mm;height:30.5mm;background:#fff}
+</style></head><body><div id="c">
+<div class="back"><h2>Wer hat den Döner nicht bezahlt?</h2>
+<p>Herr Brandt, Kommissar im Ruhestand, hört genau zu. Meistens lügt einer. Manchmal stimmt ein Foto nicht. Und ab und zu steckt die Lösung in einer Torte, die in acht gleiche Stücke geteilt werden muss.</p>
+<p>Spür mit ihm und seinen Freunden 67 Fälle auf, vom kleinen Kuchendieb bis zum großen Finale. Du brauchst nur einen Stift, ein bisschen Geduld und scharfe Augen.</p>
+<ul><li>67 Krimi- und Logikrätsel plus ein großer letzter Fall</li><li>Drei Schwierigkeitsstufen von Aufwärmen bis Meisterdetektiv</li><li>Tipps für jeden Fall, damit du nie festhängst</li><li>Ermittlerakte, Beweismarken und eine Urkunde zum Schluss</li></ul></div>
+<div class="age">Für die ganze Familie · ab 10 Jahren</div><div class="bar"></div>
+<div class="spine"><div class="sp">KNOBEL<b>ZEIT</b> &nbsp;·&nbsp; 67 Krimi- und Logikrätsel</div></div>
+<div class="front" id="front"></div></div>
+<script>window.BW=false</script><script>// Knobelzeit Buch – Figuren v2 (Mix aus Video-Look und Buch-Look)
+// Grosse Koepfe, weisse Augen mit Glanzpunkt, Wangen, runde Koerper, Tusche-Linie, Graustufen + Gelb als Akzent
+var INK='#1E1E1E', YEL=(typeof window!=='undefined'&&window.BW)?'#C9C5BC':'#F6C431';
+var G0='#fbfaf7',G1='#f2f0eb',G2='#dcd8d0',G3='#b9b4aa',G4='#8a857c',G5='#5c5852',G6='#3a3833';
+var SKN={a:'#f7eadf',b:'#ecd6c2',c:'#d6b89e',d:'#b8957c',e:'#97745e'};
+function L(d,w,c){return `<path d="${d}" fill="none" stroke="${c||INK}" stroke-width="${w||3.2}" stroke-linecap="round" stroke-linejoin="round"/>`}
+function P(d,f,w){return `<path d="${d}" fill="${f}" stroke="${INK}" stroke-width="${w||3.2}" stroke-linejoin="round"/>`}
+function E(cx,cy,rx,ry,f,w){return `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="${f}" stroke="${INK}" stroke-width="${w||3.2}"/>`}
+function C(cx,cy,r,f,w){return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${f}" ${w===0?'':`stroke="${INK}" stroke-width="${w||3.2}"`}/>`}
+function R(x,y,w,h,f,r,sw){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r||0}" fill="${f}" stroke="${INK}" stroke-width="${sw||3}"/>`}
+function limb(d,c,w){return `<path d="${d}" stroke="${INK}" stroke-width="${w+6}" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`}
+function hatch(x,y,w,h,op){let s=`<g opacity="${op||.15}">`;for(let i=-h;i<w;i+=7)s+=`<line x1="${x+i}" y1="${y+h}" x2="${x+i+h}" y2="${y}" stroke="${INK}" stroke-width="1.2"/>`;return s+'</g>'}
+
+// ---------- Person ----------
+function person(o){
+  const x=o.x||0,y=o.y||0,H=o.h||300,sc=H/300, kid=!!o.kid;
+  const hr=o.headR||(kid?48:40), w=o.wide||(kid?34:40), bf=o.belly||1;
+  const hy=-300+hr+4, sh=hy+hr+6, hip=o.hip||(kid?-92:-112), ww=w*bf;
+  const sk=SKN[o.skin||'a']||o.skin, top=o.top||G2, bot=o.bottom||G6, shoe=o.shoe||G6;
+  const look=o.look||0, mood=o.mood||'happy';
+  let s=`<g transform="translate(${x} ${y}) ${o.tilt?`rotate(${o.tilt})`:''} scale(${o.flip?-sc:sc} ${sc})">`;
+  // Bewegungslinien
+  if(o.rush)s+=L(`M${-ww-50} ${sh+20} h-34 M${-ww-56} ${sh+50} h-44 M${-ww-50} ${sh+80} h-34`,4,G4);
+  // Beine
+  const lw=kid?22:26, st=o.stride||0;
+  const lx=ww*0.42;
+  s+=limb(`M${-lx} ${hip} L${-lx-st} -14`,bot,lw)+limb(`M${lx} ${hip} L${lx+st} -14`,bot,lw);
+  const bf2=o.bigfoot?1.5:1;
+  s+=`<g transform="translate(${-lx-st-6} 0) scale(${bf2} 1)"><path d="M-14 -4 q0 -14 16 -16 q16 0 22 12 q2 8 -4 10 h-34Z" fill="${shoe}" stroke="${INK}" stroke-width="3.2" stroke-linejoin="round"/></g>`;
+  s+=`<g transform="translate(${lx+st+6} 0) scale(${bf2} 1)"><path d="M-14 -4 q0 -14 16 -16 q16 0 22 12 q2 8 -4 10 h-34Z" fill="${shoe}" stroke="${INK}" stroke-width="3.2" stroke-linejoin="round"/></g>`;
+  
+  // Arme: Hilfsfunktion fuer Handpunkte
+  const A={}; const aw=kid?15:17;
+  const pose=(side,p)=>{const sx=side*(ww-4), sy=sh+10; let el,hd;
+    switch(p){
+      case 'hold': el=[side*(ww+8),sh+50]; hd=[side*14,sh+66]; break;
+      case 'write': el=[side*(ww+4),sh+56]; hd=[side*6,sh+78]; break;
+      case 'point': el=[side*(ww+38),sh+14]; hd=[side*(ww+86),sh+2]; break;
+      case 'up': el=[side*(ww+30),sh-6]; hd=[side*(ww+30),sh-58]; break;
+      case 'hips': el=[side*(ww+30),sh+52]; hd=[side*(ww+2),hip-4]; break;
+      case 'shrug': el=[side*(ww+26),sh+40]; hd=[side*(ww+52),sh+16]; break;
+      case 'chin': el=[side*(ww+4),sh+44]; hd=[side*12,sh-6]; break;
+      case 'phone': el=[side*(ww+10),sh+30]; hd=[side*(ww-2),hy+hr*0.5]; break;
+      case 'cross': el=[side*(ww-2),sh+54]; hd=[-side*(ww-6),sh+40]; break;
+      case 'out': el=[side*(ww+24),sh+46]; hd=[side*(ww+44),sh+86]; break;
+      case 'back': el=[side*(ww+4),sh+44]; hd=[side*(ww-14),hip-10]; break;
+      default: el=[side*(ww+8),sh+54]; hd=[side*(ww+6),hip+6];
+    }
+    return {sx,sy,el,hd};};
+  const aL=pose(-1,o.armL||'down'), aR=pose(1,o.armR||'down');
+  A.L=aL;A.R=aR;
+  const sleeve=o.coat||o.sleeve||top;
+  const drawArm=(a)=>limb(`M${a.sx} ${a.sy} Q${a.el[0]} ${a.el[1]} ${a.hd[0]} ${a.hd[1]}`,sleeve,aw);
+  const drawHand=(a)=>C(a.hd[0],a.hd[1],kid?9:10,sk,3);
+  // Rucksack / Tasche hinten
+  if(o.backpack)s+=R(-ww-14,sh+4,ww*2+28,hip-sh-6,G4,14,3.2);
+  // hinterer Arm (der, der hinter dem Koerper liegt: L)
+  s+=drawArm(aL);
+  // Koerper
+  const hemY=o.coat?hip+58:hip+6, fl=o.coat?14:4;
+  const body=`M${-ww} ${sh+2} Q${-ww-8} ${sh+34} ${-ww-fl} ${hemY} L${ww+fl} ${hemY} Q${ww+8} ${sh+34} ${ww} ${sh+2} Q0 ${sh-12} ${-ww} ${sh+2}Z`;
+  s+=P(body,o.coat||top,3.4);
+  s+=`<path d="M${ww*0.35} ${sh} Q${ww+8} ${sh+34} ${ww+fl} ${hemY} L${ww*0.5} ${hemY} Z" fill="${INK}" opacity=".10"/>`;
+  s+=L(`M${-ww*0.28} ${sh+1} L0 ${sh+20} L${ww*0.28} ${sh+1}`,3,INK); // V-Kragen
+  if(o.coat){s+=L(`M0 ${sh+20} L0 ${hemY}`,2.4)+L(`M${-ww-6} ${hip-6} Q0 ${hip+4} ${ww+6} ${hip-6}`,3)+`<circle cx="-6" cy="${hip+20}" r="2.6" fill="${INK}"/><circle cx="6" cy="${hip+20}" r="2.6" fill="${INK}"/>`;
+     if(o.top&&o.coat!==top)s+=P(`M${-ww*0.28} ${sh+1} L0 ${sh+24} L${ww*0.28} ${sh+1} L${ww*0.2} ${sh+14} L0 ${sh+34} L${-ww*0.2} ${sh+14}Z`,top,2.4);}
+  if(o.overall){s+=P(`M${-ww*0.62} ${sh+30} h${ww*1.24} v${hip-sh-24} h${-ww*1.24}Z`,o.overall,3)+L(`M${-ww*0.62} ${sh+30} L${-ww*0.46} ${sh+4} M${ww*0.62} ${sh+30} L${ww*0.46} ${sh+4}`,3)+R(-10,sh+44,20,16,o.overall,3,2.4)}
+  if(o.apron)s+=P(`M${-ww*0.55} ${sh+22} Q${-ww*0.3} ${sh+16} 0 ${sh+16} Q${ww*0.3} ${sh+16} ${ww*0.55} ${sh+22} L${ww*0.8} ${hip+6} Q0 ${hip+16} ${-ww*0.8} ${hip+6}Z`,o.apronc||'#ffffff',3)+L(`M${-ww*0.55} ${sh+22} L${-ww*0.42} ${sh+2} M${ww*0.55} ${sh+22} L${ww*0.42} ${sh+2}`,2.6)+L(`M${-ww*0.8} ${hip-16} h${ww*1.6}`,2)+(o.flour?`<circle cx="-14" cy="${sh+50}" r="4" fill="${G2}"/><circle cx="10" cy="${sh+64}" r="5" fill="${G2}"/><circle cx="-4" cy="${sh+78}" r="3" fill="${G2}"/><circle cx="18" cy="${sh+44}" r="3" fill="${G2}"/>`:'');
+  if(o.cardigan){s+=P(`M${-ww} ${sh+4} Q${-ww-8} ${sh+34} ${-ww-4} ${hip+8} L-7 ${hip+8} L-7 ${sh+6}Z`,o.cardigan,3)+P(`M${ww} ${sh+4} Q${ww+8} ${sh+34} ${ww+4} ${hip+8} L7 ${hip+8} L7 ${sh+6}Z`,o.cardigan,3);s+=`<circle cx="-12" cy="${sh+24}" r="2.4" fill="${INK}"/><circle cx="-12" cy="${sh+40}" r="2.4" fill="${INK}"/>`}
+  if(o.vest)s+=P(`M${-ww+2} ${sh+6} L-5 ${sh+52} L-5 ${hip+6} L${-ww-1} ${hip+6}Z`,o.vest,3)+P(`M${ww-2} ${sh+6} L5 ${sh+52} L5 ${hip+6} L${ww+1} ${hip+6}Z`,o.vest,3);
+  if(o.jersey)s+=`<text x="0" y="${sh+58}" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="${INK}">${o.jersey}</text>`;
+  if(o.zip)s+=L(`M0 ${sh+10} L0 ${hip+6}`,3)+L(`M${-ww+6} ${sh+22} l-2 ${hip-sh-16} M${ww-6} ${sh+22} l2 ${hip-sh-16}`,5,G0);
+  if(o.stripe)s+=L(`M${-ww*0.9} ${sh+36} h${ww*1.8}`,8,G0);
+  if(o.brooch)s+=`<circle cx="${-ww*0.5}" cy="${sh+26}" r="7" fill="${YEL}" stroke="${INK}" stroke-width="2.6"/><circle cx="${-ww*0.5}" cy="${sh+26}" r="2" fill="${INK}"/>`;
+  if(o.belt)s+=R(-ww-2,hip-14,ww*2+4,12,G5,3,2.6)+(o.keys?`<circle cx="${ww-4}" cy="${hip+10}" r="10" fill="none" stroke="${INK}" stroke-width="3"/><path d="M${ww-4} ${hip+20} v14" stroke="${INK}" stroke-width="4"/><path d="M${ww-14} ${hip+8} l-18 22 M${ww+6} ${hip+8} l14 24" stroke="${INK}" stroke-width="3"/>`:'');
+  if(o.tools)s+=P(`M${-ww+6} ${hip-2} h16 v26 h-16Z`,G3,2.6)+L(`M${-ww+10} ${hip+6} v10`,2);
+  if(o.pouch)s+=P(`M${ww-20} ${hip-4} h34 v32 q-17 10 -34 0Z`,G4,2.8)+L(`M${ww-20} ${hip+6} h34`,2);
+  if(o.beltbag)s+=P(`M-30 ${hip-4} h60 v26 q-30 12 -60 0Z`,G4,3)+L(`M-30 ${hip+8} h60`,2.4)+`<circle cx="0" cy="${hip+14}" r="4" fill="${YEL}" stroke="${INK}" stroke-width="2"/>`;
+  if(o.camera)s+=L(`M${-ww*0.5} ${sh+4} Q-14 ${sh+40} -12 ${sh+52} M${ww*0.5} ${sh+4} Q14 ${sh+40} 12 ${sh+52}`,3)+R(-20,sh+48,40,28,G3,5,3)+C(0,sh+62,9,G1,2.8)+C(0,sh+62,4,INK,0);
+  if(o.scarf)s+=P(`M${-ww*0.6} ${sh-6} Q0 ${sh+14} ${ww*0.6} ${sh-6} l4 22 q-30 14 -62 0Z`,o.scarf,3);
+  if(o.headphonesNeck)s+=L(`M${-ww*0.5} ${sh-2} Q0 ${sh+26} ${ww*0.5} ${sh-2}`,6,G6);
+  if(o.tie)s+=P(`M0 ${sh+12} l-7 8 l7 40 l7 -40Z`,o.tie,2.6);
+  if(o.bow)s+=P(`M0 ${sh+6} l-14 -8 v16Z M0 ${sh+6} l14 -8 v16Z`,o.bow,2.4)+C(0,sh+6,3.6,INK,0);
+  if(o.nametag)s+=R(-ww*0.7,sh+26,22,12,'#fff',2,2);
+  // Hals + Hand hinten
+  s+=P(`M-10 ${hy+hr-8} h20 v16 h-20Z`,sk,3);
+  // Haare hinten
+  const hc=o.hc||G5, hs=o.hair;
+  if(hs==='long'||hs==='longbrown')s+=P(`M${-hr-6} ${hy+10} Q${-hr-14} ${hy-hr-10} 0 ${hy-hr-8} Q${hr+14} ${hy-hr-10} ${hr+6} ${hy+10} Q${hr+8} ${hy+hr+30} ${hr-4} ${hy+hr+36} L${-hr+4} ${hy+hr+36} Q${-hr-8} ${hy+hr+30} ${-hr-6} ${hy+10}Z`,hc,3.2);
+  if(hs==='pony'||hs==='ponysq')s+=P(`M${hr-6} ${hy-14} Q${hr+44} ${hy-8} ${hr+34} ${hy+52} Q${hr+14} ${hy+18} ${hr-8} ${hy+4}Z`,hc,3);
+  if(hs==='braids')s+=P(`M${-hr-4} ${hy-4} q-22 20 -10 62 q8 -24 18 -34Z`,hc,3)+P(`M${hr+4} ${hy-4} q22 20 10 62 q-8 -24 -18 -34Z`,hc,3)+C(-hr-12,hy+60,7,YEL,2.6)+C(hr+12,hy+60,7,YEL,2.6);
+  if(hs==='bun'){s+=C(0,hy-hr-10,17,hc,3.2)}
+  if(hs==='bunhi'){s+=C(0,hy-hr-12,19,hc,3.2)}
+  // Ohren + Kopf
+  s+=E(-hr+1,hy+6,7,10,sk,2.8)+E(hr-1,hy+6,7,10,sk,2.8)+E(0,hy,hr,hr+2,sk,3.4);
+  s+=`<path d="M${hr*0.3} ${hy-hr*0.8} Q${hr*1.05} ${hy-hr*0.1} ${hr*0.55} ${hy+hr*0.85}" fill="none" stroke="${INK}" stroke-width="12" opacity=".06"/>`;
+  // Haare vorne
+  const lk=look*3;
+  if(hs==='short')s+=P(`M${-hr-1} ${hy-2} Q${-hr-2} ${hy-hr-8} 0 ${hy-hr-6} Q${hr+2} ${hy-hr-8} ${hr+1} ${hy-2} Q${hr*0.55} ${hy-hr*0.55} ${hr*0.05} ${hy-hr*0.58} Q${-hr*0.5} ${hy-hr*0.52} ${-hr-1} ${hy-2}Z`,hc,3);
+  if(hs==='side')s+=P(`M${-hr-1} ${hy-2} Q${-hr-2} ${hy-hr-8} 0 ${hy-hr-6} Q${hr+2} ${hy-hr-8} ${hr+1} ${hy-2} Q${hr*0.2} ${hy-hr*0.7} ${-hr*0.6} ${hy-hr*0.42} Q${-hr*0.9} ${hy-hr*0.3} ${-hr-1} ${hy-2}Z`,hc,3);
+  if(hs==='curly'||hs==='curlyred')[[-34,-14],[-24,-36],[-6,-46],[16,-44],[32,-30],[40,-8],[-40,6],[0,-34]].forEach(([dx,dy])=>{s+=C(dx*hr/40,hy+dy*hr/40,15,hc,2.8)});
+  if(hs==='locks')[[-36,-18],[-26,-40],[-8,-50],[14,-48],[32,-36],[42,-14],[-42,2],[-6,-38],[22,-30]].forEach(([dx,dy])=>{s+=C(dx,hy+dy,16,hc,2.8)});
+  if(hs==='locks'&&o.band)s+=L(`M${-hr+2} ${hy-hr*0.5} Q0 ${hy-hr*0.78} ${hr-2} ${hy-hr*0.5}`,8,YEL)+L(`M${-hr+2} ${hy-hr*0.5} Q0 ${hy-hr*0.78} ${hr-2} ${hy-hr*0.5}`,1.2);
+  if(hs==='long'||hs==='longbrown')s+=P(`M${-hr} ${hy-2} Q${-hr+2} ${hy-hr-8} 0 ${hy-hr-8} Q${hr-2} ${hy-hr-8} ${hr} ${hy-2} Q${hr*0.5} ${hy-hr*0.6} ${-hr*0.1} ${hy-hr*0.5} Q${-hr*0.7} ${hy-hr*0.4} ${-hr} ${hy-2}Z`,hc,3);
+  if(hs==='pony'||hs==='ponysq'||hs==='braids'||hs==='bun'||hs==='bunhi')s+=P(`M${-hr} ${hy-2} Q${-hr+2} ${hy-hr-8} 0 ${hy-hr-8} Q${hr-2} ${hy-hr-8} ${hr} ${hy-2} Q${hr*0.3} ${hy-hr*0.62} ${-hr*0.2} ${hy-hr*0.52} Q${-hr*0.7} ${hy-hr*0.46} ${-hr} ${hy-2}Z`,hc,3);
+  if(hs==='bald')s+=L(`M${-hr+1} ${hy+4} Q${-hr-5} ${hy-16} ${-hr*0.62} ${hy-26} M${hr-1} ${hy+4} Q${hr+5} ${hy-16} ${hr*0.62} ${hy-26}`,9,hc);
+  if(hs==='hood')s+=P(`M${-hr-12} ${hy+34} Q${-hr-20} ${hy-hr-18} 0 ${hy-hr-16} Q${hr+20} ${hy-hr-18} ${hr+12} ${hy+34} Q${hr+4} ${hy+10} ${hr-2} ${hy-hr*0.3} Q0 ${hy-hr*0.95} ${-hr+2} ${hy-hr*0.3} Q${-hr-4} ${hy+10} ${-hr-12} ${hy+34}Z`,o.hoodc||top,3.2);
+  if(hs==='hood'&&o.hc)s+=P(`M${-hr*0.7} ${hy-hr*0.5} Q0 ${hy-hr*0.9} ${hr*0.7} ${hy-hr*0.5} Q${hr*0.2} ${hy-hr*0.35} ${-hr*0.7} ${hy-hr*0.5}Z`,hc,2.6);
+  if(hs==='hijab')s+=P(`M${-hr-12} ${hy+hr+16} Q${-hr-22} ${hy-hr-12} 0 ${hy-hr-14} Q${hr+22} ${hy-hr-12} ${hr+12} ${hy+hr+16} Q${hr-6} ${hy+hr-2} ${hr-4} ${hy+8} Q${hr-8} ${hy-hr*0.6} 0 ${hy-hr*0.62} Q${-hr+8} ${hy-hr*0.6} ${-hr+4} ${hy+8} Q${-hr+6} ${hy+hr-2} ${-hr-12} ${hy+hr+16}Z`,hc,3.2);
+  // Gesicht
+  const ey=hy-2, ex=hr*0.37, er=kid?10.5:9.5;
+  const pdx=look*3.2;
+  const eye=(dx)=>{ if(mood==='sleep')return L(`M${dx-8} ${ey} q8 6 16 0`,2.6);
+    return C(dx,ey,er,'#fff',2.6)+C(dx+pdx,ey+(mood==='think'?-1:0.5),er*0.5,INK,0)+C(dx+pdx+2.2,ey-2.4,2,'#fff',0)};
+  s+=eye(-ex+lk*0.6)+eye(ex+lk*0.6);
+  // Wangen
+  s+=`<circle cx="${-ex-8+lk}" cy="${ey+17}" r="8" fill="${INK}" opacity=".08"/><circle cx="${ex+8+lk}" cy="${ey+17}" r="8" fill="${INK}" opacity=".08"/>`;
+  // Brauen
+  if(mood==='think')s+=L(`M${-ex-8+lk} ${ey-19} l15 -4 M${ex-7+lk} ${ey-22} l15 4`,3);
+  else if(mood==='worried')s+=L(`M${-ex-8+lk} ${ey-15} l15 -7 M${ex-7+lk} ${ey-22} l15 7`,3);
+  else if(mood==='grumpy')s+=L(`M${-ex-8+lk} ${ey-23} l15 7 M${ex-7+lk} ${ey-16} l15 -7`,3.6);
+  else if(mood==='sleep'){}
+  else s+=L(`M${-ex-8+lk} ${ey-19} q8 -6 16 0 M${ex-8+lk} ${ey-19} q8 -6 16 0`,2.8);
+  // Nase
+  s+=L(`M${lk*1.4} ${ey+4} q${5+lk} 9 ${-2+lk*0.5} 12`,2.6,G5);
+  // Mund
+  if(!o.beard){
+    if(mood==='caught'||mood==='surprised')s+=E(lk,ey+27,6,8,'#fff',2.6);
+    else if(mood==='worried')s+=L(`M${-9+lk} ${ey+30} q9 -7 18 0`,2.8);
+    else if(mood==='grumpy')s+=L(`M${-9+lk} ${ey+29} h18`,3);
+    else if(mood==='sleep')s+=E(lk,ey+28,4,5,G2,2.4);
+    else if(o.chew)s+=L(`M${-12+lk} ${ey+26} q6 5 12 0 q6 -5 12 0`,2.8);
+    else if(mood==='laugh')s+=P(`M${-13+lk} ${ey+23} q13 18 26 0Z`,'#fff',2.8);
+    else s+=L(`M${-12+lk} ${ey+25} Q${lk} ${ey+35} ${12+lk} ${ey+25}`,3);
+  }
+  if(o.gap)s+=`<rect x="${-3+lk}" y="${ey+26}" width="6" height="6" fill="#fff"/>`;
+  if(o.stache)s+=P(`M${-20+lk} ${ey+22} q10 -9 20 -2 q10 -7 20 2 q-10 7 -20 2 q-10 5 -20 -2Z`,o.stachec||G3,2.6);
+  if(o.beard)s+=P(`M${-hr+3} ${hy+2} Q${-hr} ${hy+hr+16} 0 ${hy+hr+16} Q${hr} ${hy+hr+16} ${hr-3} ${hy+2} Q${hr*0.55} ${hy+20} 0 ${hy+16} Q${-hr*0.55} ${hy+20} ${-hr+3} ${hy+2}Z`,o.beard,2.8)+(mood==='laugh'?P(`M${-12+lk} ${ey+26} q12 16 24 0Z`,'#fff',2.4):L(`M${-9+lk} ${ey+28} q9 6 18 0`,2.6,'#fff'));
+  if(o.freckles)[[-ex-4,ey+10],[-ex+5,ey+13],[-ex-9,ey+15],[ex-5,ey+12],[ex+4,ey+10],[ex+8,ey+15]].forEach(([a,b])=>s+=`<circle cx="${a+lk}" cy="${b}" r="1.7" fill="${G5}"/>`);
+  if(o.age)s+=L(`M${-ex-14} ${ey+10} q-4 8 0 16 M${ex+14} ${ey+10} q4 8 0 16`,1.8,G4);
+  if(o.glasses)s+=C(-ex+lk*0.6,ey,er+4.5,'none',2.8)+C(ex+lk*0.6,ey,er+4.5,'none',2.8)+L(`M${-ex+er+4.5+lk*0.6} ${ey} h${2*ex-2*er-9}`,2.6)+L(`M${-ex-er-4.5+lk*0.6} ${ey} L${-hr+2} ${ey-2} M${ex+er+4.5+lk*0.6} ${ey} L${hr-2} ${ey-2}`,2.4);
+  if(o.loupe)s+=C(ex+lk*0.6,ey,er+7,'rgba(255,255,255,.35)',3.4)+L(`M${ex+er+5+lk*0.6} ${ey+4} q14 -4 22 -30`,2.6);
+  if(o.sun)s+=R(-ex-14+lk*0.6,ey-9,2*ex+28,18,G6,8,2.6);
+  if(o.headphones)s+=L(`M${-hr-3} ${hy+4} Q${-hr-4} ${hy-hr-12} 0 ${hy-hr-12} Q${hr+4} ${hy-hr-12} ${hr+3} ${hy+4}`,7,G6)+R(-hr-12,hy-6,14,24,G6,6,2.6)+R(hr-2,hy-6,14,24,G6,6,2.6);
+  // Huete
+  const hat=o.hat;
+  if(hat==='fedora')s+=P(`M${-hr-26} ${hy-hr*0.5} Q0 ${hy-hr*0.2} ${hr+26} ${hy-hr*0.5} Q${hr+8} ${hy-hr*0.78} ${hr-6} ${hy-hr*0.78} L${hr-10} ${hy-hr-28} Q0 ${hy-hr-16} ${-hr+10} ${hy-hr-28} L${-hr+6} ${hy-hr*0.78} Q${-hr-8} ${hy-hr*0.78} ${-hr-26} ${hy-hr*0.5}Z`,o.hatc||'#8f7a62',3.2)+`<path d="M${-hr+6} ${hy-hr*0.96} Q0 ${hy-hr*0.76} ${hr-6} ${hy-hr*0.96} v12 Q0 ${hy-hr*0.62} ${-hr+6} ${hy-hr*0.84}Z" fill="${INK}"/>`;
+  if(hat==='cap')s+=P(`M${-hr-1} ${hy-hr*0.45} Q${-hr-2} ${hy-hr-14} 0 ${hy-hr-14} Q${hr+2} ${hy-hr-14} ${hr+1} ${hy-hr*0.45}Z`,o.hatc||G4,3)+P(`M${hr*0.1} ${hy-hr*0.5} L${hr+30} ${hy-hr*0.4} L${hr+24} ${hy-hr*0.62}Z`,o.hatc||G4,2.8);
+  if(hat==='capback')s+=P(`M${-hr-1} ${hy-hr*0.4} Q${-hr-2} ${hy-hr-14} 0 ${hy-hr-14} Q${hr+2} ${hy-hr-14} ${hr+1} ${hy-hr*0.4}Z`,o.hatc||G6,3)+P(`M${-hr*0.1} ${hy-hr*0.5} L${-hr-34} ${hy-hr*0.5} L${-hr-26} ${hy-hr*0.3}Z`,o.hatc||G6,2.8);
+  if(hat==='flatcap')s+=P(`M${-hr-3} ${hy-hr*0.4} Q${-hr} ${hy-hr-10} ${hr*0.2} ${hy-hr-14} Q${hr+8} ${hy-hr-8} ${hr+6} ${hy-hr*0.4} Q0 ${hy-hr*0.28} ${-hr-3} ${hy-hr*0.4}Z`,o.hatc||G5,3)+P(`M${hr*0.2} ${hy-hr*0.38} q${hr*0.6} -4 ${hr*0.95} 4 q-${hr*0.5} 10 -${hr*0.95} -4Z`,o.hatc||G5,2.4);
+  if(hat==='baker')s+=P(`M${-hr+2} ${hy-hr*0.55} Q${-hr-10} ${hy-hr-30} ${-hr*0.5} ${hy-hr-40} Q0 ${hy-hr-58} ${hr*0.5} ${hy-hr-40} Q${hr+10} ${hy-hr-30} ${hr-2} ${hy-hr*0.55}Z`,'#fff',3);
+  if(hat==='chef')s+=P(`M${-hr+4} ${hy-hr*0.55} L${-hr+2} ${hy-hr-12} Q${-hr-14} ${hy-hr-34} ${-hr*0.5} ${hy-hr-52} Q0 ${hy-hr-68} ${hr*0.5} ${hy-hr-52} Q${hr+14} ${hy-hr-34} ${hr-2} ${hy-hr-12} L${hr-4} ${hy-hr*0.55}Z`,'#fff',3);
+  if(hat==='straw')s+=P(`M${-hr-34} ${hy-hr*0.42} Q0 ${hy-hr*0.1} ${hr+34} ${hy-hr*0.42} Q${hr+8} ${hy-hr*0.8} ${hr-8} ${hy-hr*0.8} Q0 ${hy-hr-22} ${-hr+8} ${hy-hr*0.8} Q${-hr-8} ${hy-hr*0.8} ${-hr-34} ${hy-hr*0.42}Z`,'#d9cdb0',3.2)+L(`M${-hr+6} ${hy-hr*0.72} Q0 ${hy-hr*0.55} ${hr-6} ${hy-hr*0.72}`,7,G5);
+  if(hat==='beanie')s+=P(`M${-hr-1} ${hy-hr*0.3} Q${-hr-4} ${hy-hr-16} 0 ${hy-hr-16} Q${hr+4} ${hy-hr-16} ${hr+1} ${hy-hr*0.3}Z`,o.hatc||G5,3)+R(-hr-3,hy-hr*0.45,2*hr+6,14,G4,5,2.8)+C(0,hy-hr-20,8,G4,2.6);
+  if(hat==='helm')s+=P(`M${-hr-4} ${hy+4} Q${-hr-6} ${hy-hr-16} 0 ${hy-hr-16} Q${hr+6} ${hy-hr-16} ${hr+4} ${hy+4} L${hr+4} ${hy-hr*0.3} L${-hr-4} ${hy-hr*0.3}Z`,G3,3.2)+L(`M${-hr-4} ${hy-hr*0.3} h${2*hr+8}`,3)+P(`M-4 ${hy-hr-14} q4 -${o.plume||26} ${14+(o.plume||0)/4} -${(o.plume||26)+10} q-2 20 -10 ${(o.plume||26)+10}Z`,o.plumec||G6,2.6);
+  if(o.pencilEar)s+=L(`M${hr-8} ${hy-12} L${hr+14} ${hy+14}`,6,YEL)+L(`M${hr-8} ${hy-12} L${hr+14} ${hy+14}`,1.4);
+  // Hand-Items
+  const itemAt=(a,t,side)=>{let [hx,hy2]=a.hd,r='';
+    switch(t){
+      case 'notebook': r=`<rect x="${hx-13}" y="${hy2-22}" width="26" height="34" rx="3" fill="${INK}" stroke="${INK}" stroke-width="2"/><rect x="${hx-13}" y="${hy2-12}" width="26" height="5" fill="${YEL}"/>`;break;
+      case 'heft': r=`<g transform="rotate(${side*-8} ${hx} ${hy2})"><rect x="${hx-16}" y="${hy2-20}" width="32" height="26" rx="2" fill="#fff" stroke="${INK}" stroke-width="2.4"/>${L(`M${hx-10} ${hy2-12} h20 M${hx-10} ${hy2-5} h14`,1.4,G4)}</g>`;break;
+      case 'sketch': r=`<g transform="rotate(${side*8} ${hx} ${hy2})"><rect x="${hx-20}" y="${hy2-26}" width="40" height="32" rx="3" fill="#fff" stroke="${INK}" stroke-width="2.6"/>${L(`M${hx-12} ${hy2-6} q8 -12 14 -2 t12 -8`,1.6,G4)}</g>`;break;
+      case 'pencil': r=L(`M${hx} ${hy2} l${side*16} -26`,5,YEL)+L(`M${hx} ${hy2} l${side*16} -26`,1.2)+L(`M${hx} ${hy2} l${side*-2} 5`,3);break;
+      case 'phone': r=`<rect x="${hx-8}" y="${hy2-20}" width="16" height="28" rx="3" fill="${G6}" stroke="${INK}" stroke-width="2.4"/><rect x="${hx-5}" y="${hy2-17}" width="10" height="18" fill="${G2}"/>`;break;
+      case 'pretzel': r=`<path d="M${hx-14} ${hy2-6} q-8 -22 14 -22 q22 0 14 22 q-14 -16 -28 0 M${hx-8} ${hy2-14} q8 10 16 0" fill="none" stroke="${G4}" stroke-width="6" stroke-linecap="round"/>`;break;
+      case 'card': r=`<g transform="rotate(${side*-10} ${hx} ${hy2})"><rect x="${hx-6}" y="${hy2-26}" width="42" height="28" rx="3" fill="#fff" stroke="${INK}" stroke-width="2.4"/></g>`;break;
+      case 'cane': r=L(`M${hx} ${hy2+6} L${hx+side*4} -6`,5,G5)+L(`M${hx} ${hy2+6} q${side*-2} -14 ${side*-14} -12`,5,G5);break;
+      case 'ruler': r=R(hx-4,hy2-40,10,50,'#fff',1,2.2);break;
+      case 'bag': r=`<path d="M${hx-18} ${hy2} h36 l-4 40 h-28Z" fill="#fff" stroke="${INK}" stroke-width="2.6"/>`+L(`M${hx-12} ${hy2} q12 -10 24 0`,2.4);break;
+      case 'mic': r=`<rect x="${hx-4}" y="${hy2-30}" width="9" height="30" rx="4" fill="${G6}" stroke="${INK}" stroke-width="2"/><circle cx="${hx}" cy="${hy2-34}" r="8" fill="${G4}" stroke="${INK}" stroke-width="2.4"/>`;break;
+      case 'broom': r=L(`M${hx} ${hy2-110} L${hx+side*6} -6`,5,G5)+P(`M${hx+side*6-22} -8 l22 -4 l22 4 l-6 26 h-32Z`,G3,2.6);break;
+      case 'torch': r=P(`M${hx-5} ${hy2-12} h10 l3 28 h-16Z`,G6,2.4)+`<path d="M${hx-4} ${hy2-12} L${hx+side*70} ${hy2-52} L${hx+side*70} ${hy2+22} L${hx+4} ${hy2-12}Z" fill="#fff" opacity=".5"/>`;break;
+      case 'scanner': r=R(hx-9,hy2-26,18,32,G6,3,2.4)+`<rect x="${hx-6}" y="${hy2-22}" width="12" height="9" fill="${G2}"/>`;break;
+      case 'ice': r=R(hx-16,hy2-26,32,26,'#fff',3,2.6)+`<rect x="${hx-16}" y="${hy2-18}" width="32" height="7" fill="${G2}"/>`;break;
+      case 'knife': r=L(`M${hx} ${hy2} l${side*10} -30`,3.4)+L(`M${hx} ${hy2} l${side*-2} 6`,5,G6);break;
+      case 'ladle': r=L(`M${hx} ${hy2} l${side*8} -34`,3.6)+E(hx+side*10,hy2-38,8,6,G4,2.4);break;
+      case 'cake': r=`<path d="M${hx-30} ${hy2-10} h60 v-22 h-60Z" fill="${G3}" stroke="${INK}" stroke-width="2.6"/>`;break;
+    }
+    return r;};
+  const items=o.items||[];
+  // vorderer Arm (R) + Haende
+  s+=drawArm(aR);
+  s+=drawHand(aL)+drawHand(aR);
+  items.forEach(([t,hand])=>{const a=hand==='L'?aL:aR;s+=itemAt(a,t,hand==='L'?-1:1)});
+  s+='';
+  return s+'</g>'}
+
+// Hund (Dackel / Bello)
+function dog(x,y,sc,o){o=o||{};let s=`<g transform="translate(${x} ${y}) scale(${(o.flip?-1:1)*sc} ${sc})">`;
+  const c=o.c||G4;
+  if(o.kind==='bello'){ // zottelig
+    s+=P(`M-70 -30 Q-76 -78 -30 -80 L40 -80 Q74 -78 72 -44 L68 -22 Q20 -14 -52 -22Z`,c,3)+hatch(-60,-76,120,50,.12)+P(`M-56 -26 v28 h18 v-26 M40 -22 v26 h18 v-28`,c,3);
+    s+=C(76,-86,26,c,3)+P(`M62 -100 q-14 20 -4 40 q14 -8 12 -36Z`,G5,2.6)+`<circle cx="84" cy="-92" r="3.4" fill="${INK}"/><circle cx="96" cy="-82" r="5" fill="${INK}"/>`;
+    s+=L(`M-70 -52 q-22 -14 -26 -36`,6,c);
+    for(let i=0;i<6;i++)s+=L(`M${-50+i*20} -24 l-3 10 M${-56+i*22} -76 l2 -10`,2,G5);
+  } else { // Dackel
+    s+=P(`M-70 -38 Q-76 -66 -30 -66 L36 -66 Q56 -64 54 -44 L50 -28 Q10 -22 -52 -28Z`,c,3)+P(`M-54 -30 v22 h14 v-20 M30 -26 v20 h14 v-22`,c,3);
+    s+=E(66,-70,22,18,c,3)+P(`M58 -78 q-12 22 -4 34 q10 -4 12 -30Z`,G5,2.6)+`<circle cx="72" cy="-76" r="3" fill="${INK}"/><circle cx="86" cy="-68" r="4" fill="${INK}"/>`;
+    s+=L(`M-70 -46 q-18 -16 -22 -32`,5,c);}
+  if(o.collar)s+=L(`M52 -60 q12 10 26 2`,6,YEL)+L(`M52 -60 q12 10 26 2`,1.4);
+  if(o.sleep)s+=`<text x="90" y="-110" font-family="Poppins" font-weight="700" font-size="22" fill="${G4}">z z</text>`;
+  return s+'</g>'}
+
+// Vorlagen der Figuren
+var F={
+ brandt:{h:335,wide:38,hat:'fedora',coat:'#e7e0cd',top:G1,stache:1,stachec:G3,hair:'short',hc:G3,mood:'think',pencilEar:1,age:1,items:[['notebook','R']],armR:'hold',armL:'down',skin:'a',av:[-72,-352,144,144]},
+ anna:{kid:1,h:226,hair:'locks',hc:G6,overall:G3,top:G1,items:[['sketch','L'],['pencil','R']],armL:'hold',armR:'write',skin:'d',band:1,av:[-64,-308,128,128]},
+ ben:{kid:1,h:232,hair:'hood',hc:G3,top:G3,hoodc:G3,freckles:1,beltbag:1,chew:1,skin:'a',wide:38,av:[-64,-308,128,128]},
+ carla:{kid:1,h:214,hair:'ponysq',hc:G5,glasses:1,top:G1,bottom:G4,sneaker:1,shoe:'#fff',skin:'b',av:[-64,-308,128,128]},
+ hilde:{h:250,wide:36,belly:1.3,hair:'bunhi',hc:'#fff',cardigan:YEL,top:G1,bottom:G4,brooch:1,items:[['heft','L']],armL:'write',armR:'hold',skin:'a',mood:'happy',lefty:1,av:[-64,-300,128,128]},
+ kemal:{h:315,wide:40,belly:1.3,hair:'short',hc:G6,beard:G6,apron:1,top:G4,mood:'laugh',armR:'hips',skin:'c',av:[-64,-308,128,128]},
+ can:{h:310,wide:32,hair:'short',hc:G6,hat:'capback',hatc:G5,top:G3,items:[['phone','R']],armR:'phone',skin:'b',av:[-64,-308,128,128]},
+ luigi:{h:290,wide:38,belly:1.35,hat:'chef',hair:'short',hc:G6,stache:1,stachec:G6,apron:1,flour:1,top:G2,skin:'b',mood:'worried',armR:'hips',av:[-66,-338,132,132]},
+ zeynep:{h:300,wide:36,hat:'straw',hair:'long',hc:G6,apron:1,apronc:G3,top:G1,pouch:1,mood:'laugh',skin:'c',armR:'hips',av:[-70,-322,140,140]},
+ mehmet:{h:310,wide:38,belly:1.1,hat:'baker',glasses:1,hair:'short',hc:G5,top:G1,items:[['pretzel','R']],armR:'hold',skin:'c',av:[-66,-346,132,132]},
+ greta:{h:335,wide:32,hair:'bun',hc:G1,cardigan:G4,top:G2,bottom:G5,glasses:1,items:[['cane','R']],armR:'hold',skin:'a',age:1,av:[-64,-308,128,128]},
+ lars:{h:318,wide:38,hat:'cap',hatc:G6,top:G5,bottom:G6,hair:'short',hc:G6,items:[['pencil','L']],skin:'b',lefty:1,av:[-64,-312,128,128]},
+ hans:{h:312,wide:42,hair:'bald',hc:G2,beard:G2,top:G4,belt:1,keys:1,tools:1,mood:'grumpy',skin:'b',av:[-64,-308,128,128]},
+ peter:{h:372,wide:36,hair:'short',hc:G5,top:G6,bottom:G5,bigfoot:1,zip:1,skin:'a',mood:'happy',av:[-64,-308,128,128]},
+ mia:{h:278,wide:32,hair:'short',hc:G6,top:G3,bottom:G5,skin:'e',zip:0,av:[-64,-308,128,128]},
+ ayse:{h:305,wide:36,hair:'pony',hc:G5,top:G3,zip:1,stripe:1,bottom:G6,items:[['pencil','L']],skin:'b',lefty:1,av:[-64,-308,128,128]},
+ defne:{kid:1,h:262,wide:30,hair:'long',hc:G5,headphones:1,top:G2,bottom:G5,skin:'b',av:[-70,-322,140,140]},
+ emre:{h:315,wide:38,hat:'cap',hatc:G4,backpack:1,camera:1,top:G3,bottom:G5,hair:'short',hc:G6,skin:'b',av:[-64,-312,128,128]},
+ igor:{h:312,wide:40,hat:'flatcap',hatc:G5,top:G4,hair:'short',hc:G3,mood:'happy',skin:'a',av:[-70,-318,140,140]},
+ dragan:{h:305,wide:36,vest:G5,top:G1,hair:'short',hc:G5,loupe:1,skin:'c',av:[-66,-312,132,132]},
+ elif:{h:290,wide:34,hair:'long',hc:G5,top:G2,cardigan:G3,skin:'b',av:[-64,-308,128,128]},
+ lea:{kid:1,h:236,hair:'braids',hc:G6,top:G2,overall:G4,skin:'b',av:[-72,-308,144,144]},
+ tom:{kid:1,h:240,hair:'short',hc:G3,top:G5,jersey:'7',shoe:G5,skin:'a',av:[-64,-308,128,128]},
+ max:{kid:1,h:196,hair:'curly',hc:G6,top:G3,gap:1,mood:'laugh',skin:'b',av:[-64,-308,128,128]},
+ ali:{h:312,wide:38,hat:'beanie',hatc:G6,stache:1,stachec:G6,top:G4,skin:'c',av:[-64,-312,128,128]},
+ frank:{h:318,wide:40,hair:'curly',hc:G4,glasses:1,vest:G3,top:G1,skin:'a',av:[-64,-312,128,128]},
+ jonas:{kid:1,h:276,hair:'side',hc:G5,hood:0,top:G6,zip:1,skin:'b',av:[-64,-308,128,128]},
+ sommer:{h:312,wide:36,hat:'flatcap',hatc:G3,bow:G6,top:G1,vest:G4,hair:'short',hc:G1,age:1,skin:'a',av:[-70,-318,140,140]},
+ moderator:{h:320,wide:36,coat:G3,top:G0,bow:G6,hair:'side',hc:G6,items:[['mic','R']],armR:'hold',mood:'laugh',skin:'a',av:[-64,-308,128,128]},
+ kassierer:{h:300,wide:34,vest:G4,top:G1,hair:'short',hc:G5,nametag:1,skin:'b',av:[-64,-308,128,128]},
+ kuno:{h:320,wide:40,hat:'helm',plumec:G2,top:G4,coat:G4,hair:'short',hc:G5,mood:'grumpy',skin:'b',av:[-64,-322,128,128]},
+ bodo:{h:300,wide:44,belly:1.2,hat:'helm',plumec:G6,plume:40,top:G3,coat:G3,hair:'short',hc:G4,stache:1,stachec:G5,skin:'a',av:[-64,-322,128,128]},
+ gero:{h:332,wide:34,hat:'helm',plumec:G4,plume:14,top:G5,coat:G5,hair:'short',hc:G4,glasses:1,skin:'c',av:[-64,-322,128,128]}
+};
+function fig(k,x,y,extra){return person(Object.assign({},F[k],{x:x,y:y},extra||{}))}
+function avatar(k){const o=F[k];const v=o.av||[-64,-308,128,128];
+  return `<svg viewBox="${v.join(' ')}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">${person(Object.assign({},o,{x:0,y:0,h:300,armL:'down',armR:'down',items:[],look:0,tilt:0,mood:o.mood==='laugh'?'laugh':(o.mood==='grumpy'?'grumpy':'happy')}))}</svg>`}
+</script><script>// Hintergruende und Requisiten (Szenen 1000 x 620, Bodenlinie ~ y 470)
+const SW=1000, SH=620;
+function wallFloor(o){o=o||{};const fl=o.fl||470;let s=`<rect width="1000" height="620" fill="${o.wall||G1}"/>`;
+  if(o.wallpaper)for(let i=0;i<26;i++)s+=`<line x1="${i*40}" y1="0" x2="${i*40}" y2="${fl}" stroke="${G2}" stroke-width="${o.wallpaper}" />`;
+  s+=`<rect y="${fl}" width="1000" height="${620-fl}" fill="${o.floor||G2}"/>`+L(`M0 ${fl} H1000`,3.4);
+  if(o.boards!==false)for(let i=0;i<14;i++)s+=L(`M${i*95-30} ${fl} L${i*95-130+ (i-7)*14} 620`,1.4,G3);
+  if(o.tiles){for(let j=0;j<5;j++)s+=L(`M0 ${fl+j*34+10} H1000`,1.2,G3)}
+  return s}
+function win(x,y,w,h,o){o=o||{};let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.glass||'#ffffff',3.4);
+  s+=hatch(x,y,w,h,.07);
+  if(o.cross!==false)s+=L(`M${x+w/2} ${y} v${h} M${x} ${y+h/2} h${w}`,3);
+  if(o.sill!==false)s+=P(`M${x-12} ${y+h} h${w+24} v14 h${-(w+24)}Z`,G3,3);
+  if(o.curtain)s+=P(`M${x-6} ${y-4} q18 ${h/2} 0 ${h+4} h26 q-12 ${-h/2} 0 ${-h-4}Z`,G3,2.6)+P(`M${x+w+6} ${y-4} q-18 ${h/2} 0 ${h+4} h-26 q12 ${-h/2} 0 ${-h-4}Z`,G3,2.6);
+  return s}
+function cupboard(x,y,w,h,n){n=n||2;let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,G2,3.2);for(let i=1;i<n;i++)s+=L(`M${x+w/n*i} ${y} v${h}`,2.6);for(let i=0;i<n;i++)s+=`<circle cx="${x+w/n*(i+1)-10-(i%2?w/n-20:0)}" cy="${y+h/2}" r="4.4" fill="${INK}"/>`;return s}
+function tableP(x,y,w,h,o){o=o||{};let s=P(`M${x} ${y} h${w} v14 h${-w}Z`,o.top||G3,3.4)+P(`M${x+14} ${y+14} h12 v${h-14} h-12Z M${x+w-26} ${y+14} h12 v${h-14} h-12Z`,G4,3);
+  if(o.cloth)s+=P(`M${x-6} ${y} h${w+12} v24 q${-(w+12)/8} 10 ${-(w+12)/4} 0 t${-(w+12)/4} 0 t${-(w+12)/4} 0 t${-(w+12)/4} 0Z`,o.cloth,3);return s}
+function counter(x,y,w,h,o){o=o||{};return P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.c||G3,3.4)+P(`M${x-8} ${y-14} h${w+16} v16 h${-(w+16)}Z`,o.top||G1,3.4)+hatch(x,y,w,h,.08)}
+function lamp(x,y,s2){s2=s2||1;return L(`M${x} 0 V${y}`,3)+P(`M${x-26*s2} ${y+30*s2} Q${x} ${y-8*s2} ${x+26*s2} ${y+30*s2}Z`,G3,3.2)}
+function plant(x,y,sc){sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-18 0 h36 l-6 -34 h-24Z',G4,3)+L('M0 -34 q-30 -30 -34 -62 M0 -34 q4 -40 -6 -76 M0 -34 q30 -26 36 -60',3)+P('M-34 -96 q-14 -14 2 -24 q16 6 6 22Z M-6 -110 q-12 -16 4 -26 q14 8 4 24Z M36 -94 q-8 -18 10 -24 q14 10 0 26Z',G3,2.8)+'</g>'}
+function clockP(x,y,r,h,m,o){o=o||{};let s=C(x,y,r,'#fff',3.6);
+  for(let i=0;i<12;i++){const a=i*Math.PI/6;s+=L(`M${x+Math.sin(a)*(r-4)} ${y-Math.cos(a)*(r-4)} L${x+Math.sin(a)*(r-(i%3?10:16))} ${y-Math.cos(a)*(r-(i%3?10:16))}`,i%3?2:3.4)}
+  if(o.nums!==false&&r>40)['12','3','6','9'].forEach((t,i)=>{const a=i*Math.PI/2;s+=`<text x="${x+Math.sin(a)*(r-28)}" y="${y-Math.cos(a)*(r-28)+7}" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="${r*0.24}" fill="${INK}">${t}</text>`});
+  const ha=((h%12)+m/60)*Math.PI/6, ma=m*Math.PI/30;
+  s+=L(`M${x} ${y} L${x+Math.sin(ha)*r*0.5} ${y-Math.cos(ha)*r*0.5}`,Math.max(5,r*0.09))+L(`M${x} ${y} L${x+Math.sin(ma)*r*0.78} ${y-Math.cos(ma)*r*0.78}`,Math.max(3.4,r*0.06))+C(x,y,r*0.07,INK,0);return s}
+function sign(x,y,w,h,txt,o){o=o||{};const fs=o.fs||22;const lines=txt.split('|');let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.bg||'#fff',3.4);
+  lines.forEach((l,i)=>{s+=`<text x="${x+w/2}" y="${y+h/2+(i-(lines.length-1)/2)*fs*1.25+fs*0.35}" text-anchor="middle" font-family="${o.font||'Lora'}" ${o.italic?'font-style="italic"':''} font-weight="${o.bold?700:500}" font-size="${fs}" fill="${INK}">${l}</text>`});return s}
+function bunting(y0,n,cols){let s=`<path d="M-20 ${y0} Q500 ${y0+60} 1020 ${y0}" fill="none" stroke="${G4}" stroke-width="3"/>`;
+  for(let i=0;i<n;i++){const t=(i+0.5)/n,x=-20+1040*t,y=y0+60*2*t*(1-t)*0.5*2*0.5+ (y0*0);const yy=y0+ 60*(2*t*(1-t));s+=`<path d="M${x-22} ${yy-2} l22 40 l22 -40Z" fill="${(cols||[YEL,G4,G2])[i%3]}" stroke="${INK}" stroke-width="2.4" stroke-linejoin="round"/>`}return s}
+function house(x,y,w,h,o){o=o||{};let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.c||G2,3.4)+hatch(x,y,w,h,.05);
+  if(o.roof!==false)s+=P(`M${x-14} ${y} L${x+w/2} ${y-(o.rh||70)} L${x+w+14} ${y}Z`,G4,3.4);
+  const rows=o.rows||2,cols=o.cols||3;for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){const ww=w/(cols*2),wx=x+ww*0.5+c*w/cols+ww*0.2;s+=P(`M${wx} ${y+18+r*(h-30)/rows} h${ww} v${(h-30)/rows-26} h${-ww}Z`,'#fff',2.8)+L(`M${wx+ww/2} ${y+18+r*(h-30)/rows} v${(h-30)/rows-26}`,2)}
+  return s}
+function tree(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-10 0 h20 v-90 h-20Z',G4,3.2)+C(0,-130,62,o.c||G3,3.4)+C(-44,-100,40,o.c||G3,3.2)+C(46,-104,42,o.c||G3,3.2)+'</g>'}
+function bench(x,y,w){return P(`M${x} ${y} h${w} v14 h${-w}Z`,G4,3.2)+P(`M${x+10} ${y-40} h${w-20} v16 h${-(w-20)}Z`,G4,3.2)+L(`M${x+16} ${y+14} v34 M${x+w-16} ${y+14} v34`,6,G5)}
+function cakeP(x,y,sc,o){o=o||{};sc=sc||1;let s=`<g transform="translate(${x} ${y}) scale(${sc})">`;
+  s+=P('M-60 0 v-34 q60 -16 120 0 v34 q-60 12 -120 0Z',G5,3.2)+P('M-60 -34 q60 -16 120 0 q-60 16 -120 0Z',G4,3);
+  if(o.piece)s+=P('M0 -34 L58 -26 L40 -10Z',G1,2.6);
+  s+=L('M-34 -52 q-6 -14 4 -24 M-10 -54 q-6 -14 4 -24 M14 -54 q-6 -14 4 -24',2.4,G4)+'</g>';return s}
+function pizzaP(x,y,r,slices,o){o=o||{};let s=C(x,y,r,G2,3.6)+C(x,y,r*0.84,G1,2);const n=slices||8;
+  for(let i=0;i<n;i++){const a=i*2*Math.PI/n;s+=L(`M${x} ${y} L${x+Math.cos(a)*r} ${y+Math.sin(a)*r}`,2.4)}
+  [[0.4,0.3],[-0.3,0.5],[0.1,-0.5],[-0.5,-0.2],[0.55,-0.2]].forEach(([a,b])=>s+=C(x+a*r,y+b*r,r*0.09,G4,2));return s}
+function doener(x,y,sc){return `<g transform="translate(${x} ${y}) scale(${sc||1})">`+P('M-30 0 q30 -10 60 0 l-8 -40 h-44Z',G2,3)+P('M-36 -42 q36 -26 72 0 q-36 8 -72 0Z',G4,3)+L('M-20 -34 l6 10 M0 -36 l4 12 M16 -34 l-2 10',2.4,G3)+'</g>'}
+function grill(x,y,sc){return `<g transform="translate(${x} ${y}) scale(${sc||1})">`+P('M-70 0 h140 v-60 h-140Z',G4,3.4)+P('M-50 -60 h100 v-20 h-100Z',G2,3)+L('M-40 -80 v-34 M0 -80 v-30 M40 -80 v-34',6,G5)+hatch(-70,-60,140,60,.12)+'</g>'}
+function ovenP(x,y,sc){return `<g transform="translate(${x} ${y}) scale(${sc||1})">`+P('M-80 0 h160 v-150 h-160Z',G3,3.4)+P('M-60 -120 h120 v70 h-120Z',G1,3)+C(0,-85,24,G4,3)+C(-52,-138,6,INK,0)+C(-30,-138,6,INK,0)+C(30,-138,6,INK,0)+C(52,-138,6,INK,0)+'</g>'}
+function keypad(x,y,sc,o){o=o||{};let s=`<g transform="translate(${x} ${y}) scale(${sc||1})">`+R(-30,-44,60,96,G5,8,3.4)+R(-22,-36,44,18,G2,3,2.4);
+  for(let i=0;i<9;i++)s+=C(-16+(i%3)*16,-4+Math.floor(i/3)*16,5.4,G1,2);return s+'</g>'}
+function moon(x,y,r){return C(x,y,r,'#fff',3.4)+`<path d="M${x+r*0.3} ${y-r} a${r} ${r} 0 1 0 0 ${2*r} a${r*0.7} ${r} 0 1 1 0 ${-2*r}Z" fill="${G2}" opacity=".0"/>`}
+function stars(n,seed){let s='',r=seed||7;for(let i=0;i<n;i++){r=(r*9301+49297)%233280;const x=r/233280*1000;r=(r*9301+49297)%233280;const y=r/233280*300;s+=`<path d="M${x} ${y-6} l2 4 l4 .6 l-3 3 l.8 4.4 l-3.8 -2 l-3.8 2 l.8 -4.4 l-3 -3 l4 -.6Z" fill="#fff" opacity=".8"/>`}return s}
+function bag(x,y,sc,txt){return `<g transform="translate(${x} ${y}) scale(${sc||1})">`+P('M-26 0 h52 l-6 -56 h-40Z',G2,3)+L('M-16 -56 q16 -22 32 0',3)+'</g>'}
+function bottle(x,y,sc){return `<g transform="translate(${x} ${y}) scale(${sc||1})">`+P('M-14 0 h28 v-60 q0 -10 -8 -14 v-18 h-12 v18 q-8 4 -8 14Z','#fff',3)+`<rect x="-14" y="-40" width="28" height="30" fill="${G2}" opacity=".7"/>`+P('M-8 -92 h16 v-8 h-16Z',G4,2.6)+'</g>'}
+function bubbleTxt(x,y,txt,o){o=o||{};const w=o.w||200,h=o.h||60;return P(`M${x} ${y} h${w} v${h} h${-w}Z`,'#fff',3.2)+`<text x="${x+w/2}" y="${y+h/2+8}" text-anchor="middle" font-family="Lora" font-size="${o.fs||22}" fill="${INK}">${txt}</text>`}
+
+// ---------- komplette Raeume ----------
+function bgKitchen(o){o=o||{};let s=wallFloor({wall:G1,floor:G2,tiles:1});
+  s+=win(600,60,300,230,{curtain:1,sill:0});
+  s+=P('M570 290 h360 v18 h-360Z',G3,3.4);
+  s+=cupboard(40,80,240,150,2)+cupboard(30,340,310,130,3)+P('M16 326 h338 v18 h-338Z',G1,3.4);
+  s+=clockP(470,120,44,3,12);
+  s+=P('M380 470 h180 v14 h-180Z',G4,3);
+  return s}
+function bgLiving(o){let s=wallFloor({wall:G1,floor:G2,wallpaper:1.2});
+  s+=win(60,70,230,240,{curtain:1})+P('M560 300 h330 v170 h-330Z',G3,3.4)+hatch(560,300,330,170,.1)+P('M545 290 h360 v22 h-360Z',G4,3.4);
+  s+=P('M590 120 h260 v120 h-260Z','#fff',3.4)+L('M600 220 l50 -60 l36 36 l30 -40 l70 64',3,G4)+plant(930,470,1.2)+P('M370 80 q28 -12 56 0 v60 h-56Z',G2,3);
+  s+=clockP(420,110,40,2,20);
+  return s}
+function bgDoener(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
+  s+=P('M0 60 h1000 v50 h-1000Z',G6,0)+`<text x="500" y="98" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="8">${(o&&o.name)||'KEMALS DÖNER'}</text>`;
+  s+=grill(180,400,1.6)+counter(430,340,450,130)+P('M470 300 h130 v40 h-130Z',G5,3.2)+R(640,296,70,44,G4,5,3.2);
+  s+=tableP(60,400,200,90,{cloth:G1});
+  return s}
+function bgStreet(o){o=o||{};let s=`<rect width="1000" height="620" fill="${o.sky||G1}"/>`;
+  s+=house(20,130,300,340,{rows:3,cols:3,c:G2})+house(340,170,280,300,{rows:3,cols:3,c:G3})+house(640,110,340,360,{rows:3,cols:3,c:G2});
+  s+=`<rect y="470" width="1000" height="150" fill="${G2}"/>`+L('M0 470 H1000',3.4)+`<rect y="470" width="1000" height="26" fill="${G3}"/>`+L('M0 496 H1000',2.6);
+  for(let i=0;i<10;i++)s+=L(`M${i*120+20} 560 h70`,4,G0);
+  return s}
+function bgTrain(o){let s=`<rect width="1000" height="620" fill="${G3}"/>`;
+  s+=P('M0 0 h1000 v90 h-1000Z',G2,0)+`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4);
+  s+=P('M300 80 h400 v250 h-400Z',(o&&o.tunnel)?G6:'#fff',4)+(o&&o.tunnel?`<circle cx="360" cy="140" r="4" fill="#fff"/><circle cx="600" cy="230" r="3" fill="#fff"/><circle cx="470" cy="180" r="3" fill="#fff"/>`:L('M320 280 q60 -100 130 -40 t140 -30 t90 -30',4,G3))+L('M500 80 v250',4);
+  s+=P('M60 330 h180 v100 h-180Z',G4,3.4)+P('M760 330 h180 v100 h-180Z',G4,3.4)+P('M300 400 h400 v20 h-400Z',G2,3.4)+P('M310 420 h380 v50 h-380Z',G4,3);
+  return s}
+function bgGarden(o){o=o||{};let s=`<rect width="1000" height="620" fill="${G0}"/>`;
+  s+=`<circle cx="840" cy="100" r="52" fill="${G2}"/>`+Array.from({length:12}).map((_,i)=>L(`M${840+Math.cos(i*Math.PI/6)*66} ${100+Math.sin(i*Math.PI/6)*66} l${Math.cos(i*Math.PI/6)*24} ${Math.sin(i*Math.PI/6)*24}`,4,G3)).join('');
+  s+=`<rect y="420" width="1000" height="200" fill="${G2}"/>`+L('M0 420 H1000',3.4);
+  s+=P('M0 300 h1000 v120 h-1000Z',G3,0)+Array.from({length:28}).map((_,i)=>P(`M${i*38} 310 h28 v110 h-28Z`,G1,2.6)).join('');
+  s+=tree(120,430,1.2)+tree(880,430,1.1)+bunting(70,12);
+  return s}
+function bgBath(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
+  for(let i=0;i<25;i++)for(let j=0;j<7;j++)s+=`<rect x="${i*40}" y="${j*40+120}" width="40" height="40" fill="none" stroke="${G2}" stroke-width="1.4"/>`;
+  s+=P('M400 120 h200 v250 h-200Z','#fff',4)+P('M410 130 h180 v230 h-180Z',G2,2)+hatch(410,130,180,230,.12)+P('M380 370 h240 v34 q-120 16 -240 0Z',G1,3.4);
+  s+=P('M60 400 h180 v70 h-180Z',G1,3.4)+P('M120 320 h60 v80 h-60Z',G3,3.2);
+  return s}
+function bgLibrary(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
+  for(let k=0;k<4;k++){const x=20+k*250;s+=P(`M${x} 60 h220 v410 h-220Z`,G4,3.4);for(let r=0;r<5;r++){s+=L(`M${x} ${130+r*68} h220`,3);for(let b=0;b<9;b++)s+=`<rect x="${x+8+b*23+(r%2)*4}" y="${70+r*68+(b%3)*5}" width="${14+(b%3)*3}" height="${56-(b%3)*5}" fill="${[G1,G2,G3,G5][(b+r)%4]}" stroke="${INK}" stroke-width="1.8"/>`}}
+  s+=win(780,110,170,200,{sill:0});
+  return s}
+function bgPizzeria(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
+  s+=P('M0 0 h1000 v70 h-1000Z',G5,0)+`<text x="500" y="48" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#fff" letter-spacing="8">PIZZERIA LUIGI</text>`;
+  s+=ovenP(150,410,1.3)+counter(400,360,350,110)+tableP(780,400,200,90,{cloth:G1})+win(420,100,220,150,{sill:0,curtain:1});
+  return s}
+function bgBakery(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
+  s+=P('M0 0 h1000 v70 h-1000Z',G5,0)+`<text x="500" y="48" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#fff" letter-spacing="8">BÄCKEREI</text>`;
+  for(let k=0;k<3;k++){s+=P(`M${40+k*140} 100 h120 v200 h-120Z`,G3,3.2)+L(`M${40+k*140} 170 h120 M${40+k*140} 240 h120`,3);for(let r=0;r<3;r++)for(let b=0;b<3;b++)s+=E(`${62+k*140+b*34}`,`${156+r*70}`,15,10,G1,2.4)}
+  s+=counter(540,350,420,120)+P('M560 290 h140 v60 h-140Z','#fff',3)+hatch(560,290,140,60,.08);
+  return s}
+function bgMarket(o){let s=`<rect width="1000" height="620" fill="${G0}"/>`;
+  s+=P('M200 140 h300 v330 h-300Z',G2,3.4)+P('M180 140 L350 50 L520 140Z',G4,3.4)+clockP(350,200,46,(o&&o.h)||4,(o&&o.m!=null)?o.m:15)+P('M320 380 h60 v90 h-60Z',G4,3.2);
+  for(let r=0;r<2;r++)for(let c=0;c<4;c++)s+=P(`M${224+c*66} ${270+r*70} h40 v50 h-40Z`,'#fff',2.8);
+  s+=`<rect y="470" width="1000" height="150" fill="${G2}"/>`+L('M0 470 H1000',3.4);
+  s+=house(600,190,380,280,{rows:3,cols:4,c:G3,rh:60})+tree(90,470,1.1);
+  if(!o||o.stalls!==false){for(let k=0;k<2;k++){const x=520+k*200;}}
+  return s}
+function bgSchool(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
+  s+=P('M60 60 h880 v60 h-880Z',G4,0)+`<text x="500" y="104" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="6">${(o&&o.t)||'SCHULE'}</text>`;
+  s+=P('M120 180 h240 v290 h-240Z',G4,3.4)+P('M640 180 h240 v290 h-240Z',G4,3.4)+L('M240 180 v290 M760 180 v290',3);
+  return s}
+function bgCinema(o){let s=`<rect width="1000" height="620" fill="${G5}"/>`;
+  s+=P('M0 0 h1000 v90 h-1000Z',G6,0)+`<text x="500" y="62" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="40" fill="#fff" letter-spacing="14">KINO</text>`+bunting(96,0);
+  s+=`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4);
+  s+=P('M100 140 h330 v330 h-330Z',G2,3.4)+P('M570 140 h330 v330 h-330Z',G2,3.4);
+  return s}
+function bgNight(o){let s=`<rect width="1000" height="620" fill="${G6}"/>`+stars(40,11)+moon(850,90,42);
+  s+=`<rect y="470" width="1000" height="150" fill="${G5}"/>`+L('M0 470 H1000',3.4,G3);return s}
+function bgBurg(o){let s=`<rect width="1000" height="620" fill="${G4}"/>`;
+  for(let j=0;j<8;j++)for(let i=0;i<12;i++)s+=`<rect x="${i*90-(j%2)*45}" y="${j*60}" width="90" height="60" fill="none" stroke="${G5}" stroke-width="2.6"/>`;
+  s+=`<rect y="470" width="1000" height="150" fill="${G5}"/>`+L('M0 470 H1000',3.4);
+  return s}
+function bgClass(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
+  s+=P('M120 80 h400 v210 h-400Z',G5,4)+P('M120 290 h400 v14 h-400Z',G3,3)+win(680,90,240,200,{sill:0})+clockP(580,70,0.1,1,1,{nums:false});
+  s+=tableP(80,420,300,80)+tableP(560,430,300,80);return s}
+function bgBasement(o){let s=`<rect width="1000" height="620" fill="${G4}"/>`;
+  for(let j=0;j<9;j++)for(let i=0;i<13;i++)s+=`<rect x="${i*80-(j%2)*40}" y="${j*55}" width="80" height="55" fill="none" stroke="${G5}" stroke-width="2.4"/>`;
+  s+=`<rect y="470" width="1000" height="150" fill="${G3}"/>`+L('M0 470 H1000',3.4);return s}
+function bgMountain(o){let s=`<rect width="1000" height="620" fill="${G1}"/>`;
+  s+=P('M-20 470 L220 160 L340 300 L470 90 L720 420 L820 280 L1020 470Z',G3,3.6)+P('M470 90 L400 190 L450 175 L480 215 L520 170 L560 200 Z','#fff',3);
+  s+=`<rect y="470" width="1000" height="150" fill="${G2}"/>`+L('M0 470 H1000',3.4);return s}
+function bgHall(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
+  s+=bunting(60,14)+win(60,100,160,230,{sill:0})+win(780,100,160,230,{sill:0});
+  s+=tableP(300,380,400,90,{cloth:G1});return s}
+function bgStage(o){let s=`<rect width="1000" height="620" fill="${G5}"/>`;
+  s+=P('M0 0 q80 200 70 470 h-70Z',G3,3.4)+P('M1000 0 q-80 200 -70 470 h70Z',G3,3.4)+`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4)+bunting(30,0);
+  s+=P('M380 140 h240 v330 h-240Z',G2,3.4)+`<path d="M380 140 q120 -40 240 0" fill="${G3}" stroke="${INK}" stroke-width="3"/>`;return s}
+function bgDark(o){return wallFloor({wall:G3,floor:G4})}
+</script><script>// Szenen pro Fall (1000 x 620). Figuren stehen mit den Fuessen bei y=565.
+function SVGS(inner,vb){return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb||'0 0 1000 620'}" preserveAspectRatio="xMidYMax slice">${inner}</svg>`}
+function f(k,x,o){o=o||{};return fig(k,x,o.y||565,o)}
+function T(x,y,txt,o){o=o||{};return `<text x="${x}" y="${y}" text-anchor="${o.a||'middle'}" font-family="${o.font||'Lora'}" ${o.italic?'font-style="italic"':''} font-weight="${o.w||500}" font-size="${o.s||22}" fill="${o.c||INK}" ${o.ls?`letter-spacing="${o.ls}"`:''} ${o.rot?`transform="rotate(${o.rot} ${x} ${y})"`:''}>${txt}</text>`}
+// ---------- Requisiten ----------
+function bike(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+C(-62,-34,34,'none',5)+C(62,-34,34,'none',5)+L('M-62 -34 L-18 -34 L10 -92 L52 -92 L62 -34 M-18 -34 L-30 -92 L10 -92 M-30 -92 h-14 M52 -92 l-6 -22 h22',5)+L('M-30 -92 v-6',5)+(o.lock?`<circle cx="-62" cy="-34" r="40" fill="none" stroke="${G5}" stroke-width="6" stroke-dasharray="4 5"/>`+R(-20,-66,36,24,G5,5,3):'')+'</g>'}
+function car(x,y,sc,o){o=o||{};sc=sc||1;const c=o.c||G4;let s=`<g transform="translate(${x} ${y}) scale(${sc})">`;
+  s+=P('M-170 -30 v-50 q0 -14 14 -18 l60 -14 q24 -50 70 -50 h60 q36 0 56 40 l50 18 q20 8 20 26 v48Z',c,3.8)+P('M-86 -108 q14 -34 48 -34 h46 q24 0 36 34Z','#fff',3.2)+L('M-12 -142 v34',3.2)+C(-100,-28,34,G6,4)+C(-100,-28,14,G2,3)+C(100,-28,34,G6,4)+C(100,-28,14,G2,3);
+  if(o.snow)s+=P('M-80 -142 q40 -32 100 -4 q30 -2 40 4 q-60 14 -140 0Z','#fff',3);
+  return s+'</g>'}
+function bridge(x,y,w){let s=`<g transform="translate(${x} ${y})">`;s+=P(`M0 0 h${w} v18 h${-w}Z`,G4,3.6);for(let i=0;i<=w;i+=36)s+=L(`M${i} 0 v-74`,4,G5);s+=L(`M0 -74 Q${w/2} -34 ${w} -74`,4,G5)+L(`M0 -40 Q${w/2} 0 ${w} -40`,3,G5);return s+'</g>'}
+function safeP(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+R(-120,-240,240,240,G4,10,4.4)+R(-96,-216,192,192,G3,6,3.4)+C(-34,-110,42,G2,4)+C(-34,-110,10,INK,0)+L('M-34 -110 l22 -22',5)+R(40,-190,44,104,G5,6,3.4)+['1','2','3','4','5','6','7','8','9'].map((t,i)=>`<circle cx="${50+(i%3)*14}" cy="${-176+Math.floor(i/3)*18}" r="4.6" fill="${G1}"/>`).join('')+'</g>'}
+function scaleP(x,y,sc,o){o=o||{};sc=sc||1;const t=o.tilt||0;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-40 0 h80 v-14 h-80Z',G4,3.4)+L('M0 -14 v-190',7)+`<g transform="rotate(${t} 0 -200)">`+L('M-170 -200 H170',7)+L('M-170 -200 l-30 70 M-170 -200 l30 70 M170 -200 l-30 70 M170 -200 l30 70',3.4)+P('M-205 -130 h70 q0 22 -35 22 t-35 -22Z',G2,3.4)+P('M135 -130 h70 q0 22 -35 22 t-35 -22Z',G2,3.4)+'</g>'+C(0,-204,12,YEL,3.6)+'</g>'}
+function drum(x,y,sc){sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+L('M-80 0 l-12 40 M80 0 l12 40',6,G5)+R(-90,-170,180,130,G3,26,4)+R(-72,-150,144,90,G1,18,2.6)+Array.from({length:8}).map((_,i)=>`<rect x="${-56+i*14}" y="${-130+(i%3)*18}" width="14" height="16" fill="#fff" stroke="${INK}" stroke-width="2" transform="rotate(${(i*23)%40-20} ${-50+i*14} ${-120})"/>`).join('')+C(0,-105,6,INK,0)+L('M92 -105 h30 v-22',6)+'</g>'}
+function tins(x,y,sc,labels){sc=sc||1;let s=`<g transform="translate(${x} ${y}) scale(${sc})">`;labels.forEach((t,i)=>{const ox=i*120;s+=P(`M${ox} 0 h96 v-110 h-96Z`,G2,3.4)+P(`M${ox-4} -110 h104 v-20 h-104Z`,G4,3.4)+P(`M${ox+8} -88 h80 v44 h-80Z`,'#fff',2.8)+t.split('|').map((l,j,a)=>T(ox+48,-68+(j-(a.length-1)/2)*17+6,l,{s:15,w:700,font:'Poppins'})).join('')});return s+'</g>'}
+function kiosk(x,y,sc,txt){sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-110 0 h220 v-170 h-220Z',G3,3.6)+P('M-130 -170 h260 v-30 h-260Z',G5,3.6)+`<rect x="-84" y="-140" width="168" height="62" fill="#fff" stroke="${INK}" stroke-width="3.2"/>`+P('M-120 -78 h240 v18 h-240Z',G2,3.4)+T(0,-180,txt||'KIOSK',{s:20,w:700,font:'Poppins',c:'#fff',ls:4})+'</g>'}
+function stall(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-80 -150 h160 l12 40 h-184Z',o.c||G4,3.4)+L('M-70 -110 v110 M70 -110 v110',6,G5)+P('M-80 -50 h160 v14 h-160Z',G3,3.4)+'</g>'}
+function pone(x,y,w,h,rot,inner){return `<g transform="translate(${x} ${y}) rotate(${rot||0})">`+`<rect x="${-w/2+5}" y="${-h/2+7}" width="${w}" height="${h}" fill="${INK}" opacity=".18"/>`+R(-w/2,-h/2,w,h,'#fff',2,3)+`<rect x="${-w/2+10}" y="${-h/2+10}" width="${w-20}" height="${h-44}" fill="${G1}" stroke="${INK}" stroke-width="2"/>`+(inner||'')+'</g>'}
+function tape(x,y,rot){return `<rect x="${x-26}" y="${y-9}" width="52" height="18" fill="${YEL}" opacity=".85" transform="rotate(${rot||0} ${x} ${y})"/>`}
+function mirrorP(x,y,w,h){return P(`M${x} ${y} h${w} v${h} h${-w}Z`,'#fff',5)+hatch(x,y,w,h,.07)+L(`M${x+14} ${y+h-16} l${w*0.3} ${-h*0.5}`,2.4,G2)}
+function couch(x,y,w){return P(`M${x} ${y} h${w} v-90 q0 -22 -22 -22 h${-(w-44)} q-22 0 -22 22Z`,G3,3.6)+P(`M${x-16} ${y} h${w+32} v-54 q0 -14 -14 -14 h${-(w+4)} q-14 0 -14 14Z`,G4,3.6)}
+function shelf(x,y,w){return P(`M${x} ${y} h${w} v12 h${-w}Z`,G4,3.4)}
+function vase(x,y,sc,h2){sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P(`M-24 0 q-8 -${h2*0.3} 0 -${h2*0.55} q-10 -${h2*0.2} 4 -${h2*0.4} h40 q14 ${h2*0.2} 4 ${h2*0.4} q8 ${h2*0.25} 0 ${h2*0.55}Z`,G2,3.4)+'</g>'}
+function tag(x,y,txt){return P(`M${x-34} ${y-12} h68 v24 h-68Z`,'#fff',2.6)+T(x,y+6,txt,{s:14,w:700,font:'Poppins'})}
+function speech(x,y,w,h,txt,o){o=o||{};return P(`M${x} ${y} h${w} v${h} h${-w*0.6} l-14 20 l4 -20 h${-w*0.4+10}Z`,'#fff',3)+T(x+w/2,y+h/2+7,txt,{s:o.s||20,italic:1})}
+function tnum(x,y,txt,s2){return T(x,y,txt,{s:s2||26,w:700,font:'Poppins'})}
+function stairs(x,y,n,sw,sh){let s='';for(let i=0;i<n;i++)s+=P(`M${x+i*sw} ${y-i*sh} h${sw} v${sh} h${-sw}Z`,G2,3);return s}
+function doorP(x,y,w,h,o){o=o||{};return P(`M${x} ${y} h${w} v${-h} h${-w}Z`,o.c||G3,3.6)+`<circle cx="${x+w-14}" cy="${y-h/2}" r="5" fill="${INK}"/>`+(o.n?T(x+w/2,y-h+34,o.n,{s:o.s||26,w:700,font:'Poppins'}):'')}
+function coins(x,y,n){let s='';for(let i=0;i<n;i++)s+=E(x+(i%4)*8,y-i*7,20,7,YEL,2.6);return s}
+function rathaus(x,y,sc,h,m){sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-170 0 h340 v-230 h-340Z',G2,3.6)+P('M-80 -230 h160 v-110 h-160Z',G3,3.6)+P('M-100 -340 L0 -420 L100 -340Z',G5,3.6)+clockP(0,-290,40,h,m,{nums:false})+Array.from({length:6}).map((_,i)=>P(`M${-140+i*52} -60 h30 v-90 h-30Z`,'#fff',2.8)).join('')+P('M-28 0 h56 v-70 h-56Z',G5,3)+'</g>'}
+function sunP(x,y,r){return C(x,y,r,YEL,3.4)}
+// Kapitel- und Spezialbilder werden unten registriert
+const SC={};
+// ---------- Kapitel 1 ----------
+SC['01']=()=>SVGS(bgKitchen()+P('M580 270 h110 v22 h-110Z',G3,3)+cakeP(635,266,.9,{piece:1})+f('hilde',860,{mood:'happy',look:-1})+f('anna',150,{look:1})+f('ben',320,{mood:'think',look:1})+f('carla',470,{look:1}));
+SC['02']=()=>SVGS(bgLiving()+shelf(80,330,260)+vase(130,330,1,70)+vase(210,330,.9,90)+vase(290,330,.85,60)+f('elif',820,{mood:'worried',armL:'hips',armR:'hips',look:-1})+f('lea',200,{y:565,mood:'think',look:1})+f('tom',400,{look:1})+f('max',580,{mood:'happy'}));
+SC['03']=()=>SVGS(bgDoener()+tableP(540,400,250,100,{cloth:G1})+f('kemal',230,{items:[['ladle','R']]})+f('can',420,{})+f('ali',620,{items:[]})+f('peter',780,{items:[]})+`<g transform="translate(900 0)">`+`</g>`);
+SC['04']=()=>SVGS(bgNight()+house(30,150,300,320,{rows:3,cols:3,c:G5,roof:true})+house(360,190,260,280,{rows:3,cols:3,c:G5})+house(660,130,320,340,{rows:3,cols:3,c:G5})+'<rect width="1000" height="620" fill="#000" opacity=".28"/>'+f('hans',330,{items:[['torch','R']],armR:'hold',look:1})+f('brandt',620,{look:-1}));
+SC['05']=()=>SVGS(bgStreet()+bike(480,520,2.3,{lock:1})+f('hilde',220,{mood:'think',look:1,tilt:-2})+f('anna',770,{look:-1,mood:'think'}));
+SC['06']=()=>SVGS(bgTrain({tunnel:1})+f('carla',180,{y:470,h:260,items:[['phone','R']],armR:'phone',mood:'worried'})+f('lars',810,{y:470,h:280})+f('peter',690,{y:470,h:300}));
+// 07 Hinweisbild: Auto im Schnee
+SC['07']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/><rect y="400" width="1000" height="220" fill="#fff"/>`+L('M0 400 H1000',3.4)+Array.from({length:14}).map((_,i)=>L(`M${i*80} ${420+(i%3)*30} h40`,2,G2)).join('')
+  +`<path d="M0 400 q60 -26 120 0 t140 -4 L380 440 H640 L700 400 q60 -26 120 0 t200 0 V620 H0Z" fill="#fff" stroke="${INK}" stroke-width="3.2"/>`
+  +`<rect x="380" y="440" width="260" height="22" fill="${G2}" stroke="${INK}" stroke-width="3"/>`+car(510,560,1.7,{snow:1,c:G4})+f('peter',860,{y:575,items:[['broom','R']],armR:'hold',mood:'happy',h:360})
+  +`<g opacity=".95">${Array.from({length:30}).map((_,i)=>`<circle cx="${(i*83)%1000}" cy="${(i*47)%380}" r="3" fill="#fff" stroke="${G3}" stroke-width="1"/>`).join('')}</g>`);
+SC['08']=()=>SVGS(bgGarden()+E(300,505,170,40,G2,4)+`<path d="M130 505 q170 -30 340 0" fill="none" stroke="${G4}" stroke-width="3"/>`+f('carla',300,{y:515,h:170,mood:'happy',look:1})+tableP(620,440,200,90)+f('hilde',860,{look:-1})+f('mehmet',500,{y:570,look:-1})+L('M0 440 H1000',3));
+SC['09']=()=>SVGS(bgBath()+mirrorP(380,100,240,240)+P('M400 120 h60 v52 h-60Z','#fff',2.8)+L('M410 134 h40 M410 148 h34 M410 160 h28',2.6,G3)+tape(430,118,-6)+f('anna',250,{mood:'think',look:1,y:570})+f('ben',720,{mood:'happy',look:-1,y:570}));
+SC['10']=()=>SVGS(bgLibrary()+tableP(380,400,300,90,{})+`<path d="M300 560 q60 -30 120 0 q-60 14 -120 0Z" fill="${G2}" stroke="${INK}" stroke-width="3"/>`+f('igor',540,{y:520,h:310,mood:'happy'})+f('lars',160,{mood:'worried',look:1})+f('brandt',830,{look:-1}));
+// 11 Hinweisbild Postkarte
+SC['11']=()=>{const card=(x,y,rot,front)=>`<g transform="translate(${x} ${y}) rotate(${rot})"><rect x="8" y="10" width="360" height="250" fill="${INK}" opacity=".16"/>`+R(0,0,360,250,'#fff',4,4)+(front?`<rect x="14" y="14" width="332" height="222" fill="${G1}" stroke="${INK}" stroke-width="2.4"/>`+sunP(280,64,28)+L('M14 170 q40 -26 80 0 t90 0 t80 0 t82 0',3.4,G4)+`<rect x="14" y="170" width="332" height="66" fill="${G2}"/>`+L('M14 170 q40 -26 80 0 t90 0 t80 0 t82 0',3,INK)+L('M40 210 q30 -18 60 0 t60 0 t60 0',2.6,G4)+T(180,120,'Grüße aus Palma',{s:30,italic:1,w:700})+L('M60 150 h50',3):`<line x1="180" y1="20" x2="180" y2="230" stroke="${INK}" stroke-width="2.4"/>`+T(98,70,'Grüße aus Palma!',{s:17,italic:1})+T(98,98,'Dein Dragan',{s:17,italic:1})+L('M26 132 h138 M26 156 h138 M26 180 h138',2,G3)+P('M250 22 h84 v96 h-84Z',G1,3)+L('M260 34 h64 M260 108 h64',2,G4)+T(292,76,'Deutsche',{s:11,w:700,font:'Poppins'})+T(292,92,'Post',{s:11,w:700,font:'Poppins'})+`<g transform="rotate(-8 270 170)"><ellipse cx="262" cy="168" rx="70" ry="30" fill="none" stroke="${INK}" stroke-width="3"/>`+T(262,164,'Briefzentrum 80',{s:13,w:700,font:'Poppins'})+T(262,182,'Mittwoch',{s:13,w:700,font:'Poppins'})+`</g>`)+'</g>';
+  return SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+card(70,170,-4,true)+card(560,200,3,false)+T(250,470,'Vorderseite',{s:22,font:'Poppins',w:700,c:G5})+T(740,500,'Rückseite',{s:22,font:'Poppins',w:700,c:G5}))};
+SC['12']=()=>SVGS(bgPizzeria()+tableP(300,420,440,90,{cloth:G1})+pizzaP(520,415,100,8)+f('luigi',150,{items:[['knife','R']],mood:'happy'})+f('ben',350,{y:570,look:1})+f('lea',520,{y:570,mood:'happy',look:-1})+f('tom',690,{y:570,look:-1}));
+SC['13']=()=>SVGS(bgStreet({sky:G0})+f('greta',250,{mood:'worried',look:1})+dog(430,566,1.3,{kind:'dackel',collar:1,sleep:0})+f('lars',700,{look:-1})+f('mia',860,{look:-1})+f('frank',590,{y:565,look:1}));
+// 14 Hinweisbild: Fenster innen/aussen
+SC['14']=()=>{const L2=`<g>`+`<rect x="0" y="0" width="500" height="620" fill="${G1}"/>`+P('M70 80 h320 v320 h-320Z',G3,4)+`<path d="M90 100 h120 l-30 80 l46 -20 l-30 120 h-106Z" fill="#fff" stroke="${INK}" stroke-width="3" stroke-linejoin="round"/>`+`<path d="M230 100 h140 v280 h-140Z" fill="none" stroke="${INK}" stroke-width="3"/>`+`<rect y="460" width="500" height="160" fill="${G2}"/>`+L('M0 460 H500',3.4)
+    +Array.from({length:22}).map((_,i)=>`<path d="M${40+(i*53)%420} ${470+(i*37)%120} l8 -12 l10 8 l-6 12Z" fill="#fff" stroke="${INK}" stroke-width="2.4" stroke-linejoin="round"/>`).join('')+T(250,590,'AUSSEN',{s:20,w:700,font:'Poppins',ls:6,c:G5})+'</g>';
+  const R2=`<g transform="translate(500 0)">`+`<rect width="500" height="620" fill="${G0}"/>`+P('M70 80 h320 v320 h-320Z',G1,4)+`<path d="M90 100 h120 l-30 80 l46 -20 l-30 120 h-106Z" fill="#fff" stroke="${INK}" stroke-width="3" stroke-linejoin="round"/>`+`<rect y="460" width="500" height="160" fill="${G2}"/>`+L('M0 460 H500',3.4)+Array.from({length:8}).map((_,i)=>L(`M${i*70} 460 L${i*95-60} 620`,1.6,G3)).join('')+P('M230 400 h160 v60 h-160Z',G4,3.4)+T(250,590,'INNEN',{s:20,w:700,font:'Poppins',ls:6,c:G5})+'</g>';
+  return SVGS(L2+R2+`<rect x="494" width="12" height="620" fill="${INK}"/>`)};
+SC['15']=()=>SVGS(bgMarket({h:10,m:20,stalls:false})+kiosk(560,470,1.1,'BUS')+P('M820 470 v-250',0)+L('M840 470 v-230',6,G5)+P('M800 210 h86 v50 h-86Z',YEL,3.6)+T(843,246,'3',{s:34,w:700,font:'Poppins'})+f('zeynep',260,{look:1})+f('brandt',420,{look:-1}));
+SC['16']=()=>SVGS(bgLiving()+couch(60,470,340)+f('luigi',250,{items:[['heft','R']],armR:'hold',y:540,mood:'happy'})+doorP(650,470,130,320)+f('brandt',900,{look:-1,tilt:2}));
+// 17 Hinweisbild: Selfie
+SC['17']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+`<g transform="translate(180 40)">`+R(0,0,640,540,'#fff',34,6)+`<rect x="22" y="30" width="596" height="470" fill="${G0}" stroke="${INK}" stroke-width="3"/>`+`<clipPath id="cl17"><rect x="22" y="30" width="596" height="470"/></clipPath><g clip-path="url(#cl17)">`+`<rect x="22" y="30" width="596" height="470" fill="${G1}"/>`+rathaus(430,460,.95,4,15)+`<rect x="22" y="440" width="596" height="60" fill="${G2}"/>`+L('M22 440 H618',3)+`<g transform="translate(0 0)">`+f('mia',190,{y:560,h:430,mood:'happy',look:0,armR:'phone'})+`</g>`+P('M270 440 h54 v28 q-27 12 -54 0Z','#fff',3.2)+`</g>`+`</g>`);
+SC['18']=()=>SVGS(bgDoener()+counter(300,350,500,120)+R(560,306,80,44,G4,5,3)+f('can',420,{y:350,h:330,items:[]})+f('ben',650,{look:-1,mood:'worried',y:570})+f('kemal',150,{items:[['ladle','R']],y:565})+coins(740,350,4));
+SC['19']=()=>SVGS(bgStreet()+f('brandt',330,{look:1,armR:'hold',mood:'think',tilt:3})+f('anna',670,{look:-1,mood:'happy'})+P('M510 330 h40 v54 h-40Z','#fff',3));
+SC['20']=()=>SVGS(bgBakery()+f('mehmet',260,{items:[['bag','R']],armR:'hold'})+f('ben',720,{look:-1,mood:'happy',y:570})+bag(520,470,1.8));
+SC['21']=()=>SVGS(bgGarden()+house(540,130,380,340,{rows:2,cols:3,c:G2,rh:90})+doorP(690,470,70,150)+bottle(760,470,1.6)+bottle(800,470,1.6)+bottle(840,470,1.6)+f('igor',360,{look:1,mood:'sleep'})+f('brandt',160,{look:-1}));
+SC['22']=()=>SVGS(bgLiving()+tableP(280,400,360,100,{cloth:G1})+C(460,398,38,G1,3.4)+T(460,408,'🍓',{s:20})+f('hilde',700,{mood:'happy',look:-1})+f('anna',120,{look:1,mood:'think'})+f('carla',280,{y:575,look:1})+f('ben',620,{y:575,look:-1,tilt:-2})+f('tom',860,{y:575,look:-1}));
+// ---------- Kapitel 2 ----------
+SC['23']=()=>SVGS(bgMarket({h:5,m:45})+kiosk(300,470,1.1,'KIOSK')+f('luigi',640,{look:-1,mood:'worried',items:[]})+f('emre',800,{look:-1})+f('zeynep',130,{look:1}));
+SC['24']=()=>SVGS(bgLiving()+f('anna',350,{look:1,mood:'think'})+f('ben',640,{look:-1,mood:'think'})+`<g transform="rotate(-6 500 400)">`+R(440,360,120,80,'#fff',3,3.4)+L('M450 380 h60 M450 396 h48',2.6,G3)+`</g>`);
+SC['25']=()=>SVGS(bgDoener()+counter(300,350,500,120)+coins(600,350,6)+coins(650,350,4)+f('kemal',470,{y:360,h:330,mood:'think',look:1,armR:'chin',items:[]})+tableP(70,400,170,90,{cloth:G1}));
+SC['26']=()=>SVGS(bgDoener({name:'KEMALS DÖNER'})+tableP(270,410,460,100,{cloth:G1})+f('ali',320,{y:560,look:1})+f('ben',470,{y:560,mood:'think'})+f('carla',620,{y:560,look:-1})+f('emre',770,{y:560,look:-1})+f('kemal',110,{items:[['ladle','R']],y:565}));
+SC['27']=()=>SVGS(bgSchool({t:'GYMNASIUM'})+`<rect x="420" y="480" width="170" height="20" fill="none" stroke="${INK}" stroke-width="3" stroke-dasharray="14 10"/>`+f('ali',90,{look:1,mood:'happy'})+f('mia',250,{})+f('peter',780,{look:-1})+f('zeynep',930,{look:-1,items:[]}));
+SC['28']=()=>SVGS(bgKitchen()+tins(380,370,1.3,['CHILI','PFEFFER','CHILI &amp;|PFEFFER'])+f('kemal',150,{mood:'laugh',items:[['ladle','R']]})+f('brandt',840,{look:-1,mood:'think'}));
+SC['29']=()=>SVGS(bgLiving()+couch(300,480,380)+f('ben',420,{y:540,items:[['phone','R']],armR:'phone',mood:'think',look:1})+f('hilde',700,{y:540,mood:'happy',look:-1}));
+SC['30']=()=>SVGS(bgCinema()+counter(380,350,380,120)+tag(570,300,'AB 16')+f('kassierer',560,{y:350,h:330,mood:'think'})+f('ayse',200,{look:1,mood:'happy'})+f('defne',330,{look:1}));
+SC['31']=()=>SVGS(bgBasement()+f('dragan',420,{items:[['phone','R']],armR:'phone',look:-1})+f('brandt',700,{look:1,mood:'think'})+R(120,430,120,44,G4,4,3.4)+L('M150 430 q30 -30 60 0',5));
+// 32 Hinweisbild: Spiegel mit Uhr ohne Ziffern
+SC['32']=()=>SVGS(bgBath()+mirrorP(300,40,400,420)+`<g>`+clockP(560,160,64,9.67,40,{nums:false})+f('can',380,{y:480,h:330,items:[['phone','R']],armR:'phone',mood:'happy',look:1})+`</g>`);
+SC['33']=()=>SVGS(bgHall()+cupboard(380,150,280,320,2)+`<g transform="translate(520 330)"><rect x="-34" y="-40" width="68" height="80" rx="10" fill="${G5}" stroke="${INK}" stroke-width="3.4"/>${['4','7','2'].map((t,i)=>`<rect x="${-24+i*17}" y="-24" width="15" height="34" rx="3" fill="#fff" stroke="${INK}" stroke-width="2.2"/>`).join('')}</g>`+f('hans',230,{look:1,mood:'think'})+f('anna',810,{look:-1,mood:'happy'}));
+SC['34']=()=>SVGS(bgDoener()+grill(250,470,2)+f('kemal',560,{mood:'think',items:[['ladle','R']]})+f('luigi',780,{look:-1,mood:'happy'}));
+SC['35']=()=>SVGS(bgLiving()+`<path d="M480 0 v100 h-0" fill="none"/>`+P('M420 40 q40 60 90 30 q30 40 50 -10 q-70 -70 -140 -20Z',G2,3)+Array.from({length:3}).map((_,i)=>`<path d="M${470+i*40} ${100+i*8} q-8 20 0 30 q8 -10 0 -30Z" fill="#fff" stroke="${INK}" stroke-width="2.6"/>`).join('')+f('hans',280,{look:-1,mood:'think',tilt:-3})+f('brandt',680,{look:-1}));
+SC['36']=()=>SVGS(bgNight()+`<g>${Array.from({length:7}).map((_,i)=>L(`M${120+i*120} ${300-(i%3)*40} l${(i%2?30:-30)} -60 M${120+i*120} ${300-(i%3)*40} l${(i%2?-20:20)} -76 M${120+i*120} ${300-(i%3)*40} l0 -90`,4,'#fff')).join('')}</g>`+f('tom',330,{mood:'happy',look:1,items:[['cake','R']].slice(0,0)})+f('anna',640,{mood:'think',armL:'cross',armR:'cross',look:-1}));
+SC['37']=()=>SVGS(bgLiving()+P('M420 470 h160 v14 h-160Z',G3,3)+T(500,482,'WILLKOMMEN',{s:12,font:'Poppins',w:700})+f('hans',120,{look:1})+f('zeynep',300,{look:-1})+f('can',680,{look:-1})+f('luigi',820,{look:-1})+f('ayse',560,{look:1,y:560,h:270}));
+SC['38']=()=>SVGS(bgCinema()+f('mia',320,{mood:'happy',look:1})+f('brandt',680,{look:-1,mood:'think'}));
+SC['39']=()=>SVGS(bgMountain()+L('M620 215 v-60 M598 178 h44',6,INK)+f('lars',360,{y:560,items:[['phone','L']],armL:'phone',mood:'happy',look:1})+f('brandt',700,{look:-1,mood:'think'}));
+SC['40']=()=>SVGS(bgLiving()+tableP(260,400,480,100,{cloth:G1})+cakeP(500,398,1.2,{})+`<rect x="440" y="320" width="120" height="20" fill="${G6}" opacity=".5"/>`+f('hilde',130,{mood:'worried',look:1})+f('ayse',380,{y:575,look:1})+f('luigi',620,{y:575,look:-1})+f('mehmet',850,{look:-1}));
+SC['41']=()=>SVGS(bgHall()+tableP(280,420,440,90,{cloth:G1})+P('M470 372 h60 v6 h-60Z',G1,2.8)+f('hilde',120,{mood:'sad',look:1})+f('ayse',280,{y:575,look:1})+f('defne',430,{y:575})+f('emre',600,{y:575,look:-1})+f('mehmet',840,{look:-1}));
+SC['42']=()=>SVGS(bgStreet()+f('hilde',860,{y:300,h:130,mood:'happy'})+L('M820 300 h80',5,G4)+f('ben',360,{y:565,items:[['bag','R']],armR:'hold',stride:14,look:-1,mood:'happy'})+f('anna',620,{look:-1,mood:'think'}));
+SC['43']=()=>SVGS(bgBasement()+P('M340 120 h320 v300 h-320Z',G5,4)+[0,1,2].map(i=>`<rect x="${400+i*80}" y="230" width="46" height="90" rx="6" fill="${G1}" stroke="${INK}" stroke-width="3.2"/><rect x="${411+i*80}" y="${i===1?248:276}" width="24" height="34" rx="4" fill="${G4}" stroke="${INK}" stroke-width="2.4"/>`).join('')+f('brandt',700,{look:-1,mood:'think',armR:'chin',items:[]})+L('M170 420 v-300',5,G5)+C(170,100,26,G1,3.4));
+SC['44']=()=>SVGS(bgKitchen()+C(560,355,110,G1,4)+C(560,355,90,G2,3)+f('hilde',280,{items:[['knife','L']],armL:'hold',armR:'down',look:1,mood:'think'})+f('anna',780,{look:-1,mood:'happy'}));
+SC['45']=()=>SVGS(bgHall()+f('mehmet',360,{look:1,mood:'happy',items:[]})+f('brandt',680,{look:-1,mood:'think'})+`<g transform="rotate(4 520 400)">`+R(460,360,100,70,'#fff',3,3.4)+L('M472 380 h72 M472 394 h56 M472 408 h64',2.6,G3)+`</g>`);
+// 46 Hinweisbild: Gretas Kueche, Abreisskalender
+SC['46']=()=>SVGS(bgKitchen()+`<g transform="translate(700 90)">`+L('M60 -10 v20',5)+R(0,10,130,180,'#fff',6,4)+P('M0 10 h130 v50 h-130Z',G4,3.6)+T(65,150,'Montag',{s:20,w:700,font:'Poppins'})+T(65,40,'KALENDER',{s:12,w:700,font:'Poppins',c:'#fff',ls:2})+L('M6 196 l118 -2',2.4,G3)+`</g>`+`<g transform="translate(300 330)">`+P('M-58 0 h116 v-96 h-116Z',G4,3.6)+`<path d="M-62 -96 h124 l-20 -22 h-84Z" fill="${G3}" stroke="${INK}" stroke-width="3.4" stroke-linejoin="round"/>`+L('M-30 -140 q30 -40 60 0',4)+T(0,-44,'KEKSE',{s:16,w:700,font:'Poppins',c:'#fff',ls:2})+'</g>'+f('greta',160,{y:570,look:1,mood:'worried'})+f('jonas',860,{y:570,look:-1}));
+SC['47']=()=>SVGS(bgStreet()+house(560,130,380,340,{rows:2,cols:3,c:G2,rh:80})+doorP(710,470,70,150)+P('M705 480 h82 v14 h-82Z',G3,3)+f('lars',230,{items:[['scanner','L']],armL:'hold',look:-1,mood:'happy'})+f('greta',430,{look:1,mood:'worried'})+f('brandt',900,{look:-1,mood:'think',y:575}));
+SC['48']=()=>SVGS(bgBurg()+[0,1,2].map(i=>doorP(110+i*260,470,170,300,{c:G3,n:String(i+1),s:34})).join('')+f('kuno',200,{y:575,h:300})+f('bodo',460,{y:575,h:290})+f('gero',720,{y:575,h:300})+f('brandt',900,{y:575,h:280,items:[]}));
+SC['49']=()=>SVGS(bgGarden()+Array.from({length:11}).map((_,i)=>P(`M${i*95} 400 h70 v100 h-70Z`,G1,3)+'').join('')+`<path d="M0 405 L1000 405" stroke="${INK}" stroke-width="4"/>`+f('anna',320,{look:1,mood:'think',y:600})+f('brandt',700,{look:-1,mood:'think',y:600}));
+// 50 Hinweisbild: Windrose + Schatten
+SC['50']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+E(560,420,280,110,G2,4)+E(560,420,226,86,'#fff',3)+L('M560 310 v220 M300 420 h520',3.4,G4)+T(560,320,'N',{s:30,w:700,font:'Poppins'})+T(560,512,'S',{s:30,w:700,font:'Poppins'})+T(808,432,'O',{s:30,w:700,font:'Poppins'})+T(318,432,'W',{s:30,w:700,font:'Poppins'})+`<path d="M520 408 L110 330 L70 372 L520 440Z" fill="${INK}" opacity=".5"/>`+f('emre',560,{y:430,h:240,mood:'happy',look:0}));
+SC['51']=()=>SVGS(bgCinema()+`<g transform="translate(500 470)">`+P('M-70 0 h140 v-86 q0 -16 -16 -16 h-108 q-16 0 -16 16Z',G5,3.6)+`</g>`+P('M120 470 v-110 h60 v110Z',G4,3.4)+f('brandt',700,{y:575,look:-1,mood:'think'})+f('anna',300,{y:575,look:1,mood:'happy'}));
+SC['52']=()=>SVGS(bgKitchen()+`<g transform="translate(700 470)">`+P('M-60 0 h120 v-150 q0 -20 -20 -20 h-80 q-20 0 -20 20Z',G2,3.6)+T(0,-80,'AYRAN',{s:20,w:700,font:'Poppins'})+`</g>`+`<g transform="translate(450 470)">`+P('M-52 0 h104 v-120 h-104Z','#fff',3.6)+T(0,-56,'5 L',{s:30,w:700,font:'Poppins'})+`</g><g transform="translate(580 470)">`+P('M-40 0 h80 v-90 h-80Z','#fff',3.6)+T(0,-40,'3 L',{s:26,w:700,font:'Poppins'})+`</g>`+f('kemal',200,{mood:'think',look:1})+f('can',880,{y:570,look:-1}));
+SC['53']=()=>SVGS(bgNight()+`<rect width="1000" height="620" fill="#000" opacity=".12"/>`+P('M700 470 v-260 h90 v260Z',G5,3.6)+P('M690 210 L745 90 L800 210Z',G4,3.6)+clockP(745,260,30,9,3,{nums:false})+P('M640 20 l-40 100 l36 4 l-30 84 l78 -112 l-40 -4 l40 -72Z',YEL,3.4)+f('hans',200,{look:1,mood:'worried'})+f('igor',380,{look:-1,mood:'worried',y:565})+f('brandt',540,{look:-1,mood:'think'}));
+SC['54']=()=>SVGS(bgStage()+P('M440 380 h120 v90 h-120Z',G3,3.6)+P('M420 380 h160 v-12 h-160Z',G4,3.6)+f('can',130,{y:575,look:1})+f('mia',270,{y:575,look:1})+f('igor',730,{y:575,look:-1})+f('zeynep',860,{y:575,look:-1})+f('brandt',500,{y:575,h:330,look:0,mood:'think'}));
+SC['55']=()=>SVGS(bgMarket({h:10,m:0})+kiosk(300,470,1.1,'KIOSK')+f('brandt',700,{look:-1,mood:'think'})+`<g>`+R(780,260,150,110,G6,8,4)+L('M796 276 h118 v78 h-118Z',2.4,G4)+`</g>`);
+SC['56']=()=>SVGS(bgClass()+f('anna',200,{y:520,look:1,mood:'think',h:220})+f('ben',790,{y:520,look:-1,mood:'think',h:220})+`<g transform="rotate(-6 500 400)">`+R(450,340,100,70,'#fff',3,3.4)+L('M460 360 h80 M460 374 h60 M460 388 h72',2.6,G3)+`</g>`+f('brandt',500,{y:575,h:300,look:0,mood:'think'}));
+// 57 Hinweisbild: Auto innen
+SC['57']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+P('M40 430 h920 v100 h-920Z',G4,4)+P('M60 80 q0 -30 30 -30 h480 q40 0 60 30 l150 200 h120 v120 h-840Z',G0,4)+P('M60 200 q60 -80 140 -80 h130 v300 h-270Z','#fff',3.4)+`<path d="M600 440 q-60 -140 -150 -250 q-30 -40 -80 -50 q-40 0 -50 36 q-4 60 30 120 l50 120Z" fill="${G3}" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/>`+P('M420 90 h70 v94 h-70Z',G3,3.6)+`<g transform="translate(150 480)">`+R(-60,-42,280,56,G5,6,3.4)+`<path d="M10 -20 q30 -16 60 0 l10 34 h-86Z" fill="${INK}" opacity=".7"/>`+`</g>`+`<g transform="translate(680 520)">`+P('M-50 0 q-4 -24 6 -26 l60 2 q18 0 20 18 v6Z',G6,3.4)+L('M-50 -2 h86',3,G3)+`</g>`+T(500,590,'Fahrerfußmatte mit Abdruck',{s:18,italic:1,c:G5})+P('M100 360 h110 v70 h-110Z',G3,3.4));
+SC['58']=()=>SVGS(bgDoener({name:'KEMALS LADEN'})+scaleP(520,470,1.0,{tilt:0})+Array.from({length:12}).map((_,i)=>C(70+(i%6)*38,[440,490][Math.floor(i/6)],16,G3,3)+T(70+(i%6)*38,[446,496][Math.floor(i/6)],String(i+1),{s:14,w:700,font:'Poppins'})).join('')+f('kemal',140,{y:565,look:1,mood:'think'})+f('can',870,{y:570,look:-1,mood:'happy'}));
+SC['59']=()=>SVGS(bgMarket({stalls:false})+[0,1,2,3].map(i=>stall(210+i*190,470,.9,{c:[G3,G5,G4,G2][i]})).join('')+f('hilde',90,{y:570,look:1,mood:'happy'})+f('brandt',920,{y:575,look:-1,h:300}));
+SC['60']=()=>SVGS(bgPizzeria()+L('M300 170 v-70',4)+`<circle cx="300" cy="106" r="7" fill="none" stroke="${INK}" stroke-width="3"/>`+f('luigi',640,{mood:'grumpy',look:-1})+f('brandt',280,{look:1,mood:'think'}));
+// 61 Hinweisbild: Sportuhr
+SC['61']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+`<g transform="translate(250 30)">`+R(120,0,160,110,G5,40,4)+R(0,110,400,400,G6,60,5)+R(26,136,348,348,'#fff',44,3)+T(200,200,'Heute',{s:22,font:'Poppins',w:700,c:G5})+T(200,238,'20:00 bis 20:45 Uhr',{s:26,font:'Poppins',w:700})+T(200,316,'4.000',{s:70,font:'Poppins',w:700})+T(200,350,'Schritte',{s:22,font:'Poppins',c:G5})+L('M50 380 h300',2.6,G3)+T(200,426,'Schrittlänge: 75 cm',{s:22,font:'Poppins',w:700})+R(120,510,160,110,G5,40,4)+`</g>`+f('lars',860,{y:575,h:250,look:-1})+dog(750,575,.8,{kind:'bello'}));
+SC['62']=()=>SVGS(bgStage()+[1,2,3].map(i=>`<g transform="translate(${290+(i-1)*150} 280)">`+R(-56,0,112,190,G3,8,4)+T(0,62,String(i),{s:46,w:700,font:'Poppins'})+C(34,100,6,INK,0)+'</g>').join('')+f('moderator',130,{y:575,look:1})+f('mehmet',870,{y:575,mood:'think',look:-1}));
+// 63 Hinweisbild: Zettel + vier Haende
+SC['63']=()=>{const hand=(x,y,left,nm)=>`<g transform="translate(${x} ${y})">`+P(`M${left?-6:6} 40 l${left?-60:60} -48 l${left?-14:14} -26 q${left?-30:30} 4 ${left?-20:20} 28 l${left?40:-40} 56Z`,SKN.b,3.6)+L(`M${left?-70:70} -34 l${left?-44:44} -20`,5,G5)+`<rect x="-64" y="76" width="128" height="30" rx="6" fill="#fff" stroke="${INK}" stroke-width="3"/>`+T(0,98,nm,{s:16,w:700,font:'Poppins'})+`</g>`;
+  return SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+`<g transform="translate(30 70) rotate(-3)">`+R(0,0,420,470,'#fff',3,4)+L('M30 60 h330',3.6,G6)+[0,1,2,3,4].map(i=>`<g><text x="${36+i*7}" y="${130+i*66}" font-family="Lora" font-style="italic" font-size="26" fill="${INK}" opacity=".85" transform="skewX(${-18})">${['Die Anlage ist','in Sicherheit.','Ihr bekommt sie','zurück, wenn','ich es sage.'][i]}</text><rect x="${20+i*7}" y="${100+i*66}" width="350" height="16" fill="#fff" opacity=".6"/></g>`).join('')+`</g>`+hand(610,200,true,'AYŞE')+hand(860,200,false,'MEHMET')+hand(610,420,false,'MIA')+hand(860,420,false,'HANS'))};
+SC['64']=()=>SVGS(bgHall()+drum(500,470,1.4)+f('elif',130,{look:1})+f('greta',270,{look:1,y:570})+f('kemal',410,{y:575,look:1})+f('luigi',620,{y:575,look:-1})+f('mehmet',760,{y:575,look:-1})+f('anna',900,{look:-1,y:575}));
+SC['65']=()=>SVGS(bgDoener({name:'KEMALS LADEN'})+safeP(660,470,1.4)+f('can',320,{look:1,mood:'worried',y:570}));
+SC['66']=()=>SVGS(bgNight()+P('M0 470 L250 470 L250 620 L0 620Z',G6,3.4)+P('M750 470 L1000 470 L1000 620 L750 620Z',G6,3.4)+bridge(250,470,500)+f('hilde',90,{y:470,h:200,look:1})+f('anna',810,{y:470,h:190,look:-1})+f('ben',900,{y:470,h:190,look:-1})+f('brandt',160,{y:470,h:240,items:[['torch','R']],armR:'hold',look:1}));
+// ---------- Kapitel 4 ----------
+SC['67']=()=>SVGS(bgHall()+`<g transform="translate(0 20)">`+f('hilde',200,{y:545,look:1,mood:'happy'})+f('kemal',500,{y:545,look:-1})+f('luigi',680,{y:545})+f('zeynep',830,{y:545})+f('emre',960,{y:545,h:300})+`</g>`+'<rect width="1000" height="40" fill="none"/>');
+SC['68']=()=>SVGS(bgDoener({name:'KEMALS DÖNER'})+bunting(50,14)+`<g>`+['hilde','greta','anna','ben','carla','lea','tom'].map((k,i)=>f(k,90+i*130,{y:560+(i%2)*14,h:(F[k].h||300)*.92,mood:'laugh',look:(i%3)-1})).join('')+`</g>`+cakeP(500,420,1.8,{})+Array.from({length:7}).map((_,i)=>L(`M${430+i*20} 340 v-24`,3)+`<circle cx="${430+i*20}" cy="308" r="6" fill="${YEL}" stroke="${INK}" stroke-width="2.4"/>`).join('')+f('brandt',500,{y:575,items:[],armR:'up',mood:'laugh',h:340}));
+// ---------- Korrekturen nach erster Sichtung ----------
+SC['07']=()=>SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,400,.05)
+  +`<path d="M0 470 H230 V556 H790 V470 H1000 V620 H0Z" fill="#fff" stroke="${INK}" stroke-width="3.4" stroke-linejoin="round"/>`
+  +`<path d="M0 470 q40 -14 80 0 t90 -2 t70 2 M790 470 q40 -14 80 0 t90 -2 t60 2" fill="none" stroke="${INK}" stroke-width="3"/>`
+  +Array.from({length:12}).map((_,i)=>L(`M${40+i*80} ${500+(i%3)*30} h30`,2,G3)).join('')
+  +car(510,566,1.7,{snow:1,c:G4})
+  +f('peter',900,{y:600,items:[['broom','R']],armR:'hold',mood:'happy',h:360})
+  +Array.from({length:30}).map((_,i)=>`<circle cx="${(i*83)%1000}" cy="${(i*47)%420}" r="3" fill="#fff" stroke="${G3}" stroke-width="1"/>`).join(''));
+(function(){const o=SC['14'];SC['14']=()=>o().replace(/AUSSEN/,'AUSSEN').replace(/y="590"/,'y="606"')})();
+SC['18']=()=>SVGS(bgDoener()+f('can',560,{y:470,h:300,items:[],mood:'happy'})+counter(300,350,500,120)+R(560,306,80,44,G4,5,3)+coins(720,350,4)+f('ben',920,{look:-1,mood:'worried',y:575,h:232})+f('kemal',150,{items:[['ladle','R']],y:565}));
+SC['25']=()=>SVGS(bgDoener()+f('kemal',470,{y:470,h:310,mood:'think',look:1,armR:'chin',items:[]})+counter(300,350,500,120)+coins(600,350,6)+coins(660,350,4)+tableP(70,400,170,90,{cloth:G1}));
+SC['30']=()=>SVGS(bgCinema()+f('kassierer',560,{y:470,h:300,mood:'think'})+counter(380,350,380,120)+tag(570,320,'AB 16')+f('ayse',200,{look:1,mood:'happy'})+f('defne',330,{look:1}));
+SC['22']=()=>SVGS(bgLiving()+f('hilde',700,{y:480,mood:'happy',look:-1})+f('anna',250,{y:480,look:1,mood:'think'})+f('carla',390,{y:480,look:1})+f('ben',560,{y:480,look:-1})+f('tom',860,{y:480,look:-1})+tableP(180,440,640,110,{cloth:G1})+E(500,436,60,16,G1,3.4)+E(500,430,48,10,G3,2.6));
+SC['28']=()=>SVGS(bgKitchen()+tins(330,370,1.3,['CHILI','PFEFFER','CHILI &amp;|PFEFFER'])+f('kemal',140,{mood:'laugh',items:[['ladle','R']]})+f('brandt',900,{look:-1,mood:'think'}));
+SC['36']=()=>{const burst=(x,y,r,n)=>Array.from({length:n}).map((_,i)=>{const a=i*2*Math.PI/n;return L(`M${x+Math.cos(a)*r*.35} ${y+Math.sin(a)*r*.35} L${x+Math.cos(a)*r} ${y+Math.sin(a)*r}`,4,'#fff')+`<circle cx="${x+Math.cos(a)*(r+10)}" cy="${y+Math.sin(a)*(r+10)}" r="4" fill="${YEL}"/>`}).join('');
+  return SVGS(bgNight()+burst(200,170,80,12)+burst(520,120,100,14)+burst(820,200,70,10)+f('tom',330,{mood:'happy',look:1})+f('anna',640,{mood:'think',armL:'cross',armR:'cross',look:-1}))};
+SC['39']=()=>SVGS(bgMountain()+L('M470 88 v-52 M448 58 h44',6,INK)+f('lars',360,{y:560,items:[['phone','L']],armL:'phone',mood:'happy',look:1})+f('brandt',700,{look:-1,mood:'think'}));
+SC['40']=()=>SVGS(bgLiving()+tableP(260,400,480,100,{cloth:G1})+cakeP(500,398,1.2,{})+f('hilde',130,{mood:'worried',look:1})+f('ayse',380,{y:575,look:1})+f('luigi',620,{y:575,look:-1})+f('mehmet',850,{look:-1}));
+SC['44']=()=>SVGS(bgKitchen()+f('hilde',300,{y:470,items:[['knife','L']],armL:'hold',armR:'down',look:1,mood:'think',h:260})+f('anna',760,{y:470,look:-1,mood:'happy',h:226})+counter(150,400,700,70)+E(500,382,110,24,G1,4)+E(500,376,92,18,G2,3)+L('M500 358 v36 M440 380 h120 M456 364 l88 32',2.4,G4));
+SC['55']=()=>SVGS(bgMarket({h:10,m:0})+kiosk(300,470,1.1,'KIOSK')+f('brandt',700,{look:-1,mood:'think'}));
+SC['56']=()=>SVGS(bgClass().replace(/<g>[^]*?<\/g>/,'')+f('anna',200,{y:520,look:1,mood:'think',h:220})+f('ben',790,{y:520,look:-1,mood:'think',h:220})+`<g transform="rotate(-6 500 400)">`+R(450,340,100,70,'#fff',3,3.4)+L('M460 360 h80 M460 374 h60 M460 388 h72',2.6,G3)+`</g>`+f('brandt',500,{y:575,h:300,look:0,mood:'think'}));
+SC['57']=()=>{const sole=(sx,fill,tr)=>`<path d="M0 0 q0 -50 40 -50 q40 0 40 50 q0 72 -12 140 q-5 44 -28 44 q-23 0 -28 -44 q-12 -68 -12 -140Z" fill="${fill}" stroke="${INK}" stroke-width="${3.4/sx}" stroke-linejoin="round"/>`+(tr?Array.from({length:7}).map((_,i)=>L(`M14 ${20+i*24} h52`,3/sx,G1)).join(''):'');
+  return SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)
+  +P('M30 500 V240 L140 130 H620 Q690 130 690 210 V500Z',G0,4)+P('M150 150 H610 Q670 150 670 210 V330 H190Z','#fff',3.2)
+  +L('M30 500 H690',4)+R(30,440,690,60,G3,0,3.6)
+  +L('M150 340 L98 420',9,G5)+`<ellipse cx="160" cy="305" rx="16" ry="58" transform="rotate(14 160 305)" fill="none" stroke="${INK}" stroke-width="7"/>`+R(180,452,48,18,G5,6,3)
+  +P('M300 440 h160 v-36 q0 -12 -12 -12 h-136 q-12 0 -12 12Z',G4,3.6)
+  +P('M456 396 L488 190 q8 -32 40 -28 q30 4 26 42 L534 440Z',G4,3.6)
+  +R(486,96,60,70,G3,14,3.6)+L('M514 166 v26',6)
+  +P('M570 440 h150 v-30 q0 -12 -12 -12 h-126Z',G3,3.4)+R(596,378,86,26,YEL,8,3.4)+P('M700 410 L712 240 h28 v200Z',G4,3.4)
+  +R(740,110,250,400,G2,22,4)+T(865,150,'Fahrerfußmatte',{s:19,w:700,font:'Poppins',c:G5})
+  +`<g transform="translate(790 190)">`+sole(1,G5,true)+`</g>`+`<g transform="translate(900 270) scale(.5)">`+sole(.5,'#fff',false)+`</g>`+T(938,490,'Mias Schuh',{s:15,w:700,font:'Poppins'}))};
+SC['58']=()=>SVGS(bgDoener({name:'KEMALS LADEN'})+scaleP(330,470,.95,{tilt:0})+Array.from({length:12}).map((_,i)=>C(520+i*30,308,13,G3,3)+T(520+i*30,314,String(i+1),{s:12,w:700,font:'Poppins'})).join('')+f('kemal',90,{y:565,look:1,mood:'think'})+f('can',930,{y:570,look:-1,mood:'happy'}));
+SC['63']=()=>{const hand=(x,y,left,nm)=>{const s=left?-1:1;return `<g transform="translate(${x} ${y})">`+limb(`M${s*130} 100 L${s*30} 18`,SKN.b,34)+limb(`M${s*190} 150 L${s*96} 70`,G4,50)+C(0,0,28,SKN.b,3.6)+L(`M${-s*14} -2 L${-s*52} -64`,6,INK)+C(-s*20,-14,12,SKN.b,3)+`<rect x="-64" y="92" width="128" height="30" rx="6" fill="#fff" stroke="${INK}" stroke-width="3"/>`+T(0,114,nm,{s:16,w:700,font:'Poppins'})+`</g>`};
+  return SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+`<g transform="translate(30 70) rotate(-3)">`+R(0,0,420,470,'#fff',3,4)+L('M30 60 h330',3.6,G6)+[0,1,2,3,4].map(i=>`<text transform="translate(${44+i*6} ${130+i*66}) skewX(-30)" font-family="Lora" font-style="italic" font-size="27" fill="${INK}" opacity=".9">${['Die Anlage ist','in Sicherheit.','Ihr bekommt sie','zurück, wenn','ich es sage.'][i]}</text>`).join('')+`</g>`+hand(640,190,true,'AYŞE')+hand(880,190,false,'MEHMET')+hand(640,410,false,'MIA')+hand(880,410,false,'HANS'))};
+SC['68']=()=>SVGS(bgDoener({name:' '})+bunting(50,14)+`<g>`+['hilde','greta','anna','ben','carla','lea','tom'].map((k,i)=>f(k,90+i*130,{y:560+(i%2)*14,h:(F[k].h||300)*.92,mood:'laugh',look:(i%3)-1})).join('')+`</g>`+cakeP(500,420,1.8,{})+Array.from({length:7}).map((_,i)=>L(`M${430+i*20} 340 v-24`,3)+`<circle cx="${430+i*20}" cy="308" r="6" fill="${YEL}" stroke="${INK}" stroke-width="2.4"/>`).join('')+f('brandt',500,{y:575,items:[],armR:'up',mood:'laugh',h:340}));
+SC['63']=()=>{const hand=(x,y,left,nm)=>{const s=left?-1:1;return `<g transform="translate(${x} ${y}) scale(.82)">`+limb(`M${s*130} 100 L${s*30} 18`,SKN.b,34)+limb(`M${s*190} 150 L${s*96} 70`,G4,50)+C(0,0,28,SKN.b,3.6)+L(`M${-s*14} -2 L${-s*52} -64`,6,INK)+C(-s*20,-14,12,SKN.b,3)+`<rect x="-64" y="92" width="128" height="30" rx="6" fill="#fff" stroke="${INK}" stroke-width="3"/>`+T(0,114,nm,{s:16,w:700,font:'Poppins'})+`</g>`};
+  return SVGS(`<rect width="1000" height="620" fill="${G1}"/>`+hatch(0,0,1000,620,.05)+`<g transform="translate(30 70) rotate(-3)">`+R(0,0,420,470,'#fff',3,4)+L('M30 60 h330',3.6,G6)+[0,1,2,3,4].map(i=>`<text transform="translate(${44+i*6} ${130+i*66}) skewX(-30)" font-family="Lora" font-style="italic" font-size="27" fill="${INK}" opacity=".9">${['Die Anlage ist','in Sicherheit.','Ihr bekommt sie','zurück, wenn','ich es sage.'][i]}</text>`).join('')+`</g>`+hand(610,200,true,'AYŞE')+hand(820,200,false,'MEHMET')+hand(610,420,false,'MIA')+hand(820,420,false,'HANS'))};
+(function(){const o=SC['57'];SC['57']=()=>o().replace('translate(790 190)','translate(790 232)').replace('translate(900 270) scale(.5)','translate(900 310) scale(.5)')})();
+SC['68']=()=>SVGS(bgDoener({name:' '})+bunting(50,14)+['hilde','greta','anna','ben','carla','lea','tom'].map((k,i)=>f(k,70+i*100,{y:560+(i%2)*14,h:(F[k].h||300)*.92,mood:'laugh',look:(i%3)-1})).join('')+cakeP(900,336,1,{})+Array.from({length:7}).map((_,i)=>L(`M${868+i*11} 296 v-18`,3)+`<circle cx="${868+i*11}" cy="274" r="5" fill="${YEL}" stroke="${INK}" stroke-width="2.2"/>`).join('')+f('brandt',790,{y:575,items:[],armR:'up',mood:'laugh',h:340}));
+</script>
+<script>
+const s='<svg viewBox="0 0 1000 1446" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="1000" height="1446" fill="#F6C431"/>'
++T(460,120,'DAS RÄTSELBUCH ZUM KANAL KNOBELZEIT',{s:25,w:700,font:'Poppins',ls:4,c:'#1E1E1E'})
++'<g transform="rotate(-4 460 330)"><rect x="40" y="170" width="840" height="330" rx="14" fill="#1E1E1E"/>'+T(460,330,'KNOBEL',{s:168,w:700,font:'Poppins',c:'#fff',ls:6})+T(460,478,'ZEIT',{s:168,w:700,font:'Poppins',c:'#F6C431',ls:30})+'</g>'
++T(460,640,'67 Krimi- und Logikrätsel',{s:54,font:'Lora',italic:1,w:500})+T(460,704,'für die ganze Familie',{s:54,font:'Lora',italic:1,w:500})
++T(460,766,'Mit Herrn Brandt auf Spurensuche · ab 10 Jahren',{s:25,font:'Poppins',w:500,c:'#1E1E1E'})
++'<circle cx="790" cy="905" r="80" fill="#fff" stroke="#1E1E1E" stroke-width="12"/><path d="M846 962 L920 1040" stroke="#1E1E1E" stroke-width="26" stroke-linecap="round"/>'+T(790,945,'?',{s:110,font:'Poppins',w:700})
++'<path d="M0 1365 H1000" stroke="#1E1E1E" stroke-width="4"/>'
++fig('ben',100,1365,{h:290})+fig('anna',215,1365,{h:282})+fig('luigi',330,1365,{h:380})+fig('brandt',490,1365,{h:520,look:0})+fig('hilde',665,1365,{h:320})+fig('kemal',810,1365,{h:380})+'</svg>';
+document.getElementById('front').innerHTML=s;
+</script></body></html>

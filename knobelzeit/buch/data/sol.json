@@ -1,0 +1,688 @@
+{
+ "01": {
+  "n": "01",
+  "title": "Der Kuchendieb",
+  "paras": [
+   "Carla. Wäre es Anna, sagten Ben und Carla die Wahrheit. Wäre es Ben, sagten Anna und Carla die Wahrheit. Nur bei Carla ist genau ein Satz wahr: der von Ben."
+  ],
+  "trail": "Anna zeigt auf Ben, und Ben ist bekanntlich immer hungrig. Diesmal war er es nicht.",
+  "mark": "W",
+  "epilog": ""
+ },
+ "02": {
+  "n": "02",
+  "title": "Scherben im Wohnzimmer",
+  "paras": [
+   "Tom. Mama hat nur „die Vase\" gesagt, nicht welche. Die Scherben sind weg, die heilen Vasen im Schrank. Dass es die blaue war, kann nur wissen, wer dabei war."
+  ],
+  "trail": "Max hat mit dem Ball gespielt, und Bälle zerbrechen gern Vasen. Aber an seiner Aussage ist nichts falsch. Nur Tom weiß etwas, das er nicht wissen kann.",
+  "mark": "E",
+  "epilog": ""
+ },
+ "03": {
+  "n": "03",
+  "title": "Wer hat den Döner nicht bezahlt?",
+  "paras": [
+   "Peter. Mit Karte zahlen ging seit Montag nicht, das Gerät ist kaputt. Ali hat einen Bon, Luigis Geld liegt unter dem Teller."
+  ],
+  "trail": "Luigi rennt weg und wirkt verdächtig. Aber er hat bezahlt, und sein Ofen brennt wirklich an.",
+  "mark": "R",
+  "epilog": ""
+ },
+ "04": {
+  "n": "04",
+  "title": "Stromausfall in der Lindenstraße",
+  "paras": [
+   "Um 20 Uhr gab es in der ganzen Lindenstraße keinen Strom. Hans kann zu Hause nicht ferngesehen haben."
+  ],
+  "trail": "Das Ergebnis stimmt wirklich. Aber das kann man am nächsten Morgen überall nachlesen.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "05": {
+  "n": "05",
+  "title": "Omas Fahrradschloss",
+  "paras": [
+   "462. Aus 6x = 12 folgt x = 2. Erste Ziffer 4, mittlere 6, letzte 2."
+  ],
+  "trail": "Wer mit der mittleren Ziffer anfängt, verrennt sich schnell. „Oma, ein Dieb mit Stift braucht dafür auch nur eine Minute.\"",
+  "mark": "A",
+  "epilog": ""
+ },
+ "06": {
+  "n": "06",
+  "title": "Dunkelheit im Tunnel",
+  "paras": [
+   "Emre. Der Zug war die ganze Zeit im Tunnel. Da gab es keine Berge zu sehen, nur Schwarz."
+  ],
+  "trail": "Peter war ganz in der Nähe und hätte Zeit gehabt. Aber seine Geschichte ist möglich, Emres nicht.",
+  "mark": "T",
+  "epilog": ""
+ },
+ "07": {
+  "n": "07",
+  "title": "Schnee unter dem Auto",
+  "paras": [
+   "Am Schnee unter dem Auto. Hätte das Auto seit gestern Abend dort gestanden, wäre der Boden darunter trocken geblieben. Unter dem Auto liegt aber etwas Schnee, nur viel weniger als auf der Straße. Peter hat also geparkt, als es schon eine Weile schneite, kurz vor acht. Am Morgen war er unterwegs."
+  ],
+  "trail": "Der Schnee auf dem Dach beweist gar nichts. Ein bisschen Schnee landet auf jedem Auto, das bei Schneefall parkt.",
+  "mark": "B",
+  "epilog": ""
+ },
+ "08": {
+  "n": "08",
+  "title": "Eis in der Hitze",
+  "paras": [
+   "Mehmets. Nach zwanzig Minuten in der Sonne wäre das Eis weich. Steinhart ist es nur frisch aus der Tiefkühltruhe, zum Beispiel aus seiner eigenen Wohnung nebenan. Er war um 15 Uhr also nicht am Bahnhof."
+  ],
+  "trail": "Carlas nasse Haare passen zu ihrer Geschichte.",
+  "mark": "R",
+  "epilog": ""
+ },
+ "09": {
+  "n": "09",
+  "title": "Der Zettel am Spiegel",
+  "paras": [
+   "DER SCHATZ LIEGT IM KELLER. Der ganze Satz ist rückwärts geschrieben."
+  ],
+  "trail": "Wer jedes Wort einzeln umdreht, aber die Reihenfolge lässt, bekommt „KELLER IM LIEGT SCHATZ DER\". Fast richtig.",
+  "mark": "A",
+  "epilog": ""
+ },
+ "10": {
+  "n": "10",
+  "title": "Der nasse Regenschirm",
+  "paras": [
+   "Igor. Sein Schirm tropft. Den hat er also nach 14 Uhr draußen im Regen benutzt. Er war nicht „keine Minute draußen\"."
+  ],
+  "trail": "Lars ist klatschnass und kam gerade von draußen. Das passt aber genau zu seiner Geschichte.",
+  "mark": "N",
+  "epilog": ""
+ },
+ "11": {
+  "n": "11",
+  "title": "Grüße aus Mallorca",
+  "paras": [
+   "Die Karte wurde in Deutschland abgeschickt. Aus Spanien bräuchte sie eine spanische Briefmarke und einen spanischen Stempel. „Briefzentrum 80\" ist München. Dragan war am Mittwoch also hier."
+  ],
+  "trail": "Das Strandfoto beweist gar nichts. Postkarten mit Strand kann man überall kaufen.",
+  "mark": "D",
+  "epilog": ""
+ },
+ "12": {
+  "n": "12",
+  "title": "Pizza bei Luigi",
+  "paras": [
+   "4 Stücke. Für Ben und Tom bleiben 6. Tom hat x, Ben 2x, zusammen 3x = 6. Tom hatte 2, Ben 4. Mit 3 Stücken hätte Tom eineinhalb gehabt, und Luigi schneidet keine halben Stücke."
+  ],
+  "trail": "3 klingt nach einem fairen Drittel von 8. Darum lügt Ben genau so.",
+  "mark": "T",
+  "epilog": ""
+ },
+ "13": {
+  "n": "13",
+  "title": "Der Hund, der nicht bellte",
+  "paras": [
+   "Frank. Bruno bellt bei allen außer der Familie. Er blieb still, also war es jemand aus der Familie. Frank gibt es zu: Er wollte die alte Kanne heimlich polieren lassen, als Geschenk zu Gretas Geburtstag. (Brandts Klassiker, frei nach Sherlock Holmes.)"
+  ],
+  "trail": "Mia ist neu und unbekannt, Lars kommt oft vorbei. Bei beiden hätte Bruno gebellt.",
+  "mark": "S",
+  "epilog": ""
+ },
+ "14": {
+  "n": "14",
+  "title": "Scherben auf dem Rasen",
+  "paras": [
+   "Die Scheibe wurde von innen eingeschlagen. Scherben fliegen in die Richtung des Schlags. Wäre der Dieb von draußen gekommen, lägen sie drinnen. Jemand wollte nur einen Einbruch vortäuschen."
+  ],
+  "trail": "Die Zacken im Rahmen zeigen nur, dass die Scheibe kaputt ist, nicht von welcher Seite.",
+  "mark": "N",
+  "epilog": ""
+ },
+ "15": {
+  "n": "15",
+  "title": "Das Busticket",
+  "paras": [
+   "Zeynep ist erst um 10:42 Uhr am Rathaus eingestiegen. Um 10:20 Uhr saß er also nicht im Bus. Sein Alibi für die Tatzeit platzt."
+  ],
+  "trail": "Das Ticket ist echt, und darum fühlt Zeynep sich sicher. Aber echte Beweise können auch gegen einen sprechen.",
+  "mark": "O",
+  "epilog": ""
+ },
+ "16": {
+  "n": "16",
+  "title": "Die neue Kerze",
+  "paras": [
+   "Seit 20 Uhr. Abgebrannt sind 2 cm, dafür braucht die Kerze eine Stunde. Hätte sie seit sechs gebrannt, wäre sie nur noch 14 cm lang. Luigi kam also erst gegen acht nach Hause."
+  ],
+  "trail": "Das aufgeschlagene Buch wirkt gemütlich, beweist aber nichts.",
+  "mark": "T",
+  "epilog": ""
+ },
+ "17": {
+  "n": "17",
+  "title": "Das Selfie mit der Turmuhr",
+  "paras": [
+   "Das Foto zeigt Viertel nach vier, nicht zwölf. Es ist zu einer anderen Zeit entstanden und beweist nichts über 12 Uhr. Mia hat ein altes Foto gezeigt."
+  ],
+  "trail": "Der Cappuccino sieht frisch aus. Das sagt aber nichts über die Uhrzeit.",
+  "mark": "I",
+  "epilog": ""
+ },
+ "18": {
+  "n": "18",
+  "title": "Das Wechselgeld",
+  "paras": [
+   "10,70 €. Döner und Ayran kosten zusammen 9,30 €. 20 € minus 9,30 € sind 10,70 €. Ben hat recht, Can hat einen Euro zu wenig rausgegeben."
+  ],
+  "trail": "9,70 € sieht fast aus wie der Preis, 9,30 €. Genau da hat Can sich vertan.",
+  "mark": "Z",
+  "epilog": ""
+ },
+ "19": {
+  "n": "19",
+  "title": "Brandts Einkaufszettel",
+  "paras": [
+   "Am KIOSK. Die Anfangsbuchstaben der Zeilen ergeben von oben nach unten das Wort."
+  ],
+  "trail": "Kartoffeln, Oliven und Kürbis klingen nach Markt. Aber zum Markt geht Herr Brandt diesmal nicht.",
+  "mark": "B",
+  "epilog": ""
+ },
+ "20": {
+  "n": "20",
+  "title": "Ein Brötchen zu wenig",
+  "paras": [
+   "Eins. Die volle Tüte müsste 730 Gramm wiegen. Es fehlen 60 Gramm, also genau ein Brötchen."
+  ],
+  "trail": "Die vollen Backen verraten Ben schon. Aber nur die Waage verrät, wie viele.",
+  "mark": "U",
+  "epilog": ""
+ },
+ "21": {
+  "n": "21",
+  "title": "Drei volle Milchflaschen",
+  "paras": [
+   "Drei Flaschen heißt: Mittwoch, Donnerstag und Freitag hat niemand die Milch reingeholt. Igor war seit Mittwochmorgen nicht zu Hause. Er kann den Mann am Mittwoch nicht vom Fenster aus gesehen haben."
+  ],
+  "trail": "Die blaue Jacke klingt nach einem echten Hinweis, ist aber erfunden.",
+  "mark": "C",
+  "epilog": ""
+ },
+ "22": {
+  "n": "22",
+  "title": "Wer kam zuerst?",
+  "paras": [
+   "Anna. Die Reihenfolge ist Anna, Tom, Ben, Carla. Ben und Carla müssen direkt hintereinander kommen. Tom ist nicht Letzter und kommt nach Anna. Das passt nur, wenn Anna Erste und Tom Zweiter ist."
+  ],
+  "trail": "Tom kam schon als Zweiter. Aber da war die Schale bereits leer.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "23": {
+  "n": "23",
+  "title": "Der Samstagsbus",
+  "paras": [
+   "Emres. Den Bus um 17:40 Uhr gibt es nur von Montag bis Freitag. Samstags fährt die 7 um 17:20 und 17:50 Uhr."
+  ],
+  "trail": "Luigis Pizzeria liegt direkt neben dem Kiosk. Nähe allein beweist nichts, und seine Gäste können ihn bestätigen.",
+  "mark": "E",
+  "epilog": ""
+ },
+ "24": {
+  "n": "24",
+  "title": "Brandts Postkarte",
+  "paras": [
+   "DER SCHLUESSEL LIEGT UNTER DEM ROTEN BLUMENTOPF. B wird zu E, also jeden Buchstaben drei Plätze zurückschieben: G wird D, H wird E, U wird R."
+  ],
+  "trail": "Wer die Buchstaben vorwärts statt rückwärts schiebt, bekommt Unsinn.",
+  "mark": "S",
+  "epilog": ""
+ },
+ "25": {
+  "n": "25",
+  "title": "Kassensturz bei Kemal",
+  "paras": [
+   "Morgens 11, abends 7. Morgens: 11 × 2 € + 9 × 1 € = 31 €. Abends: 7 × 2 € + 13 × 1 € = 27 €. Der Dieb hat 4 Zwei-Euro-Münzen genommen und 4 Ein-Euro-Münzen hineingelegt, damit die Anzahl stimmt."
+  ],
+  "trail": "„Es fehlen 4 Euro, also fehlen 4 Münzen.\" Nein, es sind ja noch genau 20.",
+  "mark": "G",
+  "epilog": ""
+ },
+ "26": {
+  "n": "26",
+  "title": "Vier Bestellungen an Tisch 4",
+  "paras": [
+   "Ali. Aus 1, 4 und 6: Falafel mit Wasser, Pide mit Tee, Lahmacun mit Cola, also Döner mit Ayran, und das ist Carla. Emre: keine Pide, kein Wasser, also Lahmacun mit Cola. Ben: keine Falafel, also Pide mit Tee. Für Ali bleiben Falafel und Wasser."
+  ],
+  "trail": "Emre ist als Erster weg und wirkt verdächtig. Aber er trank Cola, kein Wasser.",
+  "mark": "E",
+  "epilog": ""
+ },
+ "27": {
+  "n": "27",
+  "title": "Wer hat den Roller genommen?",
+  "paras": [
+   "Ali. Dann stimmen Mias und Zeyneps Sätze, genau zwei. Wäre es Mia, wären drei Sätze wahr (Ali, Peter, Zeynep). Wäre es Peter, wäre keiner wahr. Wäre es Zeynep, nur ihrer."
+  ],
+  "trail": "Zwei Leute zeigen auf Mia. Mehrheit ist aber kein Beweis.",
+  "mark": "S",
+  "epilog": ""
+ },
+ "28": {
+  "n": "28",
+  "title": "Die verflixten Gewürzdosen",
+  "paras": [
+   "Aus der Dose „gemischt\". Sie enthält nur eine Sorte. Schmeckt die Prise nach Chili, ist das die Chilidose. Die Dose „Pfeffer\" kann dann weder Pfeffer (Schild falsch) noch Chili (schon vergeben) enthalten, also ist sie gemischt. Bleibt „Chili\": Darin ist Pfeffer. Schmeckt es nach Pfeffer, gilt alles umgekehrt."
+  ],
+  "trail": "Aus „Chili\" zu probieren hilft nicht: Findet man Pfeffer, weiß man nicht, ob die Dose nur Pfeffer oder gemischt enthält.",
+  "mark": "C",
+  "epilog": ""
+ },
+ "29": {
+  "n": "29",
+  "title": "Die alte SMS",
+  "paras": [
+   "An der BRÜCKE (BRUECKE). 22 = B, 777 = R, 88 = U, 33 = E, 222 = C, 55 = K, 33 = E."
+  ],
+  "trail": "Wer jede Ziffer einzeln nimmt, bekommt nur Buchstabensalat.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "30": {
+  "n": "30",
+  "title": "Kinokasse",
+  "paras": [
+   "Defne ist genau 16, Ayşe 48. In sechzehn Jahren ist Defne 32 und Ayşe 64, also doppelt so alt. Sie dürfen rein."
+  ],
+  "trail": "Viele denken, Ayşe wolle schummeln. Diesmal stimmt alles.",
+  "mark": "A",
+  "epilog": ""
+ },
+ "31": {
+  "n": "31",
+  "title": "Anruf nach New York",
+  "paras": [
+   "In New York war es 3 Uhr nachts. Da sitzt niemand beim Mittagessen in der Firma. Dragans Telefonat ist erfunden."
+  ],
+  "trail": "Ein Telefonat lässt sich prüfen, darum klingt es glaubwürdig. Aber erst rechnen, dann glauben.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "32": {
+  "n": "32",
+  "title": "Die Uhr im Spiegel",
+  "paras": [
+   "Im Spiegel ist die Uhr seitenverkehrt. Was im Spiegel wie 9:40 aussieht, ist in Wirklichkeit 2:20 Uhr (oder 14:20 Uhr). Das Foto ist also um 2:20 Uhr entstanden und sagt nichts darüber, wo Can um 9:40 Uhr war."
+  ],
+  "trail": "Das Foto ist echt und unbearbeitet. Es zeigt nur eine andere Uhrzeit, als Can glaubt.",
+  "mark": "N",
+  "epilog": ""
+ },
+ "33": {
+  "n": "33",
+  "title": "Das Zahlenschloss im Vereinsheim",
+  "paras": [
+   "697. Die 1 fällt weg: Bei 147 stünde sie richtig vorne, dann stünde sie auch bei 189 richtig, dort heißt es aber falsche Stelle. Wäre die 4 in der Mitte richtig, kann die 9 nicht dabei sein (laut 189 müsste sie vorne stehen, laut 964 steht sie dort falsch). Dann müssten aus 189 die 8 und aus 964 die 6 stimmen, und 286 hätte zwei richtige Ziffern statt einer. Also steht die 7 hinten, und die 4 fällt weg. Bei 964 stimmen dann 9 und 6, beide an falscher Stelle: Die 6 kann nicht in die Mitte, also steht vorne die 6 und in der Mitte die 9. Probe 189: Die 9 stimmt, steht dort hinten und gehört in die Mitte. Probe 286: Die 6 stimmt, steht hinten und gehört nach vorne."
+  ],
+  "trail": "Die 8 taucht zweimal auf und wirkt wichtig. Sie ist gar nicht dabei.",
+  "mark": "A",
+  "epilog": ""
+ },
+ "34": {
+  "n": "34",
+  "title": "Kemals Spieße",
+  "paras": [
+   "Ja, 15 Minuten. Minute 0 bis 5: Spieß A und B, je Seite 1. Minute 5 bis 10: A Seite 2 und C Seite 1, B wartet. Minute 10 bis 15: B Seite 2 und C Seite 2. Der Grill ist nie halb leer."
+  ],
+  "trail": "„Erst zwei fertig, dann der dritte\" dauert 20 Minuten, weil der Grill am Ende halb leer steht.",
+  "mark": "C",
+  "epilog": ""
+ },
+ "35": {
+  "n": "35",
+  "title": "Der Wasserfleck",
+  "paras": [
+   "Peter. Mia wohnt im 3. Stock, Greta im 5., Peter im 4., Igor im 2. Wohnte Mia im 2. Stock, wäre Greta im 4., Peter müsste in den 3. und Igor in den 5. Aber Peter wohnt höher als Igor. Das geht nicht."
+  ],
+  "trail": "Greta wohnt auch über Mia, aber zwei Stockwerke höher. Ihr Wasser müsste erst durch Peters Wohnung.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "36": {
+  "n": "36",
+  "title": "Der Silvester-Geburtstag",
+  "paras": [
+   "Ja, wenn er am 31. Dezember Geburtstag hat. Am 30.12. war er 9, am 31.12. wurde er 10. Dieses Jahr wird er am 31.12. 11, nächstes Jahr am 31.12. 12."
+  ],
+  "trail": "Drei Jahre in zwei Jahren klingt unmöglich. Der Trick ist der Tag, an dem Tom es sagt.",
+  "mark": "Z",
+  "epilog": ""
+ },
+ "37": {
+  "n": "37",
+  "title": "Wem gehört der Hund?",
+  "paras": [
+   "Luigi. Katze im 4. (Zeynep), also Hamster im 3. Luigi direkt über Can geht nur im 2. und 1. Stock. Ayşe bleibt der 3. Stock mit dem Hamster. Can im 1. Stock hat den Papagei. Für Luigi bleibt der Hund."
+  ],
+  "trail": "Ayşe wohnt direkt unter Zeyneps Katze, aber Katzen kauen keine Matten.",
+  "mark": "E",
+  "epilog": ""
+ },
+ "38": {
+  "n": "38",
+  "title": "Bis zum Abspann",
+  "paras": [
+   "Nein. Der Film beginnt nach der Werbung um 20:35 Uhr und endet um 22:25 Uhr. Mit 5 Minuten Heimweg wäre Mia frühestens um 22:30 Uhr zu Hause gewesen. Mia ist früher gegangen und erzählt nur nicht, wohin."
+  ],
+  "trail": "Wer 20:15 Uhr plus 1 Std. 50 Min. plus 5 Minuten Heimweg rechnet, landet genau bei 22:10 Uhr und glaubt Mia. Die Werbung vergisst man leicht.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "39": {
+  "n": "39",
+  "title": "Sonnenuntergang auf der Zugspitze",
+  "paras": [
+   "Mitte Dezember geht die Sonne in Bayern schon gegen halb fünf unter. Um sieben ist es längst stockdunkel. Lars hat keinen Sonnenuntergang um sieben fotografiert."
+  ],
+  "trail": "Auf einem Berg sieht man die Sonne etwas länger. Aber zweieinhalb Stunden länger? Nein.",
+  "mark": "N",
+  "epilog": ""
+ },
+ "40": {
+  "n": "40",
+  "title": "Die angebrannte Torte",
+  "paras": [
+   "Ayşe. Die Torte kam nicht mit dem Bus und nicht mit dem Fahrrad (das hatte der Salat), also mit dem Auto, und mit dem Auto kam Ayşe. Mehmet bringt kein Brot, also den Salat und kam mit dem Fahrrad. Luigi brachte das Brot mit dem Bus."
+  ],
+  "trail": "Mehmet ist Bäcker, also tippen viele auf ihn. Aber er hat diesmal den Salat mitgebracht.",
+  "mark": "N",
+  "epilog": ""
+ },
+ "41": {
+  "n": "41",
+  "title": "Das letzte Stück Käsesahne",
+  "paras": [
+   "Ayşe hat das Stück gegessen, und Defne schwindelt. Würde Mehmet lügen, hätte auch Emre gelogen, denn Emre sagt, Mehmet sei ehrlich. Das wären zwei Schwindler. Also sind Mehmet und Emre ehrlich, und Mehmet war es nicht. Damit stimmt auch Ayşes Satz. Der einzige Schwindler muss Defne sein: „Mama war's nicht\" ist falsch. Defne wollte ihre Mutter schützen."
+  ],
+  "trail": "Mehmet ist Bäcker und liebt Kuchen. Gerade deshalb tippen viele auf ihn.",
+  "mark": "A",
+  "epilog": ""
+ },
+ "42": {
+  "n": "42",
+  "title": "Der Weg zum Bäcker",
+  "paras": [
+   "Nein, 4 km/h. Bei 6 km braucht er hin 1 Stunde und zurück 2 Stunden: 12 km in 3 Stunden. Weil er viel länger langsam unterwegs ist, zieht das den Schnitt runter."
+  ],
+  "trail": "4,5 ist der Mittelwert der beiden Zahlen, aber nicht der Durchschnitt der Geschwindigkeit.",
+  "mark": "C",
+  "epilog": ""
+ },
+ "43": {
+  "n": "43",
+  "title": "Drei Schalter, eine Lampe",
+  "paras": [
+   "Schalter 1 einschalten und ein paar Minuten warten. Dann Schalter 1 aus, Schalter 2 an und sofort hoch. Brennt die Lampe: Schalter 2. Aus, aber warm: Schalter 1. Aus und kalt: Schalter 3."
+  ],
+  "trail": "Nur mit an und aus kann man drei Schalter nicht unterscheiden. Man braucht eine dritte Eigenschaft.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "44": {
+  "n": "44",
+  "title": "Die Torte in acht Stücken",
+  "paras": [
+   "Zwei Schnitte über Kreuz von oben, dann ein Schnitt waagerecht durch die Mitte, quer durch die Höhe der Torte. Vier Stücke oben, vier unten."
+  ],
+  "trail": "Drei Schnitte von oben ergeben höchstens sieben Stücke, und die sind nicht gleich groß.",
+  "mark": "A",
+  "epilog": ""
+ },
+ "45": {
+  "n": "45",
+  "title": "Die Kurtaxe",
+  "paras": [
+   "Nein. Zwei Personen und zwei Nächte wären 4 mal 3,50 €, also 14 €. Auf der Rechnung stehen nur 7 €, das ist genau eine Nacht zu zweit. Mehmet ist schon am Samstagmorgen abgereist und konnte am Abend längst wieder zu Hause sein."
+  ],
+  "trail": "Die Rechnung ist echt, mit Stempel und allem. Sie beweist nur etwas anderes, als Mehmet glaubt.",
+  "mark": "C",
+  "epilog": ""
+ },
+ "46": {
+  "n": "46",
+  "title": "Das Abreißkalenderblatt",
+  "paras": [
+   "Wäre niemand in der Wohnung gewesen, stünde der Kalender noch auf Freitag. Jemand hat die Blätter für Freitag, Samstag und Sonntag abgerissen, zuletzt am Montag. Den Schlüssel hat nur Jonas. Er war also doch in der Wohnung, aus reiner Gewohnheit hat er die Blätter abgerissen."
+  ],
+  "trail": "Ein Einbrecher reißt keine Kalenderblätter ab, und Spuren am Schloss gibt es keine.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "47": {
+  "n": "47",
+  "title": "Das Scanner-Protokoll",
+  "paras": [
+   "Lars war um 10:03 und um 10:07 Uhr in der Bahnhofstraße. Für die Fahrt zum Rosenweg und zurück bräuchte er 30 Minuten, nicht 4. Er hat Gretas Paket nur gescannt, aber nie hingebracht."
+  ],
+  "trail": "Das Protokoll sieht ordentlich aus, Zeile für Zeile. Gerade das macht es verdächtig.",
+  "mark": "T",
+  "epilog": ""
+ },
+ "48": {
+  "n": "48",
+  "title": "Das Burgverlies",
+  "paras": [
+   "Tür 1. Ist Kuno ehrlich, dann lügt Bodo. Gero und Kuno sind also verschieden, und Gero lügt. Lügt Kuno, dann ist Bodo ehrlich. Gero und Kuno sind also gleich, und Gero lügt auch. In beiden Fällen lügt Gero, also warten hinter Tür 1 keine Löwen. Wer Kuno und Bodo sind, bleibt offen. Für die Tür spielt es keine Rolle."
+  ],
+  "trail": "Fast alle versuchen zuerst herauszufinden, wer von Kuno und Bodo lügt. Das geht gar nicht, und man braucht es auch nicht.",
+  "mark": "D",
+  "epilog": ""
+ },
+ "49": {
+  "n": "49",
+  "title": "Die Geheimschrift am Gartenzaun",
+  "paras": [
+   "IM BOOTSHAUS AM SEE. Obere Reihe: I B O S A S M E. Untere Reihe: M O T H U A S E. Abwechselnd gelesen: I, M, B, O, O, T, S, H, A, U, S, A, M, S, E, E."
+  ],
+  "trail": "Rückwärts lesen oder Buchstaben verschieben bringt nur Salat. Der Schlüssel ist das Bild, nicht die Buchstaben.",
+  "mark": "I",
+  "epilog": ""
+ },
+ "50": {
+  "n": "50",
+  "title": "Der Schatten auf dem Foto",
+  "paras": [
+   "Das Foto ist am Morgen entstanden. Morgens steht die Sonne im Osten, der Schatten zeigt nach Westen und ist lang. Mittags steht die Sonne hoch im Süden, dann ist der Schatten kurz und zeigt nach Norden. Emres Schatten ist lang und zeigt nach Westen. Mit dem Auto konnte Emre bis zwölf längst wieder am See sein. Sein Foto ist kein Alibi."
+  ],
+  "trail": "Das Foto ist echt, und Emre war wirklich am Aussichtspunkt. Nur die Uhrzeit stimmt nicht.",
+  "mark": "E",
+  "epilog": ""
+ },
+ "51": {
+  "n": "51",
+  "title": "Popcorn im Kino",
+  "paras": [
+   "Max. Säße Anna auf Platz 6, säße Tom auf Platz 5 (Hinweis 2). Carla müsste rechts von Tom sitzen (Hinweis 4), also auf Platz 6, und der ist besetzt. Also sitzt Anna auf Platz 1, Tom auf Platz 2 und Max auf Platz 4 (Hinweis 3). Frei sind noch 3, 5 und 6. Ben sitzt direkt rechts neben Lea, das geht nur mit Lea auf 5 und Ben auf 6. Carla sitzt also auf Platz 3, und rechts neben ihr, auf Platz 4, saß Max."
+  ],
+  "trail": "Ben, der immer Hungrige, sitzt ganz am Rand. An den Eimer kam er gar nicht heran.",
+  "mark": "B",
+  "epilog": ""
+ },
+ "52": {
+  "n": "52",
+  "title": "Kemals Ayrankannen",
+  "paras": [
+   "In sechs Schritten. 1. Große Kanne füllen (5 und 0). 2. Damit die kleine füllen (2 und 3). 3. Kleine ausleeren (2 und 0). 4. Die 2 Liter in die kleine gießen (0 und 2). 5. Große wieder füllen (5 und 2). 6. Aus der großen die kleine voll machen, da passt nur noch 1 Liter hinein (4 und 3). In der großen Kanne sind genau 4 Liter."
+  ],
+  "trail": "„Die große zu vier Fünfteln füllen\" klappt ohne Striche nicht. Ohne Striche gibt es nur ganz voll oder ganz leer.",
+  "mark": "S",
+  "epilog": ""
+ },
+ "53": {
+  "n": "53",
+  "title": "Blitz und Donner",
+  "paras": [
+   "Das Licht des Blitzes ist sofort da, der Donner braucht Zeit. Aus drei Kilometern dauerte es neun Sekunden, das hat Igor gezählt. Hans hat Blitz und Donner aber gleichzeitig wahrgenommen. Das geht nur, wenn man direkt neben der Kirche steht. Hans war nicht zu Hause, sondern am Kirchplatz."
+  ],
+  "trail": "Hans ist klatschnass. Das beweist nichts, bei diesem Gewitter war jeder nass.",
+  "mark": "C",
+  "epilog": ""
+ },
+ "54": {
+  "n": "54",
+  "title": "Ein wahrer und ein falscher Satz",
+  "paras": [
+   "Can, und die Krone liegt auf dem Dachboden. Wäre es Igor, wären beide Sätze von Mia wahr. Also war es nicht Igor, Mias zweiter Satz ist falsch und ihr erster wahr: Mia war es nicht. Wäre es Zeynep, wären beide Sätze von Can wahr. Also bleibt nur Can. Dann ist Zeyneps „Ich war's\" falsch, also stimmt „nicht im Garten\". Igors „Ich war's nicht\" stimmt, also ist „im Keller\" falsch. Bleibt der Dachboden. Can wollte für die Kinder eine Schatzsuche vorbereiten."
+  ],
+  "trail": "Zeynep sagt „Ich war's\". Viele glauben ihr sofort. Aber das ist genau ihr falscher Satz.",
+  "mark": "H",
+  "epilog": ""
+ },
+ "55": {
+  "n": "55",
+  "title": "Der Weg durch die Stadt",
+  "paras": [
+   "Nur Luigi. Zeynep wäre frühestens um 10:02 Uhr am Kiosk, Kemal ebenfalls erst um 10:02 Uhr. Anna wäre um 9:59 Uhr am Kiosk, aber dann erst um 10:04 Uhr in der Bäckerei, eine Minute zu spät. Luigi: Bäckerei um 9:55 Uhr, Kiosk um 9:59 Uhr, um 10:00 Uhr der Griff in die Kasse, Bahnhof um 10:12 Uhr. Auf die Minute genau. Umwege helfen niemandem, jeder direkte Weg ist kürzer als ein Weg über einen dritten Ort."
+  ],
+  "trail": "Anna war am nächsten dran und hätte es fast geschafft. Fast reicht nicht.",
+  "mark": "R",
+  "epilog": ""
+ },
+ "56": {
+  "n": "56",
+  "title": "Das Zahlengitter",
+  "paras": [
+   "AM BRUNNEN UM VIER. Das Gitter lautet Reihe 1: B R A N D. Reihe 2: T C E F G. Reihe 3: H I K L M. Reihe 4: O P Q S U. Reihe 5: V W X Y Z. Dann ist 13 = A, 35 = M, 11 = B, 12 = R, 45 = U, 14 = N, 23 = E und so weiter."
+  ],
+  "trail": "Wer das Gitter einfach mit A, B, C beginnt, liest „CP ABUDDHD UP VMHB\". Ohne den Schlüssel geht es nicht.",
+  "mark": "E",
+  "epilog": ""
+ },
+ "57": {
+  "n": "57",
+  "title": "Der verstellte Fahrersitz",
+  "paras": [
+   "Peter. Mit 1,58 Metern kommt Mia bei ganz nach hinten geschobenem Sitz nicht an die Pedale, und ihr Sitzkissen liegt hinten. Die Kopfstütze ganz oben passt zu einem sehr großen Fahrer, und der riesige Schuhabdruck passt zu Größe 46, nicht zu 41. Mia wollte ihren Bruder schützen."
+  ],
+  "trail": "Mia hat den Autoschlüssel in der Tasche. Aber einen Schlüssel kann man weitergeben.",
+  "mark": "I",
+  "epilog": ""
+ },
+ "58": {
+  "n": "58",
+  "title": "Die zwölf Kugeln",
+  "paras": [
+   "Erste Wägung: 1, 2, 3, 4 gegen 5, 6, 7, 8.",
+   "Fall A, die Waage bleibt gerade: Die falsche ist unter 9 bis 12, und 1 bis 8 sind echt. Zweite Wägung: 9, 10, 11 gegen 1, 2, 3. Bleibt sie gerade, ist es die 12. Dritte Wägung: 12 gegen 1 zeigt, ob sie schwerer oder leichter ist. Kippt die Waage, weißt du, ob die falsche unter 9, 10, 11 schwerer oder leichter ist. Dritte Wägung: 9 gegen 10. Die passende Seite ist die falsche, bleibt sie gerade, ist es die 11.",
+   "Fall B, die linke Seite ist schwerer: Dann ist eine von 1 bis 4 zu schwer oder eine von 5 bis 8 zu leicht, und 9 bis 12 sind echt. Zweite Wägung: 1, 2, 5 gegen 3, 6, 9.",
+   "Links schwerer: 1 oder 2 ist zu schwer, oder 6 ist zu leicht. Dritte Wägung: 1 gegen 2. Die schwerere ist es, bleibt sie gerade, ist die 6 zu leicht.",
+   "Rechts schwerer: 3 ist zu schwer oder 5 zu leicht. Dritte Wägung: 3 gegen 9. Ist die 3 schwerer, ist sie es, sonst ist die 5 zu leicht.",
+   "Gerade: 4 ist zu schwer, oder 7 oder 8 ist zu leicht. Dritte Wägung: 7 gegen 8. Die leichtere ist es, bleibt sie gerade, ist die 4 zu schwer.",
+   "Fall C, die rechte Seite ist schwerer: genauso wie Fall B, nur mit vertauschten Seiten."
+  ],
+  "trail": "Sechs gegen sechs klingt gerecht, verschenkt aber eine ganze Wägung, weil man danach nicht weiß, ob die schwerere Seite eine schwere Kugel hat oder die leichtere eine leichte.",
+  "mark": "B",
+  "epilog": ""
+ },
+ "59": {
+  "n": "59",
+  "title": "Der Flohmarkt",
+  "paras": [
+   "Herr Sommer. Die Uhr kostet 20 Euro (1). Der Teddy kostet 5 Euro und liegt direkt links daneben (3). Stand 3 kostet 10 Euro, also stehen weder Uhr noch Teddy dort, und die Uhr steht nicht an Stand 4. Bleibt: Teddy an Stand 1, Uhr an Stand 2. Zeynep steht an 2 oder 3 (4). An Stand 2 kostet alles 20 Euro, da wäre sie nie billiger als Herr Sommer (6). Also steht Zeynep an Stand 3 mit 10 Euro und verkauft keine Lampe, also die Schallplatten. Die Lampe liegt an Stand 4 bei Dragan (2) für 15 Euro. Herr Sommer muss mehr als 10 Euro verlangen, also steht er an Stand 2 mit der Uhr. Oma Greta steht an Stand 1 mit dem Teddy."
+  ],
+  "trail": "Oma Greta steht direkt neben der Uhr und kennt Oma Hilde gut. Sie verkauft aber nur einen Teddy.",
+  "mark": "T",
+  "epilog": ""
+ },
+ "60": {
+  "n": "60",
+  "title": "Die falschen Uhren",
+  "paras": [
+   "Kemal. Echte Zeit der Tat: 18:20 minus 10 Minuten, also 18:10 Uhr. Kemal: Zeyneps Uhr zeigte 18:15 Uhr, echt war es 18:30 Uhr. Von der Pizzeria um 18:10 Uhr zum Markt braucht er 10 Minuten, das passt locker. Mehmet: Bon um 18:12 Uhr, echt 18:08 Uhr. Um 18:10 Uhr kann er nicht an der Pizzeria gewesen sein, er bräuchte 5 Minuten. Mia saß von 18:05 bis 18:20 Uhr im Taxi. Kemal gibt es zu: Die Glocke bimmelt den ganzen Tag, er wollte endlich einmal Ruhe beim Grillen."
+  ],
+  "trail": "Wer die Uhren nicht umrechnet, verdächtigt Mehmet: Bon um 18:12 Uhr plus 5 Minuten, und er wäre um 18:17 Uhr an der Pizzeria gewesen. Kemal dagegen scheint mit 18:15 Uhr plus 10 Minuten zu spät dran.",
+  "mark": "M",
+  "epilog": ""
+ },
+ "61": {
+  "n": "61",
+  "title": "Der Schrittzähler",
+  "paras": [
+   "Nein. 4.000 Schritte mal 75 Zentimeter sind 3.000 Meter, also 3 Kilometer. Drei Runden um den Block wären nur 900 Meter, das sind 1.200 Schritte. 3 Kilometer sind genau der Weg zum Marktplatz und zurück."
+  ],
+  "trail": "Lars ist Paketbote und läuft den ganzen Tag viel. Aber die Uhr zeigt nur die Schritte zwischen 20:00 und 20:45 Uhr.",
+  "mark": "I",
+  "epilog": ""
+ },
+ "62": {
+  "n": "62",
+  "title": "Die drei Schließfächer",
+  "paras": [
+   "Wechseln! Seine erste Wahl war nur in 1 von 3 Fällen richtig. In den anderen 2 von 3 Fällen lag das Gold in Fach 2 oder 3, und der Moderator hat das leere davon geöffnet. Dann liegt das Gold im verbliebenen Fach. Wer wechselt, gewinnt also in 2 von 3 Fällen. Mit 100 Fächern sieht man es sofort: Das erste Fach hatte eine Chance von 1 zu 100. Das eine Fach, das der Moderator übrig lässt, hat den ganzen Rest."
+  ],
+  "trail": "„Zwei Fächer, also fünfzig zu fünfzig.\" Das wäre richtig, wenn der Moderator zufällig öffnen würde. Er weiß aber, wo das Gold liegt. <b>Wusstest du?</b> Dieses Rätsel hat in den USA einmal eine riesige Leserbriefdebatte ausgelöst. Sogar Mathematiker lagen zuerst falsch.",
+  "mark": "T",
+  "epilog": ""
+ },
+ "63": {
+  "n": "63",
+  "title": "Der verschmierte Zettel",
+  "paras": [
+   "Ayşe. Wer mit rechts schreibt, hat die Hand rechts vom Stift, über dem leeren Papier. Wer mit links schreibt, zieht die Hand hinter dem Stift her, genau über die frische Tinte. Dabei verschmiert sie nach rechts. Nur Ayşe schreibt mit links. Sie gibt zu: In ihrem Zumbakurs friert sie seit Wochen."
+  ],
+  "trail": "Hans ist für die Heizung zuständig und hätte den besten Grund, sich zu ärgern. Aber er würde sich kaum selbst einen Beschwerdezettel schreiben.",
+  "mark": "L",
+  "epilog": ""
+ },
+ "64": {
+  "n": "64",
+  "title": "Die Tombola",
+  "paras": [
+   "Oma Greta hat das Los genommen. Geschwindelt haben Greta und Luigi. Mehmet sagt, Luigi lügt: Von den beiden schwindelt also genau einer. Elif und Greta können nicht beide recht haben, also schwindelt auch von ihnen genau eine. Das sind schon zwei Schwindler, Kemal sagt die Wahrheit: Greta lügt. Dann sagt Elif die Wahrheit, Greta war es. Luigis „Elif lügt\" ist falsch. Greta hatte ihm einen Wellnesstag versprochen, wenn er dichthält."
+  ],
+  "trail": "Greta zeigt auf Kemal, und der Satz klingt sehr bestimmt. Aber wer zuerst beschuldigt, ist nicht automatisch ehrlich.",
+  "mark": "I",
+  "epilog": ""
+ },
+ "65": {
+  "n": "65",
+  "title": "Der Tresor",
+  "paras": [
+   "8215. Aus 7 9 0 3 fallen 7, 9, 0 und 3 raus. Bei 3 2 1 0 bleiben nur 2 und 1, beide grün: Stelle 2 ist die 2, Stelle 3 die 1. Bei 1 7 4 0 ist die 1 das gelbe Lämpchen, also fällt auch die 4 raus. Bei 8 3 1 6 ist die 1 schon ein grünes Lämpchen, das zweite ist entweder die 8 vorne oder die 6 hinten. Bei 6 5 0 3 ist genau eine von 6 und 5 dabei. Wäre es die 6, müsste sie hinten stehen (vorne wäre sie bei 6 5 0 3 grün, die Mitte ist besetzt). Dann wäre bei 8 3 1 6 die 6 das zweite grüne Lämpchen, die 8 dürfte gar nicht dabei sein, und die 5 auch nicht. Für Stelle 1 bliebe keine Ziffer übrig. Also ist die 6 nicht dabei, die 8 steht vorne und die 5 ist dabei. Sie muss an Stelle 4 stehen."
+  ],
+  "trail": "Die 3 kommt in vier von fünf Versuchen vor und wirkt wichtig. Sie ist gar nicht dabei.",
+  "mark": "N",
+  "epilog": ""
+ },
+ "66": {
+  "n": "66",
+  "title": "Die Brücke bei Nacht",
+  "paras": [
+   "Anna und Ben gehen hinüber (2 Minuten). Anna bringt die Lampe zurück (1 Minute, zusammen 3). Oma Hilde und Herr Brandt gehen hinüber (10 Minuten, zusammen 13). Ben bringt die Lampe zurück (2 Minuten, zusammen 15). Anna und Ben gehen hinüber (2 Minuten, zusammen 17)."
+  ],
+  "trail": "„Anna ist die Schnellste, also bringt sie jedes Mal die Lampe zurück.\" Das dauert 19 Minuten, weil Oma Hilde und Herr Brandt dann einzeln laufen.",
+  "mark": "K",
+  "epilog": ""
+ },
+ "67": {
+  "n": "67",
+  "title": "Die Brosche von Oma Hilde",
+  "paras": [
+   "Zeynep. Um 15:00 Uhr war oben niemand, um 16:00 Uhr auch nicht. Zweimal Knarren heißt also: Eine Person ging um 15:20 Uhr hinauf und kam um 15:40 Uhr wieder herunter. Wären es zwei verschiedene Personen gewesen, wäre die erste um 16:00 Uhr noch oben. Zwischen 15:20 und 15:40 Uhr waren Emre (er fotografiert um 15:25 und 15:35 Uhr im Garten), Luigi (Foto um 15:25 Uhr) und Kemal (Foto um 15:35 Uhr) sicher unten. Bleibt Zeynep, und sie gibt selbst zu, um halb vier oben gewesen zu sein. Ihre „zwei Minuten\" sind gelogen. Dann hätte die Treppe zweimal kurz hintereinander geknarrt, nicht im Abstand von zwanzig Minuten."
+  ],
+  "trail": "Kemal war wirklich kurz weg. Aber nur am Auto, das Foto um 15:35 Uhr zeigt es.",
+  "mark": "S",
+  "epilog": ""
+ },
+ "68": {
+  "n": "68",
+  "title": "Brandts Notizbuch",
+  "paras": [
+   "Oma Hilde. Die Beweismarken aus Kapitel 2 sagen: ES GESCHAH NACH ZEHN NACH ACHT. Nach 20:10 Uhr waren nur noch Luigi, Oma Hilde und Hans in der Garderobe. Die Beweismarken aus Kapitel 3 sagen: DIEB SCHREIBT MIT LINKS. Luigi schreibt mit rechts. Hans hat zwar einen Gipsarm, aber den linken, und er schreibt mit rechts. Bleibt Oma Hilde."
+  ],
+  "trail": "Hans holt einen Autoschlüssel, obwohl er mit Gipsarm gar nicht fahren kann. Verdächtig, aber harmlos: Ayşe fährt ihn nach Hause, und er hat ihr den Schlüssel gebracht. Lars schreibt mit links, war aber schon um 20:02 Uhr in der Garderobe.",
+  "mark": "",
+  "epilog": "Oma Hilde lächelt und holt ein Päckchen unter dem Tisch hervor. „Dein Notizbuch hab ich nur kurz ausgeliehen. Ich hab all deine Fälle abgeschrieben und daraus ein Buch drucken lassen.\" Herr Brandt packt es aus. Auf dem gelben Umschlag steht: KNOBELZEIT. Genau das Buch, das du gerade in den Händen hältst."
+ }
+}

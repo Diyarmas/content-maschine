@@ -1,0 +1,10 @@
+// Inline-Dokumente (Zettel, Ticket, Gitter) fuer Einzelseiten
+const DOC={};
+function dsvg(w,h,inner){return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" style="width:100%;height:100%">${inner}</svg>`}
+DOC['03']={h:23,svg:()=>dsvg(1000,160,`<g transform="rotate(-1.6 500 80)"><rect x="40" y="16" width="920" height="120" fill="#fff" stroke="${INK}" stroke-width="4"/>`+T(500,92,'Kartengerät kaputt – nur Bargeld!',{s:52,italic:1,w:700})+`</g><rect x="440" y="2" width="120" height="28" fill="${YEL}" opacity=".9" transform="rotate(2 500 16)"/>`)};
+DOC['15']={h:28,svg:()=>dsvg(1000,220,`<path d="M40 20 h920 v68 a22 22 0 0 0 0 44 v68 h-920 v-68 a22 22 0 0 0 0 -44Z" fill="#fff" stroke="${INK}" stroke-width="4"/>`+T(110,70,'FAHRSCHEIN',{s:26,w:700,font:'Poppins',ls:4,a:'start'})+T(110,120,'Einzelfahrt · Stadtverkehr',{s:30,a:'start'})+L('M110 150 h520',2.6,G3)+`<g transform="rotate(-7 760 120)"><rect x="590" y="64" width="330" height="108" fill="none" stroke="${INK}" stroke-width="5"/>`+T(755,106,'Linie 3 · Rathaus',{s:32,w:700,font:'Poppins'})+T(755,150,'10:42',{s:46,w:700,font:'Poppins'})+`</g>`)};
+DOC['49']={h:26,svg:()=>{const pts=[];for(let i=0;i<9;i++)pts.push([140+i*90,i%2?210:60]);
+  return dsvg(1000,260,`<g transform="rotate(-1 500 130)"><rect x="30" y="6" width="940" height="248" fill="#fff" stroke="${INK}" stroke-width="4"/><polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/>`+pts.map(p=>`<circle cx="${p[0]}" cy="${p[1]}" r="12" fill="${INK}"/>`).join('')+`</g>`)}};
+DOC['56']={h:50,svg:()=>{let s='';const x0=300,y0=60,cs=76;for(let i=0;i<5;i++){s+=T(x0+cs/2+i*cs,y0-12,String(i+1),{s:30,w:700,font:'Poppins'})+T(x0-26,y0+cs/2+i*cs+10,String(i+1),{s:30,w:700,font:'Poppins'})}
+  for(let r=0;r<5;r++)for(let c=0;c<5;c++)s+=`<rect x="${x0+c*cs}" y="${y0+r*cs}" width="${cs}" height="${cs}" fill="#fff" stroke="${INK}" stroke-width="3"/>`;
+  return dsvg(1000,480,`<rect x="250" y="0" width="${cs*5+80}" height="${cs*5+80}" fill="${G0}" stroke="none"/>`+s+T(x0+cs*5+90,y0+10,'',{s:1}))}};

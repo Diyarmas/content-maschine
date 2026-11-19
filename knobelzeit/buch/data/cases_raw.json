@@ -1,0 +1,3054 @@
+[
+ {
+  "n": "01",
+  "cat": "Verhör",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Der Kuchendieb",
+  "bet": [
+   "ANNA",
+   "BEN",
+   "CARLA",
+   "OMA HILDE"
+  ],
+  "task": "Wer hat das Stück gegessen?",
+  "tip1": "161",
+  "tip2": "264",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hilde hat einen Schokoladenkuchen zum Abkühlen auf die Fensterbank gestellt. Zehn Minuten später fehlt ein großes Stück. In der Küche waren nur Anna, Ben und Carla."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Anna",
+      "„Ben war's.\""
+     ],
+     [
+      "Ben",
+      "„Ich war's nicht.\""
+     ],
+     [
+      "Carla",
+      "„Ich war's nicht.\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Herr Brandt weiß: Genau einer von den dreien sagt die Wahrheit."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "02",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Scherben im Wohnzimmer",
+  "bet": [
+   "LEA",
+   "TOM",
+   "MAX",
+   "MAMA ELIF"
+  ],
+  "task": "Wer hat die Vase zerbrochen, und woran erkennst du das?",
+  "tip1": "358",
+  "tip2": "363",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Im Wohnzimmer von Familie Yılmaz stehen drei Vasen: eine rote, eine grüne und eine blaue. Als Mama Elif nach Hause kommt, liegt eine davon in Scherben auf dem Boden. Sie fegt alles zusammen, wirft die Scherben weg und stellt die beiden heilen Vasen sicherheitshalber in den Schrank. Dann ruft sie die Kinder in die Küche und fragt nur: „Wer von euch hat die Vase kaputt gemacht?\""
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Lea",
+      "„Ich war den ganzen Nachmittag in meinem Zimmer und hab Hausaufgaben gemacht.\""
+     ],
+     [
+      "Tom",
+      "„Ich war nicht mal in der Nähe der blauen Vase!\""
+     ],
+     [
+      "Max",
+      "„Ich hab draußen mit den Nachbarn Fußball gespielt.\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "03",
+  "cat": "Beweisstück",
+  "tags": [],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Wer hat den Döner nicht bezahlt?",
+  "bet": [
+   "KEMAL",
+   "CAN",
+   "ALI",
+   "PETER",
+   "LUIGI"
+  ],
+  "task": "Wer hat seinen Döner nicht bezahlt?",
+  "tip1": "153",
+  "tip2": "215",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Freitagabend, Kemals Dönerladen ist rappelvoll. Kemal steht am Grill, an der Kasse steht heute sein Neffe Can. Als Can kurz in den Keller geht, um Ayran zu holen, ist an Tisch 4 ein Döner gegessen und nicht bezahlt. An Tisch 4 saßen Ali, Peter und Luigi. Luigi, der Pizzabäcker von gegenüber, springt gerade auf und rennt hinaus. Herr Brandt hört sich um:"
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Ali",
+      "„Ich hab bar bezahlt. Hier ist mein Kassenbon.\""
+     ],
+     [
+      "Peter",
+      "„Ich hab vorhin bei Can ganz normal mit Karte gezahlt.\""
+     ],
+     [
+      "Luigi (ruft von draußen)",
+      "„Mein Ofen brennt an! Mein Geld liegt unter dem Teller!\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Unter Luigis Teller liegen 8 Euro, genau der Preis für Döner und Getränk. An der Kasse hängt seit Montag ein Zettel: „Kartengerät kaputt – nur Bargeld!\""
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Kemals Kasse mit dem handgeschriebenen Zettel „Kartengerät kaputt – nur Bargeld!\", daneben der Grill."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "04",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Stromausfall in der Lindenstraße",
+  "bet": [
+   "HANS",
+   "HERR BRANDT"
+  ],
+  "task": "Warum glaubt Herr Brandt Hans nicht?",
+  "tip1": "385",
+  "tip2": "316",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "An jeder Haustür in der Lindenstraße hängt ein Zettel der Stadtwerke: „Mittwoch von 19 bis 21 Uhr kein Strom in der ganzen Lindenstraße.\" Am Mittwoch um 20 Uhr wird im Hinterhof ein Moped gestohlen. Hans wohnt in der Lindenstraße und sagt: „Um acht saß ich zu Hause vorm Fernseher und hab Fußball geguckt. 2:1 ist es ausgegangen, ein Wahnsinnsspiel!\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "05",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Omas Fahrradschloss",
+  "bet": [
+   "OMA HILDE",
+   "ANNA"
+  ],
+  "task": "Wie lautet die Zahl?",
+  "tip1": "381",
+  "tip2": "352",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hilde hat die Zahl für ihr Fahrradschloss vergessen. Zum Glück hat sie einen Zettel, so geschrieben, dass ein Dieb die Zahl nicht sofort erkennt:"
+   },
+   {
+    "t": "p",
+    "text": "„Drei verschiedene Ziffern. Die erste ist doppelt so groß wie die letzte. Die mittlere ist die Summe der beiden anderen. Alle drei zusammen ergeben 12.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "06",
+  "cat": "Verhör",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Dunkelheit im Tunnel",
+  "bet": [
+   "CARLA",
+   "LARS",
+   "PETER",
+   "EMRE"
+  ],
+  "task": "Wer lügt?",
+  "tip1": "326",
+  "tip2": "223",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Der Zug von Zürich nach Mailand fährt in den Gotthard-Basistunnel. Fast zwanzig Minuten lang ist draußen alles schwarz. Carla ist in dieser Zeit im Speisewagen, ihr Handy liegt am Platz. Als sie zurückkommt, ist es weg. Herr Brandt fragt die drei Mitreisenden an Carlas Vierertisch, was sie in diesen zwanzig Minuten gemacht haben:"
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Lars",
+      "„Ich hab geschlafen, wie die ganze Fahrt schon.\""
+     ],
+     [
+      "Peter",
+      "„Ich war auf der Toilette, gleich am Ende des Wagens.\""
+     ],
+     [
+      "Emre",
+      "„Ich hab die ganze Zeit aus dem Fenster geschaut. Die Berge waren traumhaft!\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "07",
+  "cat": "Tatortbild",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": true,
+  "title": "Schnee unter dem Auto",
+  "bet": [
+   "PETER",
+   "HERR BRANDT"
+  ],
+  "task": "Woran erkennt Herr Brandt, dass Peter lügt?",
+  "tip1": "102",
+  "tip2": "142",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Heute früh hat es geschneit, von fünf bis acht Uhr. Um halb acht verschwindet am Schulkiosk die Spendendose fürs Tierheim. Um neun Uhr befragt Herr Brandt die Nachbarn. Peter fegt gerade den Schnee vom Dach seines roten Autos."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Peter",
+      "„Ich war heute noch gar nicht weg. Mein Auto steht seit gestern Abend genau hier.\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Herr Brandt bückt sich und schaut unter das Auto."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Peters rotes Auto von der Seite. Auf der Straße liegt hoher Schnee, unter dem Auto nur eine dünne Schicht. Auf dem Dach etwas Schnee, Peter mit Besen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "08",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Eis in der Hitze",
+  "bet": [
+   "OMA HILDE",
+   "MEHMET",
+   "CARLA",
+   "HERR BRANDT"
+  ],
+  "task": "Wessen Geschichte stimmt nicht?",
+  "tip1": "157",
+  "tip2": "248",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Sommerfest in Oma Hildes Garten, 34 Grad im Schatten. Um 15 Uhr verschwindet Omas Geldbörse vom Gartentisch. Um 15:20 Uhr kommt Mehmet, der im Haus nebenan wohnt, durchs Gartentor und stellt eine Eispackung aus Pappe auf den Tisch."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Mehmet",
+      "„Ich komme direkt von der Eisdiele am Bahnhof. Zwanzig Minuten zu Fuß, in der prallen Sonne!\""
+     ],
+     [
+      "Carla (mit nassen Haaren im Planschbecken)",
+      "„Ich war die ganze Zeit hier im Wasser.\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Herr Brandt drückt auf die Packung. Das Eis ist steinhart."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "09",
+  "cat": "Geheimcode",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Der Zettel am Spiegel",
+  "bet": [
+   "ANNA",
+   "BEN"
+  ],
+  "task": "Was steht auf dem Zettel?",
+  "tip1": "151",
+  "tip2": "331",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Anna findet am Badezimmerspiegel einen Zettel von Herrn Brandt:"
+   },
+   {
+    "t": "p",
+    "text": "RELLEK MI TGEIL ZTAHCS RED"
+   },
+   {
+    "t": "p",
+    "text": "Ben: „Das ist doch Kauderwelsch.\" Anna: „Nein. Herr Brandt schreibt nie etwas einfach von vorne nach hinten.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "10",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Der nasse Regenschirm",
+  "bet": [
+   "IGOR",
+   "LARS",
+   "HERR BRANDT"
+  ],
+  "task": "Wer sagt nicht die Wahrheit?",
+  "tip1": "106",
+  "tip2": "390",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Seit genau 14 Uhr regnet es in Strömen. Um 14:15 Uhr verschwindet in der Bäckerei neben der Stadtbibliothek die Trinkgeldkasse. Um 14:30 Uhr findet Herr Brandt in der Bibliothek zwei Männer."
+   },
+   {
+    "t": "p",
+    "text": "· Igor (sitzt am Lesetisch, neben ihm lehnt sein Schirm in einer Pfütze): „Ich sitze seit ein Uhr hier und lese. Ich war keine Minute draußen.\""
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Lars (tropfnass, ohne Schirm)",
+      "„Ich bin eben erst aus dem Bus gestiegen und hier reingerannt.\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "11",
+  "cat": "Beweisstück",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": true,
+  "title": "Grüße aus Mallorca",
+  "bet": [
+   "DRAGAN",
+   "MEHMET",
+   "HERR BRANDT"
+  ],
+  "task": "Warum glaubt Herr Brandt Dragan nicht?",
+  "tip1": "261",
+  "tip2": "208",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Am Mittwoch wird in München Mehmets Lieferfahrrad gestohlen. Dragan, sein Nachbar, war schon öfter verdächtig. „Ich war die ganze Woche auf Mallorca\", sagt Dragan. „Am Mittwoch hab ich dir sogar eine Karte geschickt!\" Mehmet holt die Postkarte und dreht sie um."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Vorderseite: Strandfoto „Grüße aus Palma\". Rückseite: „Grüße aus Palma! Dein Dragan\", oben rechts eine Briefmarke der Deutschen Post, Stempel „Briefzentrum 80 · Mittwoch\"."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "12",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Pizza bei Luigi",
+  "bet": [
+   "LUIGI",
+   "BEN",
+   "LEA",
+   "TOM"
+  ],
+  "task": "Wie viele Stücke hatte Ben wirklich?",
+  "tip1": "304",
+  "tip2": "229",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Luigi schneidet eine Pizza in 8 Stücke für Ben, Lea und Tom. Am Ende ist kein Stück übrig. Luigi hat zugeschaut und weiß zwei Dinge sicher: Lea hat genau 2 Stücke gegessen. Und Ben hat doppelt so viele genommen wie Tom."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Ben",
+      "„Ich hatte nur 3 Stücke, ehrlich!\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "13",
+  "cat": "Querdenken",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Der Hund, der nicht bellte",
+  "bet": [
+   "OMA GRETA",
+   "BRUNO (DACKEL)",
+   "LARS",
+   "MIA",
+   "FRANK"
+  ],
+  "task": "Wer hat die Gießkanne genommen?",
+  "tip1": "279",
+  "tip2": "283",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Bruno, Oma Gretas Dackel, bellt jeden an, der nicht zur Familie gehört. Sogar Lars, den Paketboten, der seit fünf Jahren jeden Tag kommt. Heute Nacht um zwei wird Gretas Gießkanne aus Kupfer aus dem Garten geklaut. Greta lag wach und sagt: „Bruno hat keinen Mucks gemacht.\" Drei Leute waren in der Nacht in der Straße unterwegs:"
+   },
+   {
+    "t": "p",
+    "text": "· Lars, der Paketbote, auf dem Heimweg vom Nachtdienst."
+   },
+   {
+    "t": "p",
+    "text": "· Mia, die neue Nachbarin, die Bruno noch nie getroffen hat."
+   },
+   {
+    "t": "p",
+    "text": "· Frank, Gretas Sohn, der jedes Wochenende zu Besuch kommt."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "14",
+  "cat": "Tatortbild",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": true,
+  "title": "Scherben auf dem Rasen",
+  "bet": [
+   "HANS",
+   "HERR BRANDT"
+  ],
+  "task": "Was stimmt an Hans' Geschichte nicht?",
+  "tip1": "293",
+  "tip2": "396",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Hausmeister Hans ruft aufgeregt an: „Einbruch im Vereinsheim! Ein Dieb hat von draußen das Fenster eingeschlagen, ist eingestiegen und hat die neue Bohrmaschine geklaut!\" Herr Brandt schaut sich um. Im Fensterrahmen stecken noch ein paar Zacken. Herr Brandt sieht sich drinnen und draußen genau um."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Geteiltes Bild. Links das Fenster von draußen, viele Scherben auf dem Rasen. Rechts der Raum von innen, der Boden unter dem Fenster ist sauber."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "15",
+  "cat": "Beweisstück",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Das Busticket",
+  "bet": [
+   "ZEYNEP",
+   "HERR BRANDT"
+  ],
+  "task": "Was verrät das Ticket?",
+  "tip1": "140",
+  "tip2": "275",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Um 10:20 Uhr verschwindet am Rathaus eine Spendendose. Zeynep sagt: „Ich bin schon um zehn am Rathaus in die Linie 3 gestiegen und bis zur Endhaltestelle gefahren. Hier, mein Ticket!\" Auf dem Ticket ist ein Stempel vom Entwerter im Bus: „Linie 3 · Rathaus · 10:42\"."
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Das Busticket mit dem Stempel „Linie 3 · Rathaus · 10:42\"."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "16",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Die neue Kerze",
+  "bet": [
+   "LUIGI",
+   "HERR BRANDT"
+  ],
+  "task": "Seit wann brennt die Kerze wirklich?",
+  "tip1": "146",
+  "tip2": "250",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Um 19 Uhr verschwindet im Treppenhaus ein Paket. Um 21 Uhr klingelt Herr Brandt bei Luigi. „Montags ist die Pizzeria zu. Ich sitz seit sechs Uhr hier und lese\", sagt Luigi. „Da hab ich mir eine neue Kerze angezündet.\" Auf dem Tisch brennt eine Kerze, daneben liegt ein aufgeschlagenes Buch. Auf der Packung daneben steht: „Länge 20 cm. Brennt 2 cm pro Stunde.\" Herr Brandt misst nach: Die Kerze ist noch 18 cm lang."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "17",
+  "cat": "Beweisstück",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": true,
+  "title": "Das Selfie mit der Turmuhr",
+  "bet": [
+   "MIA",
+   "HERR BRANDT"
+  ],
+  "task": "Warum hilft Mia ihr Selfie nicht?",
+  "tip1": "384",
+  "tip2": "335",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Um Punkt 12 Uhr verschwindet am Wochenmarkt ein Korb voller Honiggläser. Mia sagt: „Um zwölf saß ich im Café am Rathausplatz. Schau, mein Selfie!\" Auf dem Foto lacht Mia mit einem Cappuccino. Hinter ihr sieht man das Rathaus. Die Rathausuhr wird per Funk gestellt und geht auf die Minute genau."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Mias Selfie mit Cappuccino, im Hintergrund das Rathaus. Die Uhr zeigt deutlich Viertel nach vier."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "18",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Das Wechselgeld",
+  "bet": [
+   "CAN",
+   "BEN",
+   "KEMAL"
+  ],
+  "task": "Wie viel Wechselgeld bekommt Ben, und wer hat recht?",
+  "tip1": "173",
+  "tip2": "259",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Ben bestellt bei Can einen Döner für 7,50 € und einen Ayran für 1,80 €. Er zahlt mit einem 20-Euro-Schein. Can gibt ihm 9,70 € zurück. Ben protestiert. Can sagt: „Stimmt doch genau!\" Kemal ruft vom Grill: „Rechnet doch mal nach!\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "19",
+  "cat": "Geheimcode",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Brandts Einkaufszettel",
+  "bet": [
+   "ANNA",
+   "HERR BRANDT"
+  ],
+  "task": "Wo treffen sich die beiden?",
+  "tip1": "113",
+  "tip2": "289",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Herr Brandt drückt Anna einen Einkaufszettel in die Hand und flüstert: „Da steht drauf, wo wir uns nachher treffen. Aber nicht weitersagen.\""
+   },
+   {
+    "t": "p",
+    "text": "Kartoffeln"
+   },
+   {
+    "t": "p",
+    "text": "Ingwer"
+   },
+   {
+    "t": "p",
+    "text": "Oliven"
+   },
+   {
+    "t": "p",
+    "text": "Salz"
+   },
+   {
+    "t": "p",
+    "text": "Kürbis"
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "20",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 1,
+  "min": 2,
+  "double": false,
+  "hint": false,
+  "title": "Ein Brötchen zu wenig",
+  "bet": [
+   "MEHMET",
+   "BEN"
+  ],
+  "task": "Wie viele Brötchen fehlen?",
+  "tip1": "287",
+  "tip2": "337",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Bäcker Mehmet packt 12 Brötchen in eine Papiertüte. Jedes wiegt 60 Gramm, die leere Tüte 10 Gramm. Ben trägt die Tüte allein zum Sportverein. Dort stellt sie der Trainer auf die Waage: 670 Gramm. „Ich hab nichts angerührt!\", sagt Ben mit vollen Backen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "21",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Drei volle Milchflaschen",
+  "bet": [
+   "IGOR",
+   "HERR BRANDT"
+  ],
+  "task": "Warum glaubt Herr Brandt Igor nicht?",
+  "tip1": "317",
+  "tip2": "147",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Auf dem Land bringt der Milchbauer jeden Morgen um sechs eine Flasche Milch vor jede Haustür. Igor holt seine immer gleich beim Aufstehen rein. Am Mittwoch wird beim Nachbarn das Fahrrad gestohlen. Am Freitag um zehn sagt Igor: „Ich bin die ganze Woche zu Hause. Am Mittwoch hab ich vom Fenster aus einen Mann mit blauer Jacke gesehen.\" Vor Igors Tür stehen drei volle Milchflaschen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "22",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 1,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Wer kam zuerst?",
+  "bet": [
+   "ANNA",
+   "BEN",
+   "CARLA",
+   "TOM",
+   "OMA HILDE"
+  ],
+  "task": "Wer hat die Erdbeeren gegessen?",
+  "tip1": "305",
+  "tip2": "356",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hilde hat eine Schale Erdbeeren auf den Tisch gestellt. Ihre vier Gäste kommen nacheinander an. Als der zweite Gast kommt, ist die Schale schon leer. Wer als Erster da war, hat also alle Erdbeeren gegessen. Oma weiß nur noch:"
+   },
+   {
+    "t": "p",
+    "text": "1. Carla kam direkt nach Ben."
+   },
+   {
+    "t": "p",
+    "text": "2. Tom kam irgendwann nach Anna."
+   },
+   {
+    "t": "p",
+    "text": "3. Tom kam nicht als Letzter."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "23",
+  "cat": "Beweisstück",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Der Samstagsbus",
+  "bet": [
+   "EMRE",
+   "LUIGI",
+   "ZEYNEP"
+  ],
+  "task": "Wessen Alibi platzt?",
+  "tip1": "323",
+  "tip2": "130",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Samstag, 17:45 Uhr. Am Kiosk neben dem Marktplatz greift jemand in die offene Kasse und verschwindet. Luigis Pizzeria liegt direkt daneben."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Emre",
+      "„Ich hab um 17:40 Uhr am Marktplatz den Bus Linie 7 genommen. Um 17:55 Uhr war ich am Bahnhof.\""
+     ],
+     [
+      "Luigi",
+      "„Ich stand ab 17 Uhr in meiner Pizzeria. Fragen Sie meine Gäste.\""
+     ],
+     [
+      "Zeynep",
+      "„Samstags bin ich von 17 bis 18 Uhr mit meiner Tochter beim Kinderturnen.\""
+     ]
+    ]
+   },
+   {
+    "t": "box",
+    "lines": [
+     "<b>FAHRPLAN AN DER HALTESTELLE · LINIE 7 · MARKTPLATZ → BAHNHOF · FAHRZEIT 15 MIN.</b>",
+     "Montag bis Freitag 17:10 · 17:25 · 17:40 · 17:55",
+     "Samstag 17:20 · 17:50",
+     "Sonntag und Feiertag 17:30"
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "24",
+  "cat": "Geheimcode",
+  "tags": [],
+  "stars": 2,
+  "min": 5,
+  "double": false,
+  "hint": false,
+  "title": "Brandts Postkarte",
+  "bet": [
+   "ANNA",
+   "BEN",
+   "HERR BRANDT"
+  ],
+  "task": "Was steht auf der Karte?",
+  "tip1": "209",
+  "tip2": "230",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Anna und Ben finden eine Postkarte ohne Absender:"
+   },
+   {
+    "t": "p",
+    "text": "GHU VFKOXHVVHO OLHJW XQWHU GHP URWHQ EOXPHQWRSI"
+   },
+   {
+    "t": "p",
+    "text": "Unterschrieben ist sie nur mit einem Buchstaben: E. Anna grinst: „Die ist von Herrn Brandt. Und die Unterschrift ist der Schlüssel.\" (Umlaute schreibt Herr Brandt mit zwei Buchstaben, Ü als UE.)"
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "25",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 2,
+  "min": 5,
+  "double": false,
+  "hint": false,
+  "title": "Kassensturz bei Kemal",
+  "bet": [
+   "KEMAL"
+  ],
+  "task": "Wie viele 2-Euro-Münzen lagen morgens im Fach, wie viele abends, und was hat der Dieb gemacht?",
+  "tip1": "306",
+  "tip2": "373",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Montag ist Ruhetag. Morgens zählt Kemal sein Münzfach: genau 20 Münzen, nur 1-Euro- und 2-Euro-Münzen, zusammen 31 Euro. Er schließt ab und geht. Abends zählt er noch einmal: wieder genau 20 Münzen, aber nur noch 27 Euro. Verkauft hat an diesem Tag niemand etwas."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "26",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 2,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Vier Bestellungen an Tisch 4",
+  "bet": [
+   "ALI",
+   "BEN",
+   "CARLA",
+   "EMRE",
+   "KEMAL"
+  ],
+  "task": "Wer hat was bestellt, und wer ist ohne Bezahlen gegangen?",
+  "tip1": "322",
+  "tip2": "254",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "An Tisch 4 sitzen Ali, Ben, Carla und Emre. Jeder bestellt ein anderes Essen (Döner, Lahmacun, Falafel, Pide) und ein anderes Getränk (Ayran, Cola, Wasser, Tee). Einer ist gegangen, ohne zu bezahlen. Emre ist als Erster aufgesprungen, er hatte es auffällig eilig. Kemal weiß nur: „Es war der mit dem Wasser.\" Die Aushilfe erinnert sich:"
+   },
+   {
+    "t": "p",
+    "text": "1. Wer Falafel isst, trinkt Wasser."
+   },
+   {
+    "t": "p",
+    "text": "2. Ben isst weder Döner noch Falafel."
+   },
+   {
+    "t": "p",
+    "text": "3. Carla trinkt Ayran."
+   },
+   {
+    "t": "p",
+    "text": "4. Zur Pide gab es Tee."
+   },
+   {
+    "t": "p",
+    "text": "5. Emre isst keine Pide und trinkt kein Wasser."
+   },
+   {
+    "t": "p",
+    "text": "6. Zum Lahmacun gab es Cola."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "27",
+  "cat": "Verhör",
+  "tags": [],
+  "stars": 2,
+  "min": 5,
+  "double": false,
+  "hint": false,
+  "title": "Wer hat den Roller genommen?",
+  "bet": [
+   "ALI",
+   "MIA",
+   "PETER",
+   "ZEYNEP"
+  ],
+  "task": "Wer hat den Roller genommen?",
+  "tip1": "325",
+  "tip2": "226",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Vor der Schule ist ein E-Roller verschwunden. Herr Brandt hat vier Verdächtige. Einer war es. Genau zwei von ihnen sagen die Wahrheit, zwei lügen."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Ali",
+      "„Mia war's.\""
+     ],
+     [
+      "Mia",
+      "„Ali war's.\""
+     ],
+     [
+      "Peter",
+      "„Mia war's.\""
+     ],
+     [
+      "Zeynep",
+      "„Peter war's nicht.\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "28",
+  "cat": "Logik",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Die verflixten Gewürzdosen",
+  "bet": [
+   "KEMAL",
+   "HERR BRANDT"
+  ],
+  "task": "Aus welcher Dose probiert Herr Brandt, und wie geht es weiter?",
+  "tip1": "202",
+  "tip2": "366",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "In Kemals Küche stehen drei geschlossene Dosen. Auf der ersten steht „Chili\", auf der zweiten „Pfeffer\", auf der dritten „Chili & Pfeffer gemischt\". Kemal grinst: „Alle drei Schilder sind falsch. Du darfst aus genau einer Dose genau eine Prise nehmen und probieren. Dann sag mir, was in jeder Dose wirklich ist.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "29",
+  "cat": "Geheimcode",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Die alte SMS",
+  "bet": [
+   "BEN",
+   "OMA HILDE"
+  ],
+  "task": "Wo will Oma Hilde Ben treffen?",
+  "tip1": "235",
+  "tip2": "167",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hilde hat noch ein Tastenhandy. Sie schickt Ben eine Nachricht, aber das Display ist kaputt. Ben sieht nur, welche Tasten sie gedrückt hat:"
+   },
+   {
+    "t": "p",
+    "text": "22 · 777 · 88 · 33 · 222 · 55 · 33"
+   },
+   {
+    "t": "p",
+    "text": "Auf jeder Taste stehen drei oder vier Buchstaben: 2 = ABC, 3 = DEF, 4 = GHI, 5 = JKL, 6 = MNO, 7 = PQRS, 8 = TUV, 9 = WXYZ. Einmal drücken gibt den ersten Buchstaben, zweimal den zweiten und so weiter."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "30",
+  "cat": "Rechnen",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Kinokasse",
+  "bet": [
+   "AYŞE",
+   "DEFNE",
+   "KASSIERER"
+  ],
+  "task": "Wie alt ist Defne? Dürfen die beiden rein?",
+  "tip1": "359",
+  "tip2": "378",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Ayşe will mit ihrer Tochter Defne einen Film ab 16 Jahren sehen. Der Kassierer zweifelt: „Ist sie überhaupt schon 16?\" Ayşe lacht: „Ich bin dreimal so alt wie sie. Und in sechzehn Jahren bin ich nur noch doppelt so alt.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "31",
+  "cat": "Zeitleiste",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Anruf nach New York",
+  "bet": [
+   "DRAGAN",
+   "HERR BRANDT"
+  ],
+  "task": "Was stimmt an Dragans Geschichte nicht?",
+  "tip1": "245",
+  "tip2": "338",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Ende November, ein Dienstag. Um 9 Uhr morgens wird in München Hans' Werkzeugkiste aus dem Keller geklaut. Dragan sagt: „Um neun hab ich mit meinem Cousin in New York telefoniert, eine Stunde lang. Er saß gerade beim Mittagessen in seiner Firma, das hat man gehört.\" Herr Brandt weiß: New York liegt im November sechs Stunden hinter München."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "32",
+  "cat": "Tatortbild",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 2,
+  "min": 5,
+  "double": false,
+  "hint": true,
+  "title": "Die Uhr im Spiegel",
+  "bet": [
+   "CAN",
+   "HERR BRANDT"
+  ],
+  "task": "Warum ist das Foto für Can kein Alibi?",
+  "tip1": "388",
+  "tip2": "232",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Um 9:40 Uhr wird im Fitnessstudio ein Spind aufgebrochen. Can zeigt ein Foto: „Um 9:40 Uhr stand ich zu Hause vorm Badezimmerspiegel. Schau, die Uhr hinter mir zeigt genau 9:40!\" Auf dem Foto sieht man Can im Spiegel. Hinter ihm hängt eine Uhr ohne Ziffern, nur mit Strichen."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Spiegelselfie. Hinter Can im Spiegel die Uhr ohne Ziffern: kleiner Zeiger kurz vor der 10, großer Zeiger auf der 8, so wie man es im Spiegel sieht."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "33",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 2,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Das Zahlenschloss im Vereinsheim",
+  "bet": [
+   "HANS",
+   "ANNA"
+  ],
+  "task": "Wie lautet die Zahl?",
+  "tip1": "233",
+  "tip2": "307",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Das Zahlenschloss am Getränkeschrank hat drei verschiedene Ziffern. Hans hat die Zahl vergessen, aber Anna findet seinen Spickzettel:"
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "147",
+      "Eine Ziffer stimmt und steht an der richtigen Stelle."
+     ],
+     [
+      "189",
+      "Eine Ziffer stimmt, steht aber an der falschen Stelle."
+     ],
+     [
+      "964",
+      "Zwei Ziffern stimmen, stehen aber beide an der falschen Stelle."
+     ],
+     [
+      "286",
+      "Eine Ziffer stimmt, steht aber an der falschen Stelle."
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "34",
+  "cat": "Rechnen",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Kemals Spieße",
+  "bet": [
+   "KEMAL",
+   "LUIGI"
+  ],
+  "task": "Hat Luigi recht? Wie geht das?",
+  "tip1": "107",
+  "tip2": "367",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Kemal will drei Spieße grillen. Auf seinen kleinen Grill passen nur zwei auf einmal. Jeder Spieß braucht auf jeder Seite 5 Minuten. Kemal: „Unter 20 Minuten geht das nicht.\" Luigi: „Wetten, dass ich es in 15 schaffe?\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "35",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 2,
+  "min": 5,
+  "double": false,
+  "hint": false,
+  "title": "Der Wasserfleck",
+  "bet": [
+   "GRETA",
+   "PETER",
+   "IGOR",
+   "MIA",
+   "HANS"
+  ],
+  "task": "Wer hat den Wasserschaden verursacht?",
+  "tip1": "158",
+  "tip2": "297",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "In einem Haus mit fünf Stockwerken wohnt in jedem Stock genau eine Person. Bei Mia tropft Wasser von der Decke. Schuld ist also, wer direkt über ihr wohnt. Hans, der Hausmeister, weiß:"
+   },
+   {
+    "t": "p",
+    "text": "1. Hans selbst wohnt im 1. Stock."
+   },
+   {
+    "t": "p",
+    "text": "2. Greta wohnt zwei Stockwerke über Mia."
+   },
+   {
+    "t": "p",
+    "text": "3. Peter wohnt direkt über oder direkt unter Mia."
+   },
+   {
+    "t": "p",
+    "text": "4. Peter wohnt weiter oben als Igor."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "36",
+  "cat": "Querdenken",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Der Silvester-Geburtstag",
+  "bet": [
+   "TOM",
+   "ANNA"
+  ],
+  "task": "Kann Tom die Wahrheit sagen? Wann hat er Geburtstag?",
+  "tip1": "134",
+  "tip2": "310",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Am Neujahrstag sagt Tom: „Vorgestern war ich noch 9. Und nächstes Jahr werde ich 12.\" Anna: „Du lügst. Das geht doch gar nicht!\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "37",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 2,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Wem gehört der Hund?",
+  "bet": [
+   "ZEYNEP",
+   "CAN",
+   "LUIGI",
+   "AYŞE"
+  ],
+  "task": "Wem gehört der Hund?",
+  "tip1": "372",
+  "tip2": "281",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "In einem anderen Haus mit vier Stockwerken wohnt in jedem Stock eine Person mit einem anderen Haustier: Hund, Katze, Papagei, Hamster. Im Treppenhaus ist Hans' neue Fußmatte zerkaut. Das kann nur der Hund gewesen sein."
+   },
+   {
+    "t": "p",
+    "text": "1. Zeynep hat eine Katze."
+   },
+   {
+    "t": "p",
+    "text": "2. Zeynep wohnt im 4. Stock."
+   },
+   {
+    "t": "p",
+    "text": "3. Der Papagei wohnt im 1. Stock."
+   },
+   {
+    "t": "p",
+    "text": "4. Luigi wohnt direkt über Can."
+   },
+   {
+    "t": "p",
+    "text": "5. Ayşe wohnt nicht im 1. Stock."
+   },
+   {
+    "t": "p",
+    "text": "6. Der Hamster wohnt direkt unter der Katze."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "38",
+  "cat": "Zeitleiste",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Bis zum Abspann",
+  "bet": [
+   "MIA",
+   "HERR BRANDT"
+  ],
+  "task": "Kann Mias Geschichte stimmen?",
+  "tip1": "234",
+  "tip2": "272",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Um 22:10 Uhr wird vor Mias Haus ein Fahrrad geklaut. Mia sagt: „Ich war im Kino, in der Vorstellung um 20:15 Uhr. Ich hab den ganzen Film gesehen, bis zum Schluss. Um 22:10 Uhr war ich schon zu Hause, das Kino ist nur 5 Minuten weg.\" Auf dem Kinoplakat steht: „Vorstellung 20:15 Uhr · zuerst 20 Minuten Werbung, dann der Film · Filmlänge 1 Std. 50 Min.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "39",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 2,
+  "min": 3,
+  "double": false,
+  "hint": false,
+  "title": "Sonnenuntergang auf der Zugspitze",
+  "bet": [
+   "LARS",
+   "HERR BRANDT"
+  ],
+  "task": "Was stimmt an Lars' Geschichte nicht?",
+  "tip1": "127",
+  "tip2": "284",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "An einem Sonntag Mitte Dezember wird am Abend in Lars' Nachbarschaft eingebrochen. Lars sagt: „Ich war den ganzen Sonntag auf der Zugspitze. Um sieben Uhr abends hab ich noch den Sonnenuntergang fotografiert, wunderschön! Danach bin ich erst runter.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "40",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Die angebrannte Torte",
+  "bet": [
+   "AYŞE",
+   "LUIGI",
+   "MEHMET",
+   "OMA HILDE"
+  ],
+  "task": "Wer hat die angebrannte Torte mitgebracht? Und wer kam womit und brachte was?",
+  "tip1": "260",
+  "tip2": "210",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Zu Oma Hildes Fest bringt jeder der drei Gäste etwas mit: eine Torte, einen Salat oder ein Brot. Jeder kommt anders: mit dem Fahrrad, dem Bus oder dem Auto. Die Torte ist leider angebrannt. Wer hat sie gebacken?"
+   },
+   {
+    "t": "p",
+    "text": "1. Mehmet bringt ausnahmsweise kein Brot mit."
+   },
+   {
+    "t": "p",
+    "text": "2. Der Salat kam mit dem Fahrrad."
+   },
+   {
+    "t": "p",
+    "text": "3. Ayşe kam mit dem Auto."
+   },
+   {
+    "t": "p",
+    "text": "4. Die Torte kam nicht mit dem Bus."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "41",
+  "cat": "Verhör",
+  "tags": [],
+  "stars": 2,
+  "min": 5,
+  "double": false,
+  "hint": false,
+  "title": "Das letzte Stück Käsesahne",
+  "bet": [
+   "AYŞE",
+   "DEFNE",
+   "EMRE",
+   "MEHMET",
+   "OMA HILDE"
+  ],
+  "task": "Wer hat das Stück gegessen, und wer schwindelt?",
+  "tip1": "221",
+  "tip2": "137",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Vereinsfest im Gemeindesaal. Auf dem Kuchenbuffet stand noch genau ein Stück von Oma Hildes berühmter Käsesahne. Oma hatte es für Herrn Brandt zurückgelegt. Jetzt ist der Teller leer, nur ein paar Krümel liegen daneben. In der Nähe des Buffets standen vier Gäste. Herr Brandt fragt jeden einzeln:"
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Ayşe",
+      "„Mehmet war's nicht.\""
+     ],
+     [
+      "Emre",
+      "„Mehmet sagt die Wahrheit.\""
+     ],
+     [
+      "Defne",
+      "„Mama war's nicht.\""
+     ],
+     [
+      "Mehmet",
+      "„Ich war's nicht.\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Oma Hilde hat das Buffet aus der Küche beobachtet. Wer es war, hat sie nicht gesehen. Aber sie ist sich sicher: Genau einer von den vieren schwindelt."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "42",
+  "cat": "Rechnen",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Der Weg zum Bäcker",
+  "bet": [
+   "BEN",
+   "ANNA"
+  ],
+  "task": "Hat Ben recht?",
+  "tip1": "224",
+  "tip2": "159",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Ben läuft jeden Morgen zum Bäcker. Hin geht er mit 6 km/h, zurück mit vollen Tüten nur mit 3 km/h. Hin- und Rückweg sind gleich lang. Anna fragt: „Wie schnell bist du im Durchschnitt?\" Ben: „Na, 4,5 km/h!\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "43",
+  "cat": "Querdenken",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Drei Schalter, eine Lampe",
+  "bet": [
+   "HERR BRANDT"
+  ],
+  "task": "Wie findet er den richtigen Schalter?",
+  "tip1": "132",
+  "tip2": "379",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Im Keller von Herrn Brandts Altbau gibt es drei Schalter. Nur einer gehört zur Glühbirne auf dem Dachboden, vier Stockwerke höher. Vom Keller aus sieht man nichts. Herr Brandt darf die Schalter umlegen, so oft er will, aber nur ein einziges Mal nach oben gehen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "44",
+  "cat": "Rechnen",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Die Torte in acht Stücken",
+  "bet": [
+   "OMA HILDE",
+   "ANNA"
+  ],
+  "task": "Wie geht das?",
+  "tip1": "280",
+  "tip2": "217",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hilde will eine runde Torte mit nur drei geraden Schnitten in acht gleich große Stücke teilen. Die Stücke dürfen beim Schneiden nicht verschoben werden."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "45",
+  "cat": "Beweisstück",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Die Kurtaxe",
+  "bet": [
+   "MEHMET",
+   "HERR BRANDT"
+  ],
+  "task": "Kann Mehmets Geschichte stimmen?",
+  "tip1": "273",
+  "tip2": "319",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Am Samstagabend verschwindet aus dem Vereinsheim die Kasse des Kegelclubs. Mehmet ist sofort zur Stelle: „Ich war von Freitag bis Sonntag mit meiner Frau in Garmisch. Hier, die Hotelrechnung!\""
+   },
+   {
+    "t": "box",
+    "lines": [
+     "<b>BEWEISSTÜCK</b>",
+     "Hotel Alpenblick · Garmisch-Partenkirchen",
+     "Gast: Mehmet K. · 2 Personen · Anreise: Freitag",
+     "Doppelzimmer mit Frühstück ........ 118,00 €",
+     "Kurbeitrag ........................... 7,00 €",
+     "Summe ............................. 125,00 €",
+     "Kleingedruckt: „Der Kurbeitrag beträgt 3,50 € pro Person und Nacht.\""
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "46",
+  "cat": "Tatortbild",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": true,
+  "title": "Das Abreißkalenderblatt",
+  "bet": [
+   "GRETA",
+   "JONAS",
+   "HERR BRANDT"
+  ],
+  "task": "Was verrät der Kalender?",
+  "tip1": "374",
+  "tip2": "240",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Greta war von Freitag bis Dienstag im Kurzurlaub. Ihren Wohnungsschlüssel hat nur ihr Enkel Jonas. Als sie am Dienstag zurückkommt, fehlen 50 Euro aus der Keksdose. Jonas: „Ich war die ganze Zeit nicht in deiner Wohnung.\" An Gretas Küchenwand hängt ein Abreißkalender. Greta reißt jeden Morgen das alte Blatt ab. Am Freitagmorgen hat sie das Blatt vom Donnerstag abgerissen und ist abgefahren. Herr Brandt sieht sich in der Küche um."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Gretas Küche. Die Keksdose steht offen, an der Wand der Abreißkalender, oberstes Blatt: Montag."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "47",
+  "cat": "Zeitleiste",
+  "tags": [],
+  "stars": 2,
+  "min": 4,
+  "double": false,
+  "hint": false,
+  "title": "Das Scanner-Protokoll",
+  "bet": [
+   "LARS",
+   "GRETA",
+   "HERR BRANDT"
+  ],
+  "task": "Was stimmt nicht?",
+  "tip1": "165",
+  "tip2": "244",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Greta wartet auf ein Paket. Laut Sendungsverfolgung wurde es um 10:05 Uhr „vor die Haustür gelegt\", aber da ist nichts. Paketbote Lars schwört: „Ich hab's um 10:05 Uhr selbst hingelegt.\" Herr Brandt lässt sich Lars' Scanner-Protokoll zeigen:"
+   },
+   {
+    "t": "p",
+    "text": "10:00 Uhr · Bahnhofstraße 4 · zugestellt"
+   },
+   {
+    "t": "p",
+    "text": "10:03 Uhr · Bahnhofstraße 9 · zugestellt"
+   },
+   {
+    "t": "p",
+    "text": "10:05 Uhr · Rosenweg 2 (Greta) · vor die Haustür gelegt"
+   },
+   {
+    "t": "p",
+    "text": "10:07 Uhr · Bahnhofstraße 11 · zugestellt"
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Das Scannerprotokoll als Ausdruck."
+   },
+   {
+    "t": "p",
+    "text": "Vom Bahnhof bis zum Rosenweg fährt man mit dem Lieferwagen 15 Minuten."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "48",
+  "cat": "Verhör",
+  "tags": [],
+  "stars": 3,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Das Burgverlies",
+  "bet": [
+   "HERR BRANDT",
+   "ANNA",
+   "BEN",
+   "RITTER KUNO",
+   "RITTER BODO",
+   "RITTER GERO"
+  ],
+  "task": "Durch welche Tür müssen die drei gehen?",
+  "tip1": "203",
+  "tip2": "324",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Im Burgmuseum gibt es ein Rätselzimmer. Herr Brandt, Anna und Ben sind darin „gefangen\" und müssen den Ausgang finden. Vor ihnen liegen drei Türen. Hinter genau einer liegt der Ausgang, hinter den anderen beiden warten hungrige Löwen aus Pappe, und wer sie weckt, hat verloren."
+   },
+   {
+    "t": "p",
+    "text": "Vor den Türen stehen drei Schauspieler als Ritter. Jeder Ritter sagt entweder immer die Wahrheit oder lügt immer. Wer was ist, verrät das Museum nicht."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Kuno",
+      "„Bodo lügt.\""
+     ],
+     [
+      "Bodo",
+      "„Gero und Kuno sind von derselben Sorte: Entweder lügen beide, oder beide sagen die Wahrheit.\""
+     ],
+     [
+      "Gero",
+      "„Hinter Tür 1 warten die Löwen.\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "49",
+  "cat": "Geheimcode",
+  "tags": [],
+  "stars": 3,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Die Geheimschrift am Gartenzaun",
+  "bet": [
+   "ANNA",
+   "HERR BRANDT"
+  ],
+  "task": "Wo versteckt der Dieb die Zwerge?",
+  "tip1": "179",
+  "tip2": "241",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "In der Schrebergartenanlage verschwinden seit Wochen Gartenzwerge. Hinter dem Komposthaufen findet Anna einen Zettel, den der Dieb verloren hat:"
+   },
+   {
+    "t": "p",
+    "text": "IBOSASMEMOTHUASE"
+   },
+   {
+    "t": "p",
+    "text": "Unten auf dem Zettel ist ein kleiner Zaun gekritzelt: eine Latte oben, eine unten, eine oben, eine unten."
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Der Zettel mit der Buchstabenreihe und dem gekritzelten Zickzackzaun."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "50",
+  "cat": "Beweisstück",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 3,
+  "min": 7,
+  "double": false,
+  "hint": true,
+  "title": "Der Schatten auf dem Foto",
+  "bet": [
+   "EMRE",
+   "HERR BRANDT"
+  ],
+  "task": "Wann ist das Foto wirklich entstanden, und hat Emre ein Alibi?",
+  "tip1": "266",
+  "tip2": "376",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Ein Samstag im Juli. Um 12 Uhr mittags verschwindet am Badesee die Kasse vom Kiosk. Emre zeigt Herrn Brandt ein Foto: „Das hab ich um Punkt zwölf am Aussichtspunkt im Wald gemacht, 30 Kilometer von hier. Die Uhrzeit hab ich in der Kamera ausgeschaltet, aber glauben Sie mir.\""
+   },
+   {
+    "t": "p",
+    "text": "Am Aussichtspunkt ist eine große Windrose aus Stein in den Boden eingelassen: Norden, Osten, Süden, Westen. Emre steht genau in der Mitte. Mit dem Auto braucht man vom Aussichtspunkt zum Badesee eine halbe Stunde."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Emre in der Mitte der Windrose. Sein Schatten ist lang, fast doppelt so lang wie er selbst, und fällt genau auf das W für Westen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "51",
+  "cat": "Logik",
+  "tags": [
+   "Doppelseite"
+  ],
+  "stars": 3,
+  "min": 8,
+  "double": true,
+  "hint": false,
+  "title": "Popcorn im Kino",
+  "bet": [
+   "ANNA",
+   "BEN",
+   "CARLA",
+   "LEA",
+   "MAX",
+   "TOM"
+  ],
+  "task": "Wer hat Carlas Popcorn gegessen?",
+  "tip1": "375",
+  "tip2": "360",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Sechs Freunde sitzen im Kino nebeneinander auf den Plätzen 1 bis 6. Platz 1 ist ganz links, wenn man auf die Leinwand schaut."
+   },
+   {
+    "t": "p",
+    "text": "Carla hat ihren Popcorneimer die ganze Zeit rechts neben sich auf der Armlehne. Als das Licht angeht, ist er leer, und Carla hat kaum etwas gegessen. Nur wer direkt rechts neben Carla saß, kam an den Eimer heran."
+   },
+   {
+    "t": "p",
+    "text": "Herr Brandt kommt erst nach dem Film dazu. Keiner weiß mehr genau, wer wo saß. Diese Hinweise bekommt er zusammen:"
+   },
+   {
+    "t": "p",
+    "text": "1. Anna saß auf einem der beiden Plätze ganz außen."
+   },
+   {
+    "t": "p",
+    "text": "2. Tom saß direkt neben Anna."
+   },
+   {
+    "t": "p",
+    "text": "3. Zwischen Anna und Max saßen genau zwei Personen."
+   },
+   {
+    "t": "p",
+    "text": "4. Tom saß irgendwo links von Carla."
+   },
+   {
+    "t": "p",
+    "text": "5. Ben saß direkt rechts neben Lea."
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Sechs Kinosessel von hinten, nummeriert, mit leeren Namensfeldern zum Eintragen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "52",
+  "cat": "Rechnen",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 3,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Kemals Ayrankannen",
+  "bet": [
+   "KEMAL",
+   "CAN"
+  ],
+  "task": "Wie kommt Kemal auf genau 4 Liter?",
+  "tip1": "357",
+  "tip2": "211",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Für sein Spezialrezept braucht Kemal genau 4 Liter Ayran. Er hat einen großen Kanister voll Ayran, aber nur zwei Kannen ohne Striche: Die eine fasst genau 5 Liter, die andere genau 3 Liter. Can lacht: „Ohne Messbecher? Unmöglich!\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "53",
+  "cat": "Querdenken",
+  "tags": [],
+  "stars": 3,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Blitz und Donner",
+  "bet": [
+   "HANS",
+   "IGOR",
+   "HERR BRANDT"
+  ],
+  "task": "Warum glaubt Herr Brandt Hans nicht?",
+  "tip1": "152",
+  "tip2": "176",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Freitagabend, Stadtfest, ein heftiges Gewitter. Um genau 21:03 Uhr schlägt ein Blitz in den Kirchturm. Auf dem ganzen Kirchplatz geht das Licht aus, und in der Dunkelheit verschwindet die Kasse der Losbude direkt neben der Kirche."
+   },
+   {
+    "t": "p",
+    "text": "Hans sagt: „Um 21:03 Uhr war ich zu Hause, drei Kilometer von der Kirche weg. Ich stand am Fenster und hab gesehen, wie der Blitz in den Kirchturm geschlagen ist. Im selben Moment hat es fürchterlich gekracht.\""
+   },
+   {
+    "t": "p",
+    "text": "Igor, der Taxifahrer, stand um diese Zeit am Bahnhof, ebenfalls genau drei Kilometer von der Kirche entfernt. „Ich hab den Blitz in den Turm einschlagen sehen und gezählt, wie ich es als Kind gelernt habe: Neun Sekunden, dann kam der Donner.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "54",
+  "cat": "Verhör",
+  "tags": [],
+  "stars": 3,
+  "min": 8,
+  "double": false,
+  "hint": false,
+  "title": "Ein wahrer und ein falscher Satz",
+  "bet": [
+   "CAN",
+   "MIA",
+   "IGOR",
+   "ZEYNEP",
+   "HERR BRANDT"
+  ],
+  "task": "Wer hat die Krone versteckt, und wo ist sie?",
+  "tip1": "169",
+  "tip2": "103",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Einen Tag vor der Premiere des Schultheaters ist die goldene Krone des Königs verschwunden. Vier Helfer hatten einen Schlüssel: Can, Mia, Igor und Zeynep. Einer von ihnen hat die Krone versteckt, im Keller, auf dem Dachboden oder im Schulgarten."
+   },
+   {
+    "t": "p",
+    "text": "Can grinst: „Wir machen es Ihnen nicht zu leicht, Herr Brandt. Jeder von uns sagt einen wahren und einen falschen Satz. Welcher welcher ist, müssen Sie selbst herausfinden.\""
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Can",
+      "„Mia war's nicht. Ich war's nicht.\""
+     ],
+     [
+      "Mia",
+      "„Ich war's nicht. Igor war's.\""
+     ],
+     [
+      "Igor",
+      "„Ich war's nicht. Die Krone ist im Keller.\""
+     ],
+     [
+      "Zeynep",
+      "„Die Krone ist nicht im Garten. Ich war's.\""
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "55",
+  "cat": "Zeitleiste",
+  "tags": [
+   "Doppelseite"
+  ],
+  "stars": 3,
+  "min": 10,
+  "double": true,
+  "hint": false,
+  "title": "Der Weg durch die Stadt",
+  "bet": [
+   "ZEYNEP",
+   "LUIGI",
+   "KEMAL",
+   "ANNA"
+  ],
+  "task": "Wer kann um 10:00 Uhr am Kiosk gewesen sein?",
+  "tip1": "109",
+  "tip2": "139",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Samstagvormittag. Die Kamera am Kiosk zeigt: Um genau 10:00 Uhr greift jemand mit Kapuze in die Kasse und rennt sofort davon. Vier Personen waren an diesem Morgen in der Nähe. Alle sind zu Fuß unterwegs, und niemand ist schneller als die Gehzeiten auf dem Plan."
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      [
+       "<b>Weg</b>",
+       "<b>Gehzeit</b>"
+      ]
+     ],
+     [
+      [
+       "Kiosk und Markt",
+       "10 Min."
+      ]
+     ],
+     [
+      [
+       "Kiosk und Bäckerei",
+       "4 Min."
+      ]
+     ],
+     [
+      [
+       "Kiosk und Bahnhof",
+       "12 Min."
+      ]
+     ],
+     [
+      [
+       "Markt und Bäckerei",
+       "8 Min."
+      ]
+     ],
+     [
+      [
+       "Bäckerei und Bahnhof",
+       "9 Min."
+      ]
+     ],
+     [
+      [
+       "Markt und Bahnhof",
+       "15 Min."
+      ]
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Sicher belegt ist:"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      [
+       "<b>Person</b>",
+       "<b>Erster Nachweis</b>",
+       "<b>Zweiter Nachweis</b>"
+      ]
+     ],
+     [
+      [
+       "Zeynep",
+       "bis 9:52 Uhr am Markt (Kundin bestätigt)",
+       "ab 10:08 Uhr wieder am Markt"
+      ]
+     ],
+     [
+      [
+       "Luigi",
+       "9:55 Uhr Kassenbon der Bäckerei",
+       "10:12 Uhr Fahrkarte am Bahnhof"
+      ]
+     ],
+     [
+      [
+       "Kemal",
+       "9:50 Uhr am Bahnhof gesehen",
+       "10:05 Uhr in der Bäckerei"
+      ]
+     ],
+     [
+      [
+       "Anna",
+       "9:49 Uhr am Markt",
+       "10:03 Uhr in der Bäckerei"
+      ]
+     ]
+    ]
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Illustrierter Stadtplan mit den vier Orten und Wegen samt Minuten. Daneben eine Zeitleiste von 9:45 bis 10:15 Uhr zum Eintragen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "56",
+  "cat": "Geheimcode",
+  "tags": [],
+  "stars": 3,
+  "min": 7,
+  "double": false,
+  "hint": false,
+  "title": "Das Zahlengitter",
+  "bet": [
+   "ANNA",
+   "BEN",
+   "HERR BRANDT"
+  ],
+  "task": "Wo und wann wollen sich Anna und Ben treffen?",
+  "tip1": "268",
+  "tip2": "253",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Im Unterricht schiebt Anna Ben einen Zettel zu. Die Lehrerin soll ihn auf keinen Fall lesen können:"
+   },
+   {
+    "t": "p",
+    "text": "13 35 · 11 12 45 14 14 23 14 · 45 35 · 51 32 23 12"
+   },
+   {
+    "t": "p",
+    "text": "Auf der Rückseite hat Anna ein leeres Gitter mit 5 mal 5 Kästchen gezeichnet, die Reihen und Spalten von 1 bis 5 nummeriert. Darunter steht: „Schlüssel: BRANDT. Kein J, das I muss reichen.\""
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Der Zettel und das leere 5 mal 5 Gitter mit den Zahlen 1 bis 5 am Rand."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "57",
+  "cat": "Tatortbild",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 3,
+  "min": 6,
+  "double": false,
+  "hint": true,
+  "title": "Der verstellte Fahrersitz",
+  "bet": [
+   "MIA",
+   "PETER",
+   "LARS",
+   "OMA GRETA",
+   "HERR BRANDT"
+  ],
+  "task": "Wer saß wirklich am Steuer?",
+  "tip1": "218",
+  "tip2": "347",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Kurz vor Mitternacht fährt ein kleines blaues Auto beim Ausparken Oma Gretas Gartenzaun um und fährt einfach weiter. Am nächsten Morgen steht das Auto vor Mias Haus, vorne eingedellt. Mia sagt sofort: „Ich bin gefahren. Es tut mir leid.\""
+   },
+   {
+    "t": "p",
+    "text": "Am Abend waren außer Mia nur zwei Leute mit dem Auto unterwegs: ihr großer Bruder Peter und ihr Kollege Lars. Herr Brandt notiert: Mia ist 1,58 Meter groß und trägt Schuhgröße 37. Peter ist 1,92 Meter groß, Schuhgröße 46. Lars ist 1,74 Meter groß, Schuhgröße 41. Dann öffnet er die Fahrertür."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Blick in das Auto. Der Fahrersitz ist ganz nach hinten geschoben, die Kopfstütze ganz nach oben gezogen. Auf der Fahrerfußmatte ein großer, schlammiger Schuhabdruck. Herr Brandt hat Mias Schuh daneben gelegt: Der Abdruck ist viel länger. Auf dem Rücksitz liegt Mias Sitzkissen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "58",
+  "cat": "Rechnen",
+  "tags": [
+   "Brandts Klassiker",
+   "Doppelseite"
+  ],
+  "stars": 3,
+  "min": 12,
+  "double": true,
+  "hint": false,
+  "title": "Die zwölf Kugeln",
+  "bet": [
+   "KEMAL",
+   "CAN",
+   "HERR BRANDT"
+  ],
+  "task": "Wie findet man mit drei Wägungen die falsche Kugel und weiß danach auch, ob sie schwerer oder leichter ist?",
+  "tip1": "346",
+  "tip2": "193",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Kemal hat zwölf Metallkugeln, die alle genau gleich aussehen. Eine davon ist falsch: ein kleines bisschen schwerer oder leichter als die anderen. Ob schwerer oder leichter, weiß niemand. Kemal hat eine Balkenwaage ohne Gewichte."
+   },
+   {
+    "t": "p",
+    "text": "Can: „Das schafft keiner mit nur drei Wägungen.\" Herr Brandt: „Doch. Und am Ende weiß man sogar, ob die Kugel schwerer oder leichter ist.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "59",
+  "cat": "Logik",
+  "tags": [
+   "Doppelseite"
+  ],
+  "stars": 3,
+  "min": 10,
+  "double": true,
+  "hint": false,
+  "title": "Der Flohmarkt",
+  "bet": [
+   "OMA HILDE",
+   "HERR SOMMER",
+   "OMA GRETA",
+   "ZEYNEP",
+   "DRAGAN",
+   "HERR BRANDT"
+  ],
+  "task": "Wer verkauft Oma Hildes Kuckucksuhr?",
+  "tip1": "295",
+  "tip2": "342",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hildes alte Kuckucksuhr ist aus ihrem Gartenhäuschen verschwunden. Am Sonntag auf dem Flohmarkt glaubt sie, ihren Kuckuck rufen zu hören. Vier Stände stehen nebeneinander, Stand 1 ganz links bis Stand 4 ganz rechts. An jedem Stand verkauft eine andere Person: Herr Sommer, Oma Greta, Zeynep und Dragan. Jeder bietet ein Stück an, die Kuckucksuhr, eine Lampe, einen Teddy oder Schallplatten, und jeder verlangt einen anderen Preis: 5, 10, 15 oder 20 Euro."
+   },
+   {
+    "t": "p",
+    "text": "Dragan, der jeden Händler auf dem Markt kennt, hilft Herrn Brandt mit diesen Hinweisen:"
+   },
+   {
+    "t": "p",
+    "text": "1. Die Kuckucksuhr ist das teuerste Stück."
+   },
+   {
+    "t": "p",
+    "text": "2. Ich selbst stehe ganz rechts."
+   },
+   {
+    "t": "p",
+    "text": "3. Der Teddy kostet 5 Euro und liegt direkt links neben der Uhr."
+   },
+   {
+    "t": "p",
+    "text": "4. Zeynep verkauft keine Lampe und steht nicht am Rand."
+   },
+   {
+    "t": "p",
+    "text": "5. Am Stand 3 kostet alles 10 Euro."
+   },
+   {
+    "t": "p",
+    "text": "6. Zeynep ist billiger als Herr Sommer."
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Vier Flohmarktstände von vorne, mit leeren Schildern für Name, Ware und Preis. Daneben ein Logikgitter zum Ausfüllen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "60",
+  "cat": "Zeitleiste",
+  "tags": [],
+  "stars": 3,
+  "min": 9,
+  "double": false,
+  "hint": false,
+  "title": "Die falschen Uhren",
+  "bet": [
+   "LUIGI",
+   "KEMAL",
+   "MEHMET",
+   "MIA",
+   "ZEYNEP",
+   "IGOR",
+   "DRAGAN"
+  ],
+  "task": "Wer hat die Glocke abgeschraubt?",
+  "tip1": "278",
+  "tip2": "225",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Luigis Ladenglocke ist weg. Jemand hat sie von der Tür abgeschraubt. Luigi ist empört: „Laut meiner Küchenuhr um 18:20 Uhr! Ich hab genau hingeschaut.\""
+   },
+   {
+    "t": "p",
+    "text": "Drei Leute kommen infrage:"
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Kemal",
+      "Zeynep hat ihn auf dem Markt gesehen. Ihre Armbanduhr zeigte da 18:15 Uhr."
+     ],
+     [
+      "Mehmet",
+      "Er hat in seiner Bäckerei einen Kassenbon gedruckt. Darauf steht 18:12 Uhr."
+     ],
+     [
+      "Mia",
+      "Sie saß in Igors Taxi. Laut Taxameter fuhr sie von 18:05 bis 18:20 Uhr vom Bahnhof bis an den Stadtrand."
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Wege zu Fuß: von Luigis Pizzeria zum Markt 10 Minuten, zur Bäckerei 5 Minuten."
+   },
+   {
+    "t": "p",
+    "text": "Dragan, der Uhrmacher, hatte letzte Woche alle Uhren in seiner Werkstatt: „Luigis Küchenuhr geht 10 Minuten vor. Zeyneps Armbanduhr geht 15 Minuten nach. Mehmets Kassenuhr geht 4 Minuten vor. Igors Taxameter geht auf die Sekunde genau.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "61",
+  "cat": "Beweisstück",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 3,
+  "min": 7,
+  "double": false,
+  "hint": true,
+  "title": "Der Schrittzähler",
+  "bet": [
+   "LARS",
+   "BELLO (HUND)",
+   "HERR BRANDT"
+  ],
+  "task": "Kann Lars' Geschichte stimmen?",
+  "tip1": "220",
+  "tip2": "231",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Um 20:20 Uhr verschwindet aus dem Schaufenster des Spielwarenladens am Marktplatz ein großes Modellschiff. Lars sagt: „Ich war von acht bis Viertel vor neun nur mit Bello draußen. Drei Runden um unseren Block, mehr nicht. Eine Runde ist 300 Meter.\""
+   },
+   {
+    "t": "p",
+    "text": "Herr Brandt weiß: Von Lars' Haustür bis zum Marktplatz sind es genau 1,5 Kilometer. Lars trägt eine Sportuhr, die jeden Schritt zählt. Er zeigt sie bereitwillig her."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Die Anzeige der Sportuhr: „Heute 20:00 bis 20:45 Uhr: 4.000 Schritte\". In den Einstellungen darunter: „Schrittlänge: 75 cm\"."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "62",
+  "cat": "Querdenken",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 3,
+  "min": 6,
+  "double": false,
+  "hint": false,
+  "title": "Die drei Schließfächer",
+  "bet": [
+   "MEHMET",
+   "DER MODERATOR"
+  ],
+  "task": "Sollte Mehmet wechseln, oder ist es egal?",
+  "tip1": "228",
+  "tip2": "212",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Bei einem Gewinnspiel stehen drei Schließfächer. In einem liegt ein Goldbarren, in den anderen beiden je ein alter Turnschuh. Mehmet wählt Fach 1."
+   },
+   {
+    "t": "p",
+    "text": "Der Moderator weiß, wo das Gold liegt. Er öffnet immer eines der beiden anderen Fächer, in dem ein Turnschuh liegt, und bietet immer einen Wechsel an. Heute öffnet er Fach 3: ein Turnschuh. „Bleibst du bei Fach 1, oder wechselst du zu Fach 2?\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "63",
+  "cat": "Tatortbild",
+  "tags": [
+   "HINWEISBILD"
+  ],
+  "stars": 3,
+  "min": 7,
+  "double": false,
+  "hint": true,
+  "title": "Der verschmierte Zettel",
+  "bet": [
+   "AYŞE",
+   "MEHMET",
+   "MIA",
+   "HANS",
+   "HERR BRANDT"
+  ],
+  "task": "Wer hat den Zettel geschrieben?",
+  "tip1": "243",
+  "tip2": "270",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Aus dem Vereinsheim ist die neue Musikanlage verschwunden. Auf dem Tisch liegt ein Zettel, mit Füller geschrieben: „Die Anlage ist in Sicherheit. Ihr bekommt sie zurück, wenn endlich jemand die Heizung repariert!\""
+   },
+   {
+    "t": "p",
+    "text": "Einen Schlüssel haben nur vier Leute: Ayşe, Mehmet, Mia und Hausmeister Hans. Herr Brandt lässt alle vier das Protokoll unterschreiben und schaut genau zu."
+   },
+   {
+    "t": "ill",
+    "kind": "hint",
+    "text": "Links der Zettel in Nahaufnahme: Die frische Tinte ist an vielen Stellen nach rechts verschmiert, quer über die Wörter. Rechts vier Hände beim Unterschreiben, mit Namensschildern. Ayşe schreibt mit links, Mehmet, Mia und Hans mit rechts."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "64",
+  "cat": "Verhör",
+  "tags": [],
+  "stars": 3,
+  "min": 9,
+  "double": false,
+  "hint": false,
+  "title": "Die Tombola",
+  "bet": [
+   "ELIF",
+   "OMA GRETA",
+   "KEMAL",
+   "LUIGI",
+   "MEHMET",
+   "ANNA"
+  ],
+  "task": "Wer hat das Los genommen, und wer schwindelt?",
+  "tip1": "291",
+  "tip2": "175",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Schulfest. Kurz vor der Ziehung ist das Los mit dem Hauptgewinn aus der Lostrommel verschwunden: ein Wellnesswochenende. Fünf Erwachsene haben beim Losverkauf geholfen. Herr Brandt fragt jeden:"
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Elif",
+      "„Greta war's.\""
+     ],
+     [
+      "Oma Greta",
+      "„Kemal war's.\""
+     ],
+     [
+      "Kemal",
+      "„Greta lügt.\""
+     ],
+     [
+      "Luigi",
+      "„Elif lügt.\""
+     ],
+     [
+      "Mehmet",
+      "„Luigi lügt.\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Anna hat die fünf die ganze Zeit beobachtet und flüstert Herrn Brandt zu: „Genau zwei von denen schwindeln.\""
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "65",
+  "cat": "Logik",
+  "tags": [],
+  "stars": 3,
+  "min": 12,
+  "double": false,
+  "hint": false,
+  "title": "Der Tresor",
+  "bet": [
+   "KEMAL",
+   "CAN"
+  ],
+  "task": "Wie lautet der Code?",
+  "tip1": "182",
+  "tip2": "361",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Kemal ist im Urlaub. Can soll den Tresor im Laden öffnen, hat den Code aber vergessen. Der Code hat vier verschiedene Ziffern. Bei jedem falschen Versuch leuchten Lämpchen: Grün heißt richtige Ziffer an der richtigen Stelle. Gelb heißt richtige Ziffer an der falschen Stelle. Welche Ziffer gemeint ist, verraten die Lämpchen nicht."
+   },
+   {
+    "t": "p",
+    "text": "Can hat gestern fünf Versuche aufgeschrieben:"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      [
+       "<b>Versuch</b>",
+       "<b>Grün</b>",
+       "<b>Gelb</b>"
+      ]
+     ],
+     [
+      [
+       "8 3 1 6",
+       "2",
+       "0"
+      ]
+     ],
+     [
+      [
+       "3 2 1 0",
+       "2",
+       "0"
+      ]
+     ],
+     [
+      [
+       "6 5 0 3",
+       "0",
+       "1"
+      ]
+     ],
+     [
+      [
+       "7 9 0 3",
+       "0",
+       "0"
+      ]
+     ],
+     [
+      [
+       "1 7 4 0",
+       "0",
+       "1"
+      ]
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "66",
+  "cat": "Querdenken",
+  "tags": [
+   "Brandts Klassiker"
+  ],
+  "stars": 3,
+  "min": 10,
+  "double": false,
+  "hint": false,
+  "title": "Die Brücke bei Nacht",
+  "bet": [
+   "ANNA",
+   "BEN",
+   "OMA HILDE",
+   "HERR BRANDT"
+  ],
+  "task": "Wie kommen alle vier in 17 Minuten hinüber?",
+  "tip1": "126",
+  "tip2": "213",
+  "classic": true,
+  "body": [
+   {
+    "t": "p",
+    "text": "Nachtwanderung. Die vier stehen vor einer alten Hängebrücke über eine Schlucht. Die Brücke trägt höchstens zwei Personen gleichzeitig, und ohne Taschenlampe ist es viel zu dunkel. Sie haben nur eine Taschenlampe, und die Batterie hält noch genau 17 Minuten. Wer zu zweit geht, muss sich nach dem Langsameren richten."
+   },
+   {
+    "t": "p",
+    "text": "Anna braucht für die Brücke 1 Minute, Ben 2 Minuten, Oma Hilde 5 Minuten und Herr Brandt 10 Minuten."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "67",
+  "cat": "Meisterfall",
+  "tags": [
+   "Doppelseite"
+  ],
+  "stars": 3,
+  "min": 12,
+  "double": true,
+  "hint": false,
+  "title": "Die Brosche von Oma Hilde",
+  "bet": [
+   "OMA HILDE",
+   "KEMAL",
+   "LUIGI",
+   "ZEYNEP",
+   "EMRE"
+  ],
+  "task": "Wer hat die Brosche genommen?",
+  "tip1": "336",
+  "tip2": "282",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Oma Hilde feiert ihren 80. Geburtstag. Außer ihr sind nur vier Gäste da: Kemal, Luigi, Zeynep und Emre."
+   },
+   {
+    "t": "p",
+    "text": "Um 15:00 Uhr legt Oma ihre goldene Brosche oben im Schlafzimmer auf die Kommode und kommt als Letzte die Treppe herunter. Danach ist oben niemand mehr. Oben gibt es nur das Schlafzimmer und ein Bad."
+   },
+   {
+    "t": "p",
+    "text": "Die alte Holztreppe ist der einzige Weg nach oben, und sie knarrt bei jedem Schritt. Oma sitzt die ganze nächste Stunde im Sessel direkt neben der Treppe. Sie hört sie genau zweimal knarren: um 15:20 Uhr und um 15:40 Uhr."
+   },
+   {
+    "t": "p",
+    "text": "Um 16:00 Uhr ist die Brosche weg. Oben ist niemand."
+   },
+   {
+    "t": "stmts",
+    "rows": [
+     [
+      "Kemal",
+      "„Ich stand die ganze Zeit mit Luigi am Grill im Garten.\""
+     ],
+     [
+      "Luigi",
+      "„Fast die ganze Zeit. Kemal war mal kurz weg.\""
+     ],
+     [
+      "Kemal",
+      "„Stimmt, ich hab Grillkohle aus dem Auto geholt. Das steht vor dem Haus.\""
+     ],
+     [
+      "Zeynep",
+      "„Ich war um halb vier oben im Bad, aber wirklich nur zwei Minuten.\""
+     ],
+     [
+      "Emre",
+      "„Ich hab den ganzen Nachmittag fotografiert. Hier, mein Handy.\""
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Emres Fotos, mit Uhrzeit:"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      [
+       "<b>Uhrzeit</b>",
+       "<b>Was man sieht</b>"
+      ]
+     ],
+     [
+      [
+       "15:10",
+       "Die Torte im Wohnzimmer"
+      ]
+     ],
+     [
+      [
+       "15:25",
+       "Luigi allein am Grill im Garten"
+      ]
+     ],
+     [
+      [
+       "15:35",
+       "Kemal kommt mit einem Sack Kohle durchs Gartentor"
+      ]
+     ],
+     [
+      [
+       "15:50",
+       "Alle stoßen im Garten an"
+      ]
+     ]
+    ]
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Doppelseite. Links ein Hausquerschnitt mit Treppe, Sessel und Zimmern. Rechts die vier Fotos als Sofortbilder mit Uhrzeit. Dazu eine Zeitleiste von 15:00 bis 16:00 Uhr zum Eintragen."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ },
+ {
+  "n": "68",
+  "cat": "Meisterfall",
+  "tags": [
+   "Doppelseite"
+  ],
+  "stars": 3,
+  "min": 15,
+  "double": true,
+  "hint": false,
+  "title": "Brandts Notizbuch",
+  "bet": [
+   "HERR BRANDT",
+   "ALLE"
+  ],
+  "task": "Wer hat Herrn Brandts Notizbuch genommen?",
+  "tip1": "216",
+  "tip2": "397",
+  "classic": false,
+  "body": [
+   {
+    "t": "p",
+    "text": "Herr Brandt wird 70. Kemal hat seinen Laden für den Abend geschlossen, und alle sind gekommen: Oma Hilde, Oma Greta, Anna, Ben, Carla, Lea, Tom, Max, Luigi, Zeynep, Mehmet, Ayşe, Defne, Emre, Hans, Lars, Mia, Igor, Dragan und Can."
+   },
+   {
+    "t": "p",
+    "text": "Um 20:00 Uhr hängt Herr Brandt seinen Mantel in die kleine Garderobe hinter der Küche. In der Innentasche steckt sein altes Notizbuch, in dem er seit Jahren jeden Fall aufschreibt. Um 20:30 Uhr will er daraus vorlesen. Die Innentasche ist leer."
+   },
+   {
+    "t": "p",
+    "text": "Can hat an diesem Abend die Garderobe betreut. Für jeden, der hineinging, hat er die Uhrzeit von seinem Handy aufgeschrieben:"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      [
+       "<b>Uhrzeit</b>",
+       "<b>Wer</b>",
+       "<b>Wozu</b>"
+      ]
+     ],
+     [
+      [
+       "20:02",
+       "Lars",
+       "holt sein Handy aus der Jacke"
+      ]
+     ],
+     [
+      [
+       "20:06",
+       "Zeynep",
+       "holt ihren Schal"
+      ]
+     ],
+     [
+      [
+       "20:09",
+       "Anna",
+       "hängt ihre Jacke auf"
+      ]
+     ],
+     [
+      [
+       "20:12",
+       "Luigi",
+       "holt sein Feuerzeug"
+      ]
+     ],
+     [
+      [
+       "20:15",
+       "Oma Hilde",
+       "holt ihre Lesebrille"
+      ]
+     ],
+     [
+      [
+       "20:21",
+       "Hans",
+       "holt seinen Autoschlüssel"
+      ]
+     ],
+     [
+      [
+       "20:30",
+       "Herr Brandt",
+       "Notizbuch weg"
+      ]
+     ]
+    ]
+   },
+   {
+    "t": "p",
+    "text": "Herr Brandt erinnert sich an noch etwas. Beim Unterschreiben im Gästebuch hat er genau hingeschaut, alte Gewohnheit: Lars, Ayşe und Oma Hilde schreiben mit links, alle anderen mit rechts. Hans trägt seinen linken Arm in Gips. Unterschrieben hat er trotzdem, mit rechts."
+   },
+   {
+    "t": "p",
+    "text": "In der leeren Manteltasche steckt ein Zettel, mit Bleistift in Druckbuchstaben: „KEINE SORGE. DU BEKOMMST ES ZURÜCK. SCHÖNER ALS VORHER.\""
+   },
+   {
+    "t": "ill",
+    "kind": "ill",
+    "text": "Erste Doppelseite: Kemals Laden voller Gäste, Girlanden, eine Torte mit 70 Kerzen. Zweite Doppelseite: die Garderobe mit Brandts Mantel, daneben Cans Liste als Zettel und das aufgeschlagene Gästebuch."
+   },
+   {
+    "t": "table",
+    "rows": []
+   }
+  ]
+ }
+]

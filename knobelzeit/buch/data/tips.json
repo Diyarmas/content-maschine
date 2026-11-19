@@ -1,0 +1,682 @@
+{
+ "102": {
+  "text": "Das Dach ist egal. Schau unter das Auto.",
+  "fall": "07",
+  "k": 1
+ },
+ "103": {
+  "text": "Prüf danach Zeynep: Wenn sie es war, wie viele von Cans Sätzen wären dann wahr?",
+  "fall": "54",
+  "k": 2
+ },
+ "106": {
+  "text": "Wann hat der Regen angefangen?",
+  "fall": "10",
+  "k": 1
+ },
+ "107": {
+  "text": "Muss ein Spieß nach der ersten Seite sofort wieder auf den Grill?",
+  "fall": "34",
+  "k": 1
+ },
+ "109": {
+  "text": "Jede Person muss zwei Wege schaffen: bis 10:00 Uhr zum Kiosk und danach rechtzeitig zum zweiten Ort.",
+  "fall": "55",
+  "k": 1
+ },
+ "113": {
+  "text": "Die Sachen selbst sind egal.",
+  "fall": "19",
+  "k": 1
+ },
+ "126": {
+  "text": "Die Taschenlampe muss nach jeder Überquerung zurückgebracht werden, außer bei der letzten.",
+  "fall": "66",
+  "k": 1
+ },
+ "127": {
+  "text": "Welche Jahreszeit ist Mitte Dezember?",
+  "fall": "39",
+  "k": 1
+ },
+ "130": {
+  "text": "Welcher Wochentag ist heute?",
+  "fall": "23",
+  "k": 2
+ },
+ "132": {
+  "text": "Eine alte Glühbirne kann mehr als leuchten.",
+  "fall": "43",
+  "k": 1
+ },
+ "134": {
+  "text": "Vorgestern war der 30. Dezember.",
+  "fall": "36",
+  "k": 1
+ },
+ "137": {
+  "text": "Mehmet und Emre sagen also beide die Wahrheit. Prüf jetzt Ayşe.",
+  "fall": "41",
+  "k": 2
+ },
+ "139": {
+  "text": "Rechne für jeden die Ankunft am Kiosk und die Ankunft am zweiten Ort aus. Eine Minute zu spät reicht schon.",
+  "fall": "55",
+  "k": 2
+ },
+ "140": {
+  "text": "Wann stempelt man ein Ticket ab?",
+  "fall": "15",
+  "k": 1
+ },
+ "142": {
+  "text": "Wo landet kein Schnee, wenn ein Auto die ganze Nacht an derselben Stelle steht?",
+  "fall": "07",
+  "k": 2
+ },
+ "146": {
+  "text": "Wie viel ist schon abgebrannt?",
+  "fall": "16",
+  "k": 1
+ },
+ "147": {
+  "text": "Welche drei Tage gehören zu den drei Flaschen?",
+  "fall": "21",
+  "k": 2
+ },
+ "151": {
+  "text": "Lies die Wörter nicht von links nach rechts.",
+  "fall": "09",
+  "k": 1
+ },
+ "152": {
+  "text": "Was ist schneller, Licht oder Schall?",
+  "fall": "53",
+  "k": 1
+ },
+ "153": {
+  "text": "Lies alles, was im Laden geschrieben steht.",
+  "fall": "03",
+  "k": 1
+ },
+ "157": {
+  "text": "Was passiert mit Eis, das man bei 34 Grad durch die Sonne trägt?",
+  "fall": "08",
+  "k": 1
+ },
+ "158": {
+  "text": "Wo kann Mia wohnen, wenn Greta zwei Stockwerke höher wohnt und Stock 1 schon vergeben ist?",
+  "fall": "35",
+  "k": 1
+ },
+ "159": {
+  "text": "Wie lange braucht Ben hin, wie lange zurück?",
+  "fall": "42",
+  "k": 2
+ },
+ "161": {
+  "text": "Probier jede Person einmal als Täter aus.",
+  "fall": "01",
+  "k": 1
+ },
+ "165": {
+  "text": "Wo war Lars um 10:03 Uhr, und wo um 10:07 Uhr?",
+  "fall": "47",
+  "k": 1
+ },
+ "167": {
+  "text": "Der zweite Buchstabe auf der 2 ist B.",
+  "fall": "29",
+  "k": 2
+ },
+ "169": {
+  "text": "Fang bei Mia an. Was wäre, wenn Igor es war?",
+  "fall": "54",
+  "k": 1
+ },
+ "173": {
+  "text": "Rechne erst aus, was Ben insgesamt bezahlen muss.",
+  "fall": "18",
+  "k": 1
+ },
+ "175": {
+  "text": "Elif und Greta beschuldigen verschiedene Leute. Mindestens eine von beiden schwindelt also. Was heißt das für Kemal?",
+  "fall": "64",
+  "k": 2
+ },
+ "176": {
+  "text": "Igor war genauso weit weg wie Hans angeblich. Wie lange hätte Hans auf den Donner warten müssen?",
+  "fall": "53",
+  "k": 2
+ },
+ "179": {
+  "text": "Der Zaun ist die Anleitung. Die Buchstaben wurden abwechselnd in zwei Reihen geschrieben, oben und unten.",
+  "fall": "49",
+  "k": 1
+ },
+ "182": {
+  "text": "Fang mit dem Versuch ohne Lämpchen an. Welche Ziffern fallen raus? Schau dir dann 3 2 1 0 an.",
+  "fall": "65",
+  "k": 1
+ },
+ "193": {
+  "text": "Kippt die Waage, tausch bei der zweiten Wägung Kugeln zwischen den Seiten und nimm eine Kugel dazu, von der du sicher weißt, dass sie echt ist.",
+  "fall": "58",
+  "k": 2
+ },
+ "202": {
+  "text": "Welches Schild verrät dir am meisten, wenn du weißt, dass es falsch ist?",
+  "fall": "28",
+  "k": 1
+ },
+ "203": {
+  "text": "Du musst nicht herausfinden, wer Kuno und Bodo sind. Spiel einfach beide Möglichkeiten für Kuno durch.",
+  "fall": "48",
+  "k": 1
+ },
+ "208": {
+  "text": "Mit welcher Briefmarke verschickt man eine Karte aus Spanien?",
+  "fall": "11",
+  "k": 2
+ },
+ "209": {
+  "text": "Mit welchem Buchstaben müsste Herr Brandt eigentlich unterschreiben?",
+  "fall": "24",
+  "k": 1
+ },
+ "210": {
+  "text": "Wer kam mit diesem Fahrzeug?",
+  "fall": "40",
+  "k": 2
+ },
+ "211": {
+  "text": "Füll die große Kanne und gieß damit die kleine voll. Was bleibt in der großen?",
+  "fall": "52",
+  "k": 2
+ },
+ "212": {
+  "text": "Stell dir dasselbe Spiel mit 100 Fächern vor. Der Moderator öffnet 98 Fächer mit Turnschuhen. Würdest du bei deinem ersten Fach bleiben?",
+  "fall": "62",
+  "k": 2
+ },
+ "213": {
+  "text": "Lass die beiden Langsamsten zusammen gehen.",
+  "fall": "66",
+  "k": 2
+ },
+ "215": {
+  "text": "Wie konnte man diese Woche bei Kemal bezahlen?",
+  "fall": "03",
+  "k": 2
+ },
+ "216": {
+  "text": "Hol deine Beweismarken aus Kapitel 2. Ab welcher Uhrzeit kommen überhaupt noch Leute infrage?",
+  "fall": "68",
+  "k": 1
+ },
+ "217": {
+  "text": "Eine Torte ist nicht flach. Sie hat auch eine Höhe.",
+  "fall": "44",
+  "k": 2
+ },
+ "218": {
+  "text": "Wer kann so fahren, wie der Sitz eingestellt ist?",
+  "fall": "57",
+  "k": 1
+ },
+ "220": {
+  "text": "Wie weit ist Lars laut Uhr gelaufen?",
+  "fall": "61",
+  "k": 1
+ },
+ "221": {
+  "text": "Was passiert, wenn Mehmet lügt? Wie viele würden dann schwindeln?",
+  "fall": "41",
+  "k": 1
+ },
+ "223": {
+  "text": "Was sieht man aus dem Fenster, wenn man durch einen Tunnel fährt?",
+  "fall": "06",
+  "k": 2
+ },
+ "224": {
+  "text": "Denk dir eine Strecke aus, zum Beispiel 6 km.",
+  "fall": "42",
+  "k": 1
+ },
+ "225": {
+  "text": "Die Tat war um 18:10 Uhr echter Zeit. Wer schafft es von dort rechtzeitig zu seinem Nachweis?",
+  "fall": "60",
+  "k": 2
+ },
+ "226": {
+  "text": "Probier jeden als Täter aus und zähl die wahren Sätze.",
+  "fall": "27",
+  "k": 2
+ },
+ "228": {
+  "text": "Wie wahrscheinlich war es, dass Mehmet mit seiner allerersten Wahl schon richtig lag?",
+  "fall": "62",
+  "k": 1
+ },
+ "229": {
+  "text": "Ben hat doppelt so viele wie Tom. Teil 6 in drei gleiche Teile.",
+  "fall": "12",
+  "k": 2
+ },
+ "230": {
+  "text": "Aus B wird E. Jeder Buchstabe ist drei Plätze im Alphabet weitergerutscht.",
+  "fall": "24",
+  "k": 2
+ },
+ "231": {
+  "text": "Wie weit sind drei Runden um den Block, und wie weit ist es zum Marktplatz und zurück?",
+  "fall": "61",
+  "k": 2
+ },
+ "232": {
+  "text": "Wo stehen die Zeiger in Wirklichkeit, wenn sie im Spiegel so aussehen?",
+  "fall": "32",
+  "k": 2
+ },
+ "233": {
+  "text": "Fang mit 964 an. Welche zwei Ziffern könnten es sein?",
+  "fall": "33",
+  "k": 1
+ },
+ "234": {
+  "text": "Wann fängt der Film selbst an?",
+  "fall": "38",
+  "k": 1
+ },
+ "235": {
+  "text": "„22\" heißt: zweimal die Taste 2.",
+  "fall": "29",
+  "k": 1
+ },
+ "240": {
+  "text": "Wer hat Samstag und Sonntag abgerissen?",
+  "fall": "46",
+  "k": 2
+ },
+ "241": {
+  "text": "Teil die Reihe in zwei Hälften zu je acht Buchstaben. Die erste Hälfte ist die obere Reihe. Nimm jetzt abwechselnd einen Buchstaben von oben und einen von unten.",
+  "fall": "49",
+  "k": 2
+ },
+ "243": {
+  "text": "Wie kommt Tinte auf einem Zettel ins Verschmieren?",
+  "fall": "63",
+  "k": 1
+ },
+ "244": {
+  "text": "Wie lange bräuchte er für den Weg zu Greta und zurück?",
+  "fall": "47",
+  "k": 2
+ },
+ "245": {
+  "text": "Wie spät ist es in New York, wenn es in München 9 Uhr ist?",
+  "fall": "31",
+  "k": 1
+ },
+ "248": {
+  "text": "Wie lange war das Eis angeblich unterwegs?",
+  "fall": "08",
+  "k": 2
+ },
+ "250": {
+  "text": "Wie lange braucht die Kerze für dieses Stück?",
+  "fall": "16",
+  "k": 2
+ },
+ "253": {
+  "text": "Schreib zuerst das Schlüsselwort ins Gitter, Buchstabe für Buchstabe. Danach den Rest des Alphabets der Reihe nach, ohne Buchstaben doppelt und ohne J.",
+  "fall": "56",
+  "k": 2
+ },
+ "254": {
+  "text": "Für den Döner bleibt Ayran, also isst Carla Döner. Prüf jetzt Emre.",
+  "fall": "26",
+  "k": 2
+ },
+ "259": {
+  "text": "Zieh das von 20 € ab.",
+  "fall": "18",
+  "k": 2
+ },
+ "260": {
+  "text": "Wie kam die Torte, wenn sie nicht mit dem Bus kam und der Salat das Fahrrad hatte?",
+  "fall": "40",
+  "k": 1
+ },
+ "261": {
+  "text": "Schau dir die Briefmarke genau an.",
+  "fall": "11",
+  "k": 1
+ },
+ "264": {
+  "text": "Zähl jedes Mal, wie viele Sätze dann wahr wären. Es muss genau einer sein.",
+  "fall": "01",
+  "k": 2
+ },
+ "266": {
+  "text": "Wo steht die Sonne morgens, und wo mittags?",
+  "fall": "50",
+  "k": 1
+ },
+ "268": {
+  "text": "Jede zweistellige Zahl ist ein Buchstabe: erst die Reihe, dann die Spalte.",
+  "fall": "56",
+  "k": 1
+ },
+ "270": {
+  "text": "Wir schreiben von links nach rechts. Bei wem rutscht die Hand über das, was gerade erst geschrieben wurde?",
+  "fall": "63",
+  "k": 2
+ },
+ "272": {
+  "text": "Wann ist er zu Ende?",
+  "fall": "38",
+  "k": 2
+ },
+ "273": {
+  "text": "Lies auch das Kleingedruckte.",
+  "fall": "45",
+  "k": 1
+ },
+ "275": {
+  "text": "Vergleich die Uhrzeit auf dem Stempel mit Zeyneps Geschichte.",
+  "fall": "15",
+  "k": 2
+ },
+ "278": {
+  "text": "Rechne zuerst alle Zeiten in die echte Uhrzeit um. Fang mit Luigis Küchenuhr an.",
+  "fall": "60",
+  "k": 1
+ },
+ "279": {
+  "text": "Was hat Bruno in dieser Nacht nicht getan?",
+  "fall": "13",
+  "k": 1
+ },
+ "280": {
+  "text": "Zwei Schnitte über Kreuz ergeben vier Stücke.",
+  "fall": "44",
+  "k": 1
+ },
+ "281": {
+  "text": "Luigi und Can wohnen direkt übereinander. Welche zwei Stockwerke bleiben dafür frei?",
+  "fall": "37",
+  "k": 2
+ },
+ "282": {
+  "text": "Eine Person ging um 15:20 Uhr hinauf und kam um 15:40 Uhr herunter. Wer war in dieser Zeit nachweislich woanders?",
+  "fall": "67",
+  "k": 2
+ },
+ "283": {
+  "text": "Bei wem bellt Bruno nie?",
+  "fall": "13",
+  "k": 2
+ },
+ "284": {
+  "text": "Wie früh wird es im Winter dunkel?",
+  "fall": "39",
+  "k": 2
+ },
+ "287": {
+  "text": "Wie schwer müsste die volle Tüte sein?",
+  "fall": "20",
+  "k": 1
+ },
+ "289": {
+  "text": "Schau dir nur den Anfang jeder Zeile an.",
+  "fall": "19",
+  "k": 2
+ },
+ "291": {
+  "text": "Luigi und Mehmet können nicht beide die Wahrheit sagen und auch nicht beide lügen. Warum?",
+  "fall": "64",
+  "k": 1
+ },
+ "293": {
+  "text": "In welche Richtung fliegen Scherben, wenn man auf eine Scheibe schlägt?",
+  "fall": "14",
+  "k": 1
+ },
+ "295": {
+  "text": "Wo kann die Uhr stehen, wenn der Teddy direkt links daneben liegt, 5 Euro kostet und Stand 3 schon 10 Euro verlangt?",
+  "fall": "59",
+  "k": 1
+ },
+ "297": {
+  "text": "Probier Mia im 2. und im 3. Stock aus.",
+  "fall": "35",
+  "k": 2
+ },
+ "304": {
+  "text": "Für Ben und Tom zusammen bleiben 6 Stücke.",
+  "fall": "12",
+  "k": 1
+ },
+ "305": {
+  "text": "Ben und Carla kommen immer direkt hintereinander, wie ein Paar.",
+  "fall": "22",
+  "k": 1
+ },
+ "306": {
+  "text": "Stell dir vor, alle 20 Münzen wären 1-Euro-Münzen. Wie viel fehlt bis 31 Euro?",
+  "fall": "25",
+  "k": 1
+ },
+ "307": {
+  "text": "Die 1 kann nicht dabei sein, sonst widersprechen sich 147 und 189. Bei 147 bleibt also die 4 in der Mitte oder die 7 hinten. Probier die 4 aus und prüf am Ende 286.",
+  "fall": "33",
+  "k": 2
+ },
+ "310": {
+  "text": "Wie oft kann Tom in den nächsten zwei Jahren Geburtstag feiern?",
+  "fall": "36",
+  "k": 2
+ },
+ "316": {
+  "text": "Lies den Zettel der Stadtwerke noch einmal.",
+  "fall": "04",
+  "k": 2
+ },
+ "317": {
+  "text": "Wie viele Flaschen stünden vor der Tür, wenn Igor jeden Morgen da war?",
+  "fall": "21",
+  "k": 1
+ },
+ "319": {
+  "text": "Wie viel Kurbeitrag hätte Mehmet für zwei Personen und zwei Nächte zahlen müssen?",
+  "fall": "45",
+  "k": 2
+ },
+ "322": {
+  "text": "Verbinde zuerst Essen und Getränk. Drei Paare stehen direkt da.",
+  "fall": "26",
+  "k": 1
+ },
+ "323": {
+  "text": "Lies den Fahrplan Zeile für Zeile.",
+  "fall": "23",
+  "k": 1
+ },
+ "324": {
+  "text": "Was folgt in beiden Fällen für Gero?",
+  "fall": "48",
+  "k": 2
+ },
+ "325": {
+  "text": "Ali und Peter sagen dasselbe. Was heißt das für die Zahl der wahren Sätze, wenn Mia es war?",
+  "fall": "27",
+  "k": 1
+ },
+ "326": {
+  "text": "Wo war der Zug in diesen zwanzig Minuten?",
+  "fall": "06",
+  "k": 1
+ },
+ "331": {
+  "text": "Fang beim letzten Buchstaben an.",
+  "fall": "09",
+  "k": 2
+ },
+ "335": {
+  "text": "Schau auf die Rathausuhr. Wann ist das Foto also entstanden?",
+  "fall": "17",
+  "k": 2
+ },
+ "336": {
+  "text": "Was verraten die zwei Knarrgeräusche? Wie viele Personen waren oben, und wie lange?",
+  "fall": "67",
+  "k": 1
+ },
+ "337": {
+  "text": "12 mal 60 plus 10.",
+  "fall": "20",
+  "k": 2
+ },
+ "338": {
+  "text": "Isst man um diese Uhrzeit in der Firma zu Mittag?",
+  "fall": "31",
+  "k": 2
+ },
+ "342": {
+  "text": "Die Uhr steht an Stand 2. Wo kann Zeynep jetzt noch stehen, wenn sie billiger sein soll als Herr Sommer?",
+  "fall": "59",
+  "k": 2
+ },
+ "346": {
+  "text": "Nummeriere die Kugeln von 1 bis 12 und fang mit 1, 2, 3, 4 gegen 5, 6, 7, 8 an.",
+  "fall": "58",
+  "k": 1
+ },
+ "347": {
+  "text": "Vergleich den Schuhabdruck mit den Schuhgrößen.",
+  "fall": "57",
+  "k": 2
+ },
+ "352": {
+  "text": "Dann ist die erste 2x und die mittlere 3x. Zusammen 6x.",
+  "fall": "05",
+  "k": 2
+ },
+ "356": {
+  "text": "Wo kann Tom stehen, wenn er nicht Letzter ist und nach Anna kommt?",
+  "fall": "22",
+  "k": 2
+ },
+ "357": {
+  "text": "Kemal darf Kannen füllen, ausleeren (zurück in den Kanister) und von einer Kanne in die andere umgießen.",
+  "fall": "52",
+  "k": 1
+ },
+ "358": {
+  "text": "Lies Mamas Frage noch einmal ganz genau.",
+  "fall": "02",
+  "k": 1
+ },
+ "359": {
+  "text": "Nenne Defnes Alter x. Dann ist Ayşe 3x.",
+  "fall": "30",
+  "k": 1
+ },
+ "360": {
+  "text": "Sitzt Anna auf Platz 6, muss Tom auf Platz 5 sitzen. Wo wäre dann noch Platz für Carla?",
+  "fall": "51",
+  "k": 2
+ },
+ "361": {
+  "text": "Nach 3 2 1 0 stehen 2 und 1 schon an Stelle 2 und 3 fest. Prüf jetzt: Kann die 6 dabei sein?",
+  "fall": "65",
+  "k": 2
+ },
+ "363": {
+  "text": "Woher kann man wissen, welche Vase es war?",
+  "fall": "02",
+  "k": 2
+ },
+ "366": {
+  "text": "Die Dose „gemischt\" ist auf keinen Fall gemischt.",
+  "fall": "28",
+  "k": 2
+ },
+ "367": {
+  "text": "Nach 5 Minuten nimm einen der beiden Spieße vom Grill.",
+  "fall": "34",
+  "k": 2
+ },
+ "372": {
+  "text": "Wo wohnt der Hamster, wenn die Katze im 4. Stock wohnt?",
+  "fall": "37",
+  "k": 1
+ },
+ "373": {
+  "text": "Jede 2-Euro-Münze statt einer 1-Euro-Münze bringt genau 1 Euro mehr.",
+  "fall": "25",
+  "k": 2
+ },
+ "374": {
+  "text": "Welches Blatt müsste oben sein, wenn seit Freitag niemand da war?",
+  "fall": "46",
+  "k": 1
+ },
+ "375": {
+  "text": "Probier beide Möglichkeiten für Anna aus: Platz 1 und Platz 6.",
+  "fall": "51",
+  "k": 1
+ },
+ "376": {
+  "text": "Ein Schatten zeigt immer von der Sonne weg. Mittags sind Schatten kurz, morgens lang.",
+  "fall": "50",
+  "k": 2
+ },
+ "378": {
+  "text": "In sechzehn Jahren: 3x + 16 = 2 × (x + 16).",
+  "fall": "30",
+  "k": 2
+ },
+ "379": {
+  "text": "Was spürt man an einer Glühbirne, die eine Weile an war?",
+  "fall": "43",
+  "k": 2
+ },
+ "381": {
+  "text": "Fang mit der letzten Ziffer an und nenne sie x.",
+  "fall": "05",
+  "k": 1
+ },
+ "384": {
+  "text": "Auf dem Foto ist mehr zu sehen als Mia und ihr Cappuccino.",
+  "fall": "17",
+  "k": 1
+ },
+ "385": {
+  "text": "Was braucht Hans, um zu Hause Fußball im Fernsehen zu schauen?",
+  "fall": "04",
+  "k": 1
+ },
+ "388": {
+  "text": "Was macht ein Spiegel mit links und rechts?",
+  "fall": "32",
+  "k": 1
+ },
+ "390": {
+  "text": "Wie kommt eine Pfütze unter einen Schirm, der seit ein Uhr drinnen steht?",
+  "fall": "10",
+  "k": 2
+ },
+ "396": {
+  "text": "Wo müssten die Scherben liegen, wenn jemand von draußen eingeschlagen hat?",
+  "fall": "14",
+  "k": 2
+ },
+ "397": {
+  "text": "Jetzt die Beweismarken aus Kapitel 3. Wer von den Übrigen passt dazu?",
+  "fall": "68",
+  "k": 2
+ }
+}

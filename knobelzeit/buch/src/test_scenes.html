@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#fff;font-family:Poppins}
+.g{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;width:2000px;padding:6px}.c{font-size:13px;font-weight:700}
+svg{width:490px;height:304px;border:1px solid #888;display:block}</style></head><body><div class="g" id="g"></div>
+<script src="figs2.js"></script><script src="bg.js"></script><script src="scenes.js"></script><script>
+const q=new URLSearchParams(location.search);const a=+(q.get('a')||1),b=+(q.get('b')||68);
+let h='';for(let n=a;n<=b;n++){const k=String(n).padStart(2,'0');let s='';try{s=SC[k]?SC[k]():'<svg viewBox="0 0 10 10"></svg>'}catch(e){s='<div style="color:red">'+e.message+'</div>';console.error(k,e.message)}h+=`<div class="c">${k}${s}</div>`}
+document.getElementById('g').innerHTML=h;</script></body></html>
