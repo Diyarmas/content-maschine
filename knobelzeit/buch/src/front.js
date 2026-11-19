@@ -9,12 +9,14 @@ const CH=[null,
  {nm:'Kopfnüsse',st:2,tx:'Jetzt wird es kniffliger. Rechnen, kombinieren, um die Ecke denken.',rng:'Fall 23 bis 47'},
  {nm:'Meister­detektiv',st:3,tx:'Die schweren Fälle. Nimm dir Zeit, Stift und Papier, und gib nicht zu früh auf. Wer hier durchkommt, ist bereit für den letzten Fall.',rng:'Fall 48 bis 67'},
  {nm:'Der letzte Fall',st:0,tx:'Hast du alle Beweismarken gesammelt? Dann schlag deine Ermittlerakte auf. Die Buchstaben aus Kapitel 1 ergeben eine Frage. Die aus Kapitel 2 und 3 sind zwei Hinweise, und ohne sie kommst du hier nicht weiter. Fehlen dir Marken, löse die Fälle oder schau in den Lösungen nach. Herr Brandt verrät nichts.',rng:'Fall 68'}];
+const DCOL=[null,'#138A7E','#D9622B','#5B46B5','#B3263A'];
 function divider(k){const c=CH[k];
   const l=newPage('dark div',`<div class="divimg">${SCK[k]()}</div><div class="divcap"><span>KAPITEL ${k}</span></div>`);
   const r=newPage('dark divr',`<div class="bignum">${k}</div><div class="col"><div class="chapnum">KAPITEL ${k}</div><div class="chapname">${c.nm}</div><div class="chapstars">${k<4?[1,2,3].map(i=>i<=c.st?`<b>${STAR}</b>`:`<i>${STAR}</i>`).join(''):'<b>?</b>'}</div><div class="chaptxt">${typo(c.tx)}</div></div><div class="divrng">${c.rng}</div>`);
+  if(!window.BW){l.style.setProperty('--dc',DCOL[k]);r.style.setProperty('--dc',DCOL[k])}
   REFS['kap'+k]=l.dataset.pn;return [l,r]}
 function titlePage(){
-  const s=`<svg viewBox="0 0 1000 1446" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="1000" height="1446" fill="${BW?'#fff':'#FBF6E6'}"/>`
+  const s=`<svg viewBox="0 0 1000 1446" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="1000" height="1446" fill="${BW?'#fff':'#F6C431'}"/>`+(BW?'':(()=>{let r='';for(let i=0;i<24;i+=2){const a0=i*15*Math.PI/180,a1=(i+1)*15*Math.PI/180,R=1800;r+='<path d="M500 760 L'+(500+R*Math.cos(a0)).toFixed(0)+' '+(760+R*Math.sin(a0)).toFixed(0)+' L'+(500+R*Math.cos(a1)).toFixed(0)+' '+(760+R*Math.sin(a1)).toFixed(0)+'Z" fill="#FBD65A"/>'}return r})())
    +T(500,110,'DAS RÄTSELBUCH ZUM KANAL KNOBELZEIT',{s:26,w:700,font:'Poppins',ls:5,c:G5})
    +`<g transform="rotate(-4 500 330)"><rect x="90" y="170" width="820" height="330" rx="14" fill="${INK}"/>`+T(500,330,'KNOBEL',{s:168,w:700,font:'Poppins',c:'#fff',ls:6})+T(500,478,'ZEIT',{s:168,w:700,font:'Poppins',c:YEL,ls:30})+`</g>`
    +T(500,630,'67 Krimi- und Logikrätsel',{s:54,font:'Lora',italic:1,w:500})+T(500,694,'für die ganze Familie',{s:54,font:'Lora',italic:1,w:500})

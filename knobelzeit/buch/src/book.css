@@ -3,7 +3,7 @@
 html,body{margin:0;padding:0}
 body{font-family:'Lora',serif;color:#1E1E1E;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .page{width:173.2mm;height:250.4mm;position:relative;overflow:hidden;page-break-after:always;break-after:page;background:#fff}
-.page.dark{background:#1E1E1E;color:#fff}
+.page.dark{background:var(--dc,#1E1E1E);color:#fff}
 .col{position:absolute}
 .odd .col{left:15mm;right:15.2mm}.even .col{left:15.2mm;right:15mm}
 .img{position:absolute;left:0;top:0;width:173.2mm;overflow:hidden}
@@ -88,13 +88,13 @@ p{font-size:11.5pt;line-height:1.45;margin:0 0 2.8mm}
 .vorab{background:#FBF6E6}
 .nums.big li{font-size:10.8pt;margin:2.8mm 0;line-height:1.42}.nums.big li span{width:7mm;height:7mm;line-height:6.4mm;font-size:10pt;margin-right:3.4mm}
 .nums.big{margin-bottom:60mm}
-.dark{background:#1E1E1E;color:#fff}
-.divimg{position:absolute;left:0;right:0;top:28mm;height:122mm;background:#1E1E1E;border-top:.8mm solid #fff;border-bottom:.8mm solid #fff}
+.dark{background:var(--dc,#1E1E1E);color:#fff}
+.divimg{position:absolute;left:0;right:0;top:28mm;height:122mm;background:#fff;border-top:.8mm solid #fff;border-bottom:.8mm solid #fff}
 .divimg svg{width:100%;height:100%;display:block}
 .even.dark .divimg{left:0;right:0}
-.divcap{position:absolute;bottom:22mm;left:15.2mm;right:15mm;font-family:Poppins;font-weight:700;letter-spacing:.18em;font-size:9pt;color:#8a857c}
+.divcap{position:absolute;bottom:22mm;left:15.2mm;right:15mm;font-family:Poppins;font-weight:700;letter-spacing:.18em;font-size:9pt;color:rgba(255,255,255,.85)}
 .divr .col{top:68mm;right:15.2mm;left:15mm}
-.divr .bignum{position:absolute;right:11mm;top:14mm;font-family:Poppins;font-weight:700;font-size:170pt;line-height:1;color:#2b2b2b}
+.divr .bignum{position:absolute;right:11mm;top:14mm;font-family:Poppins;font-weight:700;font-size:170pt;line-height:1;color:rgba(255,255,255,.2)}
 .divr .chapname{font-size:36pt}
 .divr .chapstars{font-size:20pt;margin-top:1mm}.divr .chapstars b{color:var(--yel)}
 .divrng{position:absolute;left:15mm;bottom:22mm;font-family:Poppins;font-weight:700;letter-spacing:.16em;font-size:9pt;color:var(--yel)}
@@ -155,3 +155,8 @@ p{font-size:11.5pt;line-height:1.45;margin:0 0 2.8mm}
 .ist{width:1em;height:1em;vertical-align:-.12em;display:inline-block}.star .ist{width:3.2mm;height:3.2mm;vertical-align:-.5mm}.star{color:var(--yel)}.star0{color:#cfcac0}
 .chapstars{display:flex;gap:2mm}.chapstars .ist{width:8mm;height:8mm}.chapstars i{color:#5c5852;font-style:normal;display:inline-flex}.chapstars b{display:inline-flex}
 .ms .mbox{height:6.4mm;width:7.8mm}.tbl.rang td{padding:.5mm 3mm!important}.ms b{margin-bottom:.4mm}
+.urk{background:#FFF3C9}.urk .frame{border-color:#D9A520}.urk .frame2{border-color:#D9A520;background:#FFFBEA}.urk .utitle{color:#1E1E1E;background:#F6C431;display:inline-block;padding:2mm 8mm;border-radius:2mm;margin-bottom:2mm}
+.tippage .h2,.solpage .h2,.akte .h2{display:inline-block;background:#F6C431;padding:1mm 4mm;border-radius:1.5mm}
+.flow .runhead{border-bottom-color:#F6C431}
+.akte .kh{background:#FFF1BF;padding:1mm 2mm;border-radius:1mm}
+.akte .kh{padding:0 2mm}.akte .h2{padding:0 3mm;margin-bottom:1mm}

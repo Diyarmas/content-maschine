@@ -4,7 +4,7 @@ function f(k,x,o){o=o||{};return fig(k,x,o.y||565,o)}
 function T(x,y,txt,o){o=o||{};return `<text x="${x}" y="${y}" text-anchor="${o.a||'middle'}" font-family="${o.font||'Lora'}" ${o.italic?'font-style="italic"':''} font-weight="${o.w||500}" font-size="${o.s||22}" fill="${o.c||INK}" ${o.ls?`letter-spacing="${o.ls}"`:''} ${o.rot?`transform="rotate(${o.rot} ${x} ${y})"`:''}>${txt}</text>`}
 // ---------- Requisiten ----------
 function bike(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+C(-62,-34,34,'none',5)+C(62,-34,34,'none',5)+L('M-62 -34 L-18 -34 L10 -92 L52 -92 L62 -34 M-18 -34 L-30 -92 L10 -92 M-30 -92 h-14 M52 -92 l-6 -22 h22',5)+L('M-30 -92 v-6',5)+(o.lock?`<circle cx="-62" cy="-34" r="40" fill="none" stroke="${G5}" stroke-width="6" stroke-dasharray="4 5"/>`+R(-20,-66,36,24,G5,5,3):'')+'</g>'}
-function car(x,y,sc,o){o=o||{};sc=sc||1;const c=o.c||G4;let s=`<g transform="translate(${x} ${y}) scale(${sc})">`;
+function car(x,y,sc,o){o=o||{};sc=sc||1;const c=o.c||'#D8503F';let s=`<g transform="translate(${x} ${y}) scale(${sc})">`;
   s+=P('M-170 -30 v-50 q0 -14 14 -18 l60 -14 q24 -50 70 -50 h60 q36 0 56 40 l50 18 q20 8 20 26 v48Z',c,3.8)+P('M-86 -108 q14 -34 48 -34 h46 q24 0 36 34Z','#fff',3.2)+L('M-12 -142 v34',3.2)+C(-100,-28,34,G6,4)+C(-100,-28,14,G2,3)+C(100,-28,34,G6,4)+C(100,-28,14,G2,3);
   if(o.snow)s+=P('M-80 -142 q40 -32 100 -4 q30 -2 40 4 q-60 14 -140 0Z','#fff',3);
   return s+'</g>'}
@@ -35,7 +35,7 @@ const SC={};
 SC['01']=()=>SVGS(bgKitchen()+P('M580 270 h110 v22 h-110Z',G3,3)+cakeP(635,266,.9,{piece:1})+f('hilde',860,{mood:'happy',look:-1})+f('anna',150,{look:1})+f('ben',320,{mood:'think',look:1})+f('carla',470,{look:1}));
 SC['02']=()=>SVGS(bgLiving()+shelf(80,330,260)+vase(130,330,1,70)+vase(210,330,.9,90)+vase(290,330,.85,60)+f('elif',820,{mood:'worried',armL:'hips',armR:'hips',look:-1})+f('lea',200,{y:565,mood:'think',look:1})+f('tom',400,{look:1})+f('max',580,{mood:'happy'}));
 SC['03']=()=>SVGS(bgDoener()+tableP(540,400,250,100,{cloth:G1})+f('kemal',230,{items:[['ladle','R']]})+f('can',420,{})+f('ali',620,{items:[]})+f('peter',780,{items:[]})+`<g transform="translate(900 0)">`+`</g>`);
-SC['04']=()=>SVGS(bgNight()+house(30,150,300,320,{rows:3,cols:3,c:G5,roof:true})+house(360,190,260,280,{rows:3,cols:3,c:G5})+house(660,130,320,340,{rows:3,cols:3,c:G5})+'<rect width="1000" height="620" fill="#000" opacity=".28"/>'+f('hans',330,{items:[['torch','R']],armR:'hold',look:1})+f('brandt',620,{look:-1}));
+SC['04']=()=>SVGS(bgNight()+house(30,150,300,320,{rows:3,cols:3,c:'#46568A',roof:true})+house(360,190,260,280,{rows:3,cols:3,c:'#3E4D7E'})+house(660,130,320,340,{rows:3,cols:3,c:'#46568A'})+'<rect width="1000" height="620" fill="#000" opacity=".28"/>'+f('hans',330,{items:[['torch','R']],armR:'hold',look:1})+f('brandt',620,{look:-1}));
 SC['05']=()=>SVGS(bgStreet()+bike(480,520,2.3,{lock:1})+f('hilde',220,{mood:'think',look:1,tilt:-2})+f('anna',770,{look:-1,mood:'think'}));
 SC['06']=()=>SVGS(bgTrain({tunnel:1})+f('carla',180,{y:470,h:260,items:[['phone','R']],armR:'phone',mood:'worried'})+f('lars',810,{y:470,h:280})+f('peter',690,{y:470,h:300}));
 // 07 Hinweisbild: Auto im Schnee

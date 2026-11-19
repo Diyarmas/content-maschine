@@ -2,6 +2,8 @@
 // Grosse Koepfe, weisse Augen mit Glanzpunkt, Wangen, runde Koerper, Tusche-Linie, Graustufen + Gelb als Akzent
 var INK='#1E1E1E', YEL=(typeof window!=='undefined'&&window.BW)?'#C9C5BC':'#F6C431';
 var G0='#fbfaf7',G1='#f2f0eb',G2='#dcd8d0',G3='#b9b4aa',G4='#8a857c',G5='#5c5852',G6='#3a3833';
+if(!window.BW){G0='#FFFDF7';G1='#FBF0D4';G2='#D4E6F1';G3='#EAB873';G4='#BD8A5E';G5='#7C5A44';G6='#3B3330'}
+var DBOT=window.BW?G6:'#3A4766',DSHOE=window.BW?G6:'#4A3426';
 var SKN={a:'#f7eadf',b:'#ecd6c2',c:'#d6b89e',d:'#b8957c',e:'#97745e'};
 function L(d,w,c){return `<path d="${d}" fill="none" stroke="${c||INK}" stroke-width="${w||3.2}" stroke-linecap="round" stroke-linejoin="round"/>`}
 function P(d,f,w){return `<path d="${d}" fill="${f}" stroke="${INK}" stroke-width="${w||3.2}" stroke-linejoin="round"/>`}
@@ -16,7 +18,7 @@ function person(o){
   const x=o.x||0,y=o.y||0,H=o.h||300,sc=H/300, kid=!!o.kid;
   const hr=o.headR||(kid?48:40), w=o.wide||(kid?34:40), bf=o.belly||1;
   const hy=-300+hr+4, sh=hy+hr+6, hip=o.hip||(kid?-92:-112), ww=w*bf;
-  const sk=SKN[o.skin||'a']||o.skin, top=o.top||G2, bot=o.bottom||G6, shoe=o.shoe||G6;
+  const sk=SKN[o.skin||'a']||o.skin, top=o.top||G2, bot=o.bottom||DBOT, shoe=o.shoe||DSHOE;
   const look=o.look||0, mood=o.mood||'happy';
   let s=`<g transform="translate(${x} ${y}) ${o.tilt?`rotate(${o.tilt})`:''} scale(${o.flip?-sc:sc} ${sc})">`;
   // Bewegungslinien
@@ -152,7 +154,7 @@ function person(o){
   if(hat==='chef')s+=P(`M${-hr+4} ${hy-hr*0.55} L${-hr+2} ${hy-hr-12} Q${-hr-14} ${hy-hr-34} ${-hr*0.5} ${hy-hr-52} Q0 ${hy-hr-68} ${hr*0.5} ${hy-hr-52} Q${hr+14} ${hy-hr-34} ${hr-2} ${hy-hr-12} L${hr-4} ${hy-hr*0.55}Z`,'#fff',3);
   if(hat==='straw')s+=P(`M${-hr-34} ${hy-hr*0.42} Q0 ${hy-hr*0.1} ${hr+34} ${hy-hr*0.42} Q${hr+8} ${hy-hr*0.8} ${hr-8} ${hy-hr*0.8} Q0 ${hy-hr-22} ${-hr+8} ${hy-hr*0.8} Q${-hr-8} ${hy-hr*0.8} ${-hr-34} ${hy-hr*0.42}Z`,'#d9cdb0',3.2)+L(`M${-hr+6} ${hy-hr*0.72} Q0 ${hy-hr*0.55} ${hr-6} ${hy-hr*0.72}`,7,G5);
   if(hat==='beanie')s+=P(`M${-hr-1} ${hy-hr*0.3} Q${-hr-4} ${hy-hr-16} 0 ${hy-hr-16} Q${hr+4} ${hy-hr-16} ${hr+1} ${hy-hr*0.3}Z`,o.hatc||G5,3)+R(-hr-3,hy-hr*0.45,2*hr+6,14,G4,5,2.8)+C(0,hy-hr-20,8,G4,2.6);
-  if(hat==='helm')s+=P(`M${-hr-4} ${hy+4} Q${-hr-6} ${hy-hr-16} 0 ${hy-hr-16} Q${hr+6} ${hy-hr-16} ${hr+4} ${hy+4} L${hr+4} ${hy-hr*0.3} L${-hr-4} ${hy-hr*0.3}Z`,G3,3.2)+L(`M${-hr-4} ${hy-hr*0.3} h${2*hr+8}`,3)+P(`M-4 ${hy-hr-14} q4 -${o.plume||26} ${14+(o.plume||0)/4} -${(o.plume||26)+10} q-2 20 -10 ${(o.plume||26)+10}Z`,o.plumec||G6,2.6);
+  if(hat==='helm')s+=P(`M${-hr-4} ${hy+4} Q${-hr-6} ${hy-hr-16} 0 ${hy-hr-16} Q${hr+6} ${hy-hr-16} ${hr+4} ${hy+4} L${hr+4} ${hy-hr*0.3} L${-hr-4} ${hy-hr*0.3}Z`,o.helmc||G3,3.2)+L(`M${-hr-4} ${hy-hr*0.3} h${2*hr+8}`,3)+P(`M-4 ${hy-hr-14} q4 -${o.plume||26} ${14+(o.plume||0)/4} -${(o.plume||26)+10} q-2 20 -10 ${(o.plume||26)+10}Z`,o.plumec||G6,2.6);
   if(o.pencilEar)s+=L(`M${hr-8} ${hy-12} L${hr+14} ${hy+14}`,6,YEL)+L(`M${hr-8} ${hy-12} L${hr+14} ${hy+14}`,1.4);
   // Hand-Items
   const itemAt=(a,t,side)=>{let [hx,hy2]=a.hd,r='';
@@ -237,6 +239,43 @@ var F={
  bodo:{h:300,wide:44,belly:1.2,hat:'helm',plumec:G6,plume:40,top:G3,coat:G3,hair:'short',hc:G4,stache:1,stachec:G5,skin:'a',av:[-64,-322,128,128]},
  gero:{h:332,wide:34,hat:'helm',plumec:G4,plume:14,top:G5,coat:G5,hair:'short',hc:G4,glasses:1,skin:'c',av:[-64,-322,128,128]}
 };
+
+// Farbpalette (nur Farbfassung)
+if(!window.BW){const W='#F6F0E0',K='#2A2420',CC={
+ brandt:{coat:'#D7C39A',top:W,hatc:'#7A5A3A',hc:'#C9C9C9',stachec:'#C9C9C9'},
+ anna:{hc:'#2A1F1A',overall:'#E4573D',top:'#7CC4E8'},
+ ben:{hc:'#8B5A2B',top:'#5DB75D',hoodc:'#5DB75D'},
+ carla:{hc:'#E8A33D',top:'#F08CAE',bottom:'#4A6FA5',shoe:'#ffffff'},
+ hilde:{cardigan:'#A58BD9',top:W,bottom:'#6B6B8E'},
+ kemal:{hc:K,beard:K,top:'#C8472E'},
+ can:{hc:K,hatc:'#3F8EDB',top:'#2FA39A'},
+ luigi:{hc:K,stachec:K,top:'#E4573D'},
+ zeynep:{hc:'#4A2C1A',apronc:'#1FA89A',top:W},
+ mehmet:{hc:'#6B4A2D',top:'#E9E2CF'},
+ greta:{hc:'#E6E6E6',cardigan:'#D6618A',top:W,bottom:'#5B6B8C'},
+ lars:{hc:K,hatc:'#D44A3A',top:'#3F8EDB',bottom:'#2D3E5F'},
+ hans:{hc:'#B0B0B0',beard:'#B0B0B0',top:'#6E8B3D'},
+ peter:{hc:'#8B5A2B',top:'#F29A3A',bottom:'#2D4F8E'},
+ mia:{hc:K,top:'#8C6FD6',bottom:'#3A3A55'},
+ ayse:{hc:'#2A1F1A',top:'#1FA89A',bottom:'#33415C'},
+ defne:{hc:'#5A3622',top:'#F08CAE',bottom:'#4A6FA5'},
+ emre:{hatc:'#2D4F8E',hc:K,top:'#F29A3A',bottom:'#8B8260'},
+ igor:{hatc:'#7A5A3A',top:'#5E8C5A',hc:'#BDB09A'},
+ dragan:{vest:'#7A3B3B',top:W,hc:'#3B2A22'},
+ elif:{hc:'#3B2A22',top:'#F2E6C9',cardigan:'#C95F8E'},
+ lea:{hc:'#2A1F1A',top:'#F29A3A',overall:'#3F8EDB'},
+ tom:{hc:'#C98A3D',top:'#E4573D',shoe:'#3A3A3A'},
+ max:{hc:'#B5532A',top:'#3F8EDB'},
+ ali:{hatc:'#E4573D',stachec:K,top:'#3A7D5C'},
+ frank:{hc:'#8A6A4A',vest:'#9C6B3A',top:W},
+ jonas:{hc:'#6B4A2D',top:'#2D4F8E'},
+ sommer:{hatc:'#7A5A3A',bow:'#E4573D',vest:'#5B7A5B',top:W,hc:'#E6E6E6'},
+ moderator:{coat:'#2D4F8E',bow:'#E4573D',top:'#ffffff',hc:'#3B2A22'},
+ kassierer:{vest:'#E4573D',top:W,hc:'#4A3426'},
+ kuno:{plumec:'#E4573D',top:'#8B97A8',coat:'#8B97A8',hc:'#6B4A2D',helmc:'#B9C3CF'},
+ bodo:{plumec:'#3F8EDB',top:'#B5651D',coat:'#B5651D',hc:'#6B4A2D',stachec:'#6B4A2D',helmc:'#B9C3CF'},
+ gero:{plumec:'#F6C431',top:'#5B6C8F',coat:'#5B6C8F',hc:'#3B2A22',helmc:'#B9C3CF'}};
+ Object.keys(CC).forEach(k=>{if(F[k])Object.assign(F[k],CC[k])})}
 function fig(k,x,y,extra){return person(Object.assign({},F[k],{x:x,y:y},extra||{}))}
 function avatar(k){const o=F[k];const v=o.av||[-64,-308,128,128];
   return `<svg viewBox="${v.join(' ')}" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">${person(Object.assign({},o,{x:0,y:0,h:300,armL:'down',armR:'down',items:[],look:0,tilt:0,mood:o.mood==='laugh'?'laugh':(o.mood==='grumpy'?'grumpy':'happy')}))}</svg>`}

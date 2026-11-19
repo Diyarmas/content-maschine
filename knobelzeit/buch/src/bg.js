@@ -6,7 +6,7 @@ function wallFloor(o){o=o||{};const fl=o.fl||470;let s=`<rect width="1000" heigh
   if(o.boards!==false)for(let i=0;i<14;i++)s+=L(`M${i*95-30} ${fl} L${i*95-130+ (i-7)*14} 620`,1.4,G3);
   if(o.tiles){for(let j=0;j<5;j++)s+=L(`M0 ${fl+j*34+10} H1000`,1.2,G3)}
   return s}
-function win(x,y,w,h,o){o=o||{};let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.glass||'#ffffff',3.4);
+function win(x,y,w,h,o){o=o||{};let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.glass||'#E6F5FD',3.4);
   s+=hatch(x,y,w,h,.07);
   if(o.cross!==false)s+=L(`M${x+w/2} ${y} v${h} M${x} ${y+h/2} h${w}`,3);
   if(o.sill!==false)s+=P(`M${x-12} ${y+h} h${w+24} v14 h${-(w+24)}Z`,G3,3);
@@ -28,10 +28,10 @@ function sign(x,y,w,h,txt,o){o=o||{};const fs=o.fs||22;const lines=txt.split('|'
 function bunting(y0,n,cols){let s=`<path d="M-20 ${y0} Q500 ${y0+60} 1020 ${y0}" fill="none" stroke="${G4}" stroke-width="3"/>`;
   for(let i=0;i<n;i++){const t=(i+0.5)/n,x=-20+1040*t,y=y0+60*2*t*(1-t)*0.5*2*0.5+ (y0*0);const yy=y0+ 60*(2*t*(1-t));s+=`<path d="M${x-22} ${yy-2} l22 40 l22 -40Z" fill="${(cols||[YEL,G4,G2])[i%3]}" stroke="${INK}" stroke-width="2.4" stroke-linejoin="round"/>`}return s}
 function house(x,y,w,h,o){o=o||{};let s=P(`M${x} ${y} h${w} v${h} h${-w}Z`,o.c||G2,3.4)+hatch(x,y,w,h,.05);
-  if(o.roof!==false)s+=P(`M${x-14} ${y} L${x+w/2} ${y-(o.rh||70)} L${x+w+14} ${y}Z`,G4,3.4);
+  if(o.roof!==false)s+=P(`M${x-14} ${y} L${x+w/2} ${y-(o.rh||70)} L${x+w+14} ${y}Z`,'#C8593F',3.4);
   const rows=o.rows||2,cols=o.cols||3;for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){const ww=w/(cols*2),wx=x+ww*0.5+c*w/cols+ww*0.2;s+=P(`M${wx} ${y+18+r*(h-30)/rows} h${ww} v${(h-30)/rows-26} h${-ww}Z`,'#fff',2.8)+L(`M${wx+ww/2} ${y+18+r*(h-30)/rows} v${(h-30)/rows-26}`,2)}
   return s}
-function tree(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-10 0 h20 v-90 h-20Z',G4,3.2)+C(0,-130,62,o.c||G3,3.4)+C(-44,-100,40,o.c||G3,3.2)+C(46,-104,42,o.c||G3,3.2)+'</g>'}
+function tree(x,y,sc,o){o=o||{};sc=sc||1;return `<g transform="translate(${x} ${y}) scale(${sc})">`+P('M-10 0 h20 v-90 h-20Z',G4,3.2)+C(0,-130,62,o.c||'#7CC468',3.4)+C(-44,-100,40,o.c||'#6BB85A',3.2)+C(46,-104,42,o.c||'#8DD076',3.2)+'</g>'}
 function bench(x,y,w){return P(`M${x} ${y} h${w} v14 h${-w}Z`,G4,3.2)+P(`M${x+10} ${y-40} h${w-20} v16 h${-(w-20)}Z`,G4,3.2)+L(`M${x+16} ${y+14} v34 M${x+w-16} ${y+14} v34`,6,G5)}
 function cakeP(x,y,sc,o){o=o||{};sc=sc||1;let s=`<g transform="translate(${x} ${y}) scale(${sc})">`;
   s+=P('M-60 0 v-34 q60 -16 120 0 v34 q-60 12 -120 0Z',G5,3.2)+P('M-60 -34 q60 -16 120 0 q-60 16 -120 0Z',G4,3);
@@ -69,9 +69,9 @@ function bgDoener(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
   s+=grill(180,400,1.6)+counter(430,340,450,130)+P('M470 300 h130 v40 h-130Z',G5,3.2)+R(640,296,70,44,G4,5,3.2);
   s+=tableP(60,400,200,90,{cloth:G1});
   return s}
-function bgStreet(o){o=o||{};let s=`<rect width="1000" height="620" fill="${o.sky||G1}"/>`;
-  s+=house(20,130,300,340,{rows:3,cols:3,c:G2})+house(340,170,280,300,{rows:3,cols:3,c:G3})+house(640,110,340,360,{rows:3,cols:3,c:G2});
-  s+=`<rect y="470" width="1000" height="150" fill="${G2}"/>`+L('M0 470 H1000',3.4)+`<rect y="470" width="1000" height="26" fill="${G3}"/>`+L('M0 496 H1000',2.6);
+function bgStreet(o){o=o||{};let s=`<rect width="1000" height="620" fill="${o.sky||'#DDF1FB'}"/>`;
+  s+=house(20,130,300,340,{rows:3,cols:3,c:'#F2B8A0'})+house(340,170,280,300,{rows:3,cols:3,c:'#F6D77A'})+house(640,110,340,360,{rows:3,cols:3,c:'#A9D0E8'});
+  s+=`<rect y="470" width="1000" height="150" fill="#B3BCC6"/>`+L('M0 470 H1000',3.4)+`<rect y="470" width="1000" height="26" fill="#DDD2BC"/>`+L('M0 496 H1000',2.6);
   for(let i=0;i<10;i++)s+=L(`M${i*120+20} 560 h70`,4,G0);
   return s}
 function bgTrain(o){let s=`<rect width="1000" height="620" fill="${G3}"/>`;
@@ -79,10 +79,10 @@ function bgTrain(o){let s=`<rect width="1000" height="620" fill="${G3}"/>`;
   s+=P('M300 80 h400 v250 h-400Z',(o&&o.tunnel)?G6:'#fff',4)+(o&&o.tunnel?`<circle cx="360" cy="140" r="4" fill="#fff"/><circle cx="600" cy="230" r="3" fill="#fff"/><circle cx="470" cy="180" r="3" fill="#fff"/>`:L('M320 280 q60 -100 130 -40 t140 -30 t90 -30',4,G3))+L('M500 80 v250',4);
   s+=P('M60 330 h180 v100 h-180Z',G4,3.4)+P('M760 330 h180 v100 h-180Z',G4,3.4)+P('M300 400 h400 v20 h-400Z',G2,3.4)+P('M310 420 h380 v50 h-380Z',G4,3);
   return s}
-function bgGarden(o){o=o||{};let s=`<rect width="1000" height="620" fill="${G0}"/>`;
-  s+=`<circle cx="840" cy="100" r="52" fill="${G2}"/>`+Array.from({length:12}).map((_,i)=>L(`M${840+Math.cos(i*Math.PI/6)*66} ${100+Math.sin(i*Math.PI/6)*66} l${Math.cos(i*Math.PI/6)*24} ${Math.sin(i*Math.PI/6)*24}`,4,G3)).join('');
-  s+=`<rect y="420" width="1000" height="200" fill="${G2}"/>`+L('M0 420 H1000',3.4);
-  s+=P('M0 300 h1000 v120 h-1000Z',G3,0)+Array.from({length:28}).map((_,i)=>P(`M${i*38} 310 h28 v110 h-28Z`,G1,2.6)).join('');
+function bgGarden(o){o=o||{};let s=`<rect width="1000" height="620" fill="#DDF1FB"/>`;
+  s+=`<circle cx="840" cy="100" r="52" fill="#FFD84D"/>`+Array.from({length:12}).map((_,i)=>L(`M${840+Math.cos(i*Math.PI/6)*66} ${100+Math.sin(i*Math.PI/6)*66} l${Math.cos(i*Math.PI/6)*24} ${Math.sin(i*Math.PI/6)*24}`,4,'#F2A93B')).join('');
+  s+=`<rect y="420" width="1000" height="200" fill="#9ED37A"/>`+L('M0 420 H1000',3.4);
+  s+=P('M0 300 h1000 v120 h-1000Z','#6FB35A',0)+Array.from({length:28}).map((_,i)=>P(`M${i*38} 310 h28 v110 h-28Z`,G1,2.6)).join('');
   s+=tree(120,430,1.2)+tree(880,430,1.1)+bunting(70,12);
   return s}
 function bgBath(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
@@ -103,24 +103,24 @@ function bgBakery(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
   for(let k=0;k<3;k++){s+=P(`M${40+k*140} 100 h120 v200 h-120Z`,G3,3.2)+L(`M${40+k*140} 170 h120 M${40+k*140} 240 h120`,3);for(let r=0;r<3;r++)for(let b=0;b<3;b++)s+=E(`${62+k*140+b*34}`,`${156+r*70}`,15,10,G1,2.4)}
   s+=counter(540,350,420,120)+P('M560 290 h140 v60 h-140Z','#fff',3)+hatch(560,290,140,60,.08);
   return s}
-function bgMarket(o){let s=`<rect width="1000" height="620" fill="${G0}"/>`;
+function bgMarket(o){let s=`<rect width="1000" height="620" fill="#DDF1FB"/>`;
   s+=P('M200 140 h300 v330 h-300Z',G2,3.4)+P('M180 140 L350 50 L520 140Z',G4,3.4)+clockP(350,200,46,(o&&o.h)||4,(o&&o.m!=null)?o.m:15)+P('M320 380 h60 v90 h-60Z',G4,3.2);
   for(let r=0;r<2;r++)for(let c=0;c<4;c++)s+=P(`M${224+c*66} ${270+r*70} h40 v50 h-40Z`,'#fff',2.8);
-  s+=`<rect y="470" width="1000" height="150" fill="${G2}"/>`+L('M0 470 H1000',3.4);
-  s+=house(600,190,380,280,{rows:3,cols:4,c:G3,rh:60})+tree(90,470,1.1);
+  s+=`<rect y="470" width="1000" height="150" fill="#D9CDB8"/>`+L('M0 470 H1000',3.4);
+  s+=house(600,190,380,280,{rows:3,cols:4,c:'#F2B8A0',rh:60})+tree(90,470,1.1);
   if(!o||o.stalls!==false){for(let k=0;k<2;k++){const x=520+k*200;}}
   return s}
 function bgSchool(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
   s+=P('M60 60 h880 v60 h-880Z',G4,0)+`<text x="500" y="104" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="6">${(o&&o.t)||'SCHULE'}</text>`;
   s+=P('M120 180 h240 v290 h-240Z',G4,3.4)+P('M640 180 h240 v290 h-240Z',G4,3.4)+L('M240 180 v290 M760 180 v290',3);
   return s}
-function bgCinema(o){let s=`<rect width="1000" height="620" fill="${G5}"/>`;
+function bgCinema(o){let s=`<rect width="1000" height="620" fill="#5A2330"/>`;
   s+=P('M0 0 h1000 v90 h-1000Z',G6,0)+`<text x="500" y="62" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="40" fill="#fff" letter-spacing="14">KINO</text>`+bunting(96,0);
   s+=`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4);
   s+=P('M100 140 h330 v330 h-330Z',G2,3.4)+P('M570 140 h330 v330 h-330Z',G2,3.4);
   return s}
-function bgNight(o){let s=`<rect width="1000" height="620" fill="${G6}"/>`+stars(40,11)+moon(850,90,42);
-  s+=`<rect y="470" width="1000" height="150" fill="${G5}"/>`+L('M0 470 H1000',3.4,G3);return s}
+function bgNight(o){let s=`<rect width="1000" height="620" fill="#1F2A4D"/>`+stars(40,11)+moon(850,90,42);
+  s+=`<rect y="470" width="1000" height="150" fill="#34426B"/>`+L('M0 470 H1000',3.4,'#5A6A99');return s}
 function bgBurg(o){let s=`<rect width="1000" height="620" fill="${G4}"/>`;
   for(let j=0;j<8;j++)for(let i=0;i<12;i++)s+=`<rect x="${i*90-(j%2)*45}" y="${j*60}" width="90" height="60" fill="none" stroke="${G5}" stroke-width="2.6"/>`;
   s+=`<rect y="470" width="1000" height="150" fill="${G5}"/>`+L('M0 470 H1000',3.4);
@@ -131,13 +131,13 @@ function bgClass(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
 function bgBasement(o){let s=`<rect width="1000" height="620" fill="${G4}"/>`;
   for(let j=0;j<9;j++)for(let i=0;i<13;i++)s+=`<rect x="${i*80-(j%2)*40}" y="${j*55}" width="80" height="55" fill="none" stroke="${G5}" stroke-width="2.4"/>`;
   s+=`<rect y="470" width="1000" height="150" fill="${G3}"/>`+L('M0 470 H1000',3.4);return s}
-function bgMountain(o){let s=`<rect width="1000" height="620" fill="${G1}"/>`;
-  s+=P('M-20 470 L220 160 L340 300 L470 90 L720 420 L820 280 L1020 470Z',G3,3.6)+P('M470 90 L400 190 L450 175 L480 215 L520 170 L560 200 Z','#fff',3);
-  s+=`<rect y="470" width="1000" height="150" fill="${G2}"/>`+L('M0 470 H1000',3.4);return s}
+function bgMountain(o){let s=`<rect width="1000" height="620" fill="#CFE9F8"/>`;
+  s+=P('M-20 470 L220 160 L340 300 L470 90 L720 420 L820 280 L1020 470Z','#8FA3B8',3.6)+P('M470 90 L400 190 L450 175 L480 215 L520 170 L560 200 Z','#fff',3);
+  s+=`<rect y="470" width="1000" height="150" fill="#9ED37A"/>`+L('M0 470 H1000',3.4);return s}
 function bgHall(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
   s+=bunting(60,14)+win(60,100,160,230,{sill:0})+win(780,100,160,230,{sill:0});
   s+=tableP(300,380,400,90,{cloth:G1});return s}
-function bgStage(o){let s=`<rect width="1000" height="620" fill="${G5}"/>`;
-  s+=P('M0 0 q80 200 70 470 h-70Z',G3,3.4)+P('M1000 0 q-80 200 -70 470 h70Z',G3,3.4)+`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4)+bunting(30,0);
+function bgStage(o){let s=`<rect width="1000" height="620" fill="#3C2A55"/>`;
+  s+=P('M0 0 q80 200 70 470 h-70Z','#C8344A',3.4)+P('M1000 0 q-80 200 -70 470 h70Z','#C8344A',3.4)+`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4)+bunting(30,0);
   s+=P('M380 140 h240 v330 h-240Z',G2,3.4)+`<path d="M380 140 q120 -40 240 0" fill="${G3}" stroke="${INK}" stroke-width="3"/>`;return s}
 function bgDark(o){return wallFloor({wall:G3,floor:G4})}
