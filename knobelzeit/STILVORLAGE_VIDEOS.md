@@ -28,3 +28,10 @@ Referenzen (von Diyar geschickt): Hotel unendlich (87 s, DE), Goldkugeln/König 
 
 ## STANDARDREGEL (Diyar 20.11.2026, "ab jetzt immer")
 Jedes neue Video bekommt eine richtige Geschichte mit Hook nach der Formel (Einsatz → Problem → "das Verrückte" → Lage), Figuren mit Rolle und Auflösung mit Aha-Moment. Längere Videos (bis ca. 4 Min.) sind ausdrücklich erlaubt, wenn die Story trägt (Referenzen mit 100K+ Views hatten 74–243 s). Weniger reine "Einer lügt"-Rätsel, mehr Abwechslung. Erfolg an Haltedauer/Views prüfen und nachsteuern.
+
+## Dopamin-Loop (Referenz 5, @jonas.social, 116 s, von Diyar 20.11. geschickt) – fester Aufbau
+1. EINSATZ: etwas steht auf dem Spiel + Zeitdruck (Hinrichtung in 10 Min, Hängen im Morgengrauen).
+2. GROSSE FRAGE: gerade so viel Kontext, dass eine spannende Frage entsteht ("Wer kann es wissen?").
+3. FINTE: alles deutet auf A, dann kommt B (falsche Fährte; z. B. der Nervöse ist nicht der Lügner).
+4. REHOOK: sofort neue Frage, die die Schleife neu startet (bei 10–15 s und nochmal vor der Lösung).
+Gute Videos haben mehrere Schleifen hintereinander. Optik: kein Textbox-Chaos, pro Moment ein Wort/Objekt, fließende Szenen (2 harte Schnitte in 116 s).
