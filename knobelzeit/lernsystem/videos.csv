@@ -44,3 +44,10 @@ KZ046,Knobelzeit,2026-11-20,20:00,Links mal Rechts (Rechen-Split; Diyars Idee),A
 RT015,Riddle Time,2026-11-20,08:00,Cake (EN von KZ043),H,45,90-Prozent+Rehook,ja,ja,Figur+Tisch,Zeynep/Dragan/Igor,Who lies | REHOOK=ja
 RT016,Riddle Time,2026-11-20,13:00,Pizza (EN von KZ044),H,41,90-Prozent+Rehook,ja,ja,Figur+Tisch,Mehmet/Ayse/Lars,Who lies | REHOOK=ja
 RT017,Riddle Time,2026-11-20,19:30,Left times Right (EN von KZ046),A,41,Labeling+Rehook,nein,nein,Split-Screen,Herr Brandt,Mental math | REHOOK=ja
+KZ047,Knobelzeit,2026-11-21,07:00,Fahrrad (nur einer luegt; ruhig=Dieb),H,50,90-Prozent+Rehook,ja,ja (Kemal),Figur+Tisch,Greta/Kemal/Tom Mimik,Wer-luegt | REHOOK=ja | Loesung ab 64%
+KZ048,Knobelzeit,2026-11-21,12:00,Schluessel (nur einer ehrlich; der Ehrliche ist Dieb),H,50,90-Prozent+Rehook,ja,ja (Luigi),Figur+Tisch,Luigi/Mia/Hans Mimik,Wer-luegt | REHOOK=ja | Loesung ab 61%
+KZ049,Knobelzeit,2026-11-21,16:00,Links mal Rechts 2 (zwei Minus),A,50,Fast alle verrechnen sich+Rehook,nein,nein,Split-Screen,Herr Brandt,Kopfrechnen | REHOOK=ja | Loesung ab 58%
+KZ050,Knobelzeit,2026-11-21,20:00,Handy (falsches Gestaendnis),H,52,90-Prozent+Rehook,ja,ja (Dragan),Figur+Tisch,Peter/Jule/Dragan Mimik,Wer-luegt | REHOOK=ja | Loesung ab 63%
+RT018,Riddle Time,2026-11-21,08:00,Tip money (EN von KZ045),H,39,90-Prozent+Rehook,ja,ja,Figur+Tisch,Igor/Zeynep/Ali,Who lies | REHOOK=ja
+RT019,Riddle Time,2026-11-21,13:00,Bike (EN von KZ047),H,37,90-Prozent+Rehook,ja,ja,Figur+Tisch,Greta/Kemal/Tom,Who lies | REHOOK=ja
+RT020,Riddle Time,2026-11-21,19:30,Left times Right 2 (EN von KZ049),A,39,Almost everyone+Rehook,nein,nein,Split-Screen,Herr Brandt,Mental math | REHOOK=ja

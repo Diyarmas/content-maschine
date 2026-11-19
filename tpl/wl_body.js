@@ -51,7 +51,7 @@ K.khook=(t,d,o)=>{let s=kbg()+kfrage(t);
   WXS.forEach((x,j)=>{const kk=['n1','n2','n3'][j];s+=numc(x,1250,j+1,1+0.25*Math.max(0,1-Math.abs(t-ev(o,kk))*4))});
   return s+knames(1330)};
 K.krehook=(t,d,o)=>{const z=1+0.04*t;let s=`<g transform="translate(540 1100) scale(${z}) translate(-540 -1100)">`+scene(t,CFG.moods,-1,-1)+`</g>`+kfrage(t);
-  s+=`<g transform="translate(540 470) rotate(-3) scale(${PB(t,0,0.35)})">${F(CFG.re[0],0,0,{s:CFG.re[0].length>16?80:96,c:R,st:9})}${F(CFG.re[1],0,100,{s:CFG.re[1].length>18?70:84,c:R,st:8})}</g>`;
+  s+=`<g transform="translate(540 470) rotate(-3) scale(${PB(t,0,0.35)})">${F(CFG.re[0],0,0,{s:CFG.re[0].length>16?80:96,c:R,st:9})}${F(CFG.re[1],0,100,{s:Math.min(84,Math.floor(1700/CFG.re[1].length)),c:R,st:8})}</g>`;
   return s};
 K.kq=(t,d,o)=>{const i=(o.scene||{}).hl||0;const txt=CFG.says[i];const z=1+0.035*t;
   let s=`<g transform="translate(540 1100) scale(${z}) translate(-540 -1100)">`+scene(t,CFG.moods,t<2.6?i:-1,i)+`</g>`+kfrage(t);
@@ -67,7 +67,7 @@ K.kask=(t,d,o)=>{let s=`<rect width="1080" height="1920" fill="${Y}"/>`;
   if(cur){const p=PB(t,ev(o,cur)-0.05,0.3);s+=`<g transform="translate(540 640) scale(${p})"><circle r="120" fill="${N}"/>${F(cur,0,64,{s:180,c:Y})}</g>`}
   else{const w=on(o,'schreib',t);if(w)s+=stamp(540,640,CFG.write,w,{w:900,bg:N,c:Y,s:60})}
   return s};
-function dmk(x,y,txt,p,bg,w){return p<=0?'':stamp(x,y,txt,p,{w:w||Math.max(260,txt.length*26),bg:bg||R,c:W,s:40,rot:-3})}
+function dmk(x,y,txt,p,bg,w){w=w||Math.max(260,txt.length*26);x=Math.max(w/2+20,Math.min(1060-w/2,x));return p<=0?'':stamp(x,y,txt,p,{w:w,bg:bg||R,c:W,s:40,rot:-3})}
 const COL={R:R,T:T,N:N};
 K.ksol=(t,d,o)=>{let s=kbg();
   s+=stamp(540,300,CFG.solTitle,PB(t,0,0.35),{w:560,bg:T,rot:-2});
