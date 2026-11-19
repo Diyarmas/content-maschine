@@ -64,8 +64,8 @@ function bgLiving(o){let s=wallFloor({wall:G1,floor:G2,wallpaper:1.2});
   s+=P('M590 120 h260 v120 h-260Z','#fff',3.4)+L('M600 220 l50 -60 l36 36 l30 -40 l70 64',3,G4)+P('M370 80 q28 -12 56 0 v60 h-56Z',G2,3);
   s+=clockP(420,110,40,2,20)+'</g>'+plant(930,470,1.2);
   return s}
-function bgDoener(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
-  s+=P('M0 142 h1000 v52 h-1000Z',G6,0)+`<text x="500" y="180" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="8">${(o&&o.name)||'DIETERS DÖNER'}</text>`;
+function bgDoener(o){const dy=(o&&o.sy)||0;let s=wallFloor({wall:G1,floor:G2,tiles:1});
+  s+=P('M0 '+(142+dy)+' h1000 v52 h-1000Z',G6,0)+`<text x="500" y="${180+dy}" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="8">${(o&&o.name)||'DIETERS DÖNER'}</text>`;
   s+=grill(180,400,1.6)+counter(430,340,450,130)+P('M470 300 h130 v40 h-130Z',G5,3.2)+R(640,296,70,44,G4,5,3.2);
   s+=tableP(60,400,200,90,{cloth:G1});
   return s}

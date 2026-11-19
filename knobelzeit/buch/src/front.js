@@ -16,13 +16,14 @@ function divider(k){const c=CH[k];
   if(!window.BW){l.style.setProperty('--dc',DCOL[k]);r.style.setProperty('--dc',DCOL[k])}
   REFS['kap'+k]=l.dataset.pn;return [l,r]}
 function titlePage(){
-  const s=`<svg viewBox="0 0 1000 1446" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="1000" height="1446" fill="#FFFDF7"/>`
-   +T(500,330,'KNOBEL',{s:150,w:700,font:'Poppins',c:INK,ls:6})+T(500,470,'ZEIT',{s:150,w:700,font:'Poppins',c:'#F6C431',ls:28})
-   +`<path d="M300 520 H700" stroke="${INK}" stroke-width="5"/>`
-   +T(500,610,'67 Krimi- und Logikrätsel',{s:46,font:'Lora',italic:1,w:500})+T(500,668,'für die ganze Familie',{s:46,font:'Lora',italic:1,w:500})
-   +T(500,740,'Mit Herrn Brandt auf Spurensuche',{s:24,font:'Poppins',w:500,c:G5})
-   +`<path d="M130 1100 H870" stroke="${INK}" stroke-width="4"/>`
-   +fig('ben',210,1100,{h:200})+fig('anna',320,1100,{h:195})+fig('brandt',500,1100,{h:330,look:0})+fig('hilde',680,1100,{h:215})+fig('luigi',790,1100,{h:240})+`</svg>`;
+  const s=`<svg viewBox="0 0 1000 1446" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="1000" height="1446" fill="${BW?'#fff':'#F6C431'}"/>`+(BW?'':(()=>{let r='';for(let i=0;i<24;i+=2){const a0=i*15*Math.PI/180,a1=(i+1)*15*Math.PI/180,R=1800;r+='<path d="M500 760 L'+(500+R*Math.cos(a0)).toFixed(0)+' '+(760+R*Math.sin(a0)).toFixed(0)+' L'+(500+R*Math.cos(a1)).toFixed(0)+' '+(760+R*Math.sin(a1)).toFixed(0)+'Z" fill="#FBD65A"/>'}return r})())
+   +T(500,110,'DAS RÄTSELBUCH ZUM KANAL KNOBELZEIT',{s:26,w:700,font:'Poppins',ls:5,c:G5})
+   +`<g transform="rotate(-4 500 330)"><rect x="90" y="170" width="820" height="330" rx="14" fill="${INK}"/>`+T(500,330,'KNOBEL',{s:168,w:700,font:'Poppins',c:'#fff',ls:6})+T(500,478,'ZEIT',{s:168,w:700,font:'Poppins',c:YEL,ls:30})+`</g>`
+   +T(500,630,'67 Krimi- und Logikrätsel',{s:54,font:'Lora',italic:1,w:500})+T(500,694,'für die ganze Familie',{s:54,font:'Lora',italic:1,w:500})
+   +T(500,756,'Mit Herrn Brandt auf Spurensuche · ab 10 Jahren',{s:25,font:'Poppins',w:500,c:G5})+T(500,792,'mit Tipps, Lösungen und großem Finale',{s:25,font:'Poppins',w:500,c:G5})
+   +`<circle cx="830" cy="905" r="80" fill="#fff" stroke="${INK}" stroke-width="12"/><path d="M886 962 L960 1040" stroke="${INK}" stroke-width="26" stroke-linecap="round"/>`+T(830,945,'?',{s:110,font:'Poppins',w:700})
+   +`<path d="M0 1400 H1000" stroke="${INK}" stroke-width="4"/>`
+   +fig('ben',110,1400,{h:300})+fig('anna',230,1400,{h:292})+fig('luigi',350,1400,{h:400})+fig('brandt',520,1400,{h:540,look:0})+fig('hilde',700,1400,{h:330})+fig('dieter',860,1400,{h:400})+`</svg>`;
   const el=newPage('title',`<div class="fullsvg">${s}</div>`);return el}
 function impressum(){const ph=t=>`<span class="ph">${t}</span>`;
   const el=newPage('imp',`<div class="col impcol"><p><b>Knobelzeit. 67 Krimi- und Logikrätsel für die ganze Familie</b></p><p>1. Auflage 2026</p><p>© 2026 Diyar Masyan</p><p>Diyar Masyan<br>Daphnestraße 32<br>${ph('[PLZ]')} München<br>${ph('[E-MAIL]')}</p><p>Druck und Vertrieb: Amazon Kindle Direct Publishing</p><p>Illustrationen: Diyar Masyan</p><p>Alle Figuren und Handlungen sind frei erfunden. Ähnlichkeiten mit echten Personen sind zufällig.</p></div>`);return el}

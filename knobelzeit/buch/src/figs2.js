@@ -20,7 +20,7 @@ function person(o){
   const hy=-300+hr+4, sh=hy+hr+6, hip=o.hip||(kid?-92:-112), ww=w*bf;
   const sk=SKN[o.skin||'a']||o.skin, top=o.top||G2, bot=o.bottom||DBOT, shoe=o.shoe||DSHOE;
   const look=o.look||0, mood=o.mood||'happy';
-  let s=`<g transform="translate(${x} ${y}) ${o.tilt?`rotate(${o.tilt})`:''} scale(${o.flip?-sc:sc} ${sc})">`;
+  let s=`<g class="pf" transform="translate(${x} ${y}) ${o.tilt?`rotate(${o.tilt})`:''} scale(${o.flip?-sc:sc} ${sc})">`;
   // Bewegungslinien
   if(o.rush)s+=L(`M${-ww-50} ${sh+20} h-34 M${-ww-56} ${sh+50} h-44 M${-ww-50} ${sh+80} h-34`,4,G4);
   // Beine

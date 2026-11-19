@@ -42,14 +42,16 @@ function fitPage(page,o){o=o||{};const img=page.querySelector('.img'),col=page.q
   const ok=()=>col.scrollHeight<=col.clientHeight+1;
   if(!img){set(0);if(ok())return {h:0,lv:''}}
   else{let fb=null;const mm=96/25.4;const free=()=>{const last=col.lastElementChild;return col.clientHeight/mm-(last.offsetTop+last.offsetHeight)/mm};
-    for(const h of sizes){set(h);if(ok()){if(!o.notes||free()>=30)return {h,lv:''};if(fb===null)fb=h}}
+    const headsOk=()=>{if(!img||img.clientHeight<5)return true;const t=img.getBoundingClientRect().top+3;return [...img.querySelectorAll('.pf')].every(p=>p.getBoundingClientRect().top>=t)};let fb2=null;
+    for(const h of sizes){set(h);if(ok()){if(fb2===null)fb2=h;if(!headsOk())continue;if(!o.notes||free()>=30)return {h,lv:''};if(fb===null)fb=h}}
+    if(fb===null&&fb2!==null)fb=fb2;
     if(fb!==null){set(fb);return {h:fb,lv:''}}}
   ISSUES.push('OVERFLOW Seite '+page.dataset.pn+' '+(o.tag||''));return null}
 // Einzelseiten-Fall
 function casePage(c,o){o=o||{};const blocks=o.blocks||c.body.filter(b=>!(b.t==='ill'&&b.kind==='hint'));
   const sc=o.scene||SC[c.n];
   const el=newPage('case',`<div class="img">${sc()}</div><div class="col">${labelRow(c)}<h1>${typo(c.title)}</h1><div class="bet">BETEILIGTE: ${c.n==='68'?'HERR BRANDT UND ALLE':c.bet.map(esc).join(' · ')}</div>${renderBlocks(c,blocks)}${o.noTask?'':`<div class="task"><small>AUFGABE</small><div>${typo(c.task)}</div></div>`}</div>${o.noFoot?'':footHtml(c)}${pnoHtml()}`);
-  setPno(el);const r=fitPage(el,Object.assign({tag:'Fall '+c.n,sizes:[116,96,76,66,56,46],notes:!o.noFill},o.fitOpt||{}));el.dataset.fit=r?r.h+r.lv:'FAIL';if(!o.noFill)fillNotes(el);return el}
+  setPno(el);const r=fitPage(el,Object.assign({tag:'Fall '+c.n,sizes:[116,96,76,66,56],notes:!o.noFill},o.fitOpt||{}));el.dataset.fit=r?r.h+r.lv:'FAIL';if(!o.noFill)fillNotes(el);return el}
 function notePage(txt){const el=newPage('notes',`<div class="col"><div class="h2">Deine Notizen</div><div class="sub">${esc(txt||'Hier ist Platz für Skizzen, Rechnungen und Verdächtige.')}</div><div class="dots" style="height:170mm;margin-top:4mm"></div></div>${pnoHtml()}`);setPno(el);return el}
 
 function fillNotes(el){const col=el.querySelector('.col');const mmpx=96/25.4;
