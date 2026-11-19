@@ -30,3 +30,9 @@ Untertitel: Gehirnjogging mit Herr Brandt, Kemal, Luigi & Ali – mit Lösungen
 - Bis ca. 28.11.: Satz fertig, Cover; Diyar prüft
 - Anfang Dez.: KDP-Upload (Prüfung ca. 72 h), Ziel live vor Weihnachten
 - Vorher: Markenname "Knobelzeit" kurz prüfen (DPMA/EUIPO-Recherche)
+
+## Entscheidungen 19.11. (Diyar)
+- Launch Weihnachten 2026, Ziel Upload ~05.12., live ~10.12. KEINE Testleser.
+- Ersatz fuer Test: jedes Raetsel (1) Logik per Skript auf genau eine Loesung, (2) Story-Check auf Plausibilitaetsluecken, (3) unabhaengiger Gegenlese-Durchgang. Probeexemplar empfohlen.
+- Briefing (Ueberarbeitungsbriefing 19.11.) ist Bauplan: Familie ab 10, durchgehend "du", 70-80 Faelle, >=70 % eigene, Klassiker markiert, Rahmenhandlung mit Beweismarken + Finale, Tipps 2-stufig mit Codes, Figurenseite, s/w innen, 152x229 mm, Ziel 12,99 EUR, KI-Angabe bei KDP ankreuzen.
+- Korrekturen an Briefing-Faellen: N2 Loesung "geparkt waehrend es schneite (5-8 Uhr)" statt "nach acht"; N10 "alle Gaeste stossen an" + Emre selbst auf Foto; N3 Loesung schaerfen.
