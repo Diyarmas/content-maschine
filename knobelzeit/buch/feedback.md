@@ -22,6 +22,10 @@ Riddle Time (EN-Buch): IG https://www.instagram.com/riddletime___/ | YT https://
 Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach, riddletime___ dreifach); YT @Knobel_Zeit (Unterstrich, großes K/Z), @Riddletimeee (dreifaches "eee"). Auch die Handle-Beschriftung unter den QR-Codes in S. 117 danach prüfen.
 
 ## Offen (noch nicht eingearbeitet)
+- [Diyar 19.11. 23:14] S. 14: Fahrrad viel zu klein/unrealistisch ("10-mal größer bauen", realistischer zeichnen).
+- [Diyar 19.11. 23:14] S. 16 rechts: Person mit seltsamem braunem Strich (Bildfehler prüfen/beheben).
+- [Diyar 19.11. 23:14] Allgemein: Bildqualität wirkt "extrem schlechter" als vorher → alle Szenen auf Wirkung/Realismus durchgehen (Proportionen von Requisiten, Fahrzeuge, Figuren-Details).
+- [Diyar 19.11. 23:14] S. 12 Köpfe + gelbes Cover erneut genannt – laut Stand 19:30 bereits behoben (118-Seiten-PDF); in der Review gegen aktuelles PDF prüfen, ob er eine alte Version angesehen hat.
 - [Diyar 19.11. 21:54] S. 72 und 84: ebenfalls Köpfe abgeschnitten (gleiches Problem wie S. 62; Arbeitsblatt-/Doppelseiten prüfen).
 - [Diyar 19.11. 21:53] S. 62: Köpfe abgeschnitten (Bild prüfen; Prüfskript dbg5 hat sie nicht erkannt → Prüfung verbessern).
 - [Diyar 19.11. 21:53] S. 52: Gesichter sieht man nicht (Bild prüfen: Figuren zu klein/verdeckt?).
