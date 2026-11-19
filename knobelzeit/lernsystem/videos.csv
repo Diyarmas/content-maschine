@@ -38,3 +38,9 @@ KZ040,Knobelzeit,2026-11-19,12:00,Uhr (6 Schlaege),H,56,90-Prozent,ja,nein,Ganze
 KZ041,Knobelzeit,2026-11-19,16:00,Doener (Wer hat nicht bezahlt),A,56,Wer-luegt,nein,ja (Kemal/Luigi/Ali),Figur zuerst,Luigi/Hans/Ali/Kemal,Wer luegt
 KZ042,Knobelzeit,2026-11-19,20:00,Wolf-Ziege-Kohl,H,64,90-Prozent,ja,nein,Ganzes Raetsel zuerst,keine,Flussueberquerung
 KZ043,Knobelzeit,2026-11-20,07:00,Kuchen (Wer luegt; nervoes=ehrlich),H,58,90-Prozent+Mind-Reading-Rehook,ja,ja (Zeynep/Dragan/Igor),Figur+Tisch,Zeynep/Dragan/Igor (Mimik-Test: Blinzeln/Mund/Schweiss),Wer-luegt | REHOOK=ja bei 14s | Loesung ab 62%
+KZ044,Knobelzeit,2026-11-20,12:00,Pizza (nur einer ehrlich; nervoes=unschuldig),H,53,90-Prozent+Rehook,ja,ja (Mehmet/Ayse/Lars),Figur+Tisch,Mehmet/Ayse/Lars Mimik,Wer-luegt | REHOOK=ja | Loesung ab 66%
+KZ045,Knobelzeit,2026-11-20,16:00,Trinkgeld (nur Dieb luegt; nervoes=Dieb),H,51,90-Prozent+Rehook,ja,ja (Igor/Zeynep/Ali),Figur+Tisch,Igor/Zeynep/Ali Mimik,Wer-luegt | REHOOK=ja | Loesung ab 66%
+KZ046,Knobelzeit,2026-11-20,20:00,Links mal Rechts (Rechen-Split; Diyars Idee),A,52,Labeling (schlauer als die meisten)+Rehook,nein,nein,Split-Screen,Herr Brandt,Kopfrechnen | REHOOK=ja | Loesung ab 60%
+RT015,Riddle Time,2026-11-20,08:00,Cake (EN von KZ043),H,45,90-Prozent+Rehook,ja,ja,Figur+Tisch,Zeynep/Dragan/Igor,Who lies | REHOOK=ja
+RT016,Riddle Time,2026-11-20,13:00,Pizza (EN von KZ044),H,41,90-Prozent+Rehook,ja,ja,Figur+Tisch,Mehmet/Ayse/Lars,Who lies | REHOOK=ja
+RT017,Riddle Time,2026-11-20,19:30,Left times Right (EN von KZ046),A,41,Labeling+Rehook,nein,nein,Split-Screen,Herr Brandt,Mental math | REHOOK=ja
