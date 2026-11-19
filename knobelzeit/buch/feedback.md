@@ -16,11 +16,16 @@ Erste Zeile ohne Kontext (vermutlich Seiten mit Auffälligkeiten): 59, 65, 71, 8
 Priorität laut Feedback: erst S. 96–112, dann Arbeitsblätter 66–89, dann allgemeine Abstände auf den Rätselseiten.
 Ausdrücklich NICHT ändern: Cover und grundsätzliche Gestaltung.
 
+## QR-Links (verifiziert, von Diyar 19.11. 20:41) – beim Einarbeiten data/qr_*.svg neu erzeugen
+Knobelzeit (DE-Buch): IG https://www.instagram.com/knobelzeit/ | YT https://www.youtube.com/@Knobel_Zeit | TikTok https://www.tiktok.com/@knobelzeit_
+Riddle Time (EN-Buch): IG https://www.instagram.com/riddletime___/ | YT https://www.youtube.com/@Riddletimeee | TikTok https://www.tiktok.com/@riddletime___
+Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach, riddletime___ dreifach); YT @Knobel_Zeit (Unterstrich, großes K/Z), @Riddletimeee (dreifaches "eee"). Auch die Handle-Beschriftung unter den QR-Codes in S. 117 danach prüfen.
+
 ## Offen (noch nicht eingearbeitet)
 - [Diyar 19.11.] Bildhöhe oben auf den Fallseiten vereinheitlichen: alle gleich groß, jede Seite gleiches Layout/Formatting.
 - [Diyar 19.11.] Bilder teils komisch/wild – allgemein besser machen, immer weiter verbessern.
 - [Diyar 19.11.] Feedback vom Kollegen kommt noch – hier eintragen, sobald da.
-- [Diyar] Echte YouTube-/Instagram-(TikTok-)Links für QR-Codes liefern (data/qr_*.svg neu erzeugen).
+- [Diyar] QR-Links sind da (siehe oben) – noch einbauen.
 - [Diyar] Impressum: PLZ und E-Mail ergänzen; "Illustrationen: Diyar Masyan" bestätigen.
 
 ## Offen (von mir bekannt)
