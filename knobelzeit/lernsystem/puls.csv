@@ -6,3 +6,4 @@ zeit,KZ_TT_follower,KZ_YT_abos,KZ_IG_follower,RT_TT_follower,RT_YT_abos,RT_IG_fo
 2026-11-19 00:33,220,50,59,4,14,15,KZ #036 Kiosk TT 432; RT Ball TT 751 YT 1178 nach 5h; KZ #038 Glaeser YT 8 V TT nicht sichtbar
 2026-11-19 03:33,222,50,59,4,15,15,Nacht ruhig; KZ #036 Kiosk TT 439; RT Ball YT 1182 TT 752; KZ #038 Glaeser YT 10 V TT nicht sichtbar
 2026-11-19 06:33,224,50,59,5,15,15,Nacht ruhig; RT YT Quadrate 714 Papagei 931; KZ #038 Glaeser weiter nicht auf TT sichtbar
+2026-11-19 09:30,227,50,61,5,17,17,"Scanner 09:30: KZ TT +104 (#039 74 P) RT TT +564 (Kebab 559 P); KZ YT +92 RT YT +353 (Kebab 325 V); #038 Glaeser weiter nicht auf TT; Basis Snapshot 19.11.: IG KZ 69148 RT 17701, TT KZ 30225 RT 8370; YT-Split DE/EN fehlt im Log -> ab jetzt Zellen pro Pulse speichern"
