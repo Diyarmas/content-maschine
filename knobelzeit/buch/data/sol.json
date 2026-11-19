@@ -143,9 +143,9 @@
   "n": "15",
   "title": "Das Busticket",
   "paras": [
-   "Zeynep ist erst um 10:42 Uhr am Rathaus eingestiegen. Um 10:20 Uhr saß er also nicht im Bus. Sein Alibi für die Tatzeit platzt."
+   "Heike ist erst um 10:42 Uhr am Rathaus eingestiegen. Um 10:20 Uhr saß er also nicht im Bus. Sein Alibi für die Tatzeit platzt."
   ],
-  "trail": "Das Ticket ist echt, und darum fühlt Zeynep sich sicher. Aber echte Beweise können auch gegen einen sprechen.",
+  "trail": "Das Ticket ist echt, und darum fühlt Heike sich sicher. Aber echte Beweise können auch gegen einen sprechen.",
   "mark": "O",
   "epilog": ""
  },
@@ -173,9 +173,9 @@
   "n": "18",
   "title": "Das Wechselgeld",
   "paras": [
-   "10,70 €. Döner und Ayran kosten zusammen 9,30 €. 20 € minus 9,30 € sind 10,70 €. Ben hat recht, Can hat einen Euro zu wenig rausgegeben."
+   "10,70 €. Döner und Ayran kosten zusammen 9,30 €. 20 € minus 9,30 € sind 10,70 €. Ben hat recht, Jan hat einen Euro zu wenig rausgegeben."
   ],
-  "trail": "9,70 € sieht fast aus wie der Preis, 9,30 €. Genau da hat Can sich vertan.",
+  "trail": "9,70 € sieht fast aus wie der Preis, 9,30 €. Genau da hat Jan sich vertan.",
   "mark": "Z",
   "epilog": ""
  },
@@ -241,7 +241,7 @@
  },
  "25": {
   "n": "25",
-  "title": "Kassensturz bei Kemal",
+  "title": "Kassensturz bei Dieter",
   "paras": [
    "Morgens 11, abends 7. Morgens: 11 × 2 € + 9 × 1 € = 31 €. Abends: 7 × 2 € + 13 × 1 € = 27 €. Der Dieb hat 4 Zwei-Euro-Münzen genommen und 4 Ein-Euro-Münzen hineingelegt, damit die Anzahl stimmt."
   ],
@@ -263,7 +263,7 @@
   "n": "27",
   "title": "Wer hat den Roller genommen?",
   "paras": [
-   "Ali. Dann stimmen Mias und Zeyneps Sätze, genau zwei. Wäre es Mia, wären drei Sätze wahr (Ali, Peter, Zeynep). Wäre es Peter, wäre keiner wahr. Wäre es Zeynep, nur ihrer."
+   "Ali. Dann stimmen Mias und Heikes Sätze, genau zwei. Wäre es Mia, wären drei Sätze wahr (Ali, Peter, Heike). Wäre es Peter, wäre keiner wahr. Wäre es Heike, nur ihrer."
   ],
   "trail": "Zwei Leute zeigen auf Mia. Mehrheit ist aber kein Beweis.",
   "mark": "S",
@@ -313,9 +313,9 @@
   "n": "32",
   "title": "Die Uhr im Spiegel",
   "paras": [
-   "Im Spiegel ist die Uhr seitenverkehrt. Was im Spiegel wie 9:40 aussieht, ist in Wirklichkeit 2:20 Uhr (oder 14:20 Uhr). Das Foto ist also um 2:20 Uhr entstanden und sagt nichts darüber, wo Can um 9:40 Uhr war."
+   "Im Spiegel ist die Uhr seitenverkehrt. Was im Spiegel wie 9:40 aussieht, ist in Wirklichkeit 2:20 Uhr (oder 14:20 Uhr). Das Foto ist also um 2:20 Uhr entstanden und sagt nichts darüber, wo Jan um 9:40 Uhr war."
   ],
-  "trail": "Das Foto ist echt und unbearbeitet. Es zeigt nur eine andere Uhrzeit, als Can glaubt.",
+  "trail": "Das Foto ist echt und unbearbeitet. Es zeigt nur eine andere Uhrzeit, als Jan glaubt.",
   "mark": "N",
   "epilog": ""
  },
@@ -331,7 +331,7 @@
  },
  "34": {
   "n": "34",
-  "title": "Kemals Spieße",
+  "title": "Dieters Spieße",
   "paras": [
    "Ja, 15 Minuten. Minute 0 bis 5: Spieß A und B, je Seite 1. Minute 5 bis 10: A Seite 2 und C Seite 1, B wartet. Minute 10 bis 15: B Seite 2 und C Seite 2. Der Grill ist nie halb leer."
   ],
@@ -363,9 +363,9 @@
   "n": "37",
   "title": "Wem gehört der Hund?",
   "paras": [
-   "Luigi. Katze im 4. (Zeynep), also Hamster im 3. Luigi direkt über Can geht nur im 2. und 1. Stock. Ayşe bleibt der 3. Stock mit dem Hamster. Can im 1. Stock hat den Papagei. Für Luigi bleibt der Hund."
+   "Luigi. Katze im 4. (Heike), also Hamster im 3. Luigi direkt über Jan geht nur im 2. und 1. Stock. Ayşe bleibt der 3. Stock mit dem Hamster. Jan im 1. Stock hat den Papagei. Für Luigi bleibt der Hund."
   ],
-  "trail": "Ayşe wohnt direkt unter Zeyneps Katze, aber Katzen kauen keine Matten.",
+  "trail": "Ayşe wohnt direkt unter Heikes Katze, aber Katzen kauen keine Matten.",
   "mark": "E",
   "epilog": ""
  },
@@ -511,7 +511,7 @@
  },
  "52": {
   "n": "52",
-  "title": "Kemals Ayrankannen",
+  "title": "Dieters Ayrankannen",
   "paras": [
    "In sechs Schritten. 1. Große Kanne füllen (5 und 0). 2. Damit die kleine füllen (2 und 3). 3. Kleine ausleeren (2 und 0). 4. Die 2 Liter in die kleine gießen (0 und 2). 5. Große wieder füllen (5 und 2). 6. Aus der großen die kleine voll machen, da passt nur noch 1 Liter hinein (4 und 3). In der großen Kanne sind genau 4 Liter."
   ],
@@ -533,9 +533,9 @@
   "n": "54",
   "title": "Ein wahrer und ein falscher Satz",
   "paras": [
-   "Can, und die Krone liegt auf dem Dachboden. Wäre es Igor, wären beide Sätze von Mia wahr. Also war es nicht Igor, Mias zweiter Satz ist falsch und ihr erster wahr: Mia war es nicht. Wäre es Zeynep, wären beide Sätze von Can wahr. Also bleibt nur Can. Dann ist Zeyneps „Ich war's\" falsch, also stimmt „nicht im Garten\". Igors „Ich war's nicht\" stimmt, also ist „im Keller\" falsch. Bleibt der Dachboden. Can wollte für die Kinder eine Schatzsuche vorbereiten."
+   "Jan, und die Krone liegt auf dem Dachboden. Wäre es Igor, wären beide Sätze von Mia wahr. Also war es nicht Igor, Mias zweiter Satz ist falsch und ihr erster wahr: Mia war es nicht. Wäre es Heike, wären beide Sätze von Jan wahr. Also bleibt nur Jan. Dann ist Heikes „Ich war's\" falsch, also stimmt „nicht im Garten\". Igors „Ich war's nicht\" stimmt, also ist „im Keller\" falsch. Bleibt der Dachboden. Jan wollte für die Kinder eine Schatzsuche vorbereiten."
   ],
-  "trail": "Zeynep sagt „Ich war's\". Viele glauben ihr sofort. Aber das ist genau ihr falscher Satz.",
+  "trail": "Heike sagt „Ich war's\". Viele glauben ihr sofort. Aber das ist genau ihr falscher Satz.",
   "mark": "H",
   "epilog": ""
  },
@@ -543,7 +543,7 @@
   "n": "55",
   "title": "Der Weg durch die Stadt",
   "paras": [
-   "Nur Luigi. Zeynep wäre frühestens um 10:02 Uhr am Kiosk, Kemal ebenfalls erst um 10:02 Uhr. Anna wäre um 9:59 Uhr am Kiosk, aber dann erst um 10:04 Uhr in der Bäckerei, eine Minute zu spät. Luigi: Bäckerei um 9:55 Uhr, Kiosk um 9:59 Uhr, um 10:00 Uhr der Griff in die Kasse, Bahnhof um 10:12 Uhr. Auf die Minute genau. Umwege helfen niemandem, jeder direkte Weg ist kürzer als ein Weg über einen dritten Ort."
+   "Nur Luigi. Heike wäre frühestens um 10:02 Uhr am Kiosk, Dieter ebenfalls erst um 10:02 Uhr. Anna wäre um 9:59 Uhr am Kiosk, aber dann erst um 10:04 Uhr in der Bäckerei, eine Minute zu spät. Luigi: Bäckerei um 9:55 Uhr, Kiosk um 9:59 Uhr, um 10:00 Uhr der Griff in die Kasse, Bahnhof um 10:12 Uhr. Auf die Minute genau. Umwege helfen niemandem, jeder direkte Weg ist kürzer als ein Weg über einen dritten Ort."
   ],
   "trail": "Anna war am nächsten dran und hätte es fast geschafft. Fast reicht nicht.",
   "mark": "R",
@@ -589,7 +589,7 @@
   "n": "59",
   "title": "Der Flohmarkt",
   "paras": [
-   "Herr Sommer. Die Uhr kostet 20 Euro (1). Der Teddy kostet 5 Euro und liegt direkt links daneben (3). Stand 3 kostet 10 Euro, also stehen weder Uhr noch Teddy dort, und die Uhr steht nicht an Stand 4. Bleibt: Teddy an Stand 1, Uhr an Stand 2. Zeynep steht an 2 oder 3 (4). An Stand 2 kostet alles 20 Euro, da wäre sie nie billiger als Herr Sommer (6). Also steht Zeynep an Stand 3 mit 10 Euro und verkauft keine Lampe, also die Schallplatten. Die Lampe liegt an Stand 4 bei Dragan (2) für 15 Euro. Herr Sommer muss mehr als 10 Euro verlangen, also steht er an Stand 2 mit der Uhr. Oma Greta steht an Stand 1 mit dem Teddy."
+   "Herr Sommer. Die Uhr kostet 20 Euro (1). Der Teddy kostet 5 Euro und liegt direkt links daneben (3). Stand 3 kostet 10 Euro, also stehen weder Uhr noch Teddy dort, und die Uhr steht nicht an Stand 4. Bleibt: Teddy an Stand 1, Uhr an Stand 2. Heike steht an 2 oder 3 (4). An Stand 2 kostet alles 20 Euro, da wäre sie nie billiger als Herr Sommer (6). Also steht Heike an Stand 3 mit 10 Euro und verkauft keine Lampe, also die Schallplatten. Die Lampe liegt an Stand 4 bei Dragan (2) für 15 Euro. Herr Sommer muss mehr als 10 Euro verlangen, also steht er an Stand 2 mit der Uhr. Oma Greta steht an Stand 1 mit dem Teddy."
   ],
   "trail": "Oma Greta steht direkt neben der Uhr und kennt Oma Hilde gut. Sie verkauft aber nur einen Teddy.",
   "mark": "T",
@@ -599,9 +599,9 @@
   "n": "60",
   "title": "Die falschen Uhren",
   "paras": [
-   "Kemal. Echte Zeit der Tat: 18:20 minus 10 Minuten, also 18:10 Uhr. Kemal: Zeyneps Uhr zeigte 18:15 Uhr, echt war es 18:30 Uhr. Von der Pizzeria um 18:10 Uhr zum Markt braucht er 10 Minuten, das passt locker. Mehmet: Bon um 18:12 Uhr, echt 18:08 Uhr. Um 18:10 Uhr kann er nicht an der Pizzeria gewesen sein, er bräuchte 5 Minuten. Mia saß von 18:05 bis 18:20 Uhr im Taxi. Kemal gibt es zu: Die Glocke bimmelt den ganzen Tag, er wollte endlich einmal Ruhe beim Grillen."
+   "Dieter. Echte Zeit der Tat: 18:20 minus 10 Minuten, also 18:10 Uhr. Dieter: Heikes Uhr zeigte 18:15 Uhr, echt war es 18:30 Uhr. Von der Pizzeria um 18:10 Uhr zum Markt braucht er 10 Minuten, das passt locker. Mehmet: Bon um 18:12 Uhr, echt 18:08 Uhr. Um 18:10 Uhr kann er nicht an der Pizzeria gewesen sein, er bräuchte 5 Minuten. Mia saß von 18:05 bis 18:20 Uhr im Taxi. Dieter gibt es zu: Die Glocke bimmelt den ganzen Tag, er wollte endlich einmal Ruhe beim Grillen."
   ],
-  "trail": "Wer die Uhren nicht umrechnet, verdächtigt Mehmet: Bon um 18:12 Uhr plus 5 Minuten, und er wäre um 18:17 Uhr an der Pizzeria gewesen. Kemal dagegen scheint mit 18:15 Uhr plus 10 Minuten zu spät dran.",
+  "trail": "Wer die Uhren nicht umrechnet, verdächtigt Mehmet: Bon um 18:12 Uhr plus 5 Minuten, und er wäre um 18:17 Uhr an der Pizzeria gewesen. Dieter dagegen scheint mit 18:15 Uhr plus 10 Minuten zu spät dran.",
   "mark": "M",
   "epilog": ""
  },
@@ -639,9 +639,9 @@
   "n": "64",
   "title": "Die Tombola",
   "paras": [
-   "Oma Greta hat das Los genommen. Geschwindelt haben Greta und Luigi. Mehmet sagt, Luigi lügt: Von den beiden schwindelt also genau einer. Elif und Greta können nicht beide recht haben, also schwindelt auch von ihnen genau eine. Das sind schon zwei Schwindler, Kemal sagt die Wahrheit: Greta lügt. Dann sagt Elif die Wahrheit, Greta war es. Luigis „Elif lügt\" ist falsch. Greta hatte ihm einen Wellnesstag versprochen, wenn er dichthält."
+   "Oma Greta hat das Los genommen. Geschwindelt haben Greta und Luigi. Mehmet sagt, Luigi lügt: Von den beiden schwindelt also genau einer. Elif und Greta können nicht beide recht haben, also schwindelt auch von ihnen genau eine. Das sind schon zwei Schwindler, Dieter sagt die Wahrheit: Greta lügt. Dann sagt Elif die Wahrheit, Greta war es. Luigis „Elif lügt\" ist falsch. Greta hatte ihm einen Wellnesstag versprochen, wenn er dichthält."
   ],
-  "trail": "Greta zeigt auf Kemal, und der Satz klingt sehr bestimmt. Aber wer zuerst beschuldigt, ist nicht automatisch ehrlich.",
+  "trail": "Greta zeigt auf Dieter, und der Satz klingt sehr bestimmt. Aber wer zuerst beschuldigt, ist nicht automatisch ehrlich.",
   "mark": "I",
   "epilog": ""
  },
@@ -669,9 +669,9 @@
   "n": "67",
   "title": "Die Brosche von Oma Hilde",
   "paras": [
-   "Zeynep. Um 15:00 Uhr war oben niemand, um 16:00 Uhr auch nicht. Zweimal Knarren heißt also: Eine Person ging um 15:20 Uhr hinauf und kam um 15:40 Uhr wieder herunter. Wären es zwei verschiedene Personen gewesen, wäre die erste um 16:00 Uhr noch oben. Zwischen 15:20 und 15:40 Uhr waren Emre (er fotografiert um 15:25 und 15:35 Uhr im Garten), Luigi (Foto um 15:25 Uhr) und Kemal (Foto um 15:35 Uhr) sicher unten. Bleibt Zeynep, und sie gibt selbst zu, um halb vier oben gewesen zu sein. Ihre „zwei Minuten\" sind gelogen. Dann hätte die Treppe zweimal kurz hintereinander geknarrt, nicht im Abstand von zwanzig Minuten."
+   "Heike. Um 15:00 Uhr war oben niemand, um 16:00 Uhr auch nicht. Zweimal Knarren heißt also: Eine Person ging um 15:20 Uhr hinauf und kam um 15:40 Uhr wieder herunter. Wären es zwei verschiedene Personen gewesen, wäre die erste um 16:00 Uhr noch oben. Zwischen 15:20 und 15:40 Uhr waren Emre (er fotografiert um 15:25 und 15:35 Uhr im Garten), Luigi (Foto um 15:25 Uhr) und Dieter (Foto um 15:35 Uhr) sicher unten. Bleibt Heike, und sie gibt selbst zu, um halb vier oben gewesen zu sein. Ihre „zwei Minuten\" sind gelogen. Dann hätte die Treppe zweimal kurz hintereinander geknarrt, nicht im Abstand von zwanzig Minuten."
   ],
-  "trail": "Kemal war wirklich kurz weg. Aber nur am Auto, das Foto um 15:35 Uhr zeigt es.",
+  "trail": "Dieter war wirklich kurz weg. Aber nur am Auto, das Foto um 15:35 Uhr zeigt es.",
   "mark": "S",
   "epilog": ""
  },

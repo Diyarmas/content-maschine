@@ -176,6 +176,7 @@ function person(o){
       case 'ice': r=R(hx-16,hy2-26,32,26,'#fff',3,2.6)+`<rect x="${hx-16}" y="${hy2-18}" width="32" height="7" fill="${G2}"/>`;break;
       case 'knife': r=L(`M${hx} ${hy2} l${side*10} -30`,3.4)+L(`M${hx} ${hy2} l${side*-2} 6`,5,G6);break;
       case 'ladle': r=L(`M${hx} ${hy2} l${side*8} -34`,3.6)+E(hx+side*10,hy2-38,8,6,G4,2.4);break;
+      case 'cup': r=`<path d="M${hx-14} ${hy2-26} h28 l-4 30 h-20Z" fill="#fff" stroke="${INK}" stroke-width="2.6"/><path d="M${hx+14} ${hy2-20} q14 2 10 12 q-4 6 -12 4" fill="none" stroke="${INK}" stroke-width="2.6"/><ellipse cx="${hx}" cy="${hy2-27}" rx="14" ry="5" fill="#F4E6CC" stroke="${INK}" stroke-width="2.4"/>`;break;
       case 'cake': r=`<path d="M${hx-30} ${hy2-10} h60 v-22 h-60Z" fill="${G3}" stroke="${INK}" stroke-width="2.6"/>`;break;
     }
     return r;};
@@ -240,6 +241,7 @@ var F={
  gero:{h:332,wide:34,hat:'helm',plumec:G4,plume:14,top:G5,coat:G5,hair:'short',hc:G4,glasses:1,skin:'c',av:[-64,-322,128,128]}
 };
 
+F.dieter=F.kemal;F.jan=F.can;F.heike=F.zeynep;
 // Farbpalette (nur Farbfassung)
 if(!window.BW){const W='#F6F0E0',K='#2A2420',CC={
  brandt:{coat:'#D7C39A',top:W,hatc:'#7A5A3A',hc:'#C9C9C9',stachec:'#C9C9C9'},

@@ -61,11 +61,11 @@ function bgKitchen(o){o=o||{};let s=wallFloor({wall:G1,floor:G2,tiles:1});
   return s}
 function bgLiving(o){let s=wallFloor({wall:G1,floor:G2,wallpaper:1.2});
   s+=win(60,70,230,240,{curtain:1})+P('M560 300 h330 v170 h-330Z',G3,3.4)+hatch(560,300,330,170,.1)+P('M545 290 h360 v22 h-360Z',G4,3.4);
-  s+=P('M590 120 h260 v120 h-260Z','#fff',3.4)+L('M600 220 l50 -60 l36 36 l30 -40 l70 64',3,G4)+plant(930,470,1.2)+P('M370 80 q28 -12 56 0 v60 h-56Z',G2,3);
-  s+=clockP(420,110,40,2,20);
+  s+=P('M590 120 h260 v120 h-260Z','#fff',3.4)+L('M600 220 l50 -60 l36 36 l30 -40 l70 64',3,G4)+P('M370 80 q28 -12 56 0 v60 h-56Z',G2,3);
+  s+=clockP(420,110,40,2,20)+'</g>'+plant(930,470,1.2);
   return s}
 function bgDoener(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
-  s+=P('M0 60 h1000 v50 h-1000Z',G6,0)+`<text x="500" y="98" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="8">${(o&&o.name)||'KEMALS DÖNER'}</text>`;
+  s+=P('M0 142 h1000 v52 h-1000Z',G6,0)+`<text x="500" y="180" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#fff" letter-spacing="8">${(o&&o.name)||'DIETERS DÖNER'}</text>`;
   s+=grill(180,400,1.6)+counter(430,340,450,130)+P('M470 300 h130 v40 h-130Z',G5,3.2)+R(640,296,70,44,G4,5,3.2);
   s+=tableP(60,400,200,90,{cloth:G1});
   return s}
@@ -95,12 +95,12 @@ function bgLibrary(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
   s+=win(780,110,170,200,{sill:0});
   return s}
 function bgPizzeria(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
-  s+=P('M0 0 h1000 v70 h-1000Z',G5,0)+`<text x="500" y="48" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#fff" letter-spacing="8">PIZZERIA LUIGI</text>`;
-  s+=ovenP(150,410,1.3)+counter(400,360,350,110)+tableP(780,400,200,90,{cloth:G1})+win(420,100,220,150,{sill:0,curtain:1});
+  s+=P('M0 142 h1000 v58 h-1000Z',G5,0)+`<text x="500" y="181" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#fff" letter-spacing="8">PIZZERIA LUIGI</text>`;
+  s+=ovenP(150,410,1.3)+counter(400,360,350,110)+tableP(780,400,200,90,{cloth:G1})+win(420,212,220,140,{sill:0,curtain:1});
   return s}
 function bgBakery(o){let s=wallFloor({wall:G1,floor:G2,tiles:1});
-  s+=P('M0 0 h1000 v70 h-1000Z',G5,0)+`<text x="500" y="48" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#fff" letter-spacing="8">BÄCKEREI</text>`;
-  for(let k=0;k<3;k++){s+=P(`M${40+k*140} 100 h120 v200 h-120Z`,G3,3.2)+L(`M${40+k*140} 170 h120 M${40+k*140} 240 h120`,3);for(let r=0;r<3;r++)for(let b=0;b<3;b++)s+=E(`${62+k*140+b*34}`,`${156+r*70}`,15,10,G1,2.4)}
+  s+=P('M0 142 h1000 v58 h-1000Z',G5,0)+`<text x="500" y="181" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#fff" letter-spacing="8">BÄCKEREI</text>`;
+  s+='<g transform="translate(0 110)">';for(let k=0;k<3;k++){s+=P(`M${40+k*140} 100 h120 v200 h-120Z`,G3,3.2)+L(`M${40+k*140} 170 h120 M${40+k*140} 240 h120`,3);for(let r=0;r<3;r++)for(let b=0;b<3;b++)s+=E(`${62+k*140+b*34}`,`${156+r*70}`,15,10,G1,2.4)}
   s+=counter(540,350,420,120)+P('M560 290 h140 v60 h-140Z','#fff',3)+hatch(560,290,140,60,.08);
   return s}
 function bgMarket(o){let s=`<rect width="1000" height="620" fill="#DDF1FB"/>`;
@@ -115,9 +115,9 @@ function bgSchool(o){let s=wallFloor({wall:G1,floor:G3,boards:false});
   s+=P('M120 180 h240 v290 h-240Z',G4,3.4)+P('M640 180 h240 v290 h-240Z',G4,3.4)+L('M240 180 v290 M760 180 v290',3);
   return s}
 function bgCinema(o){let s=`<rect width="1000" height="620" fill="#5A2330"/>`;
-  s+=P('M0 0 h1000 v90 h-1000Z',G6,0)+`<text x="500" y="62" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="40" fill="#fff" letter-spacing="14">KINO</text>`+bunting(96,0);
+  s+=P('M0 138 h1000 v84 h-1000Z',G6,0)+`<text x="500" y="196" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="40" fill="#fff" letter-spacing="14">KINO</text>`;
   s+=`<rect y="470" width="1000" height="150" fill="${G4}"/>`+L('M0 470 H1000',3.4);
-  s+=P('M100 140 h330 v330 h-330Z',G2,3.4)+P('M570 140 h330 v330 h-330Z',G2,3.4);
+  s+=P('M100 240 h330 v230 h-330Z',G2,3.4)+P('M570 240 h330 v230 h-330Z',G2,3.4);
   return s}
 function bgNight(o){let s=`<rect width="1000" height="620" fill="#1F2A4D"/>`+stars(40,11)+moon(850,90,42);
   s+=`<rect y="470" width="1000" height="150" fill="#34426B"/>`+L('M0 470 H1000',3.4,'#5A6A99');return s}

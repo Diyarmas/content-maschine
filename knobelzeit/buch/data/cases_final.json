@@ -101,8 +101,8 @@
   "hint": false,
   "title": "Wer hat den Döner nicht bezahlt?",
   "bet": [
-   "KEMAL",
-   "CAN",
+   "DIETER",
+   "JAN",
    "ALI",
    "PETER",
    "LUIGI"
@@ -114,7 +114,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Freitagabend, Kemals Dönerladen ist rappelvoll. Kemal steht am Grill, an der Kasse steht heute sein Neffe Can. Als Can kurz in den Keller geht, um Ayran zu holen, ist an Tisch 4 ein Döner gegessen und nicht bezahlt. An Tisch 4 saßen Ali, Peter und Luigi. Luigi, der Pizzabäcker von gegenüber, springt gerade auf und rennt hinaus. Herr Brandt hört sich um:"
+    "text": "Freitagabend, Dieters Dönerladen ist rappelvoll. Dieter steht am Grill, an der Kasse steht heute sein Neffe Jan. Als Jan kurz in den Keller geht, um Ayran zu holen, ist an Tisch 4 ein Döner gegessen und nicht bezahlt. An Tisch 4 saßen Ali, Peter und Luigi. Luigi, der Pizzabäcker von gegenüber, springt gerade auf und rennt hinaus. Herr Brandt hört sich um:"
    },
    {
     "t": "stmts",
@@ -125,7 +125,7 @@
      ],
      [
       "Peter",
-      "„Ich hab vorhin bei Can ganz normal mit Karte gezahlt.\""
+      "„Ich hab vorhin bei Jan ganz normal mit Karte gezahlt.\""
      ],
      [
       "Luigi (ruft von draußen)",
@@ -136,11 +136,6 @@
    {
     "t": "p",
     "text": "Unter Luigis Teller liegen 8 Euro, genau der Preis für Döner und Getränk. An der Kasse hängt seit Montag ein Zettel: „Kartengerät kaputt – nur Bargeld!\""
-   },
-   {
-    "t": "ill",
-    "kind": "ill",
-    "text": "Kemals Kasse mit dem handgeschriebenen Zettel „Kartengerät kaputt – nur Bargeld!\", daneben der Grill."
    }
   ]
  },
@@ -523,7 +518,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Hausmeister Hans ruft aufgeregt an: „Einbruch im Vereinsheim! Ein Dieb hat von draußen das Fenster eingeschlagen, ist eingestiegen und hat die neue Bohrmaschine geklaut!\" Herr Brandt schaut sich um. Im Fensterrahmen stecken noch ein paar Zacken. Herr Brandt sieht sich drinnen und draußen genau um."
+    "text": "Hausmeister Hans ruft aufgeregt an: „Einbruch im Vereinsheim! Ein Dieb hat von draußen das Fenster eingeschlagen, ist eingestiegen und hat die neue Bohrmaschine geklaut!\" Im Fensterrahmen stecken noch ein paar Zacken. Herr Brandt sieht sich drinnen und draußen genau um."
    },
    {
     "t": "ill",
@@ -542,7 +537,7 @@
   "hint": false,
   "title": "Das Busticket",
   "bet": [
-   "ZEYNEP",
+   "HEIKE",
    "HERR BRANDT"
   ],
   "task": "Was verrät das Ticket?",
@@ -552,7 +547,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Um 10:20 Uhr verschwindet am Rathaus eine Spendendose. Zeynep sagt: „Ich bin schon um zehn am Rathaus in die Linie 3 gestiegen und bis zur Endhaltestelle gefahren. Hier, mein Ticket!\" Auf dem Ticket ist ein Stempel vom Entwerter im Bus: „Linie 3 · Rathaus · 10:42\"."
+    "text": "Um 10:20 Uhr verschwindet am Rathaus eine Spendendose. Heike sagt: „Ich bin schon um zehn am Rathaus in die Linie 3 gestiegen und bis zur Endhaltestelle gefahren. Hier, mein Ticket!\" Auf dem Ticket ist ein Stempel vom Entwerter im Bus: „Linie 3 · Rathaus · 10:42\"."
    },
    {
     "t": "ill",
@@ -626,9 +621,9 @@
   "hint": false,
   "title": "Das Wechselgeld",
   "bet": [
-   "CAN",
+   "JAN",
    "BEN",
-   "KEMAL"
+   "DIETER"
   ],
   "task": "Wie viel Wechselgeld bekommt Ben, und wer hat recht?",
   "tip1": "173",
@@ -637,7 +632,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Ben bestellt bei Can einen Döner für 7,50 € und einen Ayran für 1,80 €. Er zahlt mit einem 20-Euro-Schein. Can gibt ihm 9,70 € zurück. Ben protestiert. Can sagt: „Stimmt doch genau!\" Kemal ruft vom Grill: „Rechnet doch mal nach!\""
+    "text": "Ben bestellt bei Jan einen Döner für 7,50 € und einen Ayran für 1,80 €. Er zahlt mit einem 20-Euro-Schein. Jan gibt ihm 9,70 € zurück. Ben protestiert. Jan sagt: „Stimmt doch genau!\" Dieter ruft vom Grill: „Rechnet doch mal nach!\""
    }
   ]
  },
@@ -772,7 +767,7 @@
   "bet": [
    "EMRE",
    "LUIGI",
-   "ZEYNEP"
+   "HEIKE"
   ],
   "task": "Wessen Alibi platzt?",
   "tip1": "323",
@@ -795,7 +790,7 @@
       "„Ich stand ab 17 Uhr in meiner Pizzeria. Fragen Sie meine Gäste.\""
      ],
      [
-      "Zeynep",
+      "Heike",
       "„Samstags bin ich von 17 bis 18 Uhr mit meiner Tochter beim Kinderturnen.\""
      ]
     ]
@@ -874,9 +869,9 @@
   "min": 5,
   "double": false,
   "hint": false,
-  "title": "Kassensturz bei Kemal",
+  "title": "Kassensturz bei Dieter",
   "bet": [
-   "KEMAL"
+   "DIETER"
   ],
   "task": "Wie viele 2-Euro-Münzen lagen morgens im Fach, wie viele abends, und was hat der Dieb gemacht?",
   "tip1": "306",
@@ -885,7 +880,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Montag ist Ruhetag. Morgens zählt Kemal sein Münzfach: genau 20 Münzen, nur 1-Euro- und 2-Euro-Münzen, zusammen 31 Euro. Er schließt ab und geht. Abends zählt er noch einmal: wieder genau 20 Münzen, aber nur noch 27 Euro. Verkauft hat an diesem Tag niemand etwas."
+    "text": "Montag ist Ruhetag. Morgens zählt Dieter sein Münzfach: genau 20 Münzen, nur 1-Euro- und 2-Euro-Münzen, zusammen 31 Euro. Er schließt ab und geht. Abends zählt er noch einmal: wieder genau 20 Münzen, aber nur noch 27 Euro. Verkauft hat an diesem Tag niemand etwas."
    }
   ]
  },
@@ -903,7 +898,7 @@
    "BEN",
    "CARLA",
    "EMRE",
-   "KEMAL"
+   "DIETER"
   ],
   "task": "Wer hat was bestellt, und wer ist ohne Bezahlen gegangen?",
   "tip1": "322",
@@ -912,7 +907,7 @@
   "body": [
    {
     "t": "p",
-    "text": "An Tisch 4 sitzen Ali, Ben, Carla und Emre. Jeder bestellt ein anderes Essen (Döner, Lahmacun, Falafel, Pide) und ein anderes Getränk (Ayran, Cola, Wasser, Tee). Einer ist gegangen, ohne zu bezahlen. Emre ist als Erster aufgesprungen, er hatte es auffällig eilig. Kemal weiß nur: „Es war der mit dem Wasser.\" Die Aushilfe erinnert sich:"
+    "text": "An Tisch 4 sitzen Ali, Ben, Carla und Emre. Jeder bestellt ein anderes Essen (Döner, Lahmacun, Falafel, Pide) und ein anderes Getränk (Ayran, Cola, Wasser, Tee). Einer ist gegangen, ohne zu bezahlen. Emre ist als Erster aufgesprungen, er hatte es auffällig eilig. Dieter weiß nur: „Es war der mit dem Wasser.\" Die Aushilfe erinnert sich:"
    },
    {
     "t": "list",
@@ -941,7 +936,7 @@
    "ALI",
    "MIA",
    "PETER",
-   "ZEYNEP"
+   "HEIKE"
   ],
   "task": "Wer hat den Roller genommen?",
   "tip1": "325",
@@ -968,7 +963,7 @@
       "„Mia war's.\""
      ],
      [
-      "Zeynep",
+      "Heike",
       "„Peter war's nicht.\""
      ]
     ]
@@ -987,7 +982,7 @@
   "hint": false,
   "title": "Die verflixten Gewürzdosen",
   "bet": [
-   "KEMAL",
+   "DIETER",
    "HERR BRANDT"
   ],
   "task": "Aus welcher Dose probiert Herr Brandt, und wie geht es weiter?",
@@ -997,7 +992,7 @@
   "body": [
    {
     "t": "p",
-    "text": "In Kemals Küche stehen drei geschlossene Dosen. Auf der ersten steht „Chili\", auf der zweiten „Pfeffer\", auf der dritten „Chili & Pfeffer gemischt\". Kemal grinst: „Alle drei Schilder sind falsch. Du darfst aus genau einer Dose genau eine Prise nehmen und probieren. Dann sag mir, was in jeder Dose wirklich ist.\""
+    "text": "In Dieters Küche stehen drei geschlossene Dosen. Auf der ersten steht „Chili\", auf der zweiten „Pfeffer\", auf der dritten „Chili & Pfeffer gemischt\". Dieter grinst: „Alle drei Schilder sind falsch. Du darfst aus genau einer Dose genau eine Prise nehmen und probieren. Dann sag mir, was in jeder Dose wirklich ist.\""
    }
   ]
  },
@@ -1094,22 +1089,22 @@
   "hint": true,
   "title": "Die Uhr im Spiegel",
   "bet": [
-   "CAN",
+   "JAN",
    "HERR BRANDT"
   ],
-  "task": "Warum ist das Foto für Can kein Alibi?",
+  "task": "Warum ist das Foto für Jan kein Alibi?",
   "tip1": "388",
   "tip2": "232",
   "classic": false,
   "body": [
    {
     "t": "p",
-    "text": "Um 9:40 Uhr wird im Fitnessstudio ein Spind aufgebrochen. Can zeigt ein Foto: „Um 9:40 Uhr stand ich zu Hause vorm Badezimmerspiegel. Schau, die Uhr hinter mir zeigt genau 9:40!\" Auf dem Foto sieht man Can im Spiegel. Hinter ihm hängt eine Uhr ohne Ziffern, nur mit Strichen."
+    "text": "Um 9:40 Uhr wird im Fitnessstudio ein Spind aufgebrochen. Jan zeigt ein Foto: „Um 9:40 Uhr stand ich zu Hause vorm Badezimmerspiegel. Schau, die Uhr hinter mir zeigt genau 9:40!\" Auf dem Foto sieht man Jan im Spiegel. Hinter ihm hängt eine Uhr ohne Ziffern, nur mit Strichen."
    },
    {
     "t": "ill",
     "kind": "hint",
-    "text": "Spiegelselfie. Hinter Can im Spiegel die Uhr ohne Ziffern: kleiner Zeiger kurz vor der 10, großer Zeiger auf der 8, so wie man es im Spiegel sieht."
+    "text": "Spiegelselfie. Hinter Jan im Spiegel die Uhr ohne Ziffern: kleiner Zeiger kurz vor der 10, großer Zeiger auf der 8, so wie man es im Spiegel sieht."
    }
   ]
  },
@@ -1168,9 +1163,9 @@
   "min": 4,
   "double": false,
   "hint": false,
-  "title": "Kemals Spieße",
+  "title": "Dieters Spieße",
   "bet": [
-   "KEMAL",
+   "DIETER",
    "LUIGI"
   ],
   "task": "Hat Luigi recht? Wie geht das?",
@@ -1180,7 +1175,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Kemal will drei Spieße grillen. Auf seinen kleinen Grill passen nur zwei auf einmal. Jeder Spieß braucht auf jeder Seite 5 Minuten. Kemal: „Unter 20 Minuten geht das nicht.\" Luigi: „Wetten, dass ich es in 15 schaffe?\""
+    "text": "Dieter will drei Spieße grillen. Auf seinen kleinen Grill passen nur zwei auf einmal. Jeder Spieß braucht auf jeder Seite 5 Minuten. Dieter: „Unter 20 Minuten geht das nicht.\" Luigi: „Wetten, dass ich es in 15 schaffe?\""
    }
   ]
  },
@@ -1257,8 +1252,8 @@
   "hint": false,
   "title": "Wem gehört der Hund?",
   "bet": [
-   "ZEYNEP",
-   "CAN",
+   "HEIKE",
+   "JAN",
    "LUIGI",
    "AYŞE"
   ],
@@ -1275,10 +1270,10 @@
     "t": "list",
     "kind": "num",
     "items": [
-     "Zeynep hat eine Katze.",
-     "Zeynep wohnt im 4. Stock.",
+     "Heike hat eine Katze.",
+     "Heike wohnt im 4. Stock.",
      "Der Papagei wohnt im 1. Stock.",
-     "Luigi wohnt direkt über Can.",
+     "Luigi wohnt direkt über Jan.",
      "Ayşe wohnt nicht im 1. Stock.",
      "Der Hamster wohnt direkt unter der Katze."
     ]
@@ -1832,19 +1827,19 @@
   "min": 6,
   "double": false,
   "hint": false,
-  "title": "Kemals Ayrankannen",
+  "title": "Dieters Ayrankannen",
   "bet": [
-   "KEMAL",
-   "CAN"
+   "DIETER",
+   "JAN"
   ],
-  "task": "Wie kommt Kemal auf genau 4 Liter?",
+  "task": "Wie kommt Dieter auf genau 4 Liter?",
   "tip1": "357",
   "tip2": "211",
   "classic": true,
   "body": [
    {
     "t": "p",
-    "text": "Für sein Spezialrezept braucht Kemal genau 4 Liter Ayran. Er hat einen großen Kanister voll Ayran, aber nur zwei Kannen ohne Striche: Die eine fasst genau 5 Liter, die andere genau 3 Liter. Can lacht: „Ohne Messbecher? Unmöglich!\""
+    "text": "Für sein Spezialrezept braucht Dieter genau 4 Liter Ayran. Er hat einen großen Kanister voll Ayran, aber nur zwei Kannen ohne Striche: Die eine fasst genau 5 Liter, die andere genau 3 Liter. Jan lacht: „Ohne Messbecher? Unmöglich!\""
    }
   ]
  },
@@ -1891,10 +1886,10 @@
   "hint": false,
   "title": "Ein wahrer und ein falscher Satz",
   "bet": [
-   "CAN",
+   "JAN",
    "MIA",
    "IGOR",
-   "ZEYNEP",
+   "HEIKE",
    "HERR BRANDT"
   ],
   "task": "Wer hat die Krone versteckt, und wo ist sie?",
@@ -1904,17 +1899,17 @@
   "body": [
    {
     "t": "p",
-    "text": "Einen Tag vor der Premiere des Schultheaters ist die goldene Krone des Königs verschwunden. Vier Helfer hatten einen Schlüssel: Can, Mia, Igor und Zeynep. Einer von ihnen hat die Krone versteckt, im Keller, auf dem Dachboden oder im Schulgarten."
+    "text": "Einen Tag vor der Premiere des Schultheaters ist die goldene Krone des Königs verschwunden. Vier Helfer hatten einen Schlüssel: Jan, Mia, Igor und Heike. Einer von ihnen hat die Krone versteckt, im Keller, auf dem Dachboden oder im Schulgarten."
    },
    {
     "t": "p",
-    "text": "Can grinst: „Wir machen es Ihnen nicht zu leicht, Herr Brandt. Jeder von uns sagt einen wahren und einen falschen Satz. Welcher welcher ist, müssen Sie selbst herausfinden.\""
+    "text": "Jan grinst: „Wir machen es Ihnen nicht zu leicht, Herr Brandt. Jeder von uns sagt einen wahren und einen falschen Satz. Welcher welcher ist, müssen Sie selbst herausfinden.\""
    },
    {
     "t": "stmts",
     "rows": [
      [
-      "Can",
+      "Jan",
       "„Mia war's nicht. Ich war's nicht.\""
      ],
      [
@@ -1926,7 +1921,7 @@
       "„Ich war's nicht. Die Krone ist im Keller.\""
      ],
      [
-      "Zeynep",
+      "Heike",
       "„Die Krone ist nicht im Garten. Ich war's.\""
      ]
     ]
@@ -1945,9 +1940,9 @@
   "hint": false,
   "title": "Der Weg durch die Stadt",
   "bet": [
-   "ZEYNEP",
+   "HEIKE",
    "LUIGI",
-   "KEMAL",
+   "DIETER",
    "ANNA"
   ],
   "task": "Wer kann um 10:00 Uhr am Kiosk gewesen sein?",
@@ -2005,7 +2000,7 @@
     ],
     "rows": [
      [
-      "Zeynep",
+      "Heike",
       "bis 9:52 Uhr am Markt (Kundin bestätigt)",
       "ab 10:08 Uhr wieder am Markt"
      ],
@@ -2015,7 +2010,7 @@
       "10:12 Uhr Fahrkarte am Bahnhof"
      ],
      [
-      "Kemal",
+      "Dieter",
       "9:50 Uhr am Bahnhof gesehen",
       "10:05 Uhr in der Bäckerei"
      ],
@@ -2122,8 +2117,8 @@
   "hint": false,
   "title": "Die zwölf Kugeln",
   "bet": [
-   "KEMAL",
-   "CAN",
+   "DIETER",
+   "JAN",
    "HERR BRANDT"
   ],
   "task": "Wie findet man mit drei Wägungen die falsche Kugel und weiß danach auch, ob sie schwerer oder leichter ist?",
@@ -2133,11 +2128,11 @@
   "body": [
    {
     "t": "p",
-    "text": "Kemal hat zwölf Metallkugeln, die alle genau gleich aussehen. Eine davon ist falsch: ein kleines bisschen schwerer oder leichter als die anderen. Ob schwerer oder leichter, weiß niemand. Kemal hat eine Balkenwaage ohne Gewichte."
+    "text": "Dieter hat zwölf Metallkugeln, die alle genau gleich aussehen. Eine davon ist falsch: ein kleines bisschen schwerer oder leichter als die anderen. Ob schwerer oder leichter, weiß niemand. Dieter hat eine Balkenwaage ohne Gewichte."
    },
    {
     "t": "p",
-    "text": "Can: „Das schafft keiner mit nur drei Wägungen.\" Herr Brandt: „Doch. Und am Ende weiß man sogar, ob die Kugel schwerer oder leichter ist.\""
+    "text": "Jan: „Das schafft keiner mit nur drei Wägungen.\" Herr Brandt: „Doch. Und am Ende weiß man sogar, ob die Kugel schwerer oder leichter ist.\""
    }
   ]
  },
@@ -2156,7 +2151,7 @@
    "OMA HILDE",
    "HERR SOMMER",
    "OMA GRETA",
-   "ZEYNEP",
+   "HEIKE",
    "DRAGAN",
    "HERR BRANDT"
   ],
@@ -2167,7 +2162,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Oma Hildes alte Kuckucksuhr ist aus ihrem Gartenhäuschen verschwunden. Am Sonntag auf dem Flohmarkt glaubt sie, ihren Kuckuck rufen zu hören. Vier Stände stehen nebeneinander, Stand 1 ganz links bis Stand 4 ganz rechts. An jedem Stand verkauft eine andere Person: Herr Sommer, Oma Greta, Zeynep und Dragan. Jeder bietet ein Stück an, die Kuckucksuhr, eine Lampe, einen Teddy oder Schallplatten, und jeder verlangt einen anderen Preis: 5, 10, 15 oder 20 Euro."
+    "text": "Oma Hildes alte Kuckucksuhr ist aus ihrem Gartenhäuschen verschwunden. Am Sonntag auf dem Flohmarkt glaubt sie, ihren Kuckuck rufen zu hören. Vier Stände stehen nebeneinander, Stand 1 ganz links bis Stand 4 ganz rechts. An jedem Stand verkauft eine andere Person: Herr Sommer, Oma Greta, Heike und Dragan. Jeder bietet ein Stück an, die Kuckucksuhr, eine Lampe, einen Teddy oder Schallplatten, und jeder verlangt einen anderen Preis: 5, 10, 15 oder 20 Euro."
    },
    {
     "t": "p",
@@ -2180,9 +2175,9 @@
      "Die Kuckucksuhr ist das teuerste Stück.",
      "Ich selbst stehe ganz rechts.",
      "Der Teddy kostet 5 Euro und liegt direkt links neben der Uhr.",
-     "Zeynep verkauft keine Lampe und steht nicht am Rand.",
+     "Heike verkauft keine Lampe und steht nicht am Rand.",
      "Am Stand 3 kostet alles 10 Euro.",
-     "Zeynep ist billiger als Herr Sommer."
+     "Heike ist billiger als Herr Sommer."
     ]
    },
    {
@@ -2203,10 +2198,10 @@
   "title": "Die falschen Uhren",
   "bet": [
    "LUIGI",
-   "KEMAL",
+   "DIETER",
    "MEHMET",
    "MIA",
-   "ZEYNEP",
+   "HEIKE",
    "IGOR",
    "DRAGAN"
   ],
@@ -2227,8 +2222,8 @@
     "t": "stmts",
     "rows": [
      [
-      "Kemal",
-      "Zeynep hat ihn auf dem Markt gesehen. Ihre Armbanduhr zeigte da 18:15 Uhr."
+      "Dieter",
+      "Heike hat ihn auf dem Markt gesehen. Ihre Armbanduhr zeigte da 18:15 Uhr."
      ],
      [
       "Mehmet",
@@ -2246,7 +2241,7 @@
    },
    {
     "t": "p",
-    "text": "Dragan, der Uhrmacher, hatte letzte Woche alle Uhren in seiner Werkstatt: „Luigis Küchenuhr geht 10 Minuten vor. Zeyneps Armbanduhr geht 15 Minuten nach. Mehmets Kassenuhr geht 4 Minuten vor. Igors Taxameter geht auf die Sekunde genau.\""
+    "text": "Dragan, der Uhrmacher, hatte letzte Woche alle Uhren in seiner Werkstatt: „Luigis Küchenuhr geht 10 Minuten vor. Heikes Armbanduhr geht 15 Minuten nach. Mehmets Kassenuhr geht 4 Minuten vor. Igors Taxameter geht auf die Sekunde genau.\""
    }
   ]
  },
@@ -2326,7 +2321,7 @@
   "min": 7,
   "double": false,
   "hint": true,
-  "title": "Der verschmierte Zettel",
+  "title": "Der abgerissene Zettel",
   "bet": [
    "AYŞE",
    "MEHMET",
@@ -2341,16 +2336,16 @@
   "body": [
    {
     "t": "p",
-    "text": "Aus dem Vereinsheim ist die neue Musikanlage verschwunden. Auf dem Tisch liegt ein Zettel, mit Füller geschrieben: „Die Anlage ist in Sicherheit. Ihr bekommt sie zurück, wenn endlich jemand die Heizung repariert!\""
+    "text": "Aus dem Vereinsheim ist die neue Musikanlage verschwunden. Auf dem Tisch liegt ein Zettel: „Die Anlage ist in Sicherheit. Ihr bekommt sie zurück, wenn endlich jemand die Heizung repariert!“ Der Zettel ist kariert und wurde aus einem Spiralblock gerissen. Am linken Rand hängen noch kleine Papierfetzen."
    },
    {
     "t": "p",
-    "text": "Einen Schlüssel haben nur vier Leute: Ayşe, Mehmet, Mia und Hausmeister Hans. Herr Brandt lässt alle vier das Protokoll unterschreiben und schaut genau zu."
+    "text": "Einen Schlüssel haben nur vier Leute: Ayşe, Mehmet, Mia und Hausmeister Hans. Jeder hat seinen Notizblock dabei. Herr Brandt lässt sich alle vier Blöcke zeigen."
    },
    {
     "t": "ill",
     "kind": "hint",
-    "text": "Links der Zettel in Nahaufnahme: Die frische Tinte ist an vielen Stellen nach rechts verschmiert, quer über die Wörter. Rechts vier Hände beim Unterschreiben, mit Namensschildern. Ayşe schreibt mit links, Mehmet, Mia und Hans mit rechts."
+    "text": "Links der karierte Zettel mit gezacktem linken Rand. Rechts vier aufgeschlagene Spiralblöcke mit Namensschildern. Mehmets Block: liniert, keine Seite fehlt. Mias Block: kariert, Papierreste in der Spirale mit anderem Zackenmuster. Hans’ Block: liniert, Reste in der Spirale. Ayşes Block: kariert, die Reste passen genau zum Rand des Zettels."
    }
   ]
  },
@@ -2366,7 +2361,7 @@
   "bet": [
    "ELIF",
    "OMA GRETA",
-   "KEMAL",
+   "DIETER",
    "LUIGI",
    "MEHMET",
    "ANNA"
@@ -2389,10 +2384,10 @@
      ],
      [
       "Oma Greta",
-      "„Kemal war's.\""
+      "„Dieter war's.\""
      ],
      [
-      "Kemal",
+      "Dieter",
       "„Greta lügt.\""
      ],
      [
@@ -2421,8 +2416,8 @@
   "hint": false,
   "title": "Der Tresor",
   "bet": [
-   "KEMAL",
-   "CAN"
+   "DIETER",
+   "JAN"
   ],
   "task": "Wie lautet der Code?",
   "tip1": "182",
@@ -2431,11 +2426,11 @@
   "body": [
    {
     "t": "p",
-    "text": "Kemal ist im Urlaub. Can soll den Tresor im Laden öffnen, hat den Code aber vergessen. Der Code hat vier verschiedene Ziffern. Bei jedem falschen Versuch leuchten Lämpchen: Grün heißt richtige Ziffer an der richtigen Stelle. Gelb heißt richtige Ziffer an der falschen Stelle. Welche Ziffer gemeint ist, verraten die Lämpchen nicht."
+    "text": "Dieter ist im Urlaub. Jan soll den Tresor im Laden öffnen, hat den Code aber vergessen. Der Code hat vier verschiedene Ziffern. Bei jedem falschen Versuch leuchten Lämpchen: Grün heißt richtige Ziffer an der richtigen Stelle. Gelb heißt richtige Ziffer an der falschen Stelle. Welche Ziffer gemeint ist, verraten die Lämpchen nicht."
    },
    {
     "t": "p",
-    "text": "Can hat gestern fünf Versuche aufgeschrieben:"
+    "text": "Jan hat gestern fünf Versuche aufgeschrieben:"
    },
    {
     "t": "table",
@@ -2519,9 +2514,9 @@
   "title": "Die Brosche von Oma Hilde",
   "bet": [
    "OMA HILDE",
-   "KEMAL",
+   "DIETER",
    "LUIGI",
-   "ZEYNEP",
+   "HEIKE",
    "EMRE"
   ],
   "task": "Wer hat die Brosche genommen?",
@@ -2531,7 +2526,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Oma Hilde feiert ihren 80. Geburtstag. Außer ihr sind nur vier Gäste da: Kemal, Luigi, Zeynep und Emre."
+    "text": "Oma Hilde feiert ihren 80. Geburtstag. Außer ihr sind nur vier Gäste da: Dieter, Luigi, Heike und Emre."
    },
    {
     "t": "p",
@@ -2539,7 +2534,7 @@
    },
    {
     "t": "p",
-    "text": "Die alte Holztreppe ist der einzige Weg nach oben, und sie knarrt bei jedem Schritt. Oma sitzt die ganze nächste Stunde im Sessel direkt neben der Treppe. Sie hört sie genau zweimal knarren: um 15:20 Uhr und um 15:40 Uhr."
+    "text": "Die alte Holztreppe ist der einzige Weg nach oben, und sie knarrt bei jedem Schritt. Oma sitzt die ganze nächste Stunde im Sessel direkt neben der Treppe. Sie hört genau zweimal knarrende Schritte auf der Treppe, jedes Mal nur von einer einzigen Person: um 15:20 Uhr und um 15:40 Uhr."
    },
    {
     "t": "p",
@@ -2549,19 +2544,19 @@
     "t": "stmts",
     "rows": [
      [
-      "Kemal",
+      "Dieter",
       "„Ich stand die ganze Zeit mit Luigi am Grill im Garten.\""
      ],
      [
       "Luigi",
-      "„Fast die ganze Zeit. Kemal war mal kurz weg.\""
+      "„Fast die ganze Zeit. Dieter war mal kurz weg.\""
      ],
      [
-      "Kemal",
+      "Dieter",
       "„Stimmt, ich hab Grillkohle aus dem Auto geholt. Das steht vor dem Haus.\""
      ],
      [
-      "Zeynep",
+      "Heike",
       "„Ich war um halb vier oben im Bad, aber wirklich nur zwei Minuten.\""
      ],
      [
@@ -2591,7 +2586,7 @@
      ],
      [
       "15:35",
-      "Kemal kommt mit einem Sack Kohle durchs Gartentor"
+      "Dieter kommt mit einem Sack Kohle durchs Gartentor"
      ],
      [
       "15:50",
@@ -2628,7 +2623,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Herr Brandt wird 70. Kemal hat seinen Laden für den Abend geschlossen, und alle sind gekommen: Oma Hilde, Oma Greta, Anna, Ben, Carla, Lea, Tom, Max, Luigi, Zeynep, Mehmet, Ayşe, Defne, Emre, Hans, Lars, Mia, Igor, Dragan und Can."
+    "text": "Herr Brandt wird 70. Dieter hat seinen Laden für den Abend geschlossen, und alle sind gekommen: Oma Hilde, Oma Greta, Anna, Ben, Carla, Lea, Tom, Max, Luigi, Heike, Mehmet, Ayşe, Defne, Emre, Hans, Lars, Mia, Igor, Dragan und Jan."
    },
    {
     "t": "p",
@@ -2636,7 +2631,7 @@
    },
    {
     "t": "p",
-    "text": "Can hat an diesem Abend die Garderobe betreut. Für jeden, der hineinging, hat er die Uhrzeit von seinem Handy aufgeschrieben:"
+    "text": "Jan hat an diesem Abend die Garderobe betreut. Für jeden, der hineinging, hat er die Uhrzeit von seinem Handy aufgeschrieben:"
    },
    {
     "t": "table",
@@ -2653,7 +2648,7 @@
      ],
      [
       "20:06",
-      "Zeynep",
+      "Heike",
       "holt ihren Schal"
      ],
      [
@@ -2694,7 +2689,7 @@
    {
     "t": "ill",
     "kind": "ill",
-    "text": "Erste Doppelseite: Kemals Laden voller Gäste, Girlanden, eine Torte mit 70 Kerzen. Zweite Doppelseite: die Garderobe mit Brandts Mantel, daneben Cans Liste als Zettel und das aufgeschlagene Gästebuch."
+    "text": "Erste Doppelseite: Dieters Laden voller Gäste, Girlanden, eine Torte mit 70 Kerzen. Zweite Doppelseite: die Garderobe mit Brandts Mantel, daneben Jans Liste als Zettel und das aufgeschlagene Gästebuch."
    }
   ]
  }

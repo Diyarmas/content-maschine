@@ -5,7 +5,7 @@
   "k": 1
  },
  "103": {
-  "text": "Prüf danach Zeynep: Wenn sie es war, wie viele von Cans Sätzen wären dann wahr?",
+  "text": "Prüf danach Heike: Wenn sie es war, wie viele von Jans Sätzen wären dann wahr?",
   "fall": "54",
   "k": 2
  },
@@ -140,7 +140,7 @@
   "k": 1
  },
  "175": {
-  "text": "Elif und Greta beschuldigen verschiedene Leute. Mindestens eine von beiden schwindelt also. Was heißt das für Kemal?",
+  "text": "Elif und Greta beschuldigen verschiedene Leute. Mindestens eine von beiden schwindelt also. Was heißt das für Dieter?",
   "fall": "64",
   "k": 2
  },
@@ -205,7 +205,7 @@
   "k": 2
  },
  "215": {
-  "text": "Wie konnte man diese Woche bei Kemal bezahlen?",
+  "text": "Wie konnte man diese Woche bei Dieter bezahlen?",
   "fall": "03",
   "k": 2
  },
@@ -305,7 +305,7 @@
   "k": 2
  },
  "243": {
-  "text": "Wie kommt Tinte auf einem Zettel ins Verschmieren?",
+  "text": "Woher stammt der Zettel? Schau dir seinen Rand und das Papier genau an.",
   "fall": "63",
   "k": 1
  },
@@ -370,7 +370,7 @@
   "k": 1
  },
  "270": {
-  "text": "Wir schreiben von links nach rechts. Bei wem rutscht die Hand über das, was gerade erst geschrieben wurde?",
+  "text": "Vergleich den Rand des Zettels mit den Papierresten in den vier Spiralen.",
   "fall": "63",
   "k": 2
  },
@@ -385,7 +385,7 @@
   "k": 1
  },
  "275": {
-  "text": "Vergleich die Uhrzeit auf dem Stempel mit Zeyneps Geschichte.",
+  "text": "Vergleich die Uhrzeit auf dem Stempel mit Heikes Geschichte.",
   "fall": "15",
   "k": 2
  },
@@ -405,7 +405,7 @@
   "k": 1
  },
  "281": {
-  "text": "Luigi und Can wohnen direkt übereinander. Welche zwei Stockwerke bleiben dafür frei?",
+  "text": "Luigi und Jan wohnen direkt übereinander. Welche zwei Stockwerke bleiben dafür frei?",
   "fall": "37",
   "k": 2
  },
@@ -545,7 +545,7 @@
   "k": 2
  },
  "342": {
-  "text": "Die Uhr steht an Stand 2. Wo kann Zeynep jetzt noch stehen, wenn sie billiger sein soll als Herr Sommer?",
+  "text": "Die Uhr steht an Stand 2. Wo kann Heike jetzt noch stehen, wenn sie billiger sein soll als Herr Sommer?",
   "fall": "59",
   "k": 2
  },
@@ -570,7 +570,7 @@
   "k": 2
  },
  "357": {
-  "text": "Kemal darf Kannen füllen, ausleeren (zurück in den Kanister) und von einer Kanne in die andere umgießen.",
+  "text": "Dieter darf Kannen füllen, ausleeren (zurück in den Kanister) und von einer Kanne in die andere umgießen.",
   "fall": "52",
   "k": 1
  },
