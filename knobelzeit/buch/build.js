@@ -1,5 +1,5 @@
 const fs=require('fs');
-const grey=t=>t.replace(/#([0-9a-fA-F]{6})\b|#([0-9a-fA-F]{3})\b/g,(m,a,b)=>{let h=a||b.split('').map(c=>c+c).join('');const r=parseInt(h.slice(0,2),16),g=parseInt(h.slice(2,4),16),bl=parseInt(h.slice(4,6),16);const y=Math.round(0.2126*r+0.7152*g+0.0722*bl);const x=y.toString(16).padStart(2,'0');return '#'+x+x+x});
+const grey=t=>t.replace(/#([0-9a-fA-F]{6})\b|#([0-9a-fA-F]{3})\b/g,(m,a,b)=>{let h=a||b.split('').map(c=>c+c).join('');const r=parseInt(h.slice(0,2),16),g=parseInt(h.slice(2,4),16),bl=parseInt(h.slice(4,6),16);let y=0.2126*r+0.7152*g+0.0722*bl;{const t=y/255,k=1.45;y=Math.round(255*(t<0.5?0.5*Math.pow(2*t,k):1-0.5*Math.pow(2*(1-t),k)))}const x=y.toString(16).padStart(2,'0');return '#'+x+x+x});
 const bw0=process.argv[2]==='bw';
 const S=n=>{const t=fs.readFileSync('/home/claude/bk/src/'+n,'utf8');return bw0?grey(t):t};
 const bw=process.argv[2]==='bw';const part=process.argv[3]||'all';
