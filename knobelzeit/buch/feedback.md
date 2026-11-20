@@ -44,3 +44,12 @@ Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach,
 
 ## Erledigt
 - Runde 1–4 (Korrekturauftrag, Wer ist wer, S.12/18/20/24/67/73/79, gelbe Titelseite, Köpfe nicht abgeschnitten) – siehe data/aenderungen.md
+
+## Umgesetzt 20.11. (Review 12:00)
+- [x] Einheitliche Bildhöhe 66 mm auf allen Fallseiten, Köpfe automatisch nicht abgeschnitten (S.52/62/72/84)
+- [x] Fahrrad S.14 neu (realistisch, groß), Besen S.16 als Schneeschieber/Besen neu platziert
+- [x] QR-Codes DE (TikTok/YouTube/Instagram) mit echten Links, per Scan geprüft
+- [x] Impressum: 81925 München, keine E-Mail
+- [x] Notizfelder auf allen Fallseiten außer Fall 68 (Sonderseiten)
+- [ ] OFFEN: Rückteil S.96–117 (Tipps, Lösungen, Akte, Urkunde), Arbeitsblätter 66–89, globale Abstände/Ränder
+- [ ] OFFEN: Fall 03 Schild oben leicht angeschnitten; "Illustrationen: Diyar Masyan" bestätigen
