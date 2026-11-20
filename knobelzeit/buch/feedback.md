@@ -53,3 +53,13 @@ Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach,
 - [x] Notizfelder auf allen Fallseiten außer Fall 68 (Sonderseiten)
 - [ ] OFFEN: Rückteil S.96–117 (Tipps, Lösungen, Akte, Urkunde), Arbeitsblätter 66–89, globale Abstände/Ränder
 - [ ] OFFEN: Fall 03 Schild oben leicht angeschnitten; "Illustrationen: Diyar Masyan" bestätigen
+
+## Umgesetzt 20.11. nachmittags (Lektorats-Feedback, 118 S.)
+- [x] Spielregeln S.5: "ersten Tipp pro Fall ohne Punktabzug"
+- [x] Fall 08 präzisiert (Pappe, keine Kühltasche, 34 Grad, Lösung erklärt)
+- [x] Fall 47: Bahnhofstraße/Rosenweg konsistent, Lösung mit Zeiten
+- [x] Fall 02 Lösung ausführlicher; Fall 10 Lösung mit Beweiskette
+- [x] Fall 68 Punkte: "ohne Tipp 10, mit 1 oder 2 Tipps 5"
+- [x] Gästebuch S.95 mit BEWEISSTÜCK-Etikett; Urkunde Namensfeld größer
+- [x] Rätsel nachgerechnet, eindeutig: 31, 32, 33 (697), 37, 48, 51, 58, 65 (8215), 67; 43 und 10 inhaltlich ok
+- [ ] Offen: Impressum-Adresse (Daphnestraße = privat, Entscheidung Gewerbe/Postfach), Testdruck 114–116
