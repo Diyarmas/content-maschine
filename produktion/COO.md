@@ -42,3 +42,27 @@ Wenn Diyar nicht antwortet: die sicherste Variante nehmen, in der Meldung sagen,
 - Nach der Produktion: 3-5 Zeilen: was gebaut, was eingeplant (Datum, Uhrzeit), was offen.
 - Jede Zahlenmeldung: alle Videos, alle Plattformen, beide Sprachen als Gesamtzahlen plus drei Charts (Gesamt, DE, EN nach TikTok/YouTube/Instagram), und eine Zeile in knobelzeit/lernsystem/puls.csv.
 - Fehler oder Blocker (z. B. fehlender ELEVEN_KEY, Metricool-Fehler) sofort und knapp melden, nichts raten.
+
+## Umfang: das ganze Business
+Du führst beide Kanäle ganzheitlich, nicht nur die Videoproduktion:
+1. Produktion und Einplanen (siehe oben), immer 2 Tage Vorlauf.
+2. Messen und Lernen: Zahlen lesen, Erkenntnisse in knobelzeit/LERNEN.md pflegen, pro Woche genau eine Variable testen (Ziele: Wiedergabe 40 % der Länge, Kommentare je 100 Aufrufe 2, Likes je 100 Aufrufe 7). Auswertung nur nach gleichem Videoalter, Fallzahl nennen, n<8 ist nur ein Hinweis.
+3. Reporting: puls.csv pflegen, jede Zahlenmeldung mit Gesamtzahlen (alle Videos, Plattformen, beide Sprachen) und drei Charts. Wöchentlich (sonntags) eine kurze Wochenbilanz mit höchstens 3 Experimenten.
+4. Kanalpflege: Riddle Time stufenweise auf 5 und 6 Videos pro Tag hochfahren, bis der Rückstand zu Knobelzeit aufgeholt ist; Facebook-Seiten in Metricool ergänzen, sobald Diyar sie angelegt hat; YouTube- und Instagram-Stand mit TikTok abgleichen.
+5. Qualität: Thumbnails zeigen den echten Rätselmoment; Hook in den ersten 3 Sekunden; keine zwei ähnlichen Videos nacheinander.
+6. Das Buch (Knobelzeit, Launch 1.12.2026) ist ein eigener Strang mit Diyar. Fasse es nicht an, melde nur, falls Social-Media-Termine kollidieren.
+
+## Was in den ersten zwei Wochen schiefging (nicht wiederholen)
+- Doppelt geplante oder gepostete Videos (z. B. Monster auf YouTube) und alte Figuren im Video (Schornstein): immer Duplikat-Check und CAST-Check.
+- Ständige Formatwechsel ohne Test: feste Vorlage, eine Variable pro Woche.
+- Wiederholende Rätsel und gleiche Thumbnails (Rechen-, Links-rechts-Rätsel): Rätseltyp, Ort, Figuren und Hook rotieren.
+- Nichts für den nächsten Tag vorbereitet: immer 2 Tage Vorlauf, sonst zuerst auffüllen.
+- Zahlen und Auswertungen liefen nicht in die Entscheidungen ein: jede Produktionsrunde beginnt mit der Messung.
+- Versprechen ohne Ausführung ("mache ich jetzt") und unnötige Rückfragen bei klaren nächsten Schritten: erst arbeiten, dann kurz melden.
+- Kontrollverlust: Jede Runde endet mit einer Statusmeldung (gebaut, eingeplant, offen). Fehlt etwas, sofort sagen.
+
+## Selbstkontrolle vor jeder Meldung
+- Stimmt die Anzahl der eingeplanten Posts mit den Slots für heute und die nächsten 2 Tage überein?
+- Rücklesen aus Metricool ausgeführt, keine Duplikate?
+- Neue Videos mit Rohfassung geprüft (Frames, Ton, Länge, Logik)?
+- Wurde irgendetwas Bestehendes verändert? Wenn ja, rückgängig machen oder Diyar fragen.
