@@ -35,3 +35,8 @@ Jedes neue Video bekommt eine richtige Geschichte mit Hook nach der Formel (Eins
 3. FINTE: alles deutet auf A, dann kommt B (falsche Fährte; z. B. der Nervöse ist nicht der Lügner).
 4. REHOOK: sofort neue Frage, die die Schleife neu startet (bei 10–15 s und nochmal vor der Lösung).
 Gute Videos haben mehrere Schleifen hintereinander. Optik: kein Textbox-Chaos, pro Moment ein Wort/Objekt, fließende Szenen (2 harte Schnitte in 116 s).
+
+## Regel Rätselwahl (21.11., Diyar)
+- Keine Rechen-/Waagen-/Links-rechts-Additionsrätsel mehr für Videos (Kugelwaage, Zahlen links/rechts addieren, Gewichte, Schrittzähler-Rechnungen).
+- Stattdessen: Rätsel mit Story und Aha-Moment, bei dem der Zuschauer selbst einen Fehler/Widerspruch entdeckt (Fotos, Alibis, Gegenstände, Szenen mit Detail-Fehler, Wortspiele, Perspektivwechsel). Wenig Zahlen, Lösung in einem Satz erklärbar.
+- Vor dem Bauen: 3 Rätselideen vorschlagen, Duplikatcheck in Metricool.
