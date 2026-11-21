@@ -63,3 +63,10 @@ Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach,
 - [x] Gästebuch S.95 mit BEWEISSTÜCK-Etikett; Urkunde Namensfeld größer
 - [x] Rätsel nachgerechnet, eindeutig: 31, 32, 33 (697), 37, 48, 51, 58, 65 (8215), 67; 43 und 10 inhaltlich ok
 - [ ] Offen: Impressum-Adresse (Daphnestraße = privat, Entscheidung Gewerbe/Postfach), Testdruck 114–116
+
+## Umgesetzt 21.11. (Feedback Runde 3 + Gesamtdurchsicht)
+- [x] Fall 08: 38 Grad, dünne Pappe, Raureif, vorsichtigere Lösung; Tipp 157 angepasst
+- [x] Fall 68: "Jeder ging allein hinein, holte seine Sache und kam sofort wieder heraus" (Text + Lösung)
+- [x] Hinweisbilder repariert: Fall 14 (AUSSEN/INNEN), 32 (Spiegeluhr), 46 (Kalender), 50 (Windrose mit N)
+- [x] verify.py: ALLES OK; alle 118 Seiten durchgesehen
+- [ ] OFFEN: Impressum-Adresse, Fall 61 Display-Kopfzeile oben knapp, Arbeitsblätter 75/79 Abstände, Testdruck, KDP-Ränder
