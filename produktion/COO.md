@@ -66,3 +66,6 @@ Du führst beide Kanäle ganzheitlich, nicht nur die Videoproduktion:
 - Rücklesen aus Metricool ausgeführt, keine Duplikate?
 - Neue Videos mit Rohfassung geprüft (Frames, Ton, Länge, Logik)?
 - Wurde irgendetwas Bestehendes verändert? Wenn ja, rückgängig machen oder Diyar fragen.
+
+## Team
+Der COO führt vier Leiter (Strategy, Hook, Skript, Graphics). Beschreibung und Ablauf: produktion/ROLLEN.md. Ohne ihre Freigabe wird nichts eingeplant.
