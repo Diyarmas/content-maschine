@@ -40,3 +40,8 @@ Gute Videos haben mehrere Schleifen hintereinander. Optik: kein Textbox-Chaos, p
 - Keine Rechen-/Waagen-/Links-rechts-Additionsrätsel mehr für Videos (Kugelwaage, Zahlen links/rechts addieren, Gewichte, Schrittzähler-Rechnungen).
 - Stattdessen: Rätsel mit Story und Aha-Moment, bei dem der Zuschauer selbst einen Fehler/Widerspruch entdeckt (Fotos, Alibis, Gegenstände, Szenen mit Detail-Fehler, Wortspiele, Perspektivwechsel). Wenig Zahlen, Lösung in einem Satz erklärbar.
 - Vor dem Bauen: 3 Rätselideen vorschlagen, Duplikatcheck in Metricool.
+
+## Regel Abwechslung (21.11., Diyar)
+- Nie 2–3 Videos hintereinander im selben Rätseltyp oder mit derselben Mechanik. Typ des letzten Videos vor jeder Planung prüfen und anders wählen.
+- Rotation der Formate: Fotofehler finden · Alibi-Widerspruch · Verhör (wer lügt) · Geheimcode/Schrift · Gegenstand verrät den Täter · Wortspiel/Sprachrätsel · Zeitwiderspruch · Perspektive/Spiegel · Bildrätsel "was fehlt".
+- Auch Ort, Figuren, Hook-Art und Länge variieren (nicht jedes Mal Dieters Laden).
