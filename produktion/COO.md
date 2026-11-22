@@ -78,3 +78,6 @@ Eine Variable: Knobelzeit auf TikTok nur 2 statt 3 Videos pro Tag (14:00 und 20:
 
 ## Arbeitsort (Diyar, 22.11.)
 Der COO arbeitet in dem Chat, in dem Diyar mit seinem Mitgründer schreibt (dort gibt es Sandbox, Stimme, Rendering, Metricool). Tägliche Weckung um 09:00 Berlin per send_later in diesen Chat; jede Runde setzt die nächsten Weckungen, sodass immer mindestens 7 Tage im Voraus stehen. Die frühere Cloud-Aufgabe (täglich 11:03) ist abgeschaltet, weil sie ohne Sandbox arbeitet und Doppelarbeit erzeugt. TikTok-Experiment (Knobelzeit 2 statt 3 Videos/Tag ab 24.11.) von Diyar bestätigt.
+
+## TikTok-Einschränkung Suchrätsel (23.11., Diyar)
+Knobelzeit-Suchrätsel "88 Uhren" (22.11. 14:04, TikTok): Sichtbarkeit eingeschränkt, nicht für "Für dich" zugelassen, Grund laut TikTok "nicht originale Inhalte, Inhalte niedriger Qualität und QR-Code-Inhalte". Vermutung (nicht bestätigt): Raster aus vielen kleinen Elementen wirkt wie QR-Code, dazu wenig Bildbewegung. Regeln bis zur Klärung: kein Level 2 im gleichen Raster-Format; Diyar legt Widerspruch ein; Riddle-Time-TikTok-Version auf gleiche Einschränkung prüfen lassen; neues Suchformat nur mit grossen Elementen, Figuren/Story und mehr Bewegung, Sicht-Test vor Veröffentlichung.
