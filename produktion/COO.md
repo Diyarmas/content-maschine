@@ -81,3 +81,6 @@ Der COO arbeitet in dem Chat, in dem Diyar mit seinem Mitgründer schreibt (dort
 
 ## TikTok-Einschränkung Suchrätsel (23.11., Diyar)
 Knobelzeit-Suchrätsel "88 Uhren" (22.11. 14:04, TikTok): Sichtbarkeit eingeschränkt, nicht für "Für dich" zugelassen, Grund laut TikTok "nicht originale Inhalte, Inhalte niedriger Qualität und QR-Code-Inhalte". Vermutung (nicht bestätigt): Raster aus vielen kleinen Elementen wirkt wie QR-Code, dazu wenig Bildbewegung. Regeln bis zur Klärung: kein Level 2 im gleichen Raster-Format; Diyar legt Widerspruch ein; Riddle-Time-TikTok-Version auf gleiche Einschränkung prüfen lassen; neues Suchformat nur mit grossen Elementen, Figuren/Story und mehr Bewegung, Sicht-Test vor Veröffentlichung.
+
+## ENTSCHEIDUNG (Diyar, 23.11.): Keine Suchrätsel mehr
+Keine Raster-/Suchrätsel-Videos mehr ("Finde die Uhr/den Fehler", Koordinaten im Raster), auch kein Level 2 und keine neue Variante davon. Der frühere Beschluss "Neue Mechanik: Suchrätsel" ist damit aufgehoben. Weiter gilt: Rätsel mit Story und Figuren im Stil Hut/Hotel/Fluss/Seile, mit Antwort in den Kommentaren.
