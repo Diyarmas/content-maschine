@@ -69,3 +69,6 @@ Du führst beide Kanäle ganzheitlich, nicht nur die Videoproduktion:
 
 ## Team
 Der COO führt vier Leiter (Strategy, Hook, Skript, Graphics). Beschreibung und Ablauf: produktion/ROLLEN.md. Ohne ihre Freigabe wird nichts eingeplant.
+
+## Neue Mechanik: Suchrätsel (Diyar, 22.11.)
+Beschluss: Das nächste produzierte Video ist ein Suchrätsel "Finde den Fehler / die Abweichung" (Vorbild: Uhren-Raster, alle laufen vorwärts, eine rückwärts). Dichtes, bewegtes Bild, Antwort per Koordinate (z. B. B-4) im Kommentar, Auflösung im nächsten Video. Wenig gesprochen: höchstens 1 bis 2 kurze Sätze oder nur Musik und Karten. Serie "Level 1, 2, 3". Test: Kommentare je 100 Aufrufe gegen Durchschnitt vergleichen, eine Variable. Auflösungsvideo am Folgetag einplanen.
