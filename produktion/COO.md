@@ -72,3 +72,6 @@ Der COO führt vier Leiter (Strategy, Hook, Skript, Graphics). Beschreibung und 
 
 ## Neue Mechanik: Suchrätsel (Diyar, 22.11.)
 Beschluss: Das nächste produzierte Video ist ein Suchrätsel "Finde den Fehler / die Abweichung" (Vorbild: Uhren-Raster, alle laufen vorwärts, eine rückwärts). Dichtes, bewegtes Bild, Antwort per Koordinate (z. B. B-4) im Kommentar, Auflösung im nächsten Video. Wenig gesprochen: höchstens 1 bis 2 kurze Sätze oder nur Musik und Karten. Serie "Level 1, 2, 3". Test: Kommentare je 100 Aufrufe gegen Durchschnitt vergleichen, eine Variable. Auflösungsvideo am Folgetag einplanen.
+
+## Experiment TikTok-Menge Knobelzeit (Diyar-OK 22.11.)
+Eine Variable: Knobelzeit auf TikTok nur 2 statt 3 Videos pro Tag (14:00 und 20:00; 07:30 entfällt, da <=9 Uhr der schwächste Slot, Median 667, n=7). YouTube und Instagram bleiben bei 3 (07:30/14:00/20:00). Gilt für alle neu eingeplanten Posts ab 24.11.; bereits geplante Posts (bis 23.11.) bleiben unverändert. Dauer 4 Tage (24.-27.11.), danach je Video auf gleichem Alter (24 h) mit den 4 Tagen davor vergleichen, Fallzahl nennen. Riddle Time bleibt unverändert als Kontrolle. Der 07:30-Post enthält dann nur youtube + instagram.
