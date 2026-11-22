@@ -1,4 +1,23 @@
-# Knobelzeit: Was die Zahlen zeigen (Stand 17.11.2026, Metricool, 4.–16.11.)
+# Knobelzeit / Riddle Time: Wochenauswertung (Stand 22.11.2026, Snapshots Metricool)
+
+## Wichtigste Hinweise (Zahlen = Median Views, n = Videos; Altersunterschiede nicht ausgeglichen -> Hinweis, kein Beweis)
+- **Knobelzeit TikTok sinkt:** 08.-12.11. 908 (n=10) · 13.-16.11. 864 (n=14) · 17.-19.11. 338 (n=12) · 20.-21.11. 227 (n=8). Die Videos vom 17.11. waren nach 1 Tag bei ca. 260-390 und liegen jetzt kaum höher: kein reiner Alterseffekt.
+- **Riddle Time TikTok läuft mit gleichen Rätseln besser:** 17.-19.11. 1.834 (n=8), 20.-21.11. 890 (n=6), z. B. Tip money 1.729 vs. Knobelzeit-Gegenstück Trinkgeld 225 (gleiches Rätsel, gleicher Tag). Spricht eher für Konto/Verteilung als für Rätsel oder Hook.
+- **Knobelzeit YouTube:** 08.-12.11. 1.233 (n=12) · 17.-19.11. 507 (n=12), 12 von 42 Videos unter 300 Views. Metricool-Daten bei YT laut Regel nur eingeschränkt.
+- **Instagram stabil:** KZ 1.482-1.960, RT 1.532-1.905 (nur 20.-21.11. etwas niedriger, Videos noch jung). Ø-Wiedergabe KZ IG seit Rehook 20,6 s (n=8) vs. 15,6-16,0 s davor (n=34): Hinweis auf Wirkung des Rehooks auf IG, TikTok-Sehzeit nicht per API verfügbar.
+- Kommentare: KZ TikTok vorne bei Hotel (22), Papagei (18), Angeln (17), Zug (15). Die Rehook-/90-%-Serie seit 20.11. bekommt 0-4. Auffälliger Name allein: n=1 je Plattform, nichts auszuwerten.
+
+## Merkmalsvergleiche (Videos >= 72 h alt, KZ)
+Zu wenig Daten: nur ca. 5 Videos mit Merkmalen pro Plattform sind alt genug (videos.csv enthält die älteren Videos KZ001-034 und RT001-014 nur teilweise). Typ H vs A: IG 3 vs 2, TikTok 3 vs 2, YT 3 vs 2. Mit/ohne 90 %: n=1 vs 22-27. Länge TikTok: <45 s 841 (n=17), 45-54 s 860 (n=6), >=55 s 939 (n=5), kein Unterschied. Länge IG: >=55 s 279 (n=3) schlechter, nur Hinweis. Uhrzeit TikTok: <=9 Uhr 667 (n=7), 10-14 Uhr 876 (n=10), 15-18 Uhr 888 (n=8), 19+ Uhr 841 (n=5), kein Unterschied. Alle n<8: Hinweis, kein Beweis.
+
+## Experimente-Vorschläge für nächste Woche (nur Vorschlag, Diyar entscheidet)
+1. KZ TikTok 2 Tage von 4 auf 2 Videos pro Tag reduzieren (Vermutung Überposten; vorher/nachher je Video vergleichen).
+2. 3 KZ-Videos ohne Rehook und ohne "90 %"-Hook (z. B. Spannungs-Hook wie Papagei/Hotel) auf TikTok, um Format vs. Konto zu trennen; RT bleibt unverändert als Kontrolle.
+3. Merkmale für RT001-014 und KZ013/014/034 in videos.csv nachtragen (Diyar-Hilfe), damit sonntags Gruppen n>=8 erreichen.
+
+---
+
+## Vorherige Auswertung: Was die Zahlen zeigen (Stand 17.11.2026, Metricool, 4.–16.11.)
 
 ## Spitzenreiter je Plattform
 **TikTok (Views):** Obstkisten 6.11. 2.236 (71 s, "90 % ziehen aus der falschen Kiste") · Kuchen 5.11. 1.362 (78 s, 118 Likes) · Vase 7.11. 1.245 (61 s) · Schalter 6.11. 1.155 (70 s, "Nur 10 %") · Papagei 9.11. 1.050 (55 s, 88 Likes, 17 Kommentare)
