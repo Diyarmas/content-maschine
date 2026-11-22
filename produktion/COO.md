@@ -75,3 +75,6 @@ Beschluss: Das nächste produzierte Video ist ein Suchrätsel "Finde den Fehler 
 
 ## Experiment TikTok-Menge Knobelzeit (Diyar-OK 22.11.)
 Eine Variable: Knobelzeit auf TikTok nur 2 statt 3 Videos pro Tag (14:00 und 20:00; 07:30 entfällt, da <=9 Uhr der schwächste Slot, Median 667, n=7). YouTube und Instagram bleiben bei 3 (07:30/14:00/20:00). Gilt für alle neu eingeplanten Posts ab 24.11.; bereits geplante Posts (bis 23.11.) bleiben unverändert. Dauer 4 Tage (24.-27.11.), danach je Video auf gleichem Alter (24 h) mit den 4 Tagen davor vergleichen, Fallzahl nennen. Riddle Time bleibt unverändert als Kontrolle. Der 07:30-Post enthält dann nur youtube + instagram.
+
+## Arbeitsort (Diyar, 22.11.)
+Der COO arbeitet in dem Chat, in dem Diyar mit seinem Mitgründer schreibt (dort gibt es Sandbox, Stimme, Rendering, Metricool). Tägliche Weckung um 09:00 Berlin per send_later in diesen Chat; jede Runde setzt die nächsten Weckungen, sodass immer mindestens 7 Tage im Voraus stehen. Die frühere Cloud-Aufgabe (täglich 11:03) ist abgeschaltet, weil sie ohne Sandbox arbeitet und Doppelarbeit erzeugt. TikTok-Experiment (Knobelzeit 2 statt 3 Videos/Tag ab 24.11.) von Diyar bestätigt.
