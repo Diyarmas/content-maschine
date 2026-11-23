@@ -43,6 +43,7 @@ const Moench:React.FC<{lang:'de'|'en'}>=({lang})=>{
   if(t<s(1)+.4)tenzinPos=at(0);
   else if(t<s(3)){tenzinPos=at(aUp(aT));moving=aT>0&&aT<1;}
   else if(t<s(5)){tenzinPos=at(aDn(dT));moving=dT>0&&dT<1;}
+  else if(t>=s(7)&&t<s(10)){const u=(t-s(7))/(s(10)-s(7));tenzinPos=at(.5-.5*Math.cos(u*Math.PI*3));moving=true;}
   else tenzinPos=at(0);
   // Lösungsphase
   const solA=s(18)+.6, solB=s(21);
@@ -70,14 +71,14 @@ const Moench:React.FC<{lang:'de'|'en'}>=({lang})=>{
     <polygon points="-60,1500 180,1000 330,1250 560,620 820,1180 960,960 1140,1400 1140,1920 -60,1920" fill={night>.5?'#232c4d':'#8fa3c8'}/>
     <polygon points="560,620 640,780 560,900 470,760" fill={night>.5?'#3a4468':'#c9d6ee'} opacity={.9}/>
     {[0,1,2].map(i=><ellipse key={'c'+i} cx={((t*14+i*420)%1500)-200} cy={330+i*130} rx={150} ry={34} fill="#fff" opacity={night>.5?.12:.55}/>)}
-    <polygon points="-40,1750 200,1250 400,880 480,740 620,740 700,880 900,1250 1120,1650 1120,1920 -40,1920" fill={night>.5?'#26382c':'#6fa05a'} stroke={N} strokeWidth={8} strokeLinejoin="round"/>
+    <polygon points="-40,1750 200,1250 390,880 440,740 660,740 710,880 900,1250 1120,1650 1120,1920 -40,1920" fill={night>.5?'#26382c':'#6fa05a'} stroke={N} strokeWidth={8} strokeLinejoin="round"/>
     <polygon points="620,740 700,880 900,1250 1120,1650 1120,1920 760,1920 700,1250 640,900" fill={night>.5?'#1d2c23':'#5a8a49'} opacity={.85}/>
     {[[900,1390],[965,1520],[835,1580],[1005,1700],[150,1730],[290,1650],[80,1820],[930,1800]].map(([x,y],i)=><g key={'t'+i} transform={`translate(${x} ${y})`}><rect x={-7} y={-6} width={14} height={34} fill="#5a3f2e" stroke={N} strokeWidth={4}/><polygon points="0,-120 -46,0 46,0" fill={night>.5?'#1d4a35':'#2f7d4a'} stroke={N} strokeWidth={5} strokeLinejoin="round"/><polygon points="0,-165 -34,-70 34,-70" fill={night>.5?'#245a40':'#3a9158'} stroke={N} strokeWidth={5} strokeLinejoin="round"/></g>)}
     {[[220,1590],[820,1330],[760,1760]].map(([x,y],i)=><ellipse key={'r'+i} cx={x} cy={y} rx={34} ry={20} fill="#8a8f9c" stroke={N} strokeWidth={5}/>)}
     <path d={pathD} fill="none" stroke={N} strokeWidth={26} strokeLinecap="round" strokeLinejoin="round"/>
     <path d={pathD} fill="none" stroke="#e8d2a0" strokeWidth={15} strokeLinecap="round" strokeLinejoin="round"/>
     {/* Kloster auf dem Gipfel-Plateau */}
-    <g transform="translate(550 742)">
+    <g transform="translate(550 742) scale(1.45)">
       <rect x={-96} y={-10} width={192} height={22} rx={6} fill="#9a8f7c" stroke={N} strokeWidth={6}/>
       <rect x={-84} y={-104} width={168} height={96} fill="#efe8d8" stroke={N} strokeWidth={7}/>
       <polygon points="-104,-104 104,-104 0,-176" fill="#b5442f" stroke={N} strokeWidth={7} strokeLinejoin="round"/>
@@ -87,12 +88,13 @@ const Moench:React.FC<{lang:'de'|'en'}>=({lang})=>{
       <line x1={0} y1={-176} x2={0} y2={-214} stroke={N} strokeWidth={6}/><polygon points="0,-214 34,-204 0,-194" fill={R} stroke={N} strokeWidth={4}/>
     </g>
     {/* Abt */}
-    {abtOn&&<g opacity={P(t,s(5),.4)}>{fig('abt',{x:640,y:742,dir:-1},t,{sc:.34})}</g>}
+    {abtOn&&<g opacity={P(t,s(5),.4)}>{fig('abt',{x:700,y:748,dir:-1},t,{sc:.34})}</g>}
     {/* Figuren */}
     {!solMode&&fig('tenzin',tenzinPos,t,{walk:moving,grin:t>s(6)&&t<s(8)})}
     {solMode&&fig('tenzin',tz,t,{walk:!met})}
     {solMode&&fig('tenzin',dbl,t,{walk:!met,op:.6})}
     {met&&<g><circle cx={MEET.x} cy={MEET.y-100} r={120+Math.sin(t*9)*6} fill="none" stroke={R} strokeWidth={10}/></g>}
+    {!solMode&&t>=s(9)&&t<s(18)&&<g transform={`translate(${tenzinPos.x+70} ${tenzinPos.y-300+Math.sin(t*4)*8})`}><circle r={52} fill={C} stroke={N} strokeWidth={7}/><text y={30} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={84} fill={N}>?</text></g>}
     {/* Tages-Chip */}
     {dayChip&&<g transform="translate(160 1750)"><rect x={-120} y={-52} width={240} height={90} rx={26} fill={C} stroke={N} strokeWidth={8}/><text y={18} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={56} fill={N}>{dayChip}</text></g>}
     {solMode&&t<s(23)&&<g transform="translate(540 1760)"><rect x={-300} y={-56} width={600} height={100} rx={28} fill={C} stroke={N} strokeWidth={8}/><text y={22} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={54} fill={N}>{X.same}</text></g>}
