@@ -46,3 +46,6 @@ Kein Video wird eingeplant, bevor diese Prüfung bestanden ist. Prüfer sind nie
 2. Hook prüft die erste Sekunde: Einsatz/Problem sofort, kein Aufzählen von Zutaten.
 3. COO sieht den Kontaktbogen selbst, bevor createScheduledPost läuft.
 4. Gefundene Mängel werden vor dem Einplanen behoben, nicht danach. Ergebnis der Prüfung steht in einer Zeile in der Meldung an Diyar ("Review bestanden: ...").
+
+## KI-Kennzeichnung (Pflicht, seit 23.11.)
+Jeder createScheduledPost/updateScheduledPost setzt: tiktokData.isAigc=true, instagramData.isAiGenerated=true, youtubeData.isAiGeneratedContent=true. Kein twitterData mitsenden (Fehler). Read-back prüft die drei Flags. Grund: bis 23.11. waren sie versehentlich false (Standardwert); TikTok-Einschränkung "nicht für Für-dich berechtigt" auf Knobelzeit.
