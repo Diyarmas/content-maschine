@@ -39,3 +39,10 @@ Aufgaben:
 4. Graphics: Szene bauen, Rohfassung prüfen.
 5. COO: Duplikat-Check, Einplanen, Rücklesen, Meldung an Diyar.
 Bei Streit gilt: Qualität vor Menge, nie ein Video einplanen, das eine Rolle blockiert hat.
+
+## Review-Sperre (Diyar, 23.11.: "Das muss beim COO-Review gecheckt werden")
+Kein Video wird eingeplant, bevor diese Prüfung bestanden ist. Prüfer sind nie die, die es gebaut haben.
+1. Graphics prüft die FERTIGE mp4 per `produktion/review_frames.sh` (12 Frames) und sieht sie an. Checkliste: schwebende oder abgeschnittene Objekte, Figuren/Objekte auf dem Boden, leere Flächen, Text überlappt oder außerhalb Safe-Zone, Figuren erkennbar groß genug, Kernmoment der Lösung sichtbar, Zähler und Stempel da.
+2. Hook prüft die erste Sekunde: Einsatz/Problem sofort, kein Aufzählen von Zutaten.
+3. COO sieht den Kontaktbogen selbst, bevor createScheduledPost läuft.
+4. Gefundene Mängel werden vor dem Einplanen behoben, nicht danach. Ergebnis der Prüfung steht in einer Zeile in der Meldung an Diyar ("Review bestanden: ...").
