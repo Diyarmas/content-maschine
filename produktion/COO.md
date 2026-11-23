@@ -93,3 +93,10 @@ Jede 09:00-Runde beginnt mit Metricool-Analytics, ohne auf Zahlen von Diyar zu w
 - Instagram (reels): IGRE02 Zeit, IGRE03 Text, IGRE23 Views, IGRE10 Likes, IGRE07 Kommentare, IGRE24 Avg-Watchtime, IGRE27 Retention, IGRE30 Skip-Rate.
 - Die Zeilen kommen ohne Header in der Reihenfolge der angeforderten Metriken.
 - Danach: Totals (alle Videos, Plattformen, beide Sprachen), puls.csv-Zeile, Erkenntnisse in LERNEN.md, dann erst Rätselmix für die neuen Videos.
+
+## Rätsel-Log neue Story-Videos (23.11., Vorlage: Baer.tsx/Schiff.tsx/Streich.tsx, Sätze identisch DE/EN, 24 Sätze, Gerüst: s0 Hook, s5 "das Verrückte", s9 Frage, s12-16 Countdown, s17 Lösung, s23 Outro)
+- Mönch/Berg (DE 058, EN 026): Mo 23.11. 20:00 / 18:00. Hook v4 Einsatz zuerst.
+- Bär/Nordpol (DE 059, EN 027): Di 24.11. 07:30 (YT+IG) / 06:00.
+- Schiff/Leiter/Flut (DE 060, EN 028): Di 24.11. 14:00 / 12:00.
+- Streichholz/Kerze-Lampe-Ofen (DE 061, EN 029): Di 24.11. 20:00 / 18:00.
+Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (leer), Mittwoch 25.11.
