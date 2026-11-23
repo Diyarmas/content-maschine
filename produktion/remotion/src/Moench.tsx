@@ -14,9 +14,9 @@ function sentences(ws:Wd[]){const S:{a:number;b:number}[]=[];let cur:Wd[]=[];
   return S;}
 const SD=sentences((WDE as any).words), SE=sentences((WEN as any).words);
 const TXT={
- de:{cards:{0:['MÖNCH + BERG','+ WETTE'],1:['TAG 1:','AUFSTIEG'],2:['NACHT IM','KLOSTER'],3:['TAG 2:','ABSTIEG'],5:['GLEICHE STELLE','GLEICHE UHRZEIT'],6:['TENZIN:','"UNMÖGLICH!"'],7:['MAL SCHNELL','MAL LANGSAM'],9:['WER HAT','RECHT?'],18:['EIN','DOPPELGÄNGER'],19:['GLEICHER WEG','GEGENVERKEHR']} as Record<number,string[]>,
+ de:{cards:{0:['VERLIERER PUTZT','EIN JAHR KLOSTER'],1:['TAG 1:','AUFSTIEG'],2:['NACHT IM','KLOSTER'],3:['TAG 2:','ABSTIEG'],5:['GLEICHE STELLE','GLEICHE UHRZEIT'],6:['TENZIN:','"UNMÖGLICH!"'],7:['MAL SCHNELL','MAL LANGSAM'],9:['WER HAT','RECHT?'],18:['EIN','DOPPELGÄNGER'],19:['GLEICHER WEG','GEGENVERKEHR']} as Record<number,string[]>,
   sol:'LÖSUNG',done:'ABT HATTE RECHT!',day1:'TAG 1',day2:'TAG 2',same:'GLEICHE UHRZEIT'},
- en:{cards:{0:['MONK + MOUNTAIN','+ A BET'],1:['DAY 1:','CLIMB'],2:['NIGHT AT','MONASTERY'],3:['DAY 2:','DESCENT'],5:['SAME SPOT','SAME TIME'],6:['TENZIN:','"IMPOSSIBLE!"'],7:['FAST, SLOW','BREAKS'],9:['WHO IS','RIGHT?'],18:['A','DOUBLE'],19:['SAME PATH','OPPOSITE WAY']} as Record<number,string[]>,
+ en:{cards:{0:['LOSER CLEANS','MONASTERY 1 YEAR'],1:['DAY 1:','CLIMB'],2:['NIGHT AT','MONASTERY'],3:['DAY 2:','DESCENT'],5:['SAME SPOT','SAME TIME'],6:['TENZIN:','"IMPOSSIBLE!"'],7:['FAST, SLOW','BREAKS'],9:['WHO IS','RIGHT?'],18:['A','DOUBLE'],19:['SAME PATH','OPPOSITE WAY']} as Record<number,string[]>,
   sol:'ANSWER',done:'ABBOT WAS RIGHT!',day1:'DAY 1',day2:'DAY 2',same:'SAME TIME'}};
 const PATH:[number,number][]=[[130,1560],[560,1480],[250,1370],[680,1270],[330,1160],[720,1060],[420,950],[740,850],[550,752]];
 const LEN:number[]=[];let tot=0;PATH.forEach((p,i)=>{if(i){tot+=Math.hypot(p[0]-PATH[i-1][0],p[1]-PATH[i-1][1]);}LEN.push(tot);});
