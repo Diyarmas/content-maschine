@@ -84,3 +84,12 @@ Knobelzeit-Suchrätsel "88 Uhren" (22.11. 14:04, TikTok): Sichtbarkeit eingeschr
 
 ## ENTSCHEIDUNG (Diyar, 23.11.): Keine Suchrätsel mehr
 Keine Raster-/Suchrätsel-Videos mehr ("Finde die Uhr/den Fehler", Koordinaten im Raster), auch kein Level 2 und keine neue Variante davon. Der frühere Beschluss "Neue Mechanik: Suchrätsel" ist damit aufgehoben. Weiter gilt: Rätsel mit Story und Figuren im Stil Hut/Hotel/Fluss/Seile, mit Antwort in den Kommentaren.
+
+## Daten selbst ziehen (Diyar, 23.11.: "Du kannst dich nicht immer auf mich verlassen")
+Jede 09:00-Runde beginnt mit Metricool-Analytics, ohne auf Zahlen von Diyar zu warten.
+- getAnalyticsDataByMetrics, brandId 7925556 (DE) und 8100147 (EN), Zeitraum 1.11. bis jetzt.
+- TikTok (posts): TKPO02 Zeit, TKPO05 Text, TKPO07 Views, TKPO08 Likes, TKPO09 Kommentare, TKPO13 Full-watch-Rate, TKPO15 Avg-Zeit.
+- YouTube (videos published in range): YTVP02 Zeit, YTVP17 Titel, YTVP06 Views, YTVP08 Avg-Dauer, YTVP09 Likes, YTVP11 Kommentare.
+- Instagram (reels): IGRE02 Zeit, IGRE03 Text, IGRE23 Views, IGRE10 Likes, IGRE07 Kommentare, IGRE24 Avg-Watchtime, IGRE27 Retention, IGRE30 Skip-Rate.
+- Die Zeilen kommen ohne Header in der Reihenfolge der angeforderten Metriken.
+- Danach: Totals (alle Videos, Plattformen, beide Sprachen), puls.csv-Zeile, Erkenntnisse in LERNEN.md, dann erst Rätselmix für die neuen Videos.
