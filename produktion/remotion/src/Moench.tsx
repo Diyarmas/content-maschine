@@ -18,7 +18,7 @@ const TXT={
   sol:'LÖSUNG',done:'ABT HATTE RECHT!',day1:'TAG 1',day2:'TAG 2',same:'GLEICHE UHRZEIT'},
  en:{cards:{0:['MONK + MOUNTAIN','+ A BET'],1:['DAY 1:','CLIMB'],2:['NIGHT AT','MONASTERY'],3:['DAY 2:','DESCENT'],5:['SAME SPOT','SAME TIME'],6:['TENZIN:','"IMPOSSIBLE!"'],7:['FAST, SLOW','BREAKS'],9:['WHO IS','RIGHT?'],18:['A','DOUBLE'],19:['SAME PATH','OPPOSITE WAY']} as Record<number,string[]>,
   sol:'ANSWER',done:'ABBOT WAS RIGHT!',day1:'DAY 1',day2:'DAY 2',same:'SAME TIME'}};
-const PATH:[number,number][]=[[130,1560],[560,1480],[250,1370],[680,1270],[330,1160],[720,1060],[420,950],[740,850],[540,760]];
+const PATH:[number,number][]=[[130,1560],[560,1480],[250,1370],[680,1270],[330,1160],[720,1060],[420,950],[740,850],[550,752]];
 const LEN:number[]=[];let tot=0;PATH.forEach((p,i)=>{if(i){tot+=Math.hypot(p[0]-PATH[i-1][0],p[1]-PATH[i-1][1]);}LEN.push(tot);});
 function at(pos:number){const d=cl(pos)*tot;let i=1;while(i<LEN.length-1&&LEN[i]<d)i++;const a=PATH[i-1],b=PATH[i];const u=(d-LEN[i-1])/(LEN[i]-LEN[i-1]);return {x:lerp(a[0],b[0],u),y:lerp(a[1],b[1],u),dir:b[0]>a[0]?1:-1};}
 const aUp=(u:number)=>u-.99*Math.sin(4*Math.PI*u)/(4*Math.PI);          // Aufstieg, mal schnell mal Pause
@@ -67,14 +67,27 @@ const Moench:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {night>.1&&Array.from({length:40}).map((_,i)=><circle key={i} cx={(i*263)%1080} cy={((i*131)%700)+40} r={1.5+(i%3)} fill="#fff" opacity={night*(.4+.3*Math.sin(t*2+i))}/>)}
     {night>.1?<circle cx={190} cy={380} r={70} fill="#f3efd2" opacity={night}/>:<g><circle cx={880} cy={sunY} r={110} fill="#fff1a8" opacity={.5}/><circle cx={880} cy={sunY} r={70} fill="#ffd23c"/></g>}
     {/* Berge */}
-    <polygon points="0,1500 260,900 480,1300 760,640 1080,1250 1080,1920 0,1920" fill="#6b7fa8" opacity={night>.5?.5:.8}/>
-    <polygon points="0,1700 330,1150 640,720 940,1200 1080,1500 1080,1920 0,1920" fill={night>.5?'#2a3a2e':'#6fa05a'} stroke={N} strokeWidth={8}/>
-    <path d={pathD} fill="none" stroke={N} strokeWidth={24} strokeLinecap="round" strokeLinejoin="round"/>
-    <path d={pathD} fill="none" stroke="#e8d2a0" strokeWidth={14} strokeLinecap="round" strokeLinejoin="round"/>
-    {/* Kloster */}
-    <g transform="translate(540 690)"><rect x={-110} y={-100} width={220} height={110} fill="#e9e4d6" stroke={N} strokeWidth={7}/><polygon points="-130,-100 130,-100 0,-190" fill="#b5442f" stroke={N} strokeWidth={7}/><rect x={-26} y={-60} width={52} height={70} fill={night>.5?'#ffd23c':'#5a3f2e'}/></g>
+    <polygon points="-60,1500 180,1000 330,1250 560,620 820,1180 960,960 1140,1400 1140,1920 -60,1920" fill={night>.5?'#232c4d':'#8fa3c8'}/>
+    <polygon points="560,620 640,780 560,900 470,760" fill={night>.5?'#3a4468':'#c9d6ee'} opacity={.9}/>
+    {[0,1,2].map(i=><ellipse key={'c'+i} cx={((t*14+i*420)%1500)-200} cy={330+i*130} rx={150} ry={34} fill="#fff" opacity={night>.5?.12:.55}/>)}
+    <polygon points="-40,1750 200,1250 400,880 480,740 620,740 700,880 900,1250 1120,1650 1120,1920 -40,1920" fill={night>.5?'#26382c':'#6fa05a'} stroke={N} strokeWidth={8} strokeLinejoin="round"/>
+    <polygon points="620,740 700,880 900,1250 1120,1650 1120,1920 760,1920 700,1250 640,900" fill={night>.5?'#1d2c23':'#5a8a49'} opacity={.85}/>
+    {[[900,1390],[965,1520],[835,1580],[1005,1700],[150,1730],[290,1650],[80,1820],[930,1800]].map(([x,y],i)=><g key={'t'+i} transform={`translate(${x} ${y})`}><rect x={-7} y={-6} width={14} height={34} fill="#5a3f2e" stroke={N} strokeWidth={4}/><polygon points="0,-120 -46,0 46,0" fill={night>.5?'#1d4a35':'#2f7d4a'} stroke={N} strokeWidth={5} strokeLinejoin="round"/><polygon points="0,-165 -34,-70 34,-70" fill={night>.5?'#245a40':'#3a9158'} stroke={N} strokeWidth={5} strokeLinejoin="round"/></g>)}
+    {[[220,1590],[820,1330],[760,1760]].map(([x,y],i)=><ellipse key={'r'+i} cx={x} cy={y} rx={34} ry={20} fill="#8a8f9c" stroke={N} strokeWidth={5}/>)}
+    <path d={pathD} fill="none" stroke={N} strokeWidth={26} strokeLinecap="round" strokeLinejoin="round"/>
+    <path d={pathD} fill="none" stroke="#e8d2a0" strokeWidth={15} strokeLinecap="round" strokeLinejoin="round"/>
+    {/* Kloster auf dem Gipfel-Plateau */}
+    <g transform="translate(550 742)">
+      <rect x={-96} y={-10} width={192} height={22} rx={6} fill="#9a8f7c" stroke={N} strokeWidth={6}/>
+      <rect x={-84} y={-104} width={168} height={96} fill="#efe8d8" stroke={N} strokeWidth={7}/>
+      <polygon points="-104,-104 104,-104 0,-176" fill="#b5442f" stroke={N} strokeWidth={7} strokeLinejoin="round"/>
+      <rect x={-22} y={-62} width={44} height={54} rx={8} fill={night>.5?'#ffd23c':'#5a3f2e'} stroke={N} strokeWidth={4}/>
+      <rect x={42} y={-86} width={26} height={26} fill={night>.5?'#ffd23c':'#a9c7e8'} stroke={N} strokeWidth={4}/>
+      <rect x={-68} y={-86} width={26} height={26} fill={night>.5?'#ffd23c':'#a9c7e8'} stroke={N} strokeWidth={4}/>
+      <line x1={0} y1={-176} x2={0} y2={-214} stroke={N} strokeWidth={6}/><polygon points="0,-214 34,-204 0,-194" fill={R} stroke={N} strokeWidth={4}/>
+    </g>
     {/* Abt */}
-    {abtOn&&<g opacity={P(t,s(5),.4)}>{fig('abt',{x:660,y:760,dir:1},t,{sc:.34})}</g>}
+    {abtOn&&<g opacity={P(t,s(5),.4)}>{fig('abt',{x:640,y:742,dir:-1},t,{sc:.34})}</g>}
     {/* Figuren */}
     {!solMode&&fig('tenzin',tenzinPos,t,{walk:moving,grin:t>s(6)&&t<s(8)})}
     {solMode&&fig('tenzin',tz,t,{walk:!met})}
