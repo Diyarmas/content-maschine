@@ -100,3 +100,4 @@ Jede 09:00-Runde beginnt mit Metricool-Analytics, ohne auf Zahlen von Diyar zu w
 - Schiff/Leiter/Flut (DE 060, EN 028): Di 24.11. 14:00 / 12:00.
 - Streichholz/Kerze-Lampe-Ofen (DE 061, EN 029): Di 24.11. 20:00 / 18:00.
 Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (leer), Mittwoch 25.11.
+- 23.11.: Wächter-Rätsel (Wahrheit/Lüge, 1 Frage) gebaut: Knobelzeit_062_Tuer (Mi 25.11. 07:30, nur IG+YT) / RiddleTime_030_Doors (Mi 25.11. 06:00). Mechanik: Wahrheit/Lüge-Logik. Review bestanden (Kontaktbogen DE+EN), KI-Flags gesetzt. Nächste Mechanik NICHT Wahrheit/Lüge, z. B. Wortspiel-Denkfalle oder Zeiträtsel ohne Rechnen.
