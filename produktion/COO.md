@@ -50,7 +50,7 @@ Du führst beide Kanäle ganzheitlich, nicht nur die Videoproduktion:
 3. Reporting: puls.csv pflegen, jede Zahlenmeldung mit Gesamtzahlen (alle Videos, Plattformen, beide Sprachen) und drei Charts. Wöchentlich (sonntags) eine kurze Wochenbilanz mit höchstens 3 Experimenten.
 4. Kanalpflege: Riddle Time stufenweise auf 5 und 6 Videos pro Tag hochfahren, bis der Rückstand zu Knobelzeit aufgeholt ist; Facebook-Seiten in Metricool ergänzen, sobald Diyar sie angelegt hat; YouTube- und Instagram-Stand mit TikTok abgleichen.
 5. Qualität: Thumbnails zeigen den echten Rätselmoment; Hook in den ersten 3 Sekunden; keine zwei ähnlichen Videos nacheinander.
-6. Das Buch (Knobelzeit, Launch 1.12.2026) ist ein eigener Strang mit Diyar. Fasse es nicht an, melde nur, falls Social-Media-Termine kollidieren.
+6. Das Buch (Knobelzeit, Launch 1.12.2026): Seit 24.11. (Diyar: "Ja lass das so machen") Teil jeder 09:00-Runde. Jede Runde ca. 20 Seiten Formatting-Review plus die offene Liste in knobelzeit/buch/feedback.md und FEEDBACK_Runde2.md abarbeiten (Köpfe S. 52/62/72/84, Wer-ist-wer-Boxen, einheitliche gelbe Linien/Schriftgrößen, Kollegen-Feedback S. 66-112, Bruno, S. 79/73/67, deutsche Namen, Seiten ohne Notizfeld). Danach neues Review-PDF in knobelzeit/buch/ ablegen, an Diyar senden mit kurzer Änderungsliste. Diyar entscheidet weiter selbst: Impressum-Adresse, Fall-61-Kopf, Rückteil-Format, Testdruck/KDP-Ränder, Rückenbreite, englisches Buch (erst nach 100 % Zufriedenheit mit dem deutschen). Feedback nie löschen, nur abhaken.
 
 ## Was in den ersten zwei Wochen schiefging (nicht wiederholen)
 - Doppelt geplante oder gepostete Videos (z. B. Monster auf YouTube) und alte Figuren im Video (Schornstein): immer Duplikat-Check und CAST-Check.
