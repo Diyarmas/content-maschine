@@ -51,3 +51,15 @@ KZ050,Knobelzeit,2026-11-21,20:00,Handy (falsches Gestaendnis),H,52,90-Prozent+R
 RT018,Riddle Time,2026-11-21,08:00,Tip money (EN von KZ045),H,39,90-Prozent+Rehook,ja,ja,Figur+Tisch,Igor/Zeynep/Ali,Who lies | REHOOK=ja
 RT019,Riddle Time,2026-11-21,13:00,Bike (EN von KZ047),H,37,90-Prozent+Rehook,ja,ja,Figur+Tisch,Greta/Kemal/Tom,Who lies | REHOOK=ja
 RT020,Riddle Time,2026-11-21,19:30,Left times Right 2 (EN von KZ049),A,39,Almost everyone+Rehook,nein,nein,Split-Screen,Herr Brandt,Mental math | REHOOK=ja
+KZ052,Knobelzeit,2026-11-22,06:30,Vier Maenner Huete,,96,,,,,,Hutraetsel
+KZ055,Knobelzeit,2026-11-22,13:04,88 Uhren (Suchraetsel),,57,,,,,,Suchraetsel
+KZ054,Knobelzeit,2026-11-22,19:05,Bruecke Fluss Breite,,98,,,,,,Schaetzen/Geometrie
+KZ053,Knobelzeit,2026-11-23,06:30,Hotel unendlich,,96,,,,,,Hilbert-Hotel (Mathe)
+KZ057,Knobelzeit,2026-11-23,13:05,Seile Leuchtturm,,75,,,,,,Zeitmessung Seile
+KZ058,Knobelzeit,2026-11-23,19:05,Moench Berg Kloster,,74,,,,,,Berg/Kloster
+RT021,Riddle Time,2026-11-22,05:02,Hats (EN von KZ052),,87,,,,,,Hutraetsel
+RT024,Riddle Time,2026-11-22,11:04,Clock hunt (EN von KZ055),,55,,,,,,Suchraetsel
+RT023,Riddle Time,2026-11-22,17:05,River width (EN von KZ054),,87,,,,,,Schaetzen/Geometrie
+RT022,Riddle Time,2026-11-23,05:01,Hotel infinite (EN von KZ053),,90,,,,,,Hilbert-Hotel (Mathe)
+RT025,Riddle Time,2026-11-23,11:06,Ropes (EN von KZ057),,80,,,,,,Zeitmessung Seile
+RT026,Riddle Time,2026-11-23,17:11,Monk (EN von KZ058),,63,,,,,,Berg/Kloster
