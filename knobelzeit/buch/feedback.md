@@ -70,3 +70,7 @@ Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach,
 - [x] Hinweisbilder repariert: Fall 14 (AUSSEN/INNEN), 32 (Spiegeluhr), 46 (Kalender), 50 (Windrose mit N)
 - [x] verify.py: ALLES OK; alle 118 Seiten durchgesehen
 - [ ] OFFEN: Impressum-Adresse, Fall 61 Display-Kopfzeile oben knapp, Arbeitsblätter 75/79 Abstände, Testdruck, KDP-Ränder
+
+## Review-Protokoll
+- 25.11. (COO-Runde, gegen PDF 21.11., 118 Seiten): geprüft S. 52, 62, 72, 84 (Köpfe/Gesichter): in der aktuellen Fassung sichtbar, kein Befund. S. 96–111 (Tipps und Lösungen): einheitliche Spalten, Überschriften, Beweismarken, keine Überläufe gefunden. Hinweis: Lösungsseiten 108/109 haben unten mehr Weißraum als die anderen (optisch, kein Fehler). Noch nicht geprüft: S. 1–50, 53–61, 63–71, 73–83, 85–95, 113–118. Nächste Runde: S. 66–89 (Arbeitsblätter) und S. 113–118.
+- Hinweis Video/Buch: Video-Rätsel Schalter (Do 26.11.) = Buchfall 43 "Drei Schalter, eine Lampe", Video Torte (Do 26.11.) = Buchfall 44 "Die Torte in acht Stücken". Vor dem Bauen neuer Video-Rätsel Fallliste (data/cases_final.json) mit prüfen.
