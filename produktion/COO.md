@@ -107,3 +107,4 @@ Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (lee
 - 25.11.: Räumliches Denken (Torte in 8 gleiche Stücke mit 3 Schnitten, Nonna Rosa, 8 Enkel) gebaut: Knobelzeit_066_Torte (Do 26.11. 14:00) / RiddleTime_034_Cake (Do 26.11. 12:00). Mechanik: räumliches Denken/3D (neu). Review bestanden (Kontaktbogen DE+EN, EN-Pill korrigiert). Nächste Mechanik: z. B. Reihenfolge/Planung, Bildgeschichte.
 
 - Duplikat-Check erweitert (25.11.): Vor dem Bauen auch gegen die Buch-Fallliste (knobelzeit/buch/data/cases_final.json) prüfen. Schalter (Do 26.11.) und Torte (Do 26.11.) spiegeln Buchfall 43/44, Diyar am 25.11. informiert.
+- Rätsel-Log 25.11.: 067/035 Eis im Glas (Physik: Schmelzwasser, Barkeeper Hiroshi, Tokio) – geplant Do 26.11. KZ 20:00 / RT 18:00. Mechanik: Physik-Intuition (nach Experiment, räumlich).
