@@ -133,3 +133,12 @@ Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (lee
 - RT: alle beantwortet außer: Beleidigungen (n3onfragon, maverick31712, gmofficiq), rassistischer Kommentar justin_lool15 („Ali because hes black“ → Diyar fragen: ausblenden), Nutzer-Threads, Buchstaben-Kommentare.
 - ES: noch keine Kommentare.
 - Verfahren: Thread per Name+Text öffnen, Videotitel prüfen, nie Lösung bestätigen ohne Video-Check, nach dem Senden prüfen, ob Antwort im Thread steht. Jede Produktionsrunde wiederholen.
+
+## Namen & Objekte pro Sprache (fest ab 26.11., Diyar)
+- DE: nur deutsche Namen/Orte/Objekte (Brezel, Currywurst, Hamburg, Berlin). EN: englische Namen, gelegentlich 1–2 indische (Priya, Arjun, Rohan, Rajesh), englische Orte/Objekte (London, pub). ES: nur spanische Namen/Objekte (Madrid, paella, churros).
+- Keine wiederkehrende deutsche Figur in EN/ES (kein „Mr. Brandt“ in EN). Alte RT-Videos mit Brandt/Ali/Jule nicht mehr reposten.
+- Umgesetzt 26.11.: ES Hielo (Javier/Madrid), ES Loro (Pablo, García), RT Safe (Emily Hayes/London).
+
+## Test-Freitag 27.11. (einmalig, Diyar): 12 Posts je DE/EN, alle 2 h 00–22 Uhr
+- 00 Repost (KZ Obstkisten / RT Chests) · 02 Repost (KZ Kuchendieb / RT Monk) · 04 Portrait · 06 Kerzen · 08 Bus · 10 Kette · 12 KZ Ballon / RT Safe · 14 KZ Tresor / RT Balloon · 16 Feuer · 18 Alibi (Viral-Kandidat) · 20 Pferde · 22 Sonntag.
+- Auswertung Sa/So: Reach pro Video vs. normale Tage, TikTok-Drosselung prüfen. Ab Sa wieder Normaltakt nach COO.
