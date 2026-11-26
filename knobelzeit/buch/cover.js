@@ -23,7 +23,7 @@ let html=`<!doctype html><html><head><meta charset="utf-8"><style>${fonts}
 .mini{margin:6mm 0 0;background:#fff;border:.8mm solid #1E1E1E;border-radius:4mm;padding:5mm 6mm}.ml{font:700 3mm Poppins;letter-spacing:.3mm;color:#E5AE1A;margin-bottom:2mm}.mq{font:700 5.4mm/1.3 Poppins;color:#1E1E1E}.ma{font:italic 500 3.8mm Lora;color:#1E1E1E;margin-top:2.5mm}.soc{margin-top:7mm;font:500 3.7mm/1.4 Poppins;color:#1E1E1E}.soc b{font-weight:700}.logo{position:absolute;left:${3.2+15}mm;bottom:${3.2+30}mm;background:#1E1E1E;border-radius:2mm;padding:2.5mm 5mm;transform:rotate(-3deg);font:700 7mm/1 Poppins;color:#fff;letter-spacing:.6mm}.logo b{color:#F6C431}.age{position:absolute;left:${3.2+15}mm;bottom:${3.2+12}mm;font:600 3.2mm Poppins;color:#1E1E1E}
 .bar{position:absolute;left:${173.2-15-50.8}mm;bottom:${3.2+15}mm;width:50.8mm;height:30.5mm;background:#fff}
 </style></head><body><div id="c">
-<div class="back"><h2>Wer hat den Döner nicht bezahlt?</h2>
+<div class="back"><h2>Einer lügt. Findest du ihn?</h2>
 <p>Herr Brandt, Kommissar im Ruhestand, hört genau zu. Meistens lügt einer, manchmal stimmt ein Foto nicht. Spür mit ihm und seinen Freunden 67 Fälle auf, vom kleinen Kuchendieb bis zum großen Finale.</p>
 <p>Du brauchst nur einen Stift, ein bisschen Geduld und scharfe Augen. Tipps gibt es für jeden Fall, damit du nie festhängst.</p>
 ${VAR==='B'?'<div class="mini"><div class="ml">PROBIER ES AUS</div><div class="mq">Eine Torte, drei gerade Schnitte, acht gleich große Stücke. Wie geht das?</div><div class="ma">Die Lösung findest du im Buch, Fall 44.</div></div>':'<ul><li>67 Krimi- und Logikrätsel plus ein großer letzter Fall</li><li>Von Aufwärmen bis Meisterdetektiv</li><li>Ermittlerakte, Beweismarken und Urkunde</li></ul>'}
