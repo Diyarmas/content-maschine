@@ -114,3 +114,5 @@ Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (lee
 - Namen (25.11., Diyar): Zu viele türkische Namen. Ab sofort selten (höchstens 1 von 5 Rätseln), sonst gemischt: deutsch, italienisch, spanisch, polnisch, japanisch, skandinavisch, englisch, afrikanisch u. a. Weiterhin mind. 1 nicht-deutscher Name pro Rätsel, aber nicht überwiegend türkisch.
 
 - 26.11. Rätsel-Log: 068/036 Tresor/Safe (Look-and-say 1,11,21,1211,111221 → 312211; Mechanik Zahlenfolge/Vorlesen), geplant Fr 27.11. KZ 14:00, RT 12:00. Entwurf Monty-Hall (Ziege/Million) liegt in skripte/entwuerfe, nicht gebaut (zu bekannt). Weitere Freitag-Slots offen, in der Runde 27.11. nachbauen.
+
+- 26.11. Test-Video Eis v2 (Kopie, nicht eingeplant): 47 s statt 79 s, ausdrucksstärkere Stimme (eleven_v3, stability .3, style .7, Tags), echte ElevenLabs-SFX (sound-generation: pour, clink, riser, whoosh, hit, tick, win, drip), Kamera-Push-in + Punch-Zoom bei der Lösung. Grafik-Look selbst noch unverändert. Datei: tests/Knobelzeit_Eis_TEST_v2.mp4
