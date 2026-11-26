@@ -30,15 +30,15 @@ const Sonntag:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {/* Briefkasten-Fenster */}
     <g transform="translate(890 560)"><rect x={-130} y={-150} width={260} height={300} rx={10} fill="#9ad1ff" stroke={N} strokeWidth={8}/><rect x={-60} y={-10} width={120} height={80} rx={14} fill="#f6c90e" stroke={N} strokeWidth={6}/><line x1={0} y1={70} x2={0} y2={140} stroke={N} strokeWidth={10}/>{solved&&t>=s(20)&&<g><circle cx={0} cy={30} r={86} fill="none" stroke={R} strokeWidth={12}/><line x1={-60} y1={90} x2={60} y2={-30} stroke={R} strokeWidth={12}/></g>}</g>
     {[0,1,2,3].map(i=>{const hi=solved&&i===3,op=solved&&i!==3?.45:1;const bob=talk&&+talk[0]===5+i*2?Math.sin(t*10)*5:0;
-      return <g key={i}>{fig(XS[i],1500+bob,'so_'+lang+i,B[i],X.names[i],1.02,{look:0},op)}
-       {i===0&&<g opacity={op}><rect x={XS[0]-40} y={890} width={80} height={60} rx={20} fill="#fff" stroke={N} strokeWidth={5}/></g>}
-       {i===3&&<g opacity={op}><rect x={XS[3]+40} y={1180} width={70} height={46} fill="#fff" stroke={N} strokeWidth={5}/><path d={`M${XS[3]+40} 1180 l35 24 l35 -24`} stroke={N} strokeWidth={4} fill="none"/></g>}
+      return <g key={i}>{fig(XS[i],1580+bob,'so_'+lang+i,B[i],X.names[i],1.28,{look:0},op)}
+       {i===0&&<g opacity={op} transform={`translate(${XS[0]} ${1580+bob}) scale(1.28)`}><rect x={-44} y={-560} width={88} height={70} rx={24} fill="#fff" stroke={N} strokeWidth={5}/><rect x={-50} y={-500} width={100} height={20} fill="#fff" stroke={N} strokeWidth={5}/></g>}
+       {i===3&&<g opacity={op} transform={`translate(${XS[3]} ${1580+bob}) scale(1.28)`}><rect x={50} y={-230} width={70} height={46} fill="#fff" stroke={N} strokeWidth={5}/><path d="M50 -230 l35 24 l35 -24" stroke={N} strokeWidth={4} fill="none"/></g>}
       </g>;})}
     </g>
-    {[0,1,2,3].map(i=>show(i)&&<g key={'n'+i}>{num(XS[i],1560,i+1,solved&&i===3,40)}{tag(XS[i],1660,X.names[i],solved&&i!==3?'#bbb':'#fff',N,lang==='en'&&i===0?30:34)}<text x={XS[i]} y={1740} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={26} fill="#fff">{X.roles[i]}</text></g>)}
-    {q&&<g>{XS.map((x,i)=><g key={'q'+i}>{qb(t,x,880,.85)}</g>)}</g>}
-    {talk&&bubble(Math.min(Math.max(XS[(+talk[0]-5)/2],250),830),780,talk[1],PB(t,s(+talk[0])-.1,.3),48)}
-    {t>=s(20)&&t<e(21)+.3&&tag(540,1360,X.nopost,R,'#fff',48)}
+    {[0,1,2,3].map(i=>show(i)&&<g key={'n'+i}>{num(XS[i],1650,i+1,solved&&i===3,44)}{tag(XS[i],1755,X.names[i],solved&&i!==3?'#bbb':'#fff',N,lang==='en'&&i===0?32:38)}<text x={XS[i]} y={1840} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={lang==='de'&&i===2?26:32} fill="#fff">{X.roles[i]}</text></g>)}
+    {q&&<g>{XS.map((x,i)=><g key={'q'+i}>{qb(t,x,860,.9)}</g>)}</g>}
+    {talk&&bubble(Math.min(Math.max(XS[(+talk[0]-5)/2],250),830),780,talk[1],PB(t,s(+talk[0])-.1,.3),58)}
+    {t>=s(20)&&t<e(21)+.3&&tag(540,1000,X.nopost,R,'#fff',56)}
     {vign}
     {cards(t,S,X.cards,[12])}
     {countdown(t,S,[14,15,16])}

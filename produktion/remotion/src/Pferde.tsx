@@ -29,8 +29,8 @@ const Pferde:React.FC<{lang:'de'|'en'}>=({lang})=>{
   const race1=t>=s(8)?eio(cl((t-s(8))/(e(8)-s(8)+.3))):0;
   const race2=t>=s(17)?eio(cl((t-s(17))/(e(18)-s(17)))):0;
   const reset=t>=s(14);
-  const hx=reset?120+560*race2:120+slow+race1*520*(t<s(9)?1:0);
-  const hx2=reset?120+520*race2:120+slow*.9+race1*500*(t<s(9)?1:0);
+  const hx=reset?230+520*race2:230+slow+race1*480*(t<s(9)?1:0);
+  const hx2=reset?230+490*race2:230+slow*.9+race1*460*(t<s(9)?1:0);
   const swap=t>=s(15)+.3?eio(cl((t-s(15)-.3)/.9)):0;
   const LA=1180,LB=1560;
   const ra=LA+(LB-LA)*swap, rb=LB+(LA-LB)*swap;
@@ -48,10 +48,10 @@ const Pferde:React.FC<{lang:'de'|'en'}>=({lang})=>{
     <rect x={930} y={950} width={26} height={800} fill="#fff" stroke={N} strokeWidth={5}/>
     {[...Array(10)].map((_,i)=><rect key={i} x={930} y={950+i*80} width={26} height={40} fill={N}/>)}
     {tag(943,920,X.goal,Y,N,40)}
-    {t<s(5)&&fig(330,1090,'dad_'+lang,DAD,X.dad,1.0,{look:6})}
+    {t<s(5)&&fig(360,1100,'dad_'+lang,DAD,X.dad,1.15,{look:6})}
     {t>=s(7)&&t<s(8)+.4&&fig(620,1090,'fr_'+lang,FR,'',1.0,{look:-6})}
     {t>=s(7)&&t<s(8)&&bubble(620,470,['…'],PB(t,s(7),.3),90)}
-    {t>=s(3)&&t<e(4)+.5&&bubble(500,470,X.rule,PB(t,s(3),.3),56,-160)}
+    {t>=s(3)&&t<e(4)+.5&&bubble(560,560,X.rule,PB(t,s(3),.3),66,-200)}
     {horse(hx,LA+80,'#8a5a32','#3d7ea6',t,sp)}{horse(hx2,LB+80,'#f2efe8','#e63946',t,sp)}
     {rider((reset?hx:hx)-10+(reset?(hx2-hx)*swap:0),ra-10,'#3d7ea6','#f1c7a3','#3b2a20')}
     {rider((reset?hx2:hx2)-10+(reset?(hx-hx2)*swap:0),rb-10,'#e63946','#e0a77f','#1a1a1a')}

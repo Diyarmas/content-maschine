@@ -37,21 +37,21 @@ const Feuer:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {big>-60&&<rect x={-40} y={GY-26} width={Math.max(0,big+20)} height={28} fill="#2b2b2b"/>}
     {smallOn&&<rect x={600} y={GY-26} width={Math.max(0,burntSmall-600)} height={28} fill="#2b2b2b"/>}
     {/* Flammen gross */}
-    <g opacity={bigDie}>{[0,1,2,3,4].map(k=>flameAt(big-k*60,1.6-k*.2,t,k))}</g>
-    {smallOn&&small<1100&&[0,1,2].map(k=>flameAt(small-k*50,1.0-k*.2,t,k+9))}
-    {t>=s(2)&&[...Array(8)].map((_,i)=>{const y=(GY-200-((t*90+i*80)%700));return <circle key={'sm'+i} cx={big-60+Math.sin(t+i)*40+i*10} cy={y} r={30+i*4} fill="#666" opacity={.25*bigDie}/>;})}
-    {fig(px,GY-8,'paul_'+lang,MAN,X.name,1.05,{look:t>=s(2)&&t<s(12)?-8:0,arm:t>=s(12)&&t<s(13)?'up':'down'})}
-    {t>=s(5)&&t<s(13)&&<g transform={`translate(${px+80} ${GY-340}) scale(${PB(t,s(5),.3)})`}><rect x={-46} y={-30} width={92} height={60} rx={6} fill={R} stroke={N} strokeWidth={5}/><rect x={-46} y={-30} width={92} height={18} fill="#fff" stroke={N} strokeWidth={4}/></g>}
+    <g opacity={bigDie}>{[0,1,2,3,4,5].map(k=>flameAt(big-k*85,2.5-k*.25,t,k))}</g>
+    {smallOn&&small<1100&&[0,1,2].map(k=>flameAt(small-k*70,1.5-k*.25,t,k+9))}
+    {t>=s(2)&&[...Array(8)].map((_,i)=>{const y=(GY-200-((t*90+i*80)%700));return <circle key={'sm'+i} cx={big-90+Math.sin(t+i)*50+i*14} cy={y} r={45+i*6} fill="#666" opacity={.25*bigDie}/>;})}
+    {fig(px,GY-8,'paul_'+lang,MAN,X.name,1.35,{look:t>=s(2)&&t<s(12)?-8:0,arm:t>=s(12)&&t<s(13)?'up':'down'})}
+    {t>=s(5)&&t<s(13)&&<g transform={`translate(${px+100} ${GY-430}) scale(${PB(t,s(5),.3)})`}><rect x={-46} y={-30} width={92} height={60} rx={6} fill={R} stroke={N} strokeWidth={5}/><rect x={-46} y={-30} width={92} height={18} fill="#fff" stroke={N} strokeWidth={4}/></g>}
     {sharks&&[0,1,2].map(i=>{const x=((t*(60+i*20)+i*400)%1300)-100;return <path key={i} d={`M${x} ${1520+i*110} l40 -80 l30 80Z`} fill="#4a5a6a" stroke={N} strokeWidth={5}/>;})}
     {tag(120,1400,X.west,'#fff',N,36)}{tag(960,1400,X.east,'#fff',N,36)}
     </g>
     {t>=s(3)&&t<s(17)&&[0,1,2].map(i=>{const x=((t*260+i*380)%1300)-150;return <g key={'w'+i} transform={`translate(${x} ${560+i*90})`}><path d="M0 0 L120 0 M90 -20 L120 0 L90 20" stroke="#fff" strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round"/></g>;})}
-    {t>=s(3)&&t<s(6)&&tag(540,760,X.wind+' →','#fff',N,44)}
-    {t>=s(6)&&t<s(11)&&qb(t,540,820,1.2)}
+    {t>=s(3)&&t<s(6)&&tag(540,520,X.wind+' →','#fff',N,50)}
+    {t>=s(6)&&t<s(11)&&qb(t,540,640,1.3)}
     {vign}
     {cards(t,S,X.cards,[6])}
     {countdown(t,S,[8,9,10])}
-    {stamp(t,sol,1.0,X.sol)}
+    {stamp(t,sol,.7,X.sol)}
     {stamp(t,e(17)+.2,2.4,X.done,960,80)}
     {flash(t,s(12)+.6)}
    </svg>
