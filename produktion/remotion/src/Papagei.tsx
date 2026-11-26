@@ -32,7 +32,7 @@ const Papagei:React.FC=()=>{
     <circle cx={880} cy={190} r={90} fill="#fdf1b0" stroke={N} strokeWidth={6}/>
     <rect y={560} width={1080} height={900} fill="#2d6a4f" stroke={N} strokeWidth={6}/>
     {/* Vogelkäfig mit leerer Stange */}
-    <g transform="translate(540 760)">
+    <g transform="translate(540 690) scale(1.3)">
       <rect x={-300} y={-140} width={600} height={400} rx={30} fill="#10231d" stroke={N} strokeWidth={8}/>
       {[...Array(11)].map((_,i)=><line key={i} x1={-270+i*54} y1={-140} x2={-270+i*54} y2={260} stroke="#c9a24a" strokeWidth={6}/>)}
       <line x1={-260} y1={90} x2={260} y2={90} stroke="#8a5a30" strokeWidth={14} strokeLinecap="round"/>
@@ -40,11 +40,11 @@ const Papagei:React.FC=()=>{
     </g>
     <rect y={1450} width={1080} height={470} fill="#3d2f22" stroke={N} strokeWidth={8}/>
     {KEY.map((k,i)=>{const bob=(talk&&talk[1][0]===i)?Math.sin(t*10)*6:0;const hi=sol&&i===2;
-      return <g key={k} transform={`translate(${XS[i]} ${1700+bob}) scale(${hi?1.18:1})`} opacity={sol&&!hi?.55:1} dangerouslySetInnerHTML={{__html:person(0,0,k,{look:0})}}/>;})}
-    {KEY.map((k,i)=>t>=s(7+i*3)&&<g key={'n'+i}>{nameT(XS[i],1790,PPL[k].n)}{num(XS[i],1560,i+1,sol&&i===2)}</g>)}
-    {t>=s(17)&&t<s(23)&&<g>{qb(XS[0],1200)}{qb(XS[1],1200)}{qb(XS[2],1200)}</g>}
-    {talk&&bubble(XS[talk[1][0]],1180,talk[1][1],PB(t,s(+talk[0]),.3))}
-    {ex&&t<e(27)+.3&&<g transform={`translate(${XS[2]} 1060)`}><circle r={60} fill={Y} stroke={N} strokeWidth={7}/><text y={26} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={70} fill={N}>!</text></g>}
+      return <g key={k} transform={`translate(${XS[i]} ${1690+bob}) scale(${hi?1.62:1.45})`} opacity={sol&&!hi?.55:1} dangerouslySetInnerHTML={{__html:person(0,0,k,{look:0})}}/>;})}
+    {KEY.map((k,i)=>t>=s(7+i*3)&&<g key={'n'+i}>{num(XS[i],1400,i+1,sol&&i===2)}</g>)}
+    {t>=s(17)&&t<s(23)&&<g>{qb(XS[0],930)}{qb(XS[1],930)}{qb(XS[2],930)}</g>}
+    {talk&&bubble(Math.min(Math.max(XS[talk[1][0]],260),820),830,talk[1][1],PB(t,s(+talk[0]),.3),56)}
+    {ex&&t<e(27)+.3&&<g transform={`translate(${XS[2]} 900)`}><circle r={60} fill={Y} stroke={N} strokeWidth={7}/><text y={26} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={70} fill={N}>!</text></g>}
     {cardEls}
     {cd>=0&&(()=>{const k=19+cd;const a=s(k);const b=s(k+1);const u=cl((t-a)/(b-a));const p=PB(t,a,.3);const circ=2*Math.PI*230;
       return <g transform={`translate(540 300) scale(${p*.62*(1+.04*Math.sin(u*Math.PI))})`}><circle r={262} fill="#000" opacity={.3} cx={8} cy={12}/><circle r={250} fill={C} stroke={N} strokeWidth={12}/><circle r={218} fill="none" stroke={R} strokeWidth={22} strokeDasharray={`${circ*(1-u)} ${circ}`} transform="rotate(-90)" strokeLinecap="round"/><text y={116} fontFamily={FONT} fontWeight={700} fontSize={330} fill={N} textAnchor="middle">{3-cd}</text></g>;})()}
