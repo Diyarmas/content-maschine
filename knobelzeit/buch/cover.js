@@ -1,6 +1,6 @@
 const fs=require('fs');
 const bw=process.argv[2]==='bw';
-const pages=+process.argv[3]||116;
+const pages=+process.argv[3]||118;const VAR=process.argv[4]||'A';
 const spine=+(pages*0.0572).toFixed(2); // KDP weiss s/w
 const W=170*2+spine+6.4,H=244+6.4;
 const grey=t=>t.replace(/#([0-9a-fA-F]{6})\b|#([0-9a-fA-F]{3})\b/g,(m,a,b)=>{let h=a||b.split('').map(c=>c+c).join('');const r=parseInt(h.slice(0,2),16),g=parseInt(h.slice(2,4),16),bl=parseInt(h.slice(4,6),16);const y=Math.round(0.2126*r+0.7152*g+0.0722*bl).toString(16).padStart(2,'0');return '#'+y+y+y});
@@ -15,19 +15,20 @@ let html=`<!doctype html><html><head><meta charset="utf-8"><style>${fonts}
 .front svg{width:100%;height:100%;display:block}
 .sp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(90deg);white-space:nowrap;font:700 ${Math.min(5.2,spine*0.62).toFixed(2)}mm Poppins;color:#fff;letter-spacing:.5mm}
 .sp b{color:#F6C431;font-weight:700}
-.back h2{font:700 8.6mm/1.12 Poppins;color:#1E1E1E;margin-bottom:5mm}
-.back p{font:italic 500 4.9mm/1.42 Lora;color:#1E1E1E;margin-bottom:4mm}
+.back h2{font:700 10mm/1.12 Poppins;color:#1E1E1E;margin-bottom:5mm}
+.back p{font:italic 500 5.5mm/1.45 Lora;color:#1E1E1E;margin-bottom:4mm}
 .back ul{list-style:none;margin:6mm 0 0}
 .back li{font:600 3.9mm/1.38 Poppins;color:#1E1E1E;padding-left:5.5mm;position:relative;margin-bottom:2.3mm}
 .back li:before{content:'';position:absolute;left:0;top:1.1mm;width:2.4mm;height:2.4mm;background:#1E1E1E;border-radius:50%}
-.age{position:absolute;left:${3.2+15}mm;bottom:${3.2+12}mm;font:600 3.2mm Poppins;color:#1E1E1E}
+.mini{margin:6mm 0 0;background:#fff;border:.8mm solid #1E1E1E;border-radius:4mm;padding:5mm 6mm}.ml{font:700 3mm Poppins;letter-spacing:.3mm;color:#E5AE1A;margin-bottom:2mm}.mq{font:700 5.4mm/1.3 Poppins;color:#1E1E1E}.ma{font:italic 500 3.8mm Lora;color:#1E1E1E;margin-top:2.5mm}.soc{margin-top:7mm;font:500 3.7mm/1.4 Poppins;color:#1E1E1E}.soc b{font-weight:700}.logo{position:absolute;left:${3.2+15}mm;bottom:${3.2+30}mm;background:#1E1E1E;border-radius:2mm;padding:2.5mm 5mm;transform:rotate(-3deg);font:700 7mm/1 Poppins;color:#fff;letter-spacing:.6mm}.logo b{color:#F6C431}.age{position:absolute;left:${3.2+15}mm;bottom:${3.2+12}mm;font:600 3.2mm Poppins;color:#1E1E1E}
 .bar{position:absolute;left:${173.2-15-50.8}mm;bottom:${3.2+15}mm;width:50.8mm;height:30.5mm;background:#fff}
 </style></head><body><div id="c">
 <div class="back"><h2>Wer hat den Döner nicht bezahlt?</h2>
-<p>Herr Brandt, Kommissar im Ruhestand, hört genau zu. Meistens lügt einer. Manchmal stimmt ein Foto nicht. Und ab und zu steckt die Lösung in einer Torte, die in acht gleiche Stücke geteilt werden muss.</p>
-<p>Spür mit ihm und seinen Freunden 67 Fälle auf, vom kleinen Kuchendieb bis zum großen Finale. Du brauchst nur einen Stift, ein bisschen Geduld und scharfe Augen.</p>
-<ul><li>67 Krimi- und Logikrätsel plus ein großer letzter Fall</li><li>Drei Schwierigkeitsstufen von Aufwärmen bis Meisterdetektiv</li><li>Tipps für jeden Fall, damit du nie festhängst</li><li>Ermittlerakte, Beweismarken und eine Urkunde zum Schluss</li></ul></div>
-<div class="age">Für die ganze Familie · ab 10 Jahren</div><div class="bar"></div>
+<p>Herr Brandt, Kommissar im Ruhestand, hört genau zu. Meistens lügt einer, manchmal stimmt ein Foto nicht. Spür mit ihm und seinen Freunden 67 Fälle auf, vom kleinen Kuchendieb bis zum großen Finale.</p>
+<p>Du brauchst nur einen Stift, ein bisschen Geduld und scharfe Augen. Tipps gibt es für jeden Fall, damit du nie festhängst.</p>
+${VAR==='B'?'<div class="mini"><div class="ml">PROBIER ES AUS</div><div class="mq">Eine Torte, drei gerade Schnitte, acht gleich große Stücke. Wie geht das?</div><div class="ma">Die Lösung findest du im Buch, Fall 44.</div></div>':'<ul><li>67 Krimi- und Logikrätsel plus ein großer letzter Fall</li><li>Von Aufwärmen bis Meisterdetektiv</li><li>Ermittlerakte, Beweismarken und Urkunde</li></ul>'}
+<div class="soc">Mehr Rätsel jeden Tag: <b>Knobelzeit</b> auf TikTok, YouTube und Instagram</div></div>
+<div class="logo">KNOBEL<b>ZEIT</b></div><div class="age">Für die ganze Familie · ab 10 Jahren</div><div class="bar"></div>
 <div class="spine"><div class="sp">KNOBEL<b>ZEIT</b> &nbsp;·&nbsp; 67 Krimi- und Logikrätsel</div></div>
 <div class="front" id="front"></div></div>
 <script>window.BW=${bw}</script><script>${S('figs2.js')}</script><script>${S('bg.js')}</script><script>${S('scenes.js')}</script>
@@ -46,5 +47,5 @@ const s='<svg viewBox="0 0 1000 1446" preserveAspectRatio="xMidYMid slice" xmlns
 document.getElementById('front').innerHTML=s;
 </script></body></html>`;
 if(bw)html=grey(html);
-fs.writeFileSync('/home/claude/bk/out/cover'+(bw?'_bw':'')+'.html',html);
+fs.writeFileSync('/home/claude/bk/out/cover'+VAR+(bw?'_bw':'')+'.html',html);
 console.log('spine',spine,'W',W,'H',H);
