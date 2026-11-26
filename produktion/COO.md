@@ -127,3 +127,9 @@ Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (lee
 - Jede Produktionsrunde: (1) Zahlen aller 9 Kanäle aus Metricool ziehen, (2) Duplikat-Check pro Sprache, (3) neue Rätsel in DE+EN+ES bauen, ES-Backlog nach Reichweite (bewährte alte Top-Videos zuerst), (4) Contact-Sheet-Review jedes Videos, (5) Planen mit KI-Flags, (6) Read-back per getScheduledPosts für alle drei Marken, Lücken sofort füllen.
 - ES-Ramp-up: Woche 1 ein Video/Tag 20:30 Berlin, ab Woche 2 nach Zahlen steigern; Wochen-Review sonntags zusammen mit DE/EN.
 - Seedance: noch kein Clip; nur für einzelne Hooks, Download nur mit Diyars Freigabe.
+
+## Kommentare (Metricool-Inbox, Browser) – 26.11.
+- KZ: alle 125 Threads beantwortet (YT+IG). Bewusst offen: Spam ootto.ai (jayantcreates.ai), Nutzer-untereinander-Threads, leere/„Multimedia“-Kommentare.
+- RT: alle beantwortet außer: Beleidigungen (n3onfragon, maverick31712, gmofficiq), rassistischer Kommentar justin_lool15 („Ali because hes black“ → Diyar fragen: ausblenden), Nutzer-Threads, Buchstaben-Kommentare.
+- ES: noch keine Kommentare.
+- Verfahren: Thread per Name+Text öffnen, Videotitel prüfen, nie Lösung bestätigen ohne Video-Check, nach dem Senden prüfen, ob Antwort im Thread steht. Jede Produktionsrunde wiederholen.
