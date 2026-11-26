@@ -13,7 +13,7 @@
   "n": "02",
   "title": "Scherben im Wohnzimmer",
   "paras": [
-   "Tom. Mama hat nur „die Vase\" gesagt, nicht welche. Die Scherben sind weg, die heilen Vasen im Schrank. Dass es die blaue war, kann nur wissen, wer dabei war."
+   "Tom. Mama Elif hat nur „die Vase\" gesagt, nicht welche. Die Scherben hat sie weggeworfen und die heilen Vasen in den Schrank gestellt, die Kinder konnten also nichts sehen. Dass es die blaue war, kann nur wissen, wer dabei war. Genau das verrät Tom mit seinem Satz."
   ],
   "trail": "Max hat mit dem Ball gespielt, und Bälle zerbrechen gern Vasen. Aber an seiner Aussage ist nichts falsch. Nur Tom weiß etwas, das er nicht wissen kann.",
   "mark": "E",
@@ -73,7 +73,7 @@
   "n": "08",
   "title": "Eis in der Hitze",
   "paras": [
-   "Mehmets. Nach zwanzig Minuten in der Sonne wäre das Eis weich. Steinhart ist es nur frisch aus der Tiefkühltruhe, zum Beispiel aus seiner eigenen Wohnung nebenan. Er war um 15 Uhr also nicht am Bahnhof."
+   "Mehmets. Frisches Eis in dünner Pappe überlebt zwanzig Minuten bei 38 Grad in der Sonne nicht so: Es wäre angetaut, die Packung nass und weich. Raureif und steinharte Kälte gibt es nur, wenn das Eis gerade erst aus einer Tiefkühltruhe kommt, zum Beispiel aus seiner eigenen Wohnung nebenan. Er war um 15 Uhr also nicht am Bahnhof."
   ],
   "trail": "Carlas nasse Haare passen zu ihrer Geschichte.",
   "mark": "R",
@@ -93,7 +93,7 @@
   "n": "10",
   "title": "Der nasse Regenschirm",
   "paras": [
-   "Igor. Sein Schirm tropft. Den hat er also nach 14 Uhr draußen im Regen benutzt. Er war nicht „keine Minute draußen\"."
+   "Igor. Es regnet seit genau 14 Uhr. Wer, wie Igor behauptet, seit 13 Uhr drinnen sitzt und keine Minute draußen war, hat einen trockenen Schirm. Seiner steht aber in einer Pfütze und tropft, also war er nach 14 Uhr draußen im Regen."
   ],
   "trail": "Lars ist klatschnass und kam gerade von draußen. Das passt aber genau zu seiner Geschichte.",
   "mark": "N",
@@ -463,7 +463,7 @@
   "n": "47",
   "title": "Das Scanner-Protokoll",
   "paras": [
-   "Lars war um 10:03 und um 10:07 Uhr in der Bahnhofstraße. Für die Fahrt zum Rosenweg und zurück bräuchte er 30 Minuten, nicht 4. Er hat Gretas Paket nur gescannt, aber nie hingebracht."
+   "Lars war um 10:03 Uhr in der Bahnhofstraße 9, um 10:05 Uhr soll er im Rosenweg gewesen sein und um 10:07 Uhr wieder in der Bahnhofstraße 11. Für eine Strecke braucht er aber 15 Minuten, für Hin- und Rückfahrt also 30, nicht 4. Er hat Gretas Paket nur gescannt, aber nie hingebracht."
   ],
   "trail": "Das Protokoll sieht ordentlich aus, Zeile für Zeile. Gerade das macht es verdächtig.",
   "mark": "T",
@@ -669,9 +669,9 @@
   "n": "67",
   "title": "Die Brosche von Oma Hilde",
   "paras": [
-   "Heike. Um 15:00 Uhr war oben niemand, um 16:00 Uhr auch nicht. Zweimal Knarren heißt also: Eine Person ging um 15:20 Uhr hinauf und kam um 15:40 Uhr wieder herunter. Wären es zwei verschiedene Personen gewesen, wäre die erste um 16:00 Uhr noch oben. Zwischen 15:20 und 15:40 Uhr waren Emre (er fotografiert um 15:25 und 15:35 Uhr im Garten), Luigi (Foto um 15:25 Uhr) und Dieter (Foto um 15:35 Uhr) sicher unten. Bleibt Heike, und sie gibt selbst zu, um halb vier oben gewesen zu sein. Ihre „zwei Minuten\" sind gelogen. Dann hätte die Treppe zweimal kurz hintereinander geknarrt, nicht im Abstand von zwanzig Minuten."
+   "Heike. Um 15:00 Uhr war oben niemand, um 16:00 Uhr auch nicht. Zweimal Knarren heißt also: Eine Person ging um 15:20 Uhr hinauf und kam um 15:40 Uhr wieder herunter. Wären es zwei verschiedene Personen gewesen, wäre die erste um 16:00 Uhr noch oben. Wer war zwischen 15:20 und 15:40 Uhr sicher unten? Emre: Er hat um 15:25 und um 15:35 Uhr selbst im Garten fotografiert. Luigi: Er steht um 15:25 Uhr auf Emres Foto am Grill. Dieter: Er kommt um 15:35 Uhr auf Emres Foto mit der Kohle durchs Gartentor. Bleibt Heike, und sie gibt selbst zu, um halb vier oben gewesen zu sein. Ihre „zwei Minuten\" sind gelogen. Dann hätte die Treppe zweimal kurz hintereinander geknarrt, nicht im Abstand von zwanzig Minuten."
   ],
-  "trail": "Dieter war wirklich kurz weg. Aber nur am Auto, das Foto um 15:35 Uhr zeigt es.",
+  "trail": "Dieter war wirklich kurz weg. Aber nur am Auto, Emres Foto um 15:35 Uhr zeigt es.",
   "mark": "S",
   "epilog": ""
  },
@@ -679,7 +679,7 @@
   "n": "68",
   "title": "Brandts Notizbuch",
   "paras": [
-   "Oma Hilde. Die Beweismarken aus Kapitel 2 sagen: ES GESCHAH NACH ZEHN NACH ACHT. Nach 20:10 Uhr waren nur noch Luigi, Oma Hilde und Hans in der Garderobe. Die Beweismarken aus Kapitel 3 sagen: DIEB SCHREIBT MIT LINKS. Luigi schreibt mit rechts. Hans hat zwar einen Gipsarm, aber den linken, und er schreibt mit rechts. Bleibt Oma Hilde."
+   "Oma Hilde. Die Beweismarken aus Kapitel 2 ergeben: ES GESCHAH NACH ZEHN NACH ACHT. Jeder ging allein hinein und gleich wieder hinaus, und Jans Liste ist vollständig. Wer vor 20:10 Uhr dran war, scheidet also aus. Übrig bleiben Luigi, Oma Hilde und Hans. Die Beweismarken aus Kapitel 3 verraten: DIEB SCHREIBT MIT LINKS. Luigi schreibt mit rechts. Hans ebenfalls: Obwohl er seinen linken Arm in Gips trägt, hat er mit rechts unterschrieben. Nur Oma Hilde schreibt mit links. Damit ist die Lösung eindeutig: Oma Hilde hat das Notizbuch genommen."
   ],
   "trail": "Hans holt einen Autoschlüssel, obwohl er mit Gipsarm gar nicht fahren kann. Verdächtig, aber harmlos: Ayşe fährt ihn nach Hause, und er hat ihr den Schlüssel gebracht. Lars schreibt mit links, war aber schon um 20:02 Uhr in der Garderobe.",
   "mark": "",

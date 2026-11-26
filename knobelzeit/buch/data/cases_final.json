@@ -300,14 +300,14 @@
   "body": [
    {
     "t": "p",
-    "text": "Sommerfest in Oma Hildes Garten, 34 Grad im Schatten. Um 15 Uhr verschwindet Omas Geldbörse vom Gartentisch. Um 15:20 Uhr kommt Mehmet, der im Haus nebenan wohnt, durchs Gartentor und stellt eine Eispackung aus Pappe auf den Tisch."
+    "text": "Sommerfest in Oma Hildes Garten, 38 Grad im Schatten, die Sonne brennt. Um 15 Uhr verschwindet Omas Geldbörse vom Gartentisch. Um 15:20 Uhr kommt Mehmet, der im Haus nebenan wohnt, durchs Gartentor und stellt eine Eispackung aus dünner Pappe auf den Tisch. Eine Kühltasche hat er nicht dabei."
    },
    {
     "t": "stmts",
     "rows": [
      [
       "Mehmet",
-      "„Ich komme direkt von der Eisdiele am Bahnhof. Zwanzig Minuten zu Fuß, in der prallen Sonne!\""
+      "„Ich komme direkt von der Eisdiele am Bahnhof. Zwanzig Minuten zu Fuß in der prallen Sonne, die Packung hatte ich die ganze Zeit in der Hand!\""
      ],
      [
       "Carla (mit nassen Haaren im Planschbecken)",
@@ -317,7 +317,7 @@
    },
    {
     "t": "p",
-    "text": "Herr Brandt drückt auf die Packung. Das Eis ist steinhart."
+    "text": "Herr Brandt drückt auf die Packung. Das Eis ist steinhart, und an der Pappe hängt noch Raureif."
    }
   ]
  },
@@ -1638,7 +1638,7 @@
    },
    {
     "t": "p",
-    "text": "Vom Bahnhof bis zum Rosenweg fährt man mit dem Lieferwagen 15 Minuten."
+    "text": "Von der Bahnhofstraße bis zum Rosenweg fährt man mit dem Lieferwagen 15 Minuten."
    }
   ]
  },
@@ -1899,11 +1899,11 @@
   "body": [
    {
     "t": "p",
-    "text": "Einen Tag vor der Premiere des Schultheaters ist die goldene Krone des Königs verschwunden. Vier Helfer hatten einen Schlüssel: Jan, Mia, Igor und Heike. Einer von ihnen hat die Krone versteckt, im Keller, auf dem Dachboden oder im Schulgarten."
+    "text": "Einen Tag vor der Premiere des Schultheaters fehlt die goldene Krone des Königs. Vier Helfer hatten einen Schlüssel: Jan, Mia, Igor und Heike. Einer hat sie versteckt: im Keller, auf dem Dachboden oder im Schulgarten."
    },
    {
     "t": "p",
-    "text": "Jan grinst: „Wir machen es Ihnen nicht zu leicht, Herr Brandt. Jeder von uns sagt einen wahren und einen falschen Satz. Welcher welcher ist, müssen Sie selbst herausfinden.\""
+    "text": "Jan grinst: „Jeder von uns sagt einen wahren und einen falschen Satz, Herr Brandt. Welcher welcher ist, müssen Sie selbst herausfinden.\""
    },
    {
     "t": "stmts",
@@ -2049,7 +2049,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Im Unterricht schiebt Anna Ben einen Zettel zu. Die Lehrerin soll ihn auf keinen Fall lesen können:"
+    "text": "Im Unterricht schiebt Anna Ben einen Zettel zu, den die Lehrerin nicht lesen soll:"
    },
    {
     "t": "p",
@@ -2057,7 +2057,7 @@
    },
    {
     "t": "p",
-    "text": "Auf der Rückseite hat Anna ein leeres Gitter mit 5 mal 5 Kästchen gezeichnet, die Reihen und Spalten von 1 bis 5 nummeriert. Darunter steht: „Schlüssel: BRANDT. Kein J, das I muss reichen.\""
+    "text": "Auf der Rückseite: ein leeres Gitter mit 5 mal 5 Kästchen, Reihen und Spalten von 1 bis 5 nummeriert. Darunter: „Schlüssel: BRANDT. Kein J, das I muss reichen.\""
    },
    {
     "t": "ill",
@@ -2162,7 +2162,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Oma Hildes alte Kuckucksuhr ist aus ihrem Gartenhäuschen verschwunden. Am Sonntag auf dem Flohmarkt glaubt sie, ihren Kuckuck rufen zu hören. Vier Stände stehen nebeneinander, Stand 1 ganz links bis Stand 4 ganz rechts. An jedem Stand verkauft eine andere Person: Herr Sommer, Oma Greta, Heike und Dragan. Jeder bietet ein Stück an, die Kuckucksuhr, eine Lampe, einen Teddy oder Schallplatten, und jeder verlangt einen anderen Preis: 5, 10, 15 oder 20 Euro."
+    "text": "Oma Hildes alte Kuckucksuhr ist aus ihrem Gartenhäuschen verschwunden. Am Sonntag glaubt sie, sie auf dem Flohmarkt rufen zu hören. Vier Stände stehen nebeneinander, Stand 1 ganz links bis Stand 4 ganz rechts. An jedem verkauft eine andere Person: Herr Sommer, Oma Greta, Heike und Dragan. Jeder bietet ein anderes Stück an (Kuckucksuhr, Lampe, Teddy oder Schallplatten) und verlangt einen anderen Preis: 5, 10, 15 oder 20 Euro."
    },
    {
     "t": "p",
@@ -2212,11 +2212,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Luigis Ladenglocke ist weg. Jemand hat sie von der Tür abgeschraubt. Luigi ist empört: „Laut meiner Küchenuhr um 18:20 Uhr! Ich hab genau hingeschaut.\""
-   },
-   {
-    "t": "p",
-    "text": "Drei Leute kommen infrage:"
+    "text": "Jemand hat Luigis Ladenglocke abgeschraubt. Luigi ist empört: „Laut meiner Küchenuhr um 18:20 Uhr! Ich hab genau hingeschaut.\" Drei Leute kommen infrage:"
    },
    {
     "t": "stmts",
@@ -2231,7 +2227,7 @@
      ],
      [
       "Mia",
-      "Sie saß in Igors Taxi. Laut Taxameter fuhr sie von 18:05 bis 18:20 Uhr vom Bahnhof bis an den Stadtrand."
+      "Sie saß in Igors Taxi. Laut Taxameter fuhr sie von 18:05 bis 18:20 Uhr."
      ]
     ]
    },
@@ -2241,7 +2237,7 @@
    },
    {
     "t": "p",
-    "text": "Dragan, der Uhrmacher, hatte letzte Woche alle Uhren in seiner Werkstatt: „Luigis Küchenuhr geht 10 Minuten vor. Heikes Armbanduhr geht 15 Minuten nach. Mehmets Kassenuhr geht 4 Minuten vor. Igors Taxameter geht auf die Sekunde genau.\""
+    "text": "Dragan, der Uhrmacher, hat alle Uhren geprüft: „Luigis Küchenuhr geht 10 Minuten vor, Heikes Armbanduhr 15 Minuten nach, Mehmets Kassenuhr 4 Minuten vor. Igors Taxameter geht auf die Sekunde genau.\""
    }
   ]
  },
@@ -2373,7 +2369,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Schulfest. Kurz vor der Ziehung ist das Los mit dem Hauptgewinn aus der Lostrommel verschwunden: ein Wellnesswochenende. Fünf Erwachsene haben beim Losverkauf geholfen. Herr Brandt fragt jeden:"
+    "text": "Schulfest: Kurz vor der Ziehung ist das Hauptgewinn-Los weg, ein Wellnesswochenende. Fünf Erwachsene halfen beim Losverkauf. Herr Brandt fragt sie:"
    },
    {
     "t": "stmts",
@@ -2402,7 +2398,7 @@
    },
    {
     "t": "p",
-    "text": "Anna hat die fünf die ganze Zeit beobachtet und flüstert Herrn Brandt zu: „Genau zwei von denen schwindeln.\""
+    "text": "Anna hat die fünf die ganze Zeit beobachtet und flüstert: „Genau zwei von denen schwindeln.\""
    }
   ]
  },
@@ -2567,7 +2563,7 @@
    },
    {
     "t": "p",
-    "text": "Emres Fotos, mit Uhrzeit:"
+    "text": "Emre hat den ganzen Nachmittag im Garten fotografiert. Bei jedem Foto stand er selbst dort. Seine Fotos, mit Uhrzeit:"
    },
    {
     "t": "table",
@@ -2578,19 +2574,19 @@
     "rows": [
      [
       "15:10",
-      "Die Torte im Wohnzimmer"
+      "Emre fotografiert die Torte im Wohnzimmer"
      ],
      [
       "15:25",
-      "Luigi allein am Grill im Garten"
+      "Emre fotografiert Luigi allein am Grill im Garten"
      ],
      [
       "15:35",
-      "Dieter kommt mit einem Sack Kohle durchs Gartentor"
+      "Emre fotografiert Dieter, der mit einem Sack Kohle durchs Gartentor kommt"
      ],
      [
       "15:50",
-      "Alle stoßen im Garten an"
+      "Emre fotografiert alle beim Anstoßen im Garten"
      ]
     ]
    },
@@ -2631,7 +2627,7 @@
    },
    {
     "t": "p",
-    "text": "Jan hat an diesem Abend die Garderobe betreut. Für jeden, der hineinging, hat er die Uhrzeit von seinem Handy aufgeschrieben:"
+    "text": "Jan hat an diesem Abend die Garderobe betreut. Jeder ging allein hinein, holte seine Sache und kam sofort wieder heraus. Die Uhrzeit hat Jan beim Hineingehen von seinem Handy aufgeschrieben: Jan hat jeden einzelnen Gang in die Garderobe notiert. Die Liste ist vollständig."
    },
    {
     "t": "table",
