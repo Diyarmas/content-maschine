@@ -27,7 +27,7 @@ const Feuer:React.FC<{lang:'de'|'en'}>=({lang})=>{
     <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#ff9e5e"/><stop offset="1" stopColor="#ffd59e"/></linearGradient></defs>
     <g transform={cam(t,dur,sol,540,1250)}>
     <rect width={1080} height={1920} fill="url(#sky)"/>
-    {t>=s(2)&&<rect width={1080} height={1250} fill="#555" opacity={.25*cl((t-s(2))/2)*bigDie}/>}
+    {t>=s(2)&&<rect width={1080} height={1320} fill="#555" opacity={.25*cl((t-s(2))/2)*bigDie}/>}
     <rect y={1320} width={1080} height={600} fill="#2b7bb9"/>
     {[...Array(6)].map((_,i)=><path key={i} d={`M${(i*220+t*40)%1300-200} ${1450+i*60} q40 -20 80 0 q40 20 80 0`} stroke="#9fd3f0" strokeWidth={6} fill="none"/>)}
     {/* Insel */}
@@ -45,9 +45,9 @@ const Feuer:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {sharks&&[0,1,2].map(i=>{const x=((t*(60+i*20)+i*400)%1300)-100;return <path key={i} d={`M${x} ${1520+i*110} l40 -80 l30 80Z`} fill="#4a5a6a" stroke={N} strokeWidth={5}/>;})}
     {tag(120,1400,X.west,'#fff',N,36)}{tag(960,1400,X.east,'#fff',N,36)}
     </g>
-    {t>=s(3)&&t<s(17)&&[0,1,2].map(i=>{const x=((t*260+i*380)%1300)-150;return <g key={'w'+i} transform={`translate(${x} ${560+i*90})`}><path d="M0 0 L120 0 M90 -20 L120 0 L90 20" stroke="#fff" strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round"/></g>;})}
-    {t>=s(3)&&t<s(6)&&tag(540,520,X.wind+' →','#fff',N,50)}
-    {t>=s(6)&&t<s(11)&&qb(t,540,640,1.3)}
+    {t>=s(3)&&t<s(17)&&[0,1,2].map(i=>{const x=((t*260+i*380)%1300)-150;return <g key={'w'+i} transform={`translate(${x} ${430+i*60})`}><path d="M0 0 L120 0 M90 -20 L120 0 L90 20" stroke="#fff" strokeWidth={12} fill="none" strokeLinecap="round" strokeLinejoin="round"/></g>;})}
+    {t>=s(3)&&t<s(6)&&tag(230,640,X.wind+' →','#fff',N,50)}
+    {t>=s(6)&&t<s(11)&&qb(t,540,520,1.3)}
     {vign}
     {cards(t,S,X.cards,[6])}
     {countdown(t,S,[8,9,10])}
