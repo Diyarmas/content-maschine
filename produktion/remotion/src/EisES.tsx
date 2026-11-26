@@ -6,14 +6,14 @@ import type {Card} from './Hut';
 const {person,PPL,CAST} = require('./figs.js');
 import WDE from './words_eises_de.json';
 import WEN from './words_eises_de.json';
-PPL.hiroshi={n:'HIROSHI',c:'#c0392b',hair:'short',hc:'#1a1a1a',skin:'#e8c39e',h:500};
+PPL.hiroshi={n:'JAVIER',c:'#c0392b',hair:'short',hc:'#1a1a1a',skin:'#e8c39e',h:500};
 type Wd={w:string;s:number;e:number};
 function sentences(ws:Wd[]){const S:{a:number;b:number}[]=[];let cur:Wd[]=[];
   for(const x of ws){cur.push(x);if(/[.?!:]$/.test(x.w)){S.push({a:cur[0].s,b:cur[cur.length-1].e});cur=[];}}
   return S;}
 const SD=sentences((WDE as any).words), SE=sentences((WEN as any).words);
 const T={
- de:{cards:{0:['VASO LLENO,','HIELO ARRIBA'],1:['EL BAR DE','HIROSHI'],2:['LLENO HASTA','EL BORDE'],3:['UN CUBO','DE HIELO'],5:['Y LO','LOCO'],6:['SE DERRITE','TODO'],7:['"¡SE','DESBORDA!"'],8:['MUCHO HIELO','BAJO EL AGUA'],9:['¿SE DESBORDA','EL VASO?'],18:['¡NO!','NI UNA GOTA'],19:['EL HIELO','DESPLAZA SU PESO'],20:['EL AGUA LLENA','ESE HUECO'],21:['EL NIVEL','NO CAMBIA'],22:['PESO,','NO TAMAÑO']} as Record<number,string[]>,
+ de:{cards:{0:['VASO LLENO,','HIELO ARRIBA'],1:['EL BAR DE','JAVIER'],2:['LLENO HASTA','EL BORDE'],3:['UN CUBO','DE HIELO'],5:['Y LO','LOCO'],6:['SE DERRITE','TODO'],7:['"¡SE','DESBORDA!"'],8:['MUCHO HIELO','BAJO EL AGUA'],9:['¿SE DESBORDA','EL VASO?'],18:['¡NO!','NI UNA GOTA'],19:['EL HIELO','DESPLAZA SU PESO'],20:['EL AGUA LLENA','ESE HUECO'],21:['EL NIVEL','NO CAMBIA'],22:['PESO,','NO TAMAÑO']} as Record<number,string[]>,
   sol:'SOLUCIÓN',done:'¡EL PESO MANDA!',no:['¡SE DESBORDA!'],rim:'HASTA EL BORDE',lvl:'IGUAL DE ALTO'},
  en:{cards:{0:['FULL GLASS,','ICE ON TOP'],1:['HIROSHI\'S BAR','IN TOKYO'],2:['FILLED TO','THE BRIM'],3:['ONE BIG','ICE CUBE'],5:['AND THE','CRAZY PART'],6:['IT MELTS','COMPLETELY'],7:['"IT WILL','OVERFLOW!"'],8:['MOST ICE IS','UNDER WATER'],9:['DOES THE GLASS','OVERFLOW?'],18:['NO!','NOT A DROP'],19:['ICE PUSHES ASIDE','ITS WEIGHT'],20:['MELTWATER FILLS','THAT SPACE'],21:['WATER LEVEL','STAYS THE SAME'],22:['WEIGHT,','NOT SIZE']} as Record<number,string[]>,
   sol:'ANSWER',done:'WEIGHT, NOT SIZE!',no:['IT OVERFLOWS!'],rim:'FILLED TO THE BRIM',lvl:'SAME LEVEL'}};
@@ -65,7 +65,7 @@ const Eis:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {t>=s(7)&&t<e(7)+.6&&[0,1,2].map(i=>{const u=cl((t-s(7)-i*.35)/1.0);return <path key={i} transform={`translate(${GX0-12+ i*0} ${GT+20+u*160})`} d="M0 -22 Q16 6 0 18 Q-16 6 0 -22Z" fill="#4aa3df" stroke={N} strokeWidth={4} opacity={1-u}/>;})}
     {/* Hiroshi */}
     <g transform="translate(125 1860) scale(1.2)" dangerouslySetInnerHTML={{__html:person(0,0,'hiroshi',{tag:false,look:6})}}/>
-    <g transform="translate(175 1892)"><rect x={-120} y={-26} width={240} height={52} rx={18} fill="#fff" stroke={N} strokeWidth={6}/><text y={12} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={34} fill={N}>HIROSHI</text></g>
+    <g transform="translate(175 1892)"><rect x={-120} y={-26} width={240} height={52} rx={18} fill="#fff" stroke={N} strokeWidth={6}/><text y={12} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={34} fill={N}>JAVIER</text></g>
     {t>=s(7)&&t<e(7)+.4&&bubble(820,700,X.no,PB(t,s(7),.35),48)}
     {cardEls}
     {cd>=0&&(()=>{const k=12+cd;const a=s(k);const b=k<16?s(k+1):a+1.0;const u=cl((t-a)/(b-a));const p=PB(t,a,.3);const circ=2*Math.PI*230;

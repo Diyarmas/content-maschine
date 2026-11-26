@@ -6,7 +6,7 @@ import type {Card} from './Hut';
 const {person,PPL,CAST} = require('./figs.js');
 import W from './words_papagei_es.json';
 PPL.julia={...CAST.jule,n:'JULIA'};
-PPL.kai={...CAST.ali,n:'KAI'};
+PPL.kai={...CAST.ali,n:'PABLO'};
 PPL.luis={...CAST.lars,n:'LUIS'};
 type Wd={w:string;s:number;e:number};
 const S:{a:number;b:number}[]=[];{let cur:Wd[]=[];for(const x of (W as any).words){cur.push(x);if(/[.?!:]$/.test(x.w)){S.push({a:cur[0].s,b:cur[cur.length-1].e});cur=[];}}}
