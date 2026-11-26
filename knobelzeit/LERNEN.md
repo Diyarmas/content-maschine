@@ -44,3 +44,12 @@ Zu wenig Daten: nur ca. 5 Videos mit Merkmalen pro Plattform sind alt genug (vid
 
 ## Namensregel (17.11.)
 Mind. ein ausländischer/auffälliger Name pro Rätsel (CAST: Ali, Mehmet, Dragan, Igor, Zeynep, Ayse). Rolle (Lügner/Dieb/Held) mischen. Auswerten: Kommentare je Video mit/ohne.
+
+## Update 26.11. (alle Videos seit 15.11., Metricool)
+- Diyar hat recht: IG-Spitzen sind 4.314 (DE Seeungeheuer, 15.11.) und 4.063 (DE Ei/Sanduhr, 17.11.), dazu 2.630 (Fackel-Brücke), 2.515 (Truhen), 2.329 (Krug). Das sind Klassiker mit Zeit- oder Mengen-Limit und klarer Frage im Hook. EN IG: 2.843 (Links mal rechts), 2.825 (Hotel), 2.800 (Hüte), 2.604 (Uhren), 2.430 (Tür/Wächter).
+- Gesamt (alle Plattformen/Sprachen): 281,7K (DE 171,7K, EN 110,0K). Zu 50.000 pro Video fehlt der Faktor ~12 (Bestwert 4.314).
+- YouTube DE: Posts um 14:00 und 20:00 bleiben bei 5–50 Views, Posts um 07:30/12:00 liegen bei ~1.000. Seit 15.11. konstant, also kein Analytics-Lag. YouTube EN liegt in allen Slots bei ~1.000–1.400. Maßnahme-Vorschlag: DE-YouTube nur 07:30 und 12:00 (am 29.11. mit Diyar entscheiden).
+- IG DE seit 22.11. ~150–180 (eingeschränkt), Ausnahme Streichholz 1.449 (24.11. 20:00). Münze 25.11. 436.
+- TikTok DE 200–300 seit 17.11.; Videolänge allein erklärt es nicht (der Rückgang beginnt unabhängig von 20–98 s).
+- Rätselqualität (Diyar 25.11.): 6-und-9 hatte keine Spannung/Wendung. Neue Prüfung vor dem Bauen: Einsatz im Hook, echte Wendung, nicht in Sekunden erratbar, nicht schon als altes Video vorhanden (auch Altnamen wie Gluehbirne, Kuchen prüfen).
+- Namen: türkische Namen selten (max. 1 von 5), sonst gemischt.
