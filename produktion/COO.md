@@ -121,3 +121,9 @@ Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (lee
 - 001 Hielo geplant 26.11. 20:30. Danach: 1 Video/Tag 20:30 Berlin (Woche 1), ab Woche 2 prüfen auf 2/Tag.
 - Reihenfolge nach Reichweite (Gesamtviews alle Plattformen aus snapshots.csv): Papagei, Brücke/Wächter, Monster/See, Kebab, Hotel (Wer lügt), Ei/Sanduhr, Kisten/Truhen, Mord/Zimmer, Busfahrer. Dann neuere (Tresor, Torte, Schalter, Tür, Zahl, Münze).
 - Alte Top-Videos haben keine Remotion-Quellen im Repo → Szenen im aktuellen Look neu bauen (ES-Text, ES-Stimme Iván).
+
+## 3 Sprachen / 9 Kanäle – feste Regeln (ab 26.11.)
+- Marken: Knobelzeit DE (7925556), Riddle Time EN (8100147), Hora de Acertijos ES (8382915); je TikTok/YouTube/Instagram.
+- Jede Produktionsrunde: (1) Zahlen aller 9 Kanäle aus Metricool ziehen, (2) Duplikat-Check pro Sprache, (3) neue Rätsel in DE+EN+ES bauen, ES-Backlog nach Reichweite (bewährte alte Top-Videos zuerst), (4) Contact-Sheet-Review jedes Videos, (5) Planen mit KI-Flags, (6) Read-back per getScheduledPosts für alle drei Marken, Lücken sofort füllen.
+- ES-Ramp-up: Woche 1 ein Video/Tag 20:30 Berlin, ab Woche 2 nach Zahlen steigern; Wochen-Review sonntags zusammen mit DE/EN.
+- Seedance: noch kein Clip; nur für einzelne Hooks, Download nur mit Diyars Freigabe.
