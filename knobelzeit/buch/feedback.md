@@ -85,3 +85,5 @@ Achtung Schreibweise: TT/IG-Handles enden auf Unterstriche (knobelzeit_ einfach,
 - [x] verify.py: ALLES OK (Beweismarken, Tippcodes eindeutig, Rätsel 55/60 nachgerechnet); 118 Seiten, keine Layout-Probleme
 - [ ] Bewusst nicht geändert: "Ein Wort vorab" (Brandts Originalsatz bleibt, Vorschlag war optional), Urkunde (Text entspricht schon dem Vorschlag)
 - [ ] OFFEN: Einzelprüfung aller 68 Fälle auf Eindeutigkeit nach der 8-Punkte-Liste (Priorität: 48, 49, 51, 56, 62, 64, 65, 66), Typografie-Einheitlichkeit, Rechtschreibung, Social-Links nach Druck testen. Ich arbeite die Fälle in den 09:00-Runden ab (je ~8 Fälle).
+- [x] 26.11. Feedback Runde 5: S.89 Emres Fotos ("fotografiert … am jeweiligen Ort"), Fall 64 Lösung logisch sauber ersetzt (selbst nachgerechnet: Greta und Luigi lügen), Gästebuch S.94 nennt alle 8 sichtbaren Namen mit Schreibhand, Fall 02 Zusatz (Kinder sahen Scherben nicht, Mama nennt Farbe nicht), Fall 50 Lösung ausführlicher (tiefe Morgensonne). verify.py ALLES OK, 118 S.
+- [ ] Hinweis aus dem Feedback: Privatanschrift im Impressum S.2 (Daphnestraße) — Entscheidung bei Diyar (Gewerbe/Postfach), rechtlich bleibt eine ladungsfähige Anschrift nötig

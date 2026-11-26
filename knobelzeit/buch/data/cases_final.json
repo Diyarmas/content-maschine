@@ -70,7 +70,7 @@
   "body": [
    {
     "t": "p",
-    "text": "Im Wohnzimmer von Familie Yılmaz stehen drei Vasen: eine rote, eine grüne und eine blaue. Als Mama Elif nach Hause kommt, liegt eine davon in Scherben auf dem Boden. Sie fegt alles zusammen, wirft die Scherben weg und stellt die beiden heilen Vasen sicherheitshalber in den Schrank. Dann ruft sie die Kinder in die Küche und fragt nur: „Wer von euch hat die Vase kaputt gemacht?\""
+    "text": "Im Wohnzimmer von Familie Yılmaz stehen drei Vasen: eine rote, eine grüne und eine blaue. Als Mama Elif nach Hause kommt, liegt eine davon in Scherben auf dem Boden. Sie fegt alles zusammen, wirft die Scherben weg und stellt die beiden heilen Vasen sicherheitshalber in den Schrank. Keines der Kinder hat die Scherben gesehen, und Mama verrät nicht, welche Vase es war. Dann ruft sie die Kinder in die Küche und fragt nur: „Wer von euch hat die Vase kaputt gemacht?\""
    },
    {
     "t": "stmts",
@@ -2563,7 +2563,7 @@
    },
    {
     "t": "p",
-    "text": "Emre hat den ganzen Nachmittag im Garten fotografiert. Bei jedem Foto stand er selbst dort. Seine Fotos, mit Uhrzeit:"
+    "text": "Emre hat den ganzen Nachmittag fotografiert. Bei jedem Foto stand er selbst am jeweiligen Ort. Seine Fotos, mit Uhrzeit:"
    },
    {
     "t": "table",
@@ -2676,7 +2676,7 @@
    },
    {
     "t": "p",
-    "text": "Herr Brandt erinnert sich an noch etwas. Beim Unterschreiben im Gästebuch hat er genau hingeschaut, alte Gewohnheit: Lars, Ayşe und Oma Hilde schreiben mit links, alle anderen mit rechts. Hans trägt seinen linken Arm in Gips. Unterschrieben hat er trotzdem, mit rechts."
+    "text": "Herr Brandt erinnert sich an noch etwas. Beim Unterschreiben im Gästebuch hat er genau hingeschaut: Lars, Ayşe und Oma Hilde schreiben mit links. Heike, Anna, Luigi, Hans und Mia schreiben mit rechts. Hans trägt seinen linken Arm in Gips. Unterschrieben hat er trotzdem, mit rechts."
    },
    {
     "t": "p",
