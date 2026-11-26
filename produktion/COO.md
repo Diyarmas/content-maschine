@@ -143,3 +143,9 @@ Review-Sperre ist Pflicht (review_frames.sh). Noch offen: Riddle Time 00:00 (lee
 - 00 Repost (KZ Obstkisten / RT Chests) · 02 Repost (KZ Kuchendieb / RT Monk) · 04 Portrait · 06 Kerzen · 08 Bus · 10 Kette · 12 KZ Ballon / RT Safe · 14 KZ Tresor / RT Balloon · 16 Feuer · 18 Alibi (Viral-Kandidat) · 20 Pferde · 22 Sonntag.
 - Auswertung Sa/So: Reach pro Video vs. normale Tage, TikTok-Drosselung prüfen. Ab Sa wieder Normaltakt nach COO.
 - 26.11. 19:35 Read-back: Fr 27.11. KZ 12/12, RT 12/12 eingeplant, alle KI-Flags true. Neu: 069–077 (Alibi, Bus, Portrait, Ballon, Kerzen, Sonntag, Pferde, Feuer, Kette) / RT 037–045. Offen für Sa 28.11.: Shorts (Normaltakt) + Langvideo 18:00 → Runde 27.11. 09:00.
+
+## EN-Backlog: alte Knobelzeit-Videos ohne Riddle-Time-Zwilling (Diyar 26.11.: „die alten auch auf Englisch“)
+Neu bauen im aktuellen Look mit englischen Namen (alte Remotion-Quellen fehlen), danach gleich als ES-Version für Hora de Acertijos.
+Reihenfolge nach KZ-Reichweite: 1 Monster-See · 2 Brücke/Gefangener · 3 Vase · 4 Mord im verschlossenen Zimmer · 5 Ei/2 Sanduhren · 6 Aufzug 20. Stock · 7 Stromausfall Gefängnis · 8 Uhr 15:15 · 9 Schließfächer (wechseln) · 10 Zwei Väter/Angeln · 11 Geburtstags-Paradox · 12 Brücke 17 Min/Fackel · 13 Kino/Geldbörse · 14 Gewitter · 15 Neumond · 16 Sechs Gläser · 17 Wolf-Ziege-Kohl · 18 Autodiebstahl/Kiosk/Laptop.
+Nicht übersetzen (gesperrte Kategorien): 9 Münzen/Waage, fehlender Euro, Monate, Schnecke, Krüge, Links-mal-rechts, Suchbild.
+Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sind alle 3 Kanäle inhaltlich deckungsgleich.
