@@ -15,7 +15,7 @@ const SD=sentences((WDE as any).words), SE=sentences((WEN as any).words);
 const T={
  de:{cards:{0:['EIN TRESOR,','EIN VERSUCH'],1:['KOMMISSARIN','INGRID BERG'],2:['KELLER','IN WIEN'],3:['FÜNF ZAHLEN','AUF DEM DISPLAY'],4:['DIE SECHSTE','ÖFFNET ALLES'],5:['UND DAS','VERRÜCKTE'],6:['FALSCH =','ALARM!'],7:['MAN SUCHT','EINE RECHNUNG'],8:['NICHT RECHNEN,','VORLESEN'],9:['WELCHE ZAHL','KOMMT NUN?'],19:['JEDE ZAHL','BESCHREIBT'],20:['DIE ZAHL','DAVOR'],21:['3 EINSEN,','2 ZWEIEN, 1 EINS'],22:['VORLESEN,','NICHT RECHNEN']} as Record<number,string[]>,
   sol:'LÖSUNG',done:'LIES ES LAUT!',alarm:'ALARM!',read:['EINMAL EINS','ZWEIMAL ZWEI','DREIMAL DREI']},
- en:{cards:{0:['ONE SAFE,','ONE TRY'],1:['INSPECTOR','INGRID BERG'],2:['BASEMENT','IN VIENNA'],3:['FIVE NUMBERS','ON THE DISPLAY'],4:['THE SIXTH','OPENS IT'],5:['AND THE','CRAZY PART'],6:['WRONG =','ALARM!'],7:['PEOPLE HUNT','FOR MATH'],8:['NO MATH,','READ IT ALOUD'],9:['WHAT NUMBER','IS NEXT?'],19:['EACH NUMBER','DESCRIBES'],20:['THE ONE','BEFORE IT'],21:['3 ONES,','2 TWOS, 1 ONE'],22:['READ IT,','DON\'T CALCULATE']} as Record<number,string[]>,
+ en:{cards:{0:['ONE SAFE,','ONE TRY'],1:['INSPECTOR','EMILY HAYES'],2:['BASEMENT','IN VIENNA'],3:['FIVE NUMBERS','ON THE DISPLAY'],4:['THE SIXTH','OPENS IT'],5:['AND THE','CRAZY PART'],6:['WRONG =','ALARM!'],7:['PEOPLE HUNT','FOR MATH'],8:['NO MATH,','READ IT ALOUD'],9:['WHAT NUMBER','IS NEXT?'],19:['EACH NUMBER','DESCRIBES'],20:['THE ONE','BEFORE IT'],21:['3 ONES,','2 TWOS, 1 ONE'],22:['READ IT,','DON\'T CALCULATE']} as Record<number,string[]>,
   sol:'ANSWER',done:'READ IT ALOUD!',alarm:'ALARM!',read:[]}};
 const NUMS=['1','11','21','1211','111221'];
 const ANS='312211';
@@ -57,7 +57,7 @@ const Tresor:React.FC<{lang:'de'|'en'}>=({lang})=>{
     <circle cx={SX+SW/2} cy={SY+SH-60} r={0} fill="none"/>
     {t>=s(4)&&t<s(17)&&<g transform={`translate(${SX+SW/2} ${SY+SH+80}) scale(${PB(t,s(4),.3)})`}><rect x={-250} y={-38} width={500} height={76} rx={28} fill={Y} stroke={N} strokeWidth={7}/><text y={16} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={40} fill={N}>{lang==='de'?'EIN VERSUCH':'ONE TRY'}</text></g>}
     <g transform="translate(940 1860) scale(1.15)" dangerouslySetInnerHTML={{__html:person(0,0,'ingrid',{tag:false,look:6})}}/>
-    <g transform="translate(880 1895)"><rect x={-120} y={-26} width={240} height={52} rx={18} fill="#fff" stroke={N} strokeWidth={6}/><text y={12} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={34} fill={N}>INGRID</text></g>
+    <g transform="translate(880 1895)"><rect x={-120} y={-26} width={240} height={52} rx={18} fill="#fff" stroke={N} strokeWidth={6}/><text y={12} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={34} fill={N}>{lang==='en'?'EMILY':'INGRID'}</text></g>
     {t>=s(6)&&t<e(6)+.5&&<g transform={`translate(300 520) scale(${PB(t,s(6),.3)})`}><rect x={-170} y={-50} width={340} height={100} rx={26} fill={R} stroke={N} strokeWidth={7}/><text y={22} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={64} fill="#fff">{X.alarm}</text></g>}
     {cardEls}
     {cd>=0&&(()=>{const k=12+cd;const a=s(k);const b=k<16?s(k+1):a+1.0;const u=cl((t-a)/(b-a));const p=PB(t,a,.3);const circ=2*Math.PI*230;
