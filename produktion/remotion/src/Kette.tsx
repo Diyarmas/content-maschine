@@ -16,7 +16,7 @@ const Kette:React.FC<{lang:'de'|'en'}>=({lang})=>{
   const sol=s(12);
   const cut=t>=s(14)+.4?eio(cl((t-s(14)-.4)/.6)):0;
   const sep=t>=s(15)?eio(cl((t-s(15))/.6)):0;
-  const lx=(i:number)=>210+i*110+(i<2?-38*sep:i>2?38*sep:0);
+  const lx=(i:number)=>225+i*105+(i<2?-30*sep:i>2?30*sep:0);
   const ly=(i:number)=>1250+(i===2?110*sep:0);
   const link=(i:number)=>{const x=lx(i),y=ly(i),v=i%2===1;const open=i===2&&cut>0;
     return <g key={i} transform={`translate(${x} ${y})`}>
@@ -24,7 +24,7 @@ const Kette:React.FC<{lang:'de'|'en'}>=({lang})=>{
       <ellipse rx={v?40:82} ry={v?72:44} fill="none" stroke="#f2c14e" strokeWidth={24} strokeDasharray={open?`${200} 40`:undefined}/>
       <ellipse rx={v?40:82} ry={v?72:44} cx={-6} cy={-6} fill="none" stroke="#fff3b0" strokeWidth={6} opacity={.7} strokeDasharray="40 200"/>
     </g>;};
-  const cuts5=t>=s(5)&&t<s(7)?[0,1,2,3,4,5].map(i=>{const a=s(5)+.15*i;return t>=a?<g key={i} transform={`translate(${540+(265+i*110-540)*1.1} 1250) scale(${PB(t,a,.25)})`}><path d="M-26 -26 L26 26 M26 -26 L-26 26" stroke={R} strokeWidth={14} strokeLinecap="round"/></g>:null;}):null;
+  const cuts5=t>=s(5)&&t<s(7)?[0,1,2,3,4,5].map(i=>{const a=s(5)+.15*i;return t>=a?<g key={i} transform={`translate(${277+i*105} 1250) scale(${PB(t,a,.25)})`}><path d="M-26 -26 L26 26 M26 -26 L-26 26" stroke={R} strokeWidth={14} strokeLinecap="round"/></g>:null;}):null;
   const dayA=s(16),dayB=e(18);
   return <AbsoluteFill style={{background:'#2b2b33'}}>
    <svg width={1080} height={1920} viewBox="0 0 1080 1920" style={{position:'absolute'}}>
@@ -37,13 +37,14 @@ const Kette:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {fig(220,1010,'boss_'+lang,BOSS,X.boss,1.05,{look:6})}
     {fig(600,1010,'app_'+lang,APP,X.app,1.0,{look:-6})}
     {tag(220,1060,X.boss,'#fff',N,38)}{tag(600,1060,X.app,'#fff',N,38)}
-    {t>=s(2)-.2&&<g transform='translate(540 1250) scale(1.1) translate(-540 -1250)'>{[0,1,3,4,5,6,2].map(link)}</g>}
+    {t>=s(2)-.2&&<g transform='translate(540 1250) scale(1.0) translate(-540 -1250)'>{[0,1,3,4,5,6,2].map(link)}</g>}
     {cuts5}
-    {t>=s(14)&&t<s(15)+.4&&<g transform={`translate(${540+(lx(2)-540)*1.1} ${1130-30*Math.sin(t*20)})`}><circle cx={-22} cy={-50} r={22} fill="none" stroke={N} strokeWidth={10}/><circle cx={22} cy={-50} r={22} fill="none" stroke={N} strokeWidth={10}/><path d="M-12 -30 L18 60 M12 -30 L-18 60" stroke="#aaa" strokeWidth={14} strokeLinecap="round"/></g>}
-    {sep>0&&<g opacity={sep}>{tag(540+((lx(0)+lx(1))/2-540)*1.1,1140,'2',G,'#fff',64)}{tag(540+(lx(2)-540)*1.1,1500,'1',G,'#fff',64)}{tag(540+((lx(3)+lx(6))/2-540)*1.1,1140,'4',G,'#fff',64)}</g>}
-    {/* Tages-Tabelle */}
-    {t>=dayA&&<g>{HOLD.map((h,d)=>{const a=dayA+(dayB-dayA)*d/7;if(t<a)return null;const x=105+d*145;return <g key={d} transform={`translate(${x} 1560) scale(${PB(t,a,.25)*1.05})`}><rect x={-60} y={-60} width={120} height={300} rx={18} fill={C} stroke={N} strokeWidth={6}/><text y={-14} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={30} fill={N}>{X.day} {d+1}</text>{h.map((v,k)=><g key={k} transform={`translate(0 ${40+k*66})`}><rect x={-44} y={-26} width={88} height={52} rx={12} fill="#f2c14e" stroke={N} strokeWidth={5}/><text y={14} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={38} fill={N}>{v}</text></g>)}</g>;})}</g>}
+    {t>=s(14)&&t<s(15)+.4&&<g transform={`translate(${lx(2)} ${1130-30*Math.sin(t*20)})`}><circle cx={-22} cy={-50} r={22} fill="none" stroke={N} strokeWidth={10}/><circle cx={22} cy={-50} r={22} fill="none" stroke={N} strokeWidth={10}/><path d="M-12 -30 L18 60 M12 -30 L-18 60" stroke="#aaa" strokeWidth={14} strokeLinecap="round"/></g>}
+    {sep>0&&<g opacity={sep}>{tag((lx(0)+lx(1))/2,1130,'2',G,'#fff',64)}{tag(lx(2)+130,1380,'1',G,'#fff',64)}{tag((lx(3)+lx(6))/2,1130,'4',G,'#fff',64)}</g>}
+    
     </g>
+    {/* Tages-Tabelle */}
+    {t>=dayA&&<g>{HOLD.map((h,d)=>{const a=dayA+(dayB-dayA)*d/7;if(t<a)return null;const x=120+d*140;return <g key={d} transform={`translate(${x} 1560) scale(${PB(t,a,.25)})`}><rect x={-60} y={-60} width={120} height={300} rx={18} fill={C} stroke={N} strokeWidth={6}/><text y={-14} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={30} fill={N}>{X.day} {d+1}</text>{h.map((v,k)=><g key={k} transform={`translate(0 ${40+k*66})`}><rect x={-44} y={-26} width={88} height={52} rx={12} fill="#f2c14e" stroke={N} strokeWidth={5}/><text y={14} textAnchor="middle" fontFamily={FONT} fontWeight={700} fontSize={38} fill={N}>{v}</text></g>)}</g>;})}</g>}
     {t>=s(7)&&t<s(12)&&qb(t,540,820,1.2)}
     {vign}
     {cards(t,S,X.cards,[7])}
