@@ -156,3 +156,10 @@ Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sin
 - RT-Bus London war Themen-Dublette zum RT-Katalog (Bus) → Dublettencheck gilt pro Kanal auch für Remakes.
 - Physik-Prämissen (Süßwassereis etc.) im Skript explizit nennen.
 - Frühwerte Test-Freitag 09:11: RT 700–1.420 Plays/Video nach 5–9 h, KZ 200–270. ES TT 0 Plays (neues Konto) → Ramp-up unverändert, Prüfung 29.11.
+
+## 27.11. Nachmittag
+- Langvideo "Knobelzeit Spezial 01" (8:50, Piraten/Giftwein/Ameisen/100 Gefangene) fertig, YT KZ Sa 28.11. 18:00, Kapitel in Beschreibung, Entwurf an Diyar.
+- So 29.11. komplett: KZ 07:30 Zahnrad (#081, neue Bild-Mechanik), 14:00 Goldfisch (#082), 20:00 Monopoly (#083); RT 06:00 Gears, 12:00 Goldfish, 18:00 Monopoly; ES 20:30 Coartada (Alibi ES, Sevilla).
+- 17 Pferde gestrichen (Bruchrechnen = Rechenrätsel-Regel).
+- Diyar zweifelt am 12er-Test → Auswertung So mit Abbruchregel: Freitag-Videos >30 % unter Normaltag oder YT/IG-Einbruch → 2/Tag; sonst 4–6/Tag testen.
+- justin_lool15-Kommentar bleibt sichtbar (Diyar-Entscheidung).
