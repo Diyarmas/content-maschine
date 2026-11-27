@@ -168,3 +168,10 @@ Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sin
 - 27.11. abends: 4 Langvideos fertig + eingeplant (YouTube, KI-Flag): KZ Spezial 01 Sa 18:00 (v2, Ameisen-Timer-Fix), RT Special 01 EN Sa 19:00, KZ Krimi 01 So 18:00 (10 Buchfälle als Teaser), RT Crime 01 EN So 19:00. ElevenLabs danach ~58k/197k verbraucht.
 - Buch: alle 68 Fälle einzeln geprüft, Befunde Fall 40/41 behoben, PDF knobelzeit_DE_review_27-11.pdf.
 - Heute nur noch 1 Video pro Kanal (18:00 Alibi); Pferde → KZ Di 07:30, RT Mo 18:00.
+
+## ElevenLabs-Budget bis 25.12. (Stand 27.11. 21:15: 58.567 / 197.197 verbraucht, Reset 25.12.)
+- Ø Short-Skript 690 Zeichen, Langvideo ~6.000/Sprache (Krimi-Format ~5.000).
+- Takt ab 28.11.: KZ 2/Tag, RT 2/Tag, ES 1/Tag = ~3.500 Zeichen/Tag. Plus 1 Langvideo-Paar (DE+EN, ~11.000) je Wochenende 5./6., 12./13., 19./20.12.
+- Obergrenzen kumuliert (character_count): 04.12. ≤ 94.000 · 11.12. ≤ 130.000 · 18.12. ≤ 165.000 · 24.12. ≤ 186.000 (Rest ~11.000 Puffer für Neuaufnahmen).
+- Jede Produktionsrunde: /v1/user/subscription prüfen. Über Linie → erst Langvideo streichen, dann RT auf 1/Tag + Reposts bester Videos (0 Zeichen).
+- Sparregeln: Skripte vor TTS final prüfen (keine Neuaufnahmen), Shorts ≤ 700 Zeichen, Musik/SFX wiederverwenden statt neu generieren.
