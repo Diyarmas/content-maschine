@@ -21,7 +21,7 @@ const Zahnrad:React.FC<{lang:'de'|'en'}>=({lang})=>{
   const sp=solved?(t-s(10))*45:0;
   const ang=(i:number)=>solved?(i%2?-sp:sp)+(i%2?360/TE/2:0):(i===0?spin1:(i%2?360/TE/2:0));
   const arrowOn=(i:number)=>{const steps=[s(11),s(11)+.9,s(11)+1.8,s(12),s(12)+1.2];return solved&&t>=steps[i];};
-  const drop=t>=s(14)?eio(cl((t-s(14))/1.6))*260:0;
+  const drop=t>=s(14)?eio(cl((t-s(14))/1.6))*185:0;
   const ropeX=GX[4]+GR-6,bucketY=1330+drop;
   return <AbsoluteFill style={{background:'#2e2a27'}}>
    <svg width={1080} height={1920} viewBox="0 0 1080 1920" style={{position:'absolute'}}>
