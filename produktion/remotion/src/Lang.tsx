@@ -85,7 +85,7 @@ const antsAt=(T:number)=>{const g=ghosts(T).map((p,i)=>({p,d:A0[i].d})).sort((a,
 const SX=260,SL=1400,SY=620;
 const ant=(x:number,dir:number,col='#3b2a20',k=0,op=1)=><g key={k} transform={`translate(${x} ${SY-22}) scale(${dir} 1)`} opacity={op}><ellipse cx={-16} rx={14} ry={11} fill={col}/><ellipse cx={4} rx={10} ry={9} fill={col}/><circle cx={20} r={10} fill={col}/>{[-12,0,10].map(lx=><path key={lx} d={`M${lx} 4 l-6 16 M${lx} 4 l6 16`} stroke={col} strokeWidth={3}/>)}</g>;
 const Ameisen=({t}:{t:number})=>{const S=SS[3];const s=(k:number)=>S[k].a;
-  const simT=t>=s(3)&&t<s(16)?((t-s(3))*6)%60:0;
+  const simT=t>=s(3)&&t<s(16)?((t-s(3))*6)%60:t>=s(16)&&t<s(19)?100:0;
   const gT=t>=s(21)?Math.min(100,(t-s(21))*9):0;const ghostMode=t>=s(19);
   const cols=['#e63946','#2a9d8f','#e9c46a','#3d7ea6','#6a4c93'];
   const T=ghostMode?gT:simT;
