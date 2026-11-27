@@ -171,7 +171,11 @@ Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sin
 
 ## ElevenLabs-Budget bis 25.12. (Stand 27.11. 21:15: 58.567 / 197.197 verbraucht, Reset 25.12.)
 - Ø Short-Skript 690 Zeichen, Langvideo ~6.000/Sprache (Krimi-Format ~5.000).
-- Takt ab 28.11.: KZ 2/Tag, RT 2/Tag, ES 1/Tag = ~3.500 Zeichen/Tag. Plus 1 Langvideo-Paar (DE+EN, ~11.000) je Wochenende 5./6., 12./13., 19./20.12.
+- Takt ab 28.11.: KZ 2/Tag, RT 2/Tag, ES 1/Tag = ~3.500 Zeichen/Tag. Langvideo: 1x pro Woche (Diyar 27.11.), Paar DE+EN samstags 18/19 Uhr. 5.12. = Krimi 01 (fertig, 0 Zeichen), neu zu bauen nur für 12.12. und 19.12. (~11.000 je Paar).
 - Obergrenzen kumuliert (character_count): 04.12. ≤ 94.000 · 11.12. ≤ 130.000 · 18.12. ≤ 165.000 · 24.12. ≤ 186.000 (Rest ~11.000 Puffer für Neuaufnahmen).
 - Jede Produktionsrunde: /v1/user/subscription prüfen. Über Linie → erst Langvideo streichen, dann RT auf 1/Tag + Reposts bester Videos (0 Zeichen).
 - Sparregeln: Skripte vor TTS final prüfen (keine Neuaufnahmen), Shorts ≤ 700 Zeichen, Musik/SFX wiederverwenden statt neu generieren.
+
+## Kommentar-Regel (Diyar 27.11.)
+- Jede Runde ALLE neuen IG/YT-Kommentare in Metricool beantworten, alle 3 Brands.
+- Achtung Inbox-Filter: Der Filter-Button schaltet zwischen DMs und Kommentaren. Nur zählen, wenn die Liste wirklich Kommentare zeigt (bei KZ steht dann nicht "jayantcreates", bei RT nicht nur "stealth.mode.savings"). Am 27.11. um 15 Uhr hatte ich bei RT fälschlich "nichts Neues" gemeldet, weil die Liste noch nicht geladen war → 5 Kommentare erst um 21 Uhr beantwortet.
