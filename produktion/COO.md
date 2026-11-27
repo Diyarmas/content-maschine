@@ -163,3 +163,5 @@ Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sin
 - 17 Pferde gestrichen (Bruchrechnen = Rechenrätsel-Regel).
 - Diyar zweifelt am 12er-Test → Auswertung So mit Abbruchregel: Freitag-Videos >30 % unter Normaltag oder YT/IG-Einbruch → 2/Tag; sonst 4–6/Tag testen.
 - justin_lool15-Kommentar bleibt sichtbar (Diyar-Entscheidung).
+- 27.11. 15:20: Auf Diyars Wunsch Test gekürzt: KZ/RT 16:00 (Feuer/Fire) und 22:00 (Sonntag/Sunday) auf Mo 30.11. verschoben (KZ 07:30/14:00, RT 06:00/12:00). Freitag damit 10 statt 12 pro Kanal. Mo noch offen: RT 1 Slot (18:00), ES 20:30.
+- TikTok-Kommentare: kein Business-Konto (Creator Rewards braucht persönliches Konto), keine Browser-Automation (TikTok-AGB). Vorerst nur IG/YT beantworten. Creator Rewards: Videos > 60 s, 10k Follower, 100k Views/30 Tage → Länge später einplanen.
