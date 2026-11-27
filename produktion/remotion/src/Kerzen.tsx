@@ -1,16 +1,18 @@
 import React from 'react';
 import {useCurrentFrame, AbsoluteFill} from 'remotion';
 import {N,Y,R,G,C,cl,eio,PB,P,FONT,CAST,sents,cards,countdown,stamp,qb,num,tag,fig,cam,flash,vign,bubble} from './kit';
-import WD from './w_kerzen_de.json'; import WE from './w_kerzen_en.json';
+import WD from './w_kerzen_de.json'; import WE from './w_kerzen_en.json'; import WS from './w_kerzen_es.json';
 const L={
  de:{W:WD,oma:'OMA HILDE',sol:'LÖSUNG',done:'LÄNGSTE = ZUERST AUS!',puff:'PUFF!',
   cards:{0:['FAST ALLE','WÄHLEN FALSCH'],1:['STROMAUSFALL','BEI OMA HILDE'],2:['5 KERZEN,','GLEICH LANG'],3:['EINE NACH','DER ANDEREN AUS'],5:['ALLE UNTER-','SCHIEDLICH LANG'],6:['WELCHE','ZUERST AUS?'],12:['DIE LÄNGSTE:','NUMMER 4!'],13:['AM KÜRZESTEN','GEBRANNT'],14:['FRÜH AUS =','WENIG WACHS WEG'],15:['DIE KÜRZESTE','BRANNTE AM LÄNGSTEN']}},
+ es:{W:WS,oma:'ABUELA CARMEN',sol:'SOLUCIÓN',done:'¡LA MÁS LARGA SE APAGÓ PRIMERO!',puff:'¡PUF!',
+  cards:{0:['CASI TODOS','SE EQUIVOCAN'],1:['SE VA LA LUZ','EN CASA DE CARMEN'],2:['5 VELAS','IGUALES'],3:['APAGADAS','UNA TRAS OTRA'],5:['TODAS DE','DISTINTO TAMAÑO'],6:['¿CUÁL SE','APAGÓ PRIMERO?'],12:['LA MÁS LARGA:','¡LA NÚMERO 4!'],13:['ARDIÓ','MENOS TIEMPO'],14:['APAGADA ANTES =','MENOS CERA'],15:['LA MÁS CORTA','ARDIÓ MÁS']}},
  en:{W:WE,oma:'GRANDMA ROSE',sol:'ANSWER',done:'LONGEST = FIRST OUT!',puff:'PUFF!',
   cards:{0:['ALMOST EVERYONE','PICKS WRONG'],1:['POWER CUT AT','GRANDMA ROSE\'S'],2:['5 CANDLES,','SAME LENGTH'],3:['BLOWN OUT','ONE BY ONE'],5:['ALL DIFFERENT','LENGTHS'],6:['WHICH ONE','WENT OUT FIRST?'],12:['THE LONGEST:','NUMBER 4!'],13:['BURNED THE','SHORTEST TIME'],14:['OUT EARLY =','LESS WAX GONE'],15:['THE SHORTEST','BURNED LONGEST']}},
 };
 const FIN=[.45,.7,.25,.85,.55];const ORDER=[3,1,4,0,2];const CX=[120,330,540,750,960];
 const OMA={n:'',c:'#9b5de5',hair:'bun',hc:'#d9d9d9',skin:'#f1c7a3',h:470,glasses:1};
-const Kerzen:React.FC<{lang:'de'|'en'}>=({lang})=>{
+const Kerzen:React.FC<{lang:'de'|'en'|'es'}>=({lang})=>{
   const f=useCurrentFrame(),t=f/30,X=L[lang],S=sents(X.W),s=(k:number)=>S[k].a,e=(k:number)=>S[k].b;const dur=(X.W as any).duration;
   const sol=s(11),solved=t>=s(12);
   const dark=t>=s(3)&&t<s(4)+.2; const lightBack=t>=s(4);
@@ -52,10 +54,11 @@ const Kerzen:React.FC<{lang:'de'|'en'}>=({lang})=>{
     {cards(t,S,X.cards,[6])}
     {countdown(t,S,[8,9,10])}
     {stamp(t,sol,1.0,X.sol)}
-    {stamp(t,e(15)+.3,2.2,X.done,940,74)}
+    {stamp(t,e(15)+.3,2.2,X.done,lang==='es'?1000:940,lang==='es'?56:74)}
     {flash(t,s(4))}{flash(t,s(12))}
    </svg>
   </AbsoluteFill>;
 };
 export const KerzenDE:React.FC=()=><Kerzen lang="de"/>;
 export const KerzenEN:React.FC=()=><Kerzen lang="en"/>;
+export const KerzenES:React.FC=()=><Kerzen lang="es"/>;
