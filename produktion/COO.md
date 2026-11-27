@@ -165,3 +165,6 @@ Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sin
 - justin_lool15-Kommentar bleibt sichtbar (Diyar-Entscheidung).
 - 27.11. 15:20: Auf Diyars Wunsch Test gekürzt: KZ/RT 16:00 (Feuer/Fire) und 22:00 (Sonntag/Sunday) auf Mo 30.11. verschoben (KZ 07:30/14:00, RT 06:00/12:00). Freitag damit 10 statt 12 pro Kanal. Mo noch offen: RT 1 Slot (18:00), ES 20:30.
 - TikTok-Kommentare: kein Business-Konto (Creator Rewards braucht persönliches Konto), keine Browser-Automation (TikTok-AGB). Vorerst nur IG/YT beantworten. Creator Rewards: Videos > 60 s, 10k Follower, 100k Views/30 Tage → Länge später einplanen.
+- 27.11. abends: 4 Langvideos fertig + eingeplant (YouTube, KI-Flag): KZ Spezial 01 Sa 18:00 (v2, Ameisen-Timer-Fix), RT Special 01 EN Sa 19:00, KZ Krimi 01 So 18:00 (10 Buchfälle als Teaser), RT Crime 01 EN So 19:00. ElevenLabs danach ~58k/197k verbraucht.
+- Buch: alle 68 Fälle einzeln geprüft, Befunde Fall 40/41 behoben, PDF knobelzeit_DE_review_27-11.pdf.
+- Heute nur noch 1 Video pro Kanal (18:00 Alibi); Pferde → KZ Di 07:30, RT Mo 18:00.
