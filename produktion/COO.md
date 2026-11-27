@@ -149,3 +149,10 @@ Neu bauen im aktuellen Look mit englischen Namen (alte Remotion-Quellen fehlen),
 Reihenfolge nach KZ-Reichweite: 1 Monster-See · 2 Brücke/Gefangener · 3 Vase · 4 Mord im verschlossenen Zimmer · 5 Ei/2 Sanduhren · 6 Aufzug 20. Stock · 7 Stromausfall Gefängnis · 8 Uhr 15:15 · 9 Schließfächer (wechseln) · 10 Zwei Väter/Angeln · 11 Geburtstags-Paradox · 12 Brücke 17 Min/Fackel · 13 Kino/Geldbörse · 14 Gewitter · 15 Neumond · 16 Sechs Gläser · 17 Wolf-Ziege-Kohl · 18 Autodiebstahl/Kiosk/Laptop.
 Nicht übersetzen (gesperrte Kategorien): 9 Münzen/Waage, fehlender Euro, Monate, Schnecke, Krüge, Links-mal-rechts, Suchbild.
 Takt: ab Sa 28.11. 2–3 pro Tag in die RT-Slots, parallel ES (1/Tag). Damit sind alle 3 Kanäle inhaltlich deckungsgleich.
+
+## Tagesscan 27.11. – Konsequenzen
+- Caption-Zahlen müssen exakt dem Video entsprechen (KZ Kisten: Video 20 %, Caption 90 % → Fehler, bereits live). Ab jetzt Caption gegen Transkript prüfen.
+- Reposts: Serien-Outros ("Morgen kommt Rätsel Nummer X") vorher prüfen/rausschneiden.
+- RT-Bus London war Themen-Dublette zum RT-Katalog (Bus) → Dublettencheck gilt pro Kanal auch für Remakes.
+- Physik-Prämissen (Süßwassereis etc.) im Skript explizit nennen.
+- Frühwerte Test-Freitag 09:11: RT 700–1.420 Plays/Video nach 5–9 h, KZ 200–270. ES TT 0 Plays (neues Konto) → Ramp-up unverändert, Prüfung 29.11.
