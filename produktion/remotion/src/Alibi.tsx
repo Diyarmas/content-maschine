@@ -1,7 +1,7 @@
 import React from 'react';
 import {useCurrentFrame, AbsoluteFill} from 'remotion';
 import {N,Y,R,G,C,cl,eio,PB,P,FONT,CAST,sents,cards,countdown,stamp,bubble,qb,num,tag,fig,cam,flash,vign} from './kit';
-import WD from './w_eis_de.json'; import WE from './w_eis_en.json';
+import WD from './w_eis_de.json'; import WE from './w_eis_en.json'; import WS from './w_alibi_es.json';
 const L={
  de:{W:WD,names:['LENA','JONAS','MAX'],temp:'30°C',sol:'LÖSUNG',done:'EIS LÜGT NICHT!',
   cards:{0:['EINER LÜGT –','EIN GLAS VERRÄT IHN'],1:['30 GRAD','IN DER NACHT'],2:['TEURE KETTE','GESTOHLEN!'],3:['KOMMISSAR','BRANDT'],11:['SCHAU AUF','DIE GLÄSER!'],12:['WER','LÜGT?'],18:['MAX,','NUMMER 3!'],19:['KANTIGE','EISWÜRFEL'],20:['BEI 30 GRAD','LÄNGST GESCHMOLZEN'],22:['ER WAR NIE','AUF DER TERRASSE']},
@@ -9,8 +9,12 @@ const L={
  en:{W:WE,names:['PRIYA','JACK','OLIVER'],temp:'86°F',sol:'ANSWER',done:'ICE DOESN\'T LIE!',
   cards:{0:['ONE IS LYING –','A GLASS TELLS'],1:['A SCORCHING','SUMMER NIGHT'],2:['NECKLACE','STOLEN!'],3:['DETECTIVE','MILLER'],11:['LOOK AT','THE GLASSES!'],12:['WHO IS','LYING?'],18:['OLIVER,','NUMBER 3!'],19:['SHARP-EDGED','ICE CUBES'],20:['IN THIS HEAT','LONG MELTED'],22:['NEVER ON','THE TERRACE']},
   say:{6:['OUT HERE FOR','2 HOURS'],8:['WENT SWIMMING,','JUST GOT OUT'],10:['ALSO 2 HOURS,','READING']}},
+ es:{W:WS,names:['LUCÍA','PABLO','JAVIER'],temp:'30°C',sol:'SOLUCIÓN',done:'¡EL HIELO NO MIENTE!',
+  cards:{0:['UNO MIENTE,','UN VASO LO DELATA'],1:['SEVILLA,','30 GRADOS'],2:['¡COLLAR','ROBADO!'],3:['INSPECTORA','GARCÍA'],11:['¡MIRA','LOS VASOS!'],12:['¿QUIÉN','MIENTE?'],18:['¡JAVIER,','EL NÚMERO 3!'],19:['CUBITOS','CON ESQUINAS'],20:['A 30 GRADOS','YA DERRETIDOS'],22:['NUNCA ESTUVO','EN LA TERRAZA']},
+  say:{6:['LLEVO 2 HORAS','AQUÍ FUERA'],8:['FUI A NADAR,','ACABO DE SALIR'],10:['YO TAMBIÉN 2 HORAS,','LEYENDO']}},
 };
 const BASE=[{...CAST.jule,c:'#e76f51'},{...CAST.tom,c:'#2a9d8f'},{...CAST.lars,c:'#3d7ea6'}];
+const BASE_ES0={n:'',c:'#e76f51',hair:'long',hc:'#2b1d14',skin:'#e0a77f',h:480,earring:1};
 const BASE_EN0={n:'',c:'#d1495b',hair:'long',hc:'#1a1a1a',skin:'#b5835a',h:480,earring:1};
 const XS=[200,540,880];
 const glass=(x:number,y:number,kind:'melt'|'ice',t:number)=>{
@@ -25,7 +29,7 @@ const glass=(x:number,y:number,kind:'melt'|'ice',t:number)=>{
     <line x1={x-14} y1={top-22} x2={x+6} y2={y-30} stroke="#e4572e" strokeWidth={10} strokeLinecap="round"/>
     {[0,1,2,3].map(i=>{const yy=top+60+((t*40+i*45)%120);return <circle key={'d'+i} cx={x-w1/2+12+(i%2)*4} cy={yy} r={4} fill="#fff" opacity={.6}/>;})}
   </g>;};
-const Alibi:React.FC<{lang:'de'|'en'}>=({lang})=>{
+const Alibi:React.FC<{lang:'de'|'en'|'es'}>=({lang})=>{
   const f=useCurrentFrame(),t=f/30,X=L[lang],S=sents(X.W),s=(k:number)=>S[k].a,e=(k:number)=>S[k].b;const dur=(X.W as any).duration;
   const sol=s(17),q=t>=s(12)&&t<s(18),solved=t>=s(18);
   const talk=Object.entries(X.say).find(([k])=>t>=s(+k)&&t<e(+k)+.4);
@@ -33,7 +37,7 @@ const Alibi:React.FC<{lang:'de'|'en'}>=({lang})=>{
   const zc=t>=s(19)?(t>=s(20)?XS[0]:XS[2]):540;
   const zt=`translate(${zc} 1380) scale(${1+.55*zg}) translate(${-zc} -1380)`;
   const show=(i:number)=>t>=s(5+i*2)-.1;
-  const bases=[lang==='en'?BASE_EN0:BASE[0],BASE[1],BASE[2]];
+  const bases=[lang==='en'?BASE_EN0:lang==='es'?BASE_ES0:BASE[0],BASE[1],BASE[2]];
   return <AbsoluteFill style={{background:'#0f1630'}}>
    <svg width={1080} height={1920} viewBox="0 0 1080 1920" style={{position:'absolute'}}>
     <g transform={cam(t,dur,sol)}><g transform={zt}>
@@ -83,3 +87,5 @@ const Alibi:React.FC<{lang:'de'|'en'}>=({lang})=>{
 };
 export const AlibiDE:React.FC=()=><Alibi lang="de"/>;
 export const AlibiEN:React.FC=()=><Alibi lang="en"/>;
+
+export const AlibiES:React.FC=()=><Alibi lang="es"/>;
