@@ -1,7 +1,7 @@
 import React from 'react';
 import {useCurrentFrame, AbsoluteFill} from 'remotion';
 import {N,Y,R,G,C,cl,eio,PB,P,FONT,CAST,sents,cards,countdown,stamp,qb,tag,fig,cam,flash,vign,bubble} from './kit';
-import WD from './w_portrait_de.json'; import WE from './w_portrait_en.json';
+import WD from './w_portrait_de.json'; import WE from './w_portrait_en.json'; import WS from './w_portrait_es.json';
 const L={
  de:{W:WD,lord:'GRAF ALBRECHT',butler:'BUTLER',sol:'LÖSUNG',done:'SEIN SOHN!',me:'ICH',father:'MEIN VATER',son:'MEIN SOHN',pic:'BILD',
   q1:['BRÜDER UND SCHWESTERN','HABE ICH KEINE'],q2:['DER VATER DIESES MANNES','IST DER SOHN MEINES VATERS'],
@@ -9,10 +9,13 @@ const L={
  en:{W:WE,lord:'LORD ASHFORD',butler:'BUTLER',sol:'ANSWER',done:'HIS SON!',me:'ME',father:'MY FATHER',son:'MY SON',pic:'PORTRAIT',
   q1:['BROTHERS AND SISTERS','I HAVE NONE'],q2:['THIS MAN\'S FATHER','IS MY FATHER\'S SON'],
   cards:{0:['THIS SENTENCE','BREAKS BRAINS'],1:['LORD ASHFORD','AND A PORTRAIT'],2:['WHO IS IN','THE PAINTING?'],6:['WHO IS IN','THE PORTRAIT?'],12:['HIS','SON!'],13:['MY FATHER\'S SON','= ME'],14:['I AM THAT','MAN\'S FATHER'],16:['THE TRAP:','"HIMSELF"']}},
+ es:{W:WS,lord:'CONDE ALFONSO',butler:'MAYORDOMO',sol:'SOLUCIÓN',done:'¡SU HIJO!',me:'YO',father:'MI PADRE',son:'MI HIJO',pic:'CUADRO',
+  q1:['HERMANOS Y HERMANAS','NO TENGO'],q2:['EL PADRE DE ESTE HOMBRE','ES EL HIJO DE MI PADRE'],
+  cards:{0:['ESTA FRASE','CONFUNDE A TODOS'],1:['EL CONDE ALFONSO','Y UN CUADRO'],2:['¿A QUIÉN MUESTRA','EL CUADRO?'],6:['¿A QUIÉN MUESTRA','EL CUADRO?'],12:['¡A SU','HIJO!'],13:['EL HIJO DE MI PADRE','= YO MISMO'],14:['SOY EL PADRE','DE ESE HOMBRE'],16:['LA TRAMPA:','"ÉL MISMO"']}},
 };
 const LORD={n:'',c:'#6a2c70',hair:'short',hc:'#8a8a8a',skin:'#f1c7a3',h:520,beard:'#8a8a8a'};
 const BUT={n:'',c:'#1d2540',hair:'bald',hc:'#5a4a3a',skin:'#e0b090',h:500};
-const Portrait:React.FC<{lang:'de'|'en'}>=({lang})=>{
+const Portrait:React.FC<{lang:'de'|'en'|'es'}>=({lang})=>{
   const f=useCurrentFrame(),t=f/30,X=L[lang],S=sents(X.W),s=(k:number)=>S[k].a,e=(k:number)=>S[k].b;const dur=(X.W as any).duration;
   const sol=s(11),solved=t>=s(12);
   const reveal=solved?eio(cl((t-s(12))/.8)):0;
@@ -65,3 +68,5 @@ const Portrait:React.FC<{lang:'de'|'en'}>=({lang})=>{
 };
 export const PortraitDE:React.FC=()=><Portrait lang="de"/>;
 export const PortraitEN:React.FC=()=><Portrait lang="en"/>;
+
+export const PortraitES:React.FC=()=><Portrait lang="es"/>;
